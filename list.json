@@ -1,0 +1,44 @@
+{
+    "pages": [
+        {
+            "page": 1,
+            "cards": [
+                {
+                    "row": 1,
+                    "name": "マルマロ",
+                    "element": "fire",
+                    "rank": "A"
+                },
+                {
+                    "row": 3,
+                    "name": "リヴェータ",
+                    "element": "thunder",
+                    "rank": "SS"
+                }
+            ]
+        },
+        {
+            "page": 2,
+            "cards": [
+                {
+                    "row": 2,
+                    "name": "サーシャ",
+                    "element": "water",
+                    "rank": "L"
+                },
+                {
+                    "row": 5,
+                    "name": "セレサ",
+                    "element": "water",
+                    "rank": "SS"
+                },
+                {
+                    "row": 6,
+                    "name": "ミカエラ",
+                    "element": "fire",
+                    "rank": "S"
+                }
+            ]
+        }
+    ]
+}
