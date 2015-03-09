@@ -54,5 +54,7 @@ void main()
         generated ~= gen;
     }
 
-    writeln( generated );
+    auto root = JSONValue( [ "pages": generated ] );
+
+    writeln( root );
 }
