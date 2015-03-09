@@ -43,11 +43,11 @@ void main()
     foreach( i, chunk; chunked.array ) {
         JSONValue[] cards = [];
         foreach( j, card; chunk ) {
-            card.object["row"] = j;
+            card.object["row"] = j+1;
             cards ~= card;
         }
 
-        auto gen = JSONValue([ "page": i ]);
+        auto gen = JSONValue([ "page": i+1 ]);
         gen.object["cards"] = cards;
         generated ~= gen;
     }
