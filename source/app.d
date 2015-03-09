@@ -22,6 +22,8 @@ void main()
             case "f": { element = "fire"; } break;
             case "w": { element = "water"; } break;
             case "t": { element = "thunder"; } break;
+            case "m": { element = "mana"; } break;
+            case "e": { element = "ether"; } break;
             default: {} break;
         }
         news ~= JSONValue( [
