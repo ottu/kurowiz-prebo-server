@@ -4,12 +4,6 @@
       "page": 1,
       "cards": [
         {
-          "element": "mana",
-          "rank": "30",
-          "row": 1,
-          "name": "マナ"
-        },
-        {
           "element": "fire",
           "rank": "S+",
           "row": 2,
@@ -23,21 +17,9 @@
         },
         {
           "element": "ether",
-          "rank": "100",
-          "row": 4,
-          "name": "エーテル"
-        },
-        {
-          "element": "ether",
           "rank": "50",
           "row": 5,
           "name": "エーテル"
-        },
-        {
-          "element": "water",
-          "rank": "S",
-          "row": 6,
-          "name": "本"
         },
         {
           "element": "water",
@@ -82,39 +64,15 @@
         },
         {
           "element": "ether",
-          "rank": "100",
-          "row": 3,
-          "name": "エーテル"
-        },
-        {
-          "element": "ether",
-          "rank": "100",
-          "row": 4,
-          "name": "エーテル"
-        },
-        {
-          "element": "ether",
           "rank": "25",
           "row": 5,
           "name": "エーテル"
-        },
-        {
-          "element": "mana",
-          "rank": "10",
-          "row": 6,
-          "name": "マナ"
         },
         {
           "element": "ether",
           "rank": "50",
           "row": 7,
           "name": "エーテル"
-        },
-        {
-          "element": "mana",
-          "rank": "10",
-          "row": 8,
-          "name": "マナ"
         },
         {
           "element": "ether",
@@ -133,12 +91,6 @@
     {
       "page": 3,
       "cards": [
-        {
-          "element": "mana",
-          "rank": "10",
-          "row": 1,
-          "name": "マナ"
-        },
         {
           "element": "ether",
           "rank": "50",
@@ -209,12 +161,6 @@
           "rank": "25",
           "row": 2,
           "name": "エーテル"
-        },
-        {
-          "element": "mana",
-          "rank": "30",
-          "row": 3,
-          "name": "マナ"
         },
         {
           "element": "fire",
@@ -300,24 +246,6 @@
           "name": "マナ"
         },
         {
-          "element": "ether",
-          "rank": "100",
-          "row": 7,
-          "name": "エーテル"
-        },
-        {
-          "element": "mana",
-          "rank": "10",
-          "row": 8,
-          "name": "マナ"
-        },
-        {
-          "element": "ether",
-          "rank": "100",
-          "row": 9,
-          "name": "エーテル"
-        },
-        {
           "element": "water",
           "rank": "S",
           "row": 10,
@@ -339,12 +267,6 @@
           "rank": "100",
           "row": 2,
           "name": "エーテル"
-        },
-        {
-          "element": "mana",
-          "rank": "100",
-          "row": 3,
-          "name": "マナ"
         },
         {
           "element": "ether",
