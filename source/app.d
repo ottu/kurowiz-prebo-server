@@ -8,6 +8,7 @@ import std.range;
 import std.array;
 import std.getopt;
 import std.typecons;
+import std.csv;
 
 enum Command: string {
     Generate = "generate",
@@ -15,54 +16,104 @@ enum Command: string {
 }
 
 enum Element: string {
-    None = "none",
     Fire = "fire",
     Water = "water",
     Thunder = "thunder",
+    None = "none"
+}
+
+enum Category: string {
+    Spirit = "spirit",
+    Material = "material",
     Mana = "mana",
-    Ether = "ether"
+    Ether = "ether",
+    Mate = "mate",
+    Crystal = "crystal",
+    Gold = "gold"
+}
+
+enum Rank: string {
+    CP = "C+",
+    B = "B",
+    BP = "B+",
+    A = "A",
+    AP = "A+",
+    S = "S",
+    SP = "S+",
+    SS = "SS",
+    L = "L"
+}
+
+struct Card
+{
+    string name;
+    Element[] elements;
+    Category category;
+    Rank rank;
+    string option;
+
+    this( string name, Element[] elements, Category category, Rank rank, string option = "" )
+    {
+        this.name = name;
+        this.elements = elements;
+        this.category = category;
+        this.rank = rank;
+        this.option = option;
+    }
+
+    this( JSONValue json )
+    {
+        this.name = json["name"].str;
+        this.elements = json["element"].str.split('/').map!(to!Element).array;
+        this.category = json["category"].str.to!Category;
+        this.rank = json["rank"].str.to!Rank;
+        this.option =json["option"].str;
+    }
+
+    JSONValue toJson()
+    {
+        return JSONValue( [
+            "name": this.name,
+            "element": this.elements.join("/"),
+            "category": this.category,
+            "rank": this.rank,
+            "option": this.option
+        ] );
+    }
 }
 
 void generate()
 {
+    auto f = readText("./news.csv");
+
+    Card[] news = [];
+    foreach( line; csvReader!(Tuple!(string,string,string,string,string))(f) ) {
+
+        news ~= Card(
+            line[0],
+            line[1].split('/').map!(to!Element).array,
+            line[2].to!Category,
+            line[3].to!Rank,
+            line[4]
+        );
+    }
+
     auto list = readText("./list.json");
     auto json = parseJSON(list);
 
-    auto f = File("./news.csv");
-    JSONValue[] news = [];
-    foreach( line; f.byLine ) {
-        string[3] parsed = line.split(',');
-
-        string element = "";
-        switch (parsed[1]) {
-            case "f": { element = Element.Fire; } break;
-            case "w": { element = Element.Water; } break;
-            case "t": { element = Element.Thunder; } break;
-            case "m": { element = Element.Mana; } break;
-            case "e": { element = Element.Ether; } break;
-            default: { element = Element.None; } break;
-        }
-        news ~= JSONValue( [
-            "name": parsed[0].idup,
-            "element": element,
-            "rank": parsed[2].idup
-        ] );
-    }
-
     foreach( page; json["pages"].array ) {
         foreach( card; page["cards"].array) {
-            news ~= card;
+            news ~= Card( card );
         }
     }
 
     auto chunked = news.chunks(10);
 
     JSONValue[] generated = [];
-    foreach( i, chunk; chunked.array ) {
+    foreach( i, page; chunked.array ) {
         JSONValue[] cards = [];
-        foreach( j, card; chunk ) {
-            card.object["row"] = j+1;
-            cards ~= card;
+        foreach( j, card; page ) {
+            cards ~= card.toJson;
         }
 
         auto gen = JSONValue([ "page": i+1 ]);
