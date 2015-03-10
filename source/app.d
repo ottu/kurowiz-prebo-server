@@ -7,7 +7,12 @@ import std.file;
 import std.range;
 import std.array;
 
-void main()
+enum Command: string {
+    Generate = "generate",
+    Search = "search"
+}
+
+void generate()
 {
     auto list = readText("./list.json");
     auto json = parseJSON(list);
@@ -57,4 +62,29 @@ void main()
     auto root = JSONValue( [ "pages": generated ] );
 
     writeln( root );
+
+}
+
+void main( string[] args )
+{
+    if ( args.length < 2 ) {
+        writeln("Insufficient arguments.");
+        return;
+    }
+
+    string command = args[1];
+    switch (command) {
+        case Command.Generate: {
+           generate();
+        } break;
+
+        case Command.Search: {
+
+        } break;
+
+        default: {
+            writeln("Usage: ./colosort {generate|search}");
+        } break;
+    }
+
 }
