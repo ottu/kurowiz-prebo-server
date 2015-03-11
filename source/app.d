@@ -64,14 +64,25 @@ struct Card
     this( JSONValue json )
     {
         this.name = json["name"].str;
-        this.elements = json["element"].str.split('/').map!(to!Element).array;
-        this.category = json["category"].str.to!Category;
-        this.rank = json["rank"].str.to!Rank;
+
+        Element[] elements = [];
+        foreach( elem; json["element"].str.split('/') ) {
+            elements ~= cast(Element)(elem.to!string);
+        }
+        this.elements = elements;
+        this.category = cast(Category)(json["category"].str);
+        this.rank = cast(Rank)(json["rank"].str);
         this.option =json["option"].str;
     }
 
     JSONValue toJson()
     {
+        string elements = "";
+        foreach( elem; this.elements ) {
+            elements ~= elem;
+        }
+        elements = elements[0..$-1];
+
         return JSONValue( [
             "name": this.name,
             "element": this.elements.join("/"),
@@ -89,9 +100,16 @@ void generate()
     Card[] news = [];
     foreach( line; csvReader!(Tuple!(string,string,string,string,string))(f) ) {
 
+        if ( line == tuple("","","","","") ) { continue; }
+
+        Element[] elements = [];
+        foreach( elem; line[1].split('/') ) {
+            elements ~= cast(Element)(elem);
+        }
+
         news ~= Card(
             line[0],
-            line[1].split('/').map!(to!Element).array,
+            elements,
             line[2].to!Category,
             line[3].to!Rank,
             line[4]
