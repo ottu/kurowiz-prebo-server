@@ -41,7 +41,8 @@ enum Rank: string {
     S = "S",
     SP = "S+",
     SS = "SS",
-    L = "L"
+    L = "L",
+    None = "N"
 }
 
 struct Card
@@ -110,8 +111,8 @@ void generate()
         news ~= Card(
             line[0],
             elements,
-            line[2].to!Category,
-            line[3].to!Rank,
+            cast(Category)line[2],
+            cast(Rank)line[3],
             line[4]
         );
     }
