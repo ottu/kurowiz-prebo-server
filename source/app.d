@@ -153,10 +153,12 @@ void search(string[] args)
 
     string[] names = [];
     Element[] elements = [];
-    string[] ranks = [];
+    Category[] categories = [];
+    Rank[] ranks = [];
     getopt( args,
         "name", &names,
         "element", &elements,
+        "category", &categories,
         "rank", &ranks
     );
 
@@ -170,6 +172,9 @@ void search(string[] args)
                 continue;
             }
             if (!elements.empty && find(elements, card["element"].str).empty) {
+                continue;
+            }
+            if (!categories.empty && find(categories, card["category"].str).empty) {
                 continue;
             }
             if (!ranks.empty && find(ranks, card["rank"].str).empty) {
