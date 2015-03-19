@@ -95,6 +95,57 @@ struct Card
     }
 }
 
+struct Box
+{
+    Card[] cards;
+
+    void reload()
+    {
+        cards = [];
+        auto f = readText("./list.json");
+        auto json = parseJSON(f);
+
+        foreach( page; json["pages"].array ) {
+            foreach( card; page["cards"].array ) {
+                cards ~= Card( card );
+            }
+        }
+    }
+
+    int opApply( int delegate( ref uint, ref const(Card)[] ) dg ) const
+    {
+        int result = 0;
+        auto chunked = cards.chunks(10).array;
+
+        uint index = 1;
+        foreach( cards; chunked ) {
+            result = dg( index, cards );
+            if (result) break;
+            index++;
+        }
+        return result;
+    }
+}
+
+unittest
+{
+    Card card1 = Card( "TEST1", [Element.Fire], Category.Spirit, Rank.None, "" );
+    Card card2 = Card( "TEST2", [Element.Water], Category.Spirit, Rank.None, "" );
+    Card card3 = Card( "TEST3", [Element.Thunder], Category.Spirit, Rank.None, "" );
+
+    Box box = Box();
+    box.cards ~= card1;
+    box.cards ~= card2;
+    box.cards ~= card3;
+
+    foreach( index, cards; box ) {
+        assert( index == 1 );
+        assert( cards[0] == card1 );
+        assert( cards[1] == card2 );
+        assert( cards[2] == card3 );
+    }
+}
+
 void generate()
 {
     auto f = readText("./news.csv");
