@@ -43,6 +43,7 @@ enum Rank: string {
     S = "S",
     SP = "S+",
     SS = "SS",
+    SSP = "SS+",
     L = "L",
     None = "N"
 }
