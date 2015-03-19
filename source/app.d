@@ -10,6 +10,7 @@ import std.getopt;
 import std.typecons;
 import std.csv;
 import std.regex;
+import std.uuid;
 
 enum Command: string {
     Generate = "generate",
@@ -48,6 +49,7 @@ enum Rank: string {
 
 struct Card
 {
+    UUID uuid;
     string name;
     Element[] elements;
     Category category;
@@ -56,6 +58,7 @@ struct Card
 
     this( string name, Element[] elements, Category category, Rank rank, string option = "" )
     {
+        this.uuid = randomUUID();
         this.name = name;
         this.elements = elements;
         this.category = category;
@@ -65,6 +68,7 @@ struct Card
 
     this( JSONValue json )
     {
+        this.uuid = randomUUID();
         this.name = json["name"].str;
 
         Element[] elements = [];
@@ -77,7 +81,7 @@ struct Card
         this.option =json["option"].str;
     }
 
-    JSONValue toJson()
+    JSONValue toJson() const
     {
         string elements = "";
         foreach( elem; this.elements ) {
@@ -112,6 +116,11 @@ struct Box
         }
     }
 
+    void addNews( Card[] news )
+    {
+        cards = news ~ cards;
+    }
+
     int opApply( int delegate( ref uint, ref const(Card)[] ) dg ) const
     {
         int result = 0;
@@ -124,6 +133,26 @@ struct Box
             index++;
         }
         return result;
+    }
+
+    void save()
+    {
+        JSONValue[] pages = [];
+        foreach( index, cards; this )
+        {
+            JSONValue[string] page;
+            page["page"] = index;
+            page["cards"] = cards.map!"a.toJson".array;
+            pages ~= JSONValue( page );
+        }
+
+        auto root = JSONValue( [ "pages": pages ] );
+
+        if ( exists("./backup.json") )
+            std.file.remove("./backup.json");
+        if ( exists("./list.json") )
+            std.file.rename("./list.json", "./backup.json");
+        std.file.write("./list.json", root.toPrettyString);
     }
 }
 
