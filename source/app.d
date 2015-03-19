@@ -9,6 +9,7 @@ import std.array;
 import std.getopt;
 import std.typecons;
 import std.csv;
+import std.regex;
 
 enum Command: string {
     Generate = "generate",
@@ -168,8 +169,15 @@ void search(string[] args)
     Tuple!(long, JSONValue)[] searched = [];
     foreach( page; json["pages"].array ) {
         foreach( card; page["cards"].array ) {
-            if (!names.empty && find(names, card["name"].str).empty) {
-                continue;
+            if (!names.empty) {
+                bool found = false;
+                foreach( name; names ) {
+                    if ( match( card["name"].str, regex(name) ) ) {
+                        found = true;
+                        break;
+                    }
+                }
+                if (!found) continue;
             }
             if (!elements.empty && find(elements, card["element"].str).empty) {
                 continue;
