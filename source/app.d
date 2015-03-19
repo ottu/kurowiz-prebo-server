@@ -152,9 +152,9 @@ void search(string[] args)
     arraySep = ",";
 
     string[] names = [];
-    Element[] elements = [];
-    Category[] categories = [];
-    Rank[] ranks = [];
+    string[] elements = [];
+    string[] categories = [];
+    string[] ranks = [];
     getopt( args,
         "name", &names,
         "element", &elements,
