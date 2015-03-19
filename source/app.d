@@ -198,33 +198,10 @@ void generate()
         );
     }
 
-    auto list = readText("./list.json");
-    auto json = parseJSON(list);
-
-    foreach( page; json["pages"].array ) {
-        foreach( card; page["cards"].array) {
-            news ~= Card( card );
-        }
-    }
-
-    auto chunked = news.chunks(10);
-
-    JSONValue[] generated = [];
-    foreach( i, page; chunked.array ) {
-        JSONValue[] cards = [];
-        foreach( j, card; page ) {
-            cards ~= card.toJson;
-        }
-
-        auto gen = JSONValue([ "page": i+1 ]);
-        gen.object["cards"] = cards;
-        generated ~= gen;
-    }
-
-    auto root = JSONValue( [ "pages": generated ] );
-
-    writeln( root );
-
+    Box box = Box();
+    box.reload;
+    box.addNews( news );
+    box.save;
 }
 
 void search(string[] args)
