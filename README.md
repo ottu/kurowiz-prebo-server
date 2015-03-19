@@ -7,19 +7,17 @@
 まず news.csv にプレボのカードをひたすら写経していく。  
 この時プレボの順番を守る事。  
 
-写経が終わったら実行する。  
-list.json 相当の jsonが標準出力に吐かれるので
-リダイレクトして list.jsonに上書いてください。  
-この動作でプログラム自身が list.json / news.csv を更新する事は無い。
+写経が終わったら`./colosort generate`を実行する。  
+list.json が更新されます。  
+直前の list.jsonは backup.jsonとリネームされてますので  
+何やら失敗した時には置き換えて復旧してください。
 
 カードをプレボから出した場合は、  
-list.json から該当の cardオブジェクトを削除する。
+list.json から該当の cardオブジェクトを削除する。  
+この時ページに歯抜けが出来ますが、そこは generateし直せば勝手に詰めてくれます。
 
 カードがプレボに追加された場合は、  
 news.csv に都度追加していく。
-
-プレボの操作が終わったらまた実行する。  
-news.csv のカードを追加して、list.json を再整形します。
 
 
 **list.json**
@@ -35,30 +33,42 @@ news.csv のカードを追加して、list.json を再整形します。
     * card オブジェクトの配列  
     最大 10個まで cardオブジェクトを含む
 * card オブジェクト
-  * row キー
-    * そのページ内の何番目に当たるか
-  * element キー
-    * 属性 ( fire or water or thunder )
-  * rank
-    * レア度 ( C+ or B or B+ or A+ or S or SS or L or 任意 )
   * name
     * 名前
-
+  * element キー
+    * 属性 ( fire or water or thunder or none )
+  * category キー
+    * カテゴリ ( spirit or material or mana or ether or mate or crystal or gold )
+  * rank
+    * レア度 ( C+ or B or B+ or A+ or S or SS or SS+ or L or 任意 )
+  * option
+    * オプション  
+    エーテルの確率とかマナの加算数とか何ゴールドかとか任意の文字列突っ込めます。
+  
 **news.csv**
 
-名前,属性,ランク の 3項目を , で区切って書く。  
+名前,属性,カテゴリ,ランク,オプション の 5項目を , で区切って書く。  
 このファイルの先頭から順に  
 プレボの 1ページ 1枚目... 2枚目... と追加されてく。
 
 ## カードの絞り込み
 
-未実装。  
-[jq](http://stedolan.github.io/jq/) 便利だよ。  
+### 例1: 素材全部
+`./colosort search --category material`
 
-デフォルトのソート順は 属性 > ランク > 名前 。  
-cardオブジェクトの各キーを
-* ソートのオーダー
-* 検索キー
+### 例2: 火の素材全部
+`./colosort search --element fire --category material`
 
+### 例3: マナ、エーテルを全部
+`./colosort search --category mana --category ether`
 
-として使えるようにしたい。
+### 例4: 名前検索 (部分一致)
+`./colosort search --name "猫"`
+
+### 例5: 名前検索 (正規表現)
+`./colosort search --name "^星くじらの奏姫 キシャラ・オロル$"`
+
+## カードのソート
+
+未実装。
+今の所 list.jsonに沿った順番でしか絞り込み結果を表示できない。
