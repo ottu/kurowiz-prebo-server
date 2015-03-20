@@ -7,7 +7,7 @@
 まず news.csv にプレボのカードをひたすら写経していく。  
 この時プレボの順番を守る事。  
 
-写経が終わったら`./colosort generate`を実行する。  
+写経が終わったら`./kurowiz-sort generate`を実行する。  
 list.json が更新されます。  
 直前の list.jsonは backup.jsonとリネームされてますので  
 何やら失敗した時には置き換えて復旧してください。
@@ -54,19 +54,19 @@ news.csv に都度追加していく。
 ## カードの絞り込み
 
 ### 例1: 素材全部
-`./colosort search --category material`
+`./kurowiz-sort search --category material`
 
 ### 例2: 火の素材全部
-`./colosort search --element fire --category material`
+`./kurowiz-sort search --element fire --category material`
 
 ### 例3: マナ、エーテルを全部
-`./colosort search --category mana --category ether`
+`./kurowiz-sort search --category mana --category ether`
 
 ### 例4: 名前検索 (部分一致)
-`./colosort search --name "猫"`
+`./kurowiz-sort search --name "猫"`
 
 ### 例5: 名前検索 (正規表現)
-`./colosort search --name "^星くじらの奏姫 キシャラ・オロル$"`
+`./kurowiz-sort search --name "^星くじらの奏姫 キシャラ・オロル$"`
 
 ## カードのソート
 
