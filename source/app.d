@@ -98,6 +98,12 @@ struct Card
             "option": this.option
         ] );
     }
+
+    string toString() const
+    {
+        return "( name: %s, element: %s, category: %s, rank: %s, option: %s )"
+               .format( name, elements, category, rank, option );
+    }
 }
 
 struct PagedCard
@@ -106,7 +112,7 @@ struct PagedCard
     const Card card;
     alias card this;
 
-    string toString() { return "page: %4d, card: %s".format( index, card ); }
+    string toString() { return "page: %4d, card: %s".format( index, card.toString ); }
 }
 
 struct Box
@@ -164,16 +170,11 @@ struct Box
             std.file.rename("./list.json", "./backup.json");
         std.file.write("./list.json", root.toPrettyString);
     }
+}
 
-    PagedCard[] withIndex() {
-        typeof(return) result = [];
-        foreach( index, cards; this ) {
-            foreach( card; cards ) {
-                result ~= PagedCard( index, card );
-            }
-        }
-        return result;
-    }
+enum QueryKey
+{
+    Name, Element, Category, Rank
 }
 
 struct Query
@@ -181,37 +182,70 @@ struct Query
     PagedCard[] cards;
     alias cards this;
 
-    Query search( string[] names, string[] elements, string[] categories, string[] ranks )
+    this( PagedCard[] cards )
     {
+        this.cards = cards;
+    }
+
+    this( Box box )
+    {
+        foreach( index, cards; box ) {
+            foreach( card; cards ) {
+                this.cards ~= PagedCard( index, card );
+            }
+        }
+    }
+
+    Query search( QueryKey key, string[] values )
+    {
+        if (values.empty) {
+            return this;
+        }
+
         PagedCard[] result = [];
         foreach( card; cards )
         {
-            if (!names.empty) {
-                bool found = false;
-                foreach( name; names ) {
-                    if ( match( card.name, regex(name) ) ) {
-                        found = true;
-                        break;
-                    }
-                }
-                if (!found) continue;
-            }
-            if (!elements.empty) {
-                bool found = false;
-                foreach( element; card.elements )
+            final switch (key)
+            {
+                case QueryKey.Name:
                 {
-                    if (!find(elements, element).empty) {
-                        found = true;
-                        break;
+                    bool found = false;
+                    foreach( name; values ) {
+                        if ( match( card.name, regex(name) ) ) {
+                            found = true;
+                            break;
+                        }
                     }
-                }
-                if (!found) continue;
-            }
-            if (!categories.empty && find(categories, card.category).empty) {
-                continue;
-            }
-            if (!ranks.empty && find(ranks, card.rank).empty) {
-                continue;
+                    if (!found) continue;
+                } break;
+
+                case QueryKey.Element:
+                {
+                    bool found = false;
+                    foreach( element; card.elements )
+                    {
+                        if (!find(values, element).empty) {
+                            found = true;
+                            break;
+                        }
+                    }
+                    if (!found) continue;
+                } break;
+
+                case QueryKey.Category:
+                {
+                    if (find(values, card.category).empty) {
+                        continue;
+                    }
+                } break;
+
+                case QueryKey.Rank:
+                {
+                    if (find(values, card.rank).empty) {
+                        continue;
+                    }
+
+                } break;
             }
             result ~= card;
         }
@@ -269,7 +303,6 @@ void generate()
 
 void search(string[] args)
 {
-
     arraySep = ",";
 
     string[] names = [];
@@ -283,37 +316,17 @@ void search(string[] args)
         "rank", &ranks
     );
 
-    auto file = readText("./list.json");
-    auto json = parseJSON(file);
-
-    Tuple!(long, JSONValue)[] searched = [];
-    foreach( page; json["pages"].array ) {
-        foreach( card; page["cards"].array ) {
-            if (!names.empty) {
-                bool found = false;
-                foreach( name; names ) {
-                    if ( match( card["name"].str, regex(name) ) ) {
-                        found = true;
-                        break;
-                    }
-                }
-                if (!found) continue;
-            }
-            if (!elements.empty && find(elements, card["element"].str).empty) {
-                continue;
-            }
-            if (!categories.empty && find(categories, card["category"].str).empty) {
-                continue;
-            }
-            if (!ranks.empty && find(ranks, card["rank"].str).empty) {
-                continue;
-            }
-            searched ~= tuple( page["page"].integer, card );
-        }
-    }
+    Box box = Box();
+    box.reload;
+    auto searched =
+        Query( box )
+            .search( QueryKey.Name, names )
+            .search( QueryKey.Element, elements )
+            .search( QueryKey.Category, categories )
+            .search( QueryKey.Rank, ranks );
 
     foreach ( card; searched ) {
-        writeln( "page: %03d, card: %s".format( card[0], card[1] ) );
+        writeln( card );
     }
 
 }
