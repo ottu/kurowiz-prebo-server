@@ -100,6 +100,15 @@ struct Card
     }
 }
 
+struct PagedCard
+{
+    immutable uint index;
+    const Card card;
+    alias card this;
+
+    string toString() { return "page: %4d, card: %s".format( index, card ); }
+}
+
 struct Box
 {
     Card[] cards;
@@ -154,6 +163,59 @@ struct Box
         if ( exists("./list.json") )
             std.file.rename("./list.json", "./backup.json");
         std.file.write("./list.json", root.toPrettyString);
+    }
+
+    PagedCard[] withIndex() {
+        typeof(return) result = [];
+        foreach( index, cards; this ) {
+            foreach( card; cards ) {
+                result ~= PagedCard( index, card );
+            }
+        }
+        return result;
+    }
+}
+
+struct Query
+{
+    PagedCard[] cards;
+    alias cards this;
+
+    Query search( string[] names, string[] elements, string[] categories, string[] ranks )
+    {
+        PagedCard[] result = [];
+        foreach( card; cards )
+        {
+            if (!names.empty) {
+                bool found = false;
+                foreach( name; names ) {
+                    if ( match( card.name, regex(name) ) ) {
+                        found = true;
+                        break;
+                    }
+                }
+                if (!found) continue;
+            }
+            if (!elements.empty) {
+                bool found = false;
+                foreach( element; card.elements )
+                {
+                    if (!find(elements, element).empty) {
+                        found = true;
+                        break;
+                    }
+                }
+                if (!found) continue;
+            }
+            if (!categories.empty && find(categories, card.category).empty) {
+                continue;
+            }
+            if (!ranks.empty && find(ranks, card.rank).empty) {
+                continue;
+            }
+            result ~= card;
+        }
+        return Query(result);
     }
 }
 
