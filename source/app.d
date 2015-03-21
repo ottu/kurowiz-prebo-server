@@ -252,15 +252,19 @@ struct Query
         return Query(result);
     }
 
-    Query sort()
+    private enum FinishKey { Sort, Aggregate }
+    private auto finish( FinishKey FK )()
     {
         PagedCard[][string][string][string][string][string] temp;
         foreach( card; cards ) {
             temp[card.elements[0]][card.category][card.name][card.rank][card.option] ~= card;
         }
 
-        // fucking code!!!!!
-        PagedCard[] result;
+        static if ( FK == FinishKey.Sort )
+            PagedCard[] result;
+        else static if ( FK == FinishKey.Aggregate )
+            Tuple!( ulong, const(Card) )[] result; // this.aggregate() return type.
+
         foreach( key1; temp.keys ) {
             auto value1 = temp[key1];
             foreach( key2; value1.keys ) {
@@ -271,14 +275,28 @@ struct Query
                         auto value4 = value3[key4];
                         foreach( key5; value4.keys ) {
                             auto value5 = value4[key5];
-                            result ~= value5;
+
+                            static if ( FK == FinishKey.Sort )
+                                result ~= value5;
+                            else static if ( FK == FinishKey.Aggregate )
+                                result ~= tuple( value5.length, value5[0].card );
                         }
                     }
                 }
             }
         }
 
-        return Query(result);
+        return result;
+    }
+
+    Query sort()
+    {
+        return Query( finish!(FinishKey.Sort)() );
+    }
+
+    auto aggregate()
+    {
+        return finish!(FinishKey.Aggregate)();
     }
 }
 
@@ -339,12 +357,14 @@ void search(string[] args)
     string[] categories = [];
     string[] ranks = [];
     bool sort_flag = false;
+    bool aggregate_flag = false;
     getopt( args,
         "name", &names,
         "element", &elements,
         "category", &categories,
         "rank", &ranks,
-        "sort", &sort_flag
+        "sort", &sort_flag,
+        "aggregate", &aggregate_flag
     );
 
     Box box = Box();
@@ -359,8 +379,14 @@ void search(string[] args)
     if ( sort_flag )
         searched = searched.sort;
 
-    foreach ( card; searched ) {
-        writeln( card );
+    if ( aggregate_flag ) {
+        foreach ( cache; searched.aggregate() ) {
+            writefln( "count: %4d, card: %s", cache[0], cache[1].toString );
+        }
+    } else {
+        foreach ( card; searched ) {
+            writeln( card );
+        }
     }
 }
 
