@@ -251,6 +251,35 @@ struct Query
         }
         return Query(result);
     }
+
+    Query sort()
+    {
+        PagedCard[][string][string][string][string][string] temp;
+        foreach( card; cards ) {
+            temp[card.elements[0]][card.category][card.name][card.rank][card.option] ~= card;
+        }
+
+        // fucking code!!!!!
+        PagedCard[] result;
+        foreach( key1; temp.keys ) {
+            auto value1 = temp[key1];
+            foreach( key2; value1.keys ) {
+                auto value2 = value1[key2];
+                foreach( key3; value2.keys ) {
+                    auto value3 = value2[key3];
+                    foreach( key4; value3.keys ) {
+                        auto value4 = value3[key4];
+                        foreach( key5; value4.keys ) {
+                            auto value5 = value4[key5];
+                            result ~= value5;
+                        }
+                    }
+                }
+            }
+        }
+
+        return Query(result);
+    }
 }
 
 unittest
@@ -309,11 +338,13 @@ void search(string[] args)
     string[] elements = [];
     string[] categories = [];
     string[] ranks = [];
+    bool sort_flag = false;
     getopt( args,
         "name", &names,
         "element", &elements,
         "category", &categories,
-        "rank", &ranks
+        "rank", &ranks,
+        "sort", &sort_flag
     );
 
     Box box = Box();
@@ -325,10 +356,12 @@ void search(string[] args)
             .search( QueryKey.Category, categories )
             .search( QueryKey.Rank, ranks );
 
+    if ( sort_flag )
+        searched = searched.sort;
+
     foreach ( card; searched ) {
         writeln( card );
     }
-
 }
 
 void main( string[] args )
