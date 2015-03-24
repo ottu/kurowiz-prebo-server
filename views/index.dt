@@ -3,3 +3,9 @@ extends layout
 block body
     h1 Example page - Home
     p Hello, World!
+    ul.list-group
+        li.list-group-item test1
+        li.list-group-item test2
+        li.list-group-item test3
+        li.list-group-item test4
+
