@@ -1,5 +1,7 @@
 import vibe.d;
 
+import prebo;
+
 shared static this()
 {
 	auto settings = new HTTPServerSettings;
