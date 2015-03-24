@@ -1,0 +1,10 @@
+{
+	"name": "kurowiz-prebo",
+	"description": "Present box management tool for Kuro-Wiz.",
+	"copyright": "Copyright © 2015, ottu",
+	"authors": ["ottu"],
+	"dependencies": {
+	},
+    "importPaths": [ "./import" ],
+    "sourcePaths": [ "./import" ]
+}
