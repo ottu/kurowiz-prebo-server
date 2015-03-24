@@ -4,5 +4,7 @@
 	"copyright": "Copyright © 2015, ottu",
 	"authors": ["ottu"],
 	"dependencies": {
-	}
+	},
+    "importPaths": [ "./import" ],
+    "sourcePaths": [ "./import" ]
 }
