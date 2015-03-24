@@ -4,7 +4,7 @@
 	"copyright": "Copyright © 2015, ottu",
 	"authors": ["ottu"],
 	"dependencies": {
-		"vibe-d": "~>0.7.19"
+		"vibe-d": "~>0.7.19",
         "kurowiz-prebo-server:kurowiz-prebo": "~0.0.1"
     },
     "subPackages": [
