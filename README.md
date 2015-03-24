@@ -7,7 +7,7 @@
 まず news.csv にプレボのカードをひたすら写経していく。  
 この時プレボの順番を守る事。  
 
-写経が終わったら`./kurowiz-sort generate`を実行する。  
+写経が終わったら`./kurowiz-prebo generate`を実行する。  
 list.json が更新されます。  
 直前の list.jsonは backup.jsonとリネームされてますので  
 何やら失敗した時には置き換えて復旧してください。
@@ -54,27 +54,27 @@ news.csv に都度追加していく。
 ## カードの絞り込み
 
 ### 例1: 素材全部
-`./kurowiz-sort search --category material`
+`./kurowiz-prebo search --category material`
 
 ### 例2: 火の素材全部
-`./kurowiz-sort search --element fire --category material`
+`./kurowiz-prebo search --element fire --category material`
 
 ### 例3: マナ、エーテルを全部
-`./kurowiz-sort search --category mana --category ether`
+`./kurowiz-prebo search --category mana --category ether`
 
 ### 例4: 名前検索 (部分一致)
-`./kurowiz-sort search --name "猫"`
+`./kurowiz-prebo search --name "猫"`
 
 ### 例5: 名前検索 (正規表現)
-`./kurowiz-sort search --name "^星くじらの奏姫 キシャラ・オロル$"`
+`./kurowiz-prebo search --name "^星くじらの奏姫 キシャラ・オロル$"`
 
 ## カードのソート
 
 ### 例1: ソート
 属性 > カテゴリ > 名前 > ランク > オプション の順番でソート。  
 ソートキーをオプションで指定出来るようにはしたいと思ってる。  
-`./kurowiz-sort --sort`
+`./kurowiz-prebo --sort`
 
 ## カードの集計
 同じカードが何枚あるか集計する。  
-`./kurowiz-sort --aggregate`
+`./kurowiz-prebo --aggregate`
