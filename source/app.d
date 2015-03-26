@@ -14,5 +14,7 @@ shared static this()
 
 void hello(HTTPServerRequest req, HTTPServerResponse res)
 {
-    res.render!("index.dt", req);
+    Box box = Box();
+    box.reload;
+    res.render!("index.dt", box);
 }

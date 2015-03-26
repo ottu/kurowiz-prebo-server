@@ -5,5 +5,9 @@ html
         link( rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css", )
         scirpt( src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js", )
         title Example page
+        style( type="text/css").
+            th.w30 { width: 30% }
+            th.w20 { width: 20% }
+            th.w15 { width: 15% }
     body
         block body
