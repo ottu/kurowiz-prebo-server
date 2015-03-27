@@ -3,27 +3,31 @@ extends layout
 block body
     h1 Example page - Home
     div.container
-        - foreach( index, cards; box )
-            table.table.table-bordered.table-hover.table-condensed
-                h3 page: #{index}
-                thead
-                    tr
-                        th.w30 名前
-                        th.w20 属性
-                        th.w20 カテゴリ
-                        th.w15 ランク
-                        th.w15 オプション
-                tbody
-                    - foreach( card; cards )
-                        - string color = "";
-                        - switch(card.elements[0])
-                            - case "fire"    : { color = "danger"; } break;
-                            - case "water"   : { color = "info"; } break;
-                            - case "thunder" : { color = "warning"; } break;
-                            - default        : { color = "active"; } break;
-                        tr( class='#{color}')
-                            th #{card.name}
-                            th #{card.elements}
-                            th #{card.category}
-                            th #{card.rank}
-                            th #{card.option}
+        div.row
+            div.col-md-2
+                | menu
+            div.col-md-10
+                - foreach( index, cards; box )
+                    table.table.table-bordered.table-hover.table-condensed
+                        h3 page: #{index}
+                        thead
+                            tr
+                                th.w30 名前
+                                th.w20 属性
+                                th.w20 カテゴリ
+                                th.w15 ランク
+                                th.w15 オプション
+                        tbody
+                            - foreach( card; cards )
+                                - string color = "";
+                                - switch(card.elements[0])
+                                    - case "fire"    : { color = "danger"; } break;
+                                    - case "water"   : { color = "info"; } break;
+                                    - case "thunder" : { color = "warning"; } break;
+                                    - default        : { color = "active"; } break;
+                                tr( class='#{color}')
+                                    th #{card.name}
+                                    th #{card.elements}
+                                    th #{card.category}
+                                    th #{card.rank}
+                                    th #{card.option}
