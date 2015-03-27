@@ -6,5 +6,8 @@
 	"dependencies": {
 	},
     "importPaths": [ "./import" ],
-    "sourcePaths": [ "./import" ]
+    "sourcePaths": [
+        "./source",
+        "./import"
+    ]
 }
