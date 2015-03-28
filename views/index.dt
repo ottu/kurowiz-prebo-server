@@ -58,9 +58,12 @@ block body
                                 a( href="#", ) One more separated link
     div.container
         div.row
-            div.col-md-2
-                | menu
-            div.col-md-10
+            div.col-md-3
+                div.btn-group( style="width: 100%", )
+                    label.btn.btn-danger#element-button-fire 火
+                    label.btn.btn-info#element-button-water 水
+                    label.btn.btn-warning#element-button-thunder 雷
+            div.col-md-9
                 - foreach( index, cards; box )
                     table.table.table-bordered.table-hover.table-condensed
                         h3 page: #{index}
