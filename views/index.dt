@@ -79,6 +79,7 @@ block body
                     label.btn.btn-danger#element-button-fire 火
                     label.btn.btn-info#element-button-water 水
                     label.btn.btn-warning#element-button-thunder 雷
+                    label.btn.btn-success#element-button-none 無
             div.col-md-9
                 - foreach( index, cards; box )
                     table.table.table-bordered.table-hover.table-condensed

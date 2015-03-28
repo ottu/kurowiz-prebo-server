@@ -7,11 +7,13 @@
         $("#bs-navbar-collapse").toggleClass("in");
     });
     $("label[id^=element-button]").on('click', function(){
+        var id = $(this).attr("id");
         var cls = "";
-        switch ($(this).text().trim()) {
-            case "火": { cls = "btn-danger" } break;
-            case "水": { cls = "btn-info" } break;
-            case "雷": { cls = "btn-warning" } break;
+        switch (id) {
+            case "element-button-fire": { cls = "btn-danger" } break;
+            case "element-button-water": { cls = "btn-info" } break;
+            case "element-button-thunder": { cls = "btn-warning" } break;
+            case "element-button-none": { cls = "btn-success" } break;
         }
         $(this).toggleClass("btn-default");
         $(this).toggleClass(cls);
