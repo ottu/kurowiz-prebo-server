@@ -59,6 +59,22 @@ block body
     div.container
         div.row
             div.col-md-3
+                h3 Filter Settings
+                table.table.table-striped
+                    thead
+                        tr
+                            th 名前
+                    tbody#name-input-groups
+                        tr
+                            td
+                                div.input-group
+                                    span.input-group-btn
+                                        button.btn.btn-default( type="button", )
+                                            span.glyphicon.glyphicon-plus
+                                    input.form-control( type="text", )
+
+
+                h5 属性
                 div.btn-group( style="width: 100%", )
                     label.btn.btn-danger#element-button-fire 火
                     label.btn.btn-info#element-button-water 水
