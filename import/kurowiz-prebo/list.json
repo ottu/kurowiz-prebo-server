@@ -4,6 +4,137 @@
             "page": 1,
             "cards": [
                 {
+                    "element": "fire",
+                    "rank": "A",
+                    "option": "",
+                    "category": "spirit",
+                    "name": "ミュウ"
+                },
+                {
+                    "element": "thunder",
+                    "rank": "S",
+                    "option": "",
+                    "category": "material",
+                    "name": "ハイ・エーテルグラス"
+                },
+                {
+                    "element": "fire",
+                    "rank": "A+",
+                    "option": "",
+                    "category": "material",
+                    "name": "木"
+                },
+                {
+                    "element": "water",
+                    "rank": "S",
+                    "option": "",
+                    "category": "material",
+                    "name": "CM記念猫ウィズ"
+                },
+                {
+                    "element": "thunder",
+                    "rank": "A",
+                    "option": "",
+                    "category": "spirit",
+                    "name": "エリアナ"
+                },
+                {
+                    "element": "water",
+                    "rank": "B",
+                    "option": "",
+                    "category": "spirit",
+                    "name": "テティス"
+                },
+                {
+                    "element": "fire",
+                    "rank": "A",
+                    "option": "",
+                    "category": "spirit",
+                    "name": "ユニコ"
+                },
+                {
+                    "element": "thunder",
+                    "rank": "B+",
+                    "option": "",
+                    "category": "spirit",
+                    "name": "ルーファス"
+                },
+                {
+                    "element": "fire",
+                    "rank": "A",
+                    "option": "",
+                    "category": "spirit",
+                    "name": "ミカゼ"
+                },
+                {
+                    "element": "water",
+                    "rank": "B+",
+                    "option": "",
+                    "category": "spirit",
+                    "name": "ユズリハ"
+                }
+            ]
+        },
+        {
+            "page": 2,
+            "cards": [
+                {
+                    "element": "fire",
+                    "rank": "B",
+                    "option": "",
+                    "category": "spirit",
+                    "name": "キティ"
+                },
+                {
+                    "element": "water",
+                    "rank": "A",
+                    "option": "",
+                    "category": "spirit",
+                    "name": "サクヤ"
+                },
+                {
+                    "element": "water",
+                    "rank": "S",
+                    "option": "",
+                    "category": "material",
+                    "name": "聖女の器"
+                },
+                {
+                    "element": "water",
+                    "rank": "A",
+                    "option": "100",
+                    "category": "mana",
+                    "name": "マナ・エレメント"
+                },
+                {
+                    "element": "thunder",
+                    "rank": "A+",
+                    "option": "50",
+                    "category": "ether",
+                    "name": "エーテルグラス"
+                },
+                {
+                    "element": "water",
+                    "rank": "A",
+                    "option": "100",
+                    "category": "mana",
+                    "name": "マナ・エレメント"
+                },
+                {
+                    "element": "thunder",
+                    "rank": "A+",
+                    "option": "50",
+                    "category": "ether",
+                    "name": "エーテルグラス"
+                },
+                {
+                    "element": "thunder",
+                    "rank": "A",
+                    "option": "",
+                    "category": "spirit",
+                    "name": "オルネ"
+                },
+                {
                     "element": "water",
                     "rank": "A",
                     "option": "30",
@@ -16,7 +147,12 @@
                     "option": "",
                     "category": "spirit",
                     "name": "ミュウ"
-                },
+                }
+            ]
+        },
+        {
+            "page": 3,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "S",
@@ -72,12 +208,7 @@
                     "option": "50",
                     "category": "ether",
                     "name": "エーテルグラス"
-                }
-            ]
-        },
-        {
-            "page": 2,
-            "cards": [
+                },
                 {
                     "element": "water",
                     "rank": "A",
@@ -91,30 +222,14 @@
                     "option": "",
                     "category": "spirit",
                     "name": "ルドルフ"
-                },
+                }
+            ]
+        },
+        {
+            "page": 4,
+            "cards": [
                 {
                     "element": "water",
-                    "rank": "S",
-                    "option": "",
-                    "category": "material",
-                    "name": "本"
-                },
-                {
-                    "element": "fire",
-                    "rank": "S",
-                    "option": "",
-                    "category": "material",
-                    "name": "本"
-                },
-                {
-                    "element": "water",
-                    "rank": "S",
-                    "option": "",
-                    "category": "material",
-                    "name": "本"
-                },
-                {
-                    "element": "fire",
                     "rank": "S",
                     "option": "",
                     "category": "material",
@@ -128,7 +243,7 @@
                     "name": "本"
                 },
                 {
-                    "element": "fire",
+                    "element": "water",
                     "rank": "S",
                     "option": "",
                     "category": "material",
@@ -147,12 +262,7 @@
                     "option": "",
                     "category": "material",
                     "name": "木"
-                }
-            ]
-        },
-        {
-            "page": 3,
-            "cards": [
+                },
                 {
                     "element": "fire",
                     "rank": "A+",
@@ -162,13 +272,6 @@
                 },
                 {
                     "element": "water",
-                    "rank": "S",
-                    "option": "",
-                    "category": "material",
-                    "name": "本"
-                },
-                {
-                    "element": "fire",
                     "rank": "S",
                     "option": "",
                     "category": "material",
@@ -189,45 +292,38 @@
                     "name": "本"
                 },
                 {
-                    "element": "fire",
-                    "rank": "S",
-                    "option": "",
-                    "category": "material",
-                    "name": "本"
-                },
-                {
                     "element": "thunder",
                     "rank": "A+",
                     "option": "50",
                     "category": "ether",
                     "name": "エーテルグラス"
-                },
+                }
+            ]
+        },
+        {
+            "page": 5,
+            "cards": [
                 {
                     "element": "fire",
-                    "rank": "A+",
+                    "rank": "A",
                     "option": "",
                     "category": "material",
                     "name": "木"
                 },
                 {
                     "element": "water",
-                    "rank": "A+",
+                    "rank": "A",
                     "option": "",
                     "category": "material",
                     "name": "木"
                 },
                 {
                     "element": "thunder",
-                    "rank": "A+",
+                    "rank": "A",
                     "option": "",
                     "category": "material",
                     "name": "木"
-                }
-            ]
-        },
-        {
-            "page": 4,
-            "cards": [
+                },
                 {
                     "element": "thunder",
                     "rank": "B+",
@@ -276,10 +372,15 @@
                     "option": "",
                     "category": "material",
                     "name": "木"
-                },
+                }
+            ]
+        },
+        {
+            "page": 6,
+            "cards": [
                 {
                     "element": "thunder",
-                    "rank": "A+",
+                    "rank": "A",
                     "option": "",
                     "category": "material",
                     "name": "木"
@@ -293,16 +394,11 @@
                 },
                 {
                     "element": "water",
-                    "rank": "A+",
+                    "rank": "A",
                     "option": "",
                     "category": "material",
                     "name": "木"
-                }
-            ]
-        },
-        {
-            "page": 5,
-            "cards": [
+                },
                 {
                     "element": "thunder",
                     "rank": "S",
@@ -351,33 +447,33 @@
                     "option": "",
                     "category": "spirit",
                     "name": "エウレア"
-                },
-                {
-                    "element": "thunder",
-                    "rank": "A",
-                    "option": "",
-                    "category": "material",
-                    "name": "ガーディアンズコイン"
-                },
-                {
-                    "element": "thunder",
-                    "rank": "A",
-                    "option": "",
-                    "category": "material",
-                    "name": "ガーディアンズコイン"
-                },
-                {
-                    "element": "thunder",
-                    "rank": "A",
-                    "option": "",
-                    "category": "material",
-                    "name": "ガーディアンズコイン"
                 }
             ]
         },
         {
-            "page": 6,
+            "page": 7,
             "cards": [
+                {
+                    "element": "thunder",
+                    "rank": "A",
+                    "option": "",
+                    "category": "material",
+                    "name": "ガーディアンズコイン"
+                },
+                {
+                    "element": "thunder",
+                    "rank": "A",
+                    "option": "",
+                    "category": "material",
+                    "name": "ガーディアンズコイン"
+                },
+                {
+                    "element": "thunder",
+                    "rank": "A",
+                    "option": "",
+                    "category": "material",
+                    "name": "ガーディアンズコイン"
+                },
                 {
                     "element": "thunder",
                     "rank": "S",
@@ -426,7 +522,12 @@
                     "option": "",
                     "category": "material",
                     "name": "木"
-                },
+                }
+            ]
+        },
+        {
+            "page": 8,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "B+",
@@ -447,12 +548,7 @@
                     "option": "",
                     "category": "material",
                     "name": "ハイ・エーテルグラス"
-                }
-            ]
-        },
-        {
-            "page": 7,
-            "cards": [
+                },
                 {
                     "element": "fire",
                     "rank": "SS",
@@ -501,102 +597,6 @@
                     "option": "",
                     "category": "material",
                     "name": "カメオン"
-                },
-                {
-                    "element": "water",
-                    "rank": "A",
-                    "option": "",
-                    "category": "spirit",
-                    "name": "スウィー"
-                },
-                {
-                    "element": "thunder",
-                    "rank": "S",
-                    "option": "",
-                    "category": "material",
-                    "name": "ハイ・エーテルグラス"
-                },
-                {
-                    "element": "fire",
-                    "rank": "SS",
-                    "option": "",
-                    "category": "material",
-                    "name": "本"
-                }
-            ]
-        },
-        {
-            "page": 8,
-            "cards": [
-                {
-                    "element": "water",
-                    "rank": "SS",
-                    "option": "",
-                    "category": "material",
-                    "name": "本"
-                },
-                {
-                    "element": "water",
-                    "rank": "A",
-                    "option": "",
-                    "category": "spirit",
-                    "name": "スウィー"
-                },
-                {
-                    "element": "fire",
-                    "rank": "S+",
-                    "option": "",
-                    "category": "material",
-                    "name": "カメオン"
-                },
-                {
-                    "element": "water",
-                    "rank": "S+",
-                    "option": "",
-                    "category": "material",
-                    "name": "カメオン"
-                },
-                {
-                    "element": "thunder",
-                    "rank": "S+",
-                    "option": "",
-                    "category": "material",
-                    "name": "カメオン"
-                },
-                {
-                    "element": "fire",
-                    "rank": "SS",
-                    "option": "",
-                    "category": "material",
-                    "name": "本"
-                },
-                {
-                    "element": "water",
-                    "rank": "SS",
-                    "option": "",
-                    "category": "material",
-                    "name": "本"
-                },
-                {
-                    "element": "thunder",
-                    "rank": "SS",
-                    "option": "",
-                    "category": "material",
-                    "name": "本"
-                },
-                {
-                    "element": "water",
-                    "rank": "A",
-                    "option": "",
-                    "category": "spirit",
-                    "name": "スウィー"
-                },
-                {
-                    "element": "thunder",
-                    "rank": "S",
-                    "option": "",
-                    "category": "material",
-                    "name": "ハイ・エーテルグラス"
                 }
             ]
         },
@@ -604,32 +604,11 @@
             "page": 9,
             "cards": [
                 {
-                    "element": "fire",
-                    "rank": "S+",
-                    "option": "",
-                    "category": "material",
-                    "name": "木"
-                },
-                {
                     "element": "water",
-                    "rank": "S+",
-                    "option": "",
-                    "category": "material",
-                    "name": "木"
-                },
-                {
-                    "element": "thunder",
-                    "rank": "S+",
-                    "option": "",
-                    "category": "material",
-                    "name": "木"
-                },
-                {
-                    "element": "thunder",
-                    "rank": "B",
+                    "rank": "A",
                     "option": "",
                     "category": "spirit",
-                    "name": "クシマ"
+                    "name": "スウィー"
                 },
                 {
                     "element": "thunder",
@@ -640,38 +619,59 @@
                 },
                 {
                     "element": "fire",
-                    "rank": "S",
+                    "rank": "SS",
                     "option": "",
                     "category": "material",
                     "name": "本"
                 },
                 {
                     "element": "water",
-                    "rank": "S",
+                    "rank": "SS",
                     "option": "",
                     "category": "material",
                     "name": "本"
                 },
                 {
-                    "element": "thunder",
-                    "rank": "B",
+                    "element": "water",
+                    "rank": "A",
                     "option": "",
                     "category": "spirit",
-                    "name": "クシマ"
-                },
-                {
-                    "element": "thunder",
-                    "rank": "S",
-                    "option": "",
-                    "category": "material",
-                    "name": "ハイ・エーテルグラス"
+                    "name": "スウィー"
                 },
                 {
                     "element": "fire",
                     "rank": "S+",
                     "option": "",
                     "category": "material",
-                    "name": "木"
+                    "name": "カメオン"
+                },
+                {
+                    "element": "water",
+                    "rank": "S+",
+                    "option": "",
+                    "category": "material",
+                    "name": "カメオン"
+                },
+                {
+                    "element": "thunder",
+                    "rank": "S+",
+                    "option": "",
+                    "category": "material",
+                    "name": "カメオン"
+                },
+                {
+                    "element": "fire",
+                    "rank": "SS",
+                    "option": "",
+                    "category": "material",
+                    "name": "本"
+                },
+                {
+                    "element": "water",
+                    "rank": "SS",
+                    "option": "",
+                    "category": "material",
+                    "name": "本"
                 }
             ]
         },
@@ -679,35 +679,63 @@
             "page": 10,
             "cards": [
                 {
-                    "element": "water",
-                    "rank": "S+",
+                    "element": "thunder",
+                    "rank": "SS",
                     "option": "",
                     "category": "material",
-                    "name": "木"
+                    "name": "本"
+                },
+                {
+                    "element": "water",
+                    "rank": "A",
+                    "option": "",
+                    "category": "spirit",
+                    "name": "スウィー"
                 },
                 {
                     "element": "thunder",
-                    "rank": "S+",
+                    "rank": "S",
                     "option": "",
                     "category": "material",
-                    "name": "木"
+                    "name": "ハイ・エーテルグラス"
                 },
                 {
                     "element": "fire",
-                    "rank": "S",
+                    "rank": "S+",
                     "option": "",
                     "category": "material",
-                    "name": "本"
+                    "name": "木"
                 },
                 {
                     "element": "water",
-                    "rank": "S",
+                    "rank": "S+",
                     "option": "",
                     "category": "material",
-                    "name": "本"
+                    "name": "木"
                 },
                 {
                     "element": "thunder",
+                    "rank": "S+",
+                    "option": "",
+                    "category": "material",
+                    "name": "木"
+                },
+                {
+                    "element": "thunder",
+                    "rank": "B",
+                    "option": "",
+                    "category": "spirit",
+                    "name": "クシマ"
+                },
+                {
+                    "element": "thunder",
+                    "rank": "S",
+                    "option": "",
+                    "category": "material",
+                    "name": "ハイ・エーテルグラス"
+                },
+                {
+                    "element": "water",
                     "rank": "S",
                     "option": "",
                     "category": "material",
@@ -719,34 +747,6 @@
                     "option": "",
                     "category": "spirit",
                     "name": "クシマ"
-                },
-                {
-                    "element": "fire",
-                    "rank": "S",
-                    "option": "",
-                    "category": "material",
-                    "name": "木"
-                },
-                {
-                    "element": "water",
-                    "rank": "S",
-                    "option": "",
-                    "category": "material",
-                    "name": "木"
-                },
-                {
-                    "element": "fire",
-                    "rank": "S",
-                    "option": "",
-                    "category": "material",
-                    "name": "本"
-                },
-                {
-                    "element": "water",
-                    "rank": "S",
-                    "option": "",
-                    "category": "material",
-                    "name": "本"
                 }
             ]
         },
@@ -755,6 +755,81 @@
             "cards": [
                 {
                     "element": "thunder",
+                    "rank": "S",
+                    "option": "",
+                    "category": "material",
+                    "name": "ハイ・エーテルグラス"
+                },
+                {
+                    "element": "fire",
+                    "rank": "S+",
+                    "option": "",
+                    "category": "material",
+                    "name": "木"
+                },
+                {
+                    "element": "water",
+                    "rank": "S+",
+                    "option": "",
+                    "category": "material",
+                    "name": "木"
+                },
+                {
+                    "element": "thunder",
+                    "rank": "S+",
+                    "option": "",
+                    "category": "material",
+                    "name": "木"
+                },
+                {
+                    "element": "water",
+                    "rank": "S",
+                    "option": "",
+                    "category": "material",
+                    "name": "本"
+                },
+                {
+                    "element": "thunder",
+                    "rank": "B",
+                    "option": "",
+                    "category": "spirit",
+                    "name": "クシマ"
+                },
+                {
+                    "element": "fire",
+                    "rank": "S",
+                    "option": "",
+                    "category": "material",
+                    "name": "木"
+                },
+                {
+                    "element": "water",
+                    "rank": "S",
+                    "option": "",
+                    "category": "material",
+                    "name": "木"
+                },
+                {
+                    "element": "thunder",
+                    "rank": "S",
+                    "option": "",
+                    "category": "material",
+                    "name": "木"
+                },
+                {
+                    "element": "water",
+                    "rank": "S",
+                    "option": "",
+                    "category": "material",
+                    "name": "本"
+                }
+            ]
+        },
+        {
+            "page": 12,
+            "cards": [
+                {
+                    "element": "thunder",
                     "rank": "B",
                     "option": "",
                     "category": "spirit",
@@ -769,13 +844,6 @@
                 },
                 {
                     "element": "water",
-                    "rank": "S",
-                    "option": "",
-                    "category": "material",
-                    "name": "本"
-                },
-                {
-                    "element": "thunder",
                     "rank": "S",
                     "option": "",
                     "category": "material",
@@ -822,19 +890,19 @@
                     "option": "",
                     "category": "spirit",
                     "name": "トキモリ"
-                }
-            ]
-        },
-        {
-            "page": 12,
-            "cards": [
+                },
                 {
                     "element": "thunder",
                     "rank": "S",
                     "option": "100",
                     "category": "ether",
                     "name": "ハイ・エーテルグラス"
-                },
+                }
+            ]
+        },
+        {
+            "page": 13,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "S",
@@ -897,19 +965,19 @@
                     "option": "30",
                     "category": "mana",
                     "name": "マナ・エレメント"
-                }
-            ]
-        },
-        {
-            "page": 13,
-            "cards": [
+                },
                 {
                     "element": "thunder",
                     "rank": "S",
                     "option": "100",
                     "category": "ether",
                     "name": "ハイ・エーテルグラス"
-                },
+                }
+            ]
+        },
+        {
+            "page": 14,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "S",
@@ -960,73 +1028,31 @@
                     "name": "マナ・エレメント"
                 },
                 {
-                    "element": "fire",
+                    "element": "thunder",
                     "rank": "S",
-                    "option": "",
-                    "category": "material",
-                    "name": "本"
+                    "option": "100",
+                    "category": "ether",
+                    "name": "ハイ・エーテルグラス"
                 },
                 {
-                    "element": "fire",
+                    "element": "thunder",
                     "rank": "S",
-                    "option": "",
-                    "category": "material",
-                    "name": "本"
+                    "option": "100",
+                    "category": "ether",
+                    "name": "ハイ・エーテルグラス"
+                },
+                {
+                    "element": "thunder",
+                    "rank": "S",
+                    "option": "100",
+                    "category": "ether",
+                    "name": "ハイ・エーテルグラス"
                 }
             ]
         },
         {
-            "page": 14,
+            "page": 15,
             "cards": [
-                {
-                    "element": "fire",
-                    "rank": "S",
-                    "option": "",
-                    "category": "material",
-                    "name": "本"
-                },
-                {
-                    "element": "fire",
-                    "rank": "S",
-                    "option": "",
-                    "category": "material",
-                    "name": "本"
-                },
-                {
-                    "element": "water",
-                    "rank": "S",
-                    "option": "",
-                    "category": "material",
-                    "name": "本"
-                },
-                {
-                    "element": "fire",
-                    "rank": "S",
-                    "option": "",
-                    "category": "material",
-                    "name": "本"
-                },
-                {
-                    "element": "thunder",
-                    "rank": "S",
-                    "option": "100",
-                    "category": "ether",
-                    "name": "ハイ・エーテルグラス"
-                },
-                {
-                    "element": "thunder",
-                    "rank": "S",
-                    "option": "100",
-                    "category": "ether",
-                    "name": "ハイ・エーテルグラス"
-                },
-                {
-                    "element": "thunder",
-                    "rank": "S",
-                    "option": "100",
-                    "category": "ether",
-                    "name": "ハイ・エーテルグラス"
-                },
                 {
                     "element": "water",
                     "rank": "SS",
@@ -1047,12 +1073,7 @@
                     "option": "",
                     "category": "spirit",
                     "name": "フェイ"
-                }
-            ]
-        },
-        {
-            "page": 15,
-            "cards": [
+                },
                 {
                     "element": "thunder",
                     "rank": "B",
@@ -1101,7 +1122,12 @@
                     "option": "",
                     "category": "spirit",
                     "name": "ルフ"
-                },
+                }
+            ]
+        },
+        {
+            "page": 16,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "A",
@@ -1122,12 +1148,7 @@
                     "option": "",
                     "category": "spirit",
                     "name": "レラ"
-                }
-            ]
-        },
-        {
-            "page": 16,
-            "cards": [
+                },
                 {
                     "element": "thunder",
                     "rank": "A",
@@ -1176,7 +1197,12 @@
                     "option": "30",
                     "category": "mana",
                     "name": "マナ"
-                },
+                }
+            ]
+        },
+        {
+            "page": 17,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "S+",
@@ -1197,12 +1223,7 @@
                     "option": "50",
                     "category": "mana",
                     "name": "マナ"
-                }
-            ]
-        },
-        {
-            "page": 17,
-            "cards": [
+                },
                 {
                     "element": "water",
                     "rank": "A",
@@ -1251,7 +1272,12 @@
                     "option": "",
                     "category": "spirit",
                     "name": "サジェ"
-                },
+                }
+            ]
+        },
+        {
+            "page": 18,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "B",
@@ -1272,12 +1298,7 @@
                     "option": "",
                     "category": "spirit",
                     "name": "オルハ"
-                }
-            ]
-        },
-        {
-            "page": 18,
-            "cards": [
+                },
                 {
                     "element": "water",
                     "rank": "B+",
@@ -1326,7 +1347,12 @@
                     "option": "",
                     "category": "material",
                     "name": "猫専用マント"
-                },
+                }
+            ]
+        },
+        {
+            "page": 19,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "A",
@@ -1347,12 +1373,7 @@
                     "option": "",
                     "category": "material",
                     "name": "木"
-                }
-            ]
-        },
-        {
-            "page": 19,
-            "cards": [
+                },
                 {
                     "element": "thunder",
                     "rank": "S",
@@ -1401,7 +1422,12 @@
                     "option": "50",
                     "category": "mana",
                     "name": "エーテル"
-                },
+                }
+            ]
+        },
+        {
+            "page": 20,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "A+",
@@ -1410,24 +1436,12 @@
                     "name": "エーテル"
                 },
                 {
-                    "element": "water",
-                    "rank": "S",
-                    "option": "",
-                    "category": "material",
-                    "name": "本"
-                },
-                {
                     "element": "thunder",
                     "rank": "A+",
                     "option": "",
                     "category": "material",
                     "name": "木"
-                }
-            ]
-        },
-        {
-            "page": 20,
-            "cards": [
+                },
                 {
                     "element": "water",
                     "rank": "S",
@@ -1483,7 +1497,12 @@
                     "option": "",
                     "category": "spirit",
                     "name": "フェリシア"
-                },
+                }
+            ]
+        },
+        {
+            "page": 21,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "A",
@@ -1497,12 +1516,7 @@
                     "option": "",
                     "category": "spirit",
                     "name": "クルス"
-                }
-            ]
-        },
-        {
-            "page": 21,
-            "cards": [
+                },
                 {
                     "element": "water",
                     "rank": "B+",
@@ -1558,7 +1572,12 @@
                     "option": "20",
                     "category": "mana",
                     "name": "マナ"
-                },
+                }
+            ]
+        },
+        {
+            "page": 22,
+            "cards": [
                 {
                     "element": "fire",
                     "rank": "S+",
@@ -1572,12 +1591,7 @@
                     "option": "100",
                     "category": "ether",
                     "name": "エーテル"
-                }
-            ]
-        },
-        {
-            "page": 22,
-            "cards": [
+                },
                 {
                     "element": "thunder",
                     "rank": "S",
@@ -1633,7 +1647,12 @@
                     "option": "50",
                     "category": "ether",
                     "name": "エーテル"
-                },
+                }
+            ]
+        },
+        {
+            "page": 23,
+            "cards": [
                 {
                     "element": "water",
                     "rank": "S",
@@ -1647,12 +1666,7 @@
                     "option": "",
                     "category": "material",
                     "name": "キノコ"
-                }
-            ]
-        },
-        {
-            "page": 23,
-            "cards": [
+                },
                 {
                     "element": "thunder",
                     "rank": "A",
@@ -1708,26 +1722,19 @@
                     "option": "",
                     "category": "spirit",
                     "name": "ブリューダイン"
-                },
-                {
-                    "element": "fire",
-                    "rank": "S",
-                    "option": "",
-                    "category": "material",
-                    "name": "フラウ"
-                },
-                {
-                    "element": "fire",
-                    "rank": "A+",
-                    "option": "",
-                    "category": "material",
-                    "name": "ロシェ"
                 }
             ]
         },
         {
             "page": 24,
             "cards": [
+                {
+                    "element": "fire",
+                    "rank": "A+",
+                    "option": "",
+                    "category": "material",
+                    "name": "ロシェ"
+                },
                 {
                     "element": "thunder",
                     "rank": "S",
@@ -1790,13 +1797,6 @@
                     "option": "",
                     "category": "spirit",
                     "name": "クッキー大好きな仔犬 クロ"
-                },
-                {
-                    "element": "thunder",
-                    "rank": "S",
-                    "option": "100",
-                    "category": "ether",
-                    "name": "エーテル"
                 }
             ]
         },
@@ -1861,8 +1861,8 @@
                 },
                 {
                     "element": "thunder",
-                    "rank": "A",
-                    "option": "25",
+                    "rank": "S",
+                    "option": "100",
                     "category": "ether",
                     "name": "エーテル"
                 },
@@ -1878,6 +1878,13 @@
         {
             "page": 26,
             "cards": [
+                {
+                    "element": "thunder",
+                    "rank": "A",
+                    "option": "25",
+                    "category": "ether",
+                    "name": "エーテル"
+                },
                 {
                     "element": "thunder",
                     "rank": "A",
@@ -1940,19 +1947,19 @@
                     "option": "",
                     "category": "spirit",
                     "name": "ザラジュラム"
-                },
-                {
-                    "element": "thunder",
-                    "rank": "SS",
-                    "option": "",
-                    "category": "material",
-                    "name": "カメレオン"
                 }
             ]
         },
         {
             "page": 27,
             "cards": [
+                {
+                    "element": "thunder",
+                    "rank": "SS",
+                    "option": "",
+                    "category": "material",
+                    "name": "カメレオン"
+                },
                 {
                     "element": "thunder",
                     "rank": "SS",
@@ -2015,19 +2022,19 @@
                     "option": "",
                     "category": "material",
                     "name": "木"
-                },
-                {
-                    "element": "thunder",
-                    "rank": "A+",
-                    "option": "50",
-                    "category": "ether",
-                    "name": "エーテル"
                 }
             ]
         },
         {
             "page": 28,
             "cards": [
+                {
+                    "element": "thunder",
+                    "rank": "A+",
+                    "option": "50",
+                    "category": "ether",
+                    "name": "エーテル"
+                },
                 {
                     "element": "water",
                     "rank": "A",
@@ -2090,19 +2097,19 @@
                     "option": "30",
                     "category": "mana",
                     "name": "マナ"
-                },
-                {
-                    "element": "fire",
-                    "rank": "A",
-                    "option": "",
-                    "category": "spirit",
-                    "name": "アスモデウス"
                 }
             ]
         },
         {
             "page": 29,
             "cards": [
+                {
+                    "element": "fire",
+                    "rank": "A",
+                    "option": "",
+                    "category": "spirit",
+                    "name": "アスモデウス"
+                },
                 {
                     "element": "fire",
                     "rank": "A",
@@ -2165,19 +2172,19 @@
                     "option": "25",
                     "category": "ether",
                     "name": "エーテル"
-                },
-                {
-                    "element": "thunder",
-                    "rank": "S+",
-                    "option": "",
-                    "category": "material",
-                    "name": "木"
                 }
             ]
         },
         {
             "page": 30,
             "cards": [
+                {
+                    "element": "thunder",
+                    "rank": "S+",
+                    "option": "",
+                    "category": "material",
+                    "name": "木"
+                },
                 {
                     "element": "thunder",
                     "rank": "A",
@@ -2240,19 +2247,19 @@
                     "option": "10",
                     "category": "mana",
                     "name": "マナ"
-                },
-                {
-                    "element": "thunder",
-                    "rank": "A",
-                    "option": "25",
-                    "category": "ether",
-                    "name": "エーテル"
                 }
             ]
         },
         {
             "page": 31,
             "cards": [
+                {
+                    "element": "thunder",
+                    "rank": "A",
+                    "option": "25",
+                    "category": "ether",
+                    "name": "エーテル"
+                },
                 {
                     "element": "thunder",
                     "rank": "A+",
@@ -2315,19 +2322,19 @@
                     "option": "10",
                     "category": "mana",
                     "name": "マナ"
-                },
-                {
-                    "element": "water",
-                    "rank": "A",
-                    "option": "10",
-                    "category": "mana",
-                    "name": "マナ"
                 }
             ]
         },
         {
             "page": 32,
             "cards": [
+                {
+                    "element": "water",
+                    "rank": "A",
+                    "option": "10",
+                    "category": "mana",
+                    "name": "マナ"
+                },
                 {
                     "element": "water",
                     "rank": "A",
@@ -2390,19 +2397,19 @@
                     "option": "",
                     "category": "spirit",
                     "name": "2足歩行！立ち上がる猫"
-                },
-                {
-                    "element": "thunder",
-                    "rank": "S",
-                    "option": "",
-                    "category": "spirit",
-                    "name": "封魔眼帯"
                 }
             ]
         },
         {
             "page": 33,
             "cards": [
+                {
+                    "element": "thunder",
+                    "rank": "S",
+                    "option": "",
+                    "category": "spirit",
+                    "name": "封魔眼帯"
+                },
                 {
                     "element": "water",
                     "rank": "A",
@@ -2465,19 +2472,19 @@
                     "option": "25",
                     "category": "ether",
                     "name": "エーテル"
-                },
-                {
-                    "element": "water",
-                    "rank": "A",
-                    "option": "10",
-                    "category": "mana",
-                    "name": "マナ"
                 }
             ]
         },
         {
             "page": 34,
             "cards": [
+                {
+                    "element": "water",
+                    "rank": "A",
+                    "option": "10",
+                    "category": "mana",
+                    "name": "マナ"
+                },
                 {
                     "element": "thunder",
                     "rank": "A",
@@ -2540,19 +2547,19 @@
                     "option": "",
                     "category": "material",
                     "name": "フラウ"
-                },
-                {
-                    "element": "fire",
-                    "rank": "S+",
-                    "option": "",
-                    "category": "material",
-                    "name": "木"
                 }
             ]
         },
         {
             "page": 35,
             "cards": [
+                {
+                    "element": "fire",
+                    "rank": "S+",
+                    "option": "",
+                    "category": "material",
+                    "name": "木"
+                },
                 {
                     "element": "thunder",
                     "rank": "A",
@@ -2615,19 +2622,19 @@
                     "option": "50",
                     "category": "ether",
                     "name": "エーテル"
-                },
-                {
-                    "element": "fire",
-                    "rank": "S",
-                    "option": "",
-                    "category": "spirit",
-                    "name": "ごめんなさい猫"
                 }
             ]
         },
         {
             "page": 36,
             "cards": [
+                {
+                    "element": "fire",
+                    "rank": "S",
+                    "option": "",
+                    "category": "spirit",
+                    "name": "ごめんなさい猫"
+                },
                 {
                     "element": "water",
                     "rank": "A",
@@ -2690,19 +2697,19 @@
                     "option": "10",
                     "category": "mana",
                     "name": "マナ"
-                },
-                {
-                    "element": "thunder",
-                    "rank": "S",
-                    "option": "100",
-                    "category": "ether",
-                    "name": "エーテル"
                 }
             ]
         },
         {
             "page": 37,
             "cards": [
+                {
+                    "element": "thunder",
+                    "rank": "S",
+                    "option": "100",
+                    "category": "ether",
+                    "name": "エーテル"
+                },
                 {
                     "element": "thunder",
                     "rank": "A",
@@ -2765,19 +2772,19 @@
                     "option": "100",
                     "category": "ether",
                     "name": "エーテル"
-                },
-                {
-                    "element": "thunder",
-                    "rank": "S",
-                    "option": "100",
-                    "category": "ether",
-                    "name": "エーテル"
                 }
             ]
         },
         {
             "page": 38,
             "cards": [
+                {
+                    "element": "thunder",
+                    "rank": "S",
+                    "option": "100",
+                    "category": "ether",
+                    "name": "エーテル"
+                },
                 {
                     "element": "thunder",
                     "rank": "S",
@@ -2840,19 +2847,19 @@
                     "option": "",
                     "category": "spirit",
                     "name": "2周年を祝う猫ウィズ"
-                },
-                {
-                    "element": "thunder",
-                    "rank": "S",
-                    "option": "100",
-                    "category": "ether",
-                    "name": "エーテル"
                 }
             ]
         },
         {
             "page": 39,
             "cards": [
+                {
+                    "element": "thunder",
+                    "rank": "S",
+                    "option": "100",
+                    "category": "ether",
+                    "name": "エーテル"
+                },
                 {
                     "element": "thunder",
                     "rank": "S",
@@ -2915,19 +2922,19 @@
                     "option": "10",
                     "category": "mana",
                     "name": "マナ"
-                },
-                {
-                    "element": "water",
-                    "rank": "A",
-                    "option": "30",
-                    "category": "mana",
-                    "name": "マナ"
                 }
             ]
         },
         {
             "page": 40,
             "cards": [
+                {
+                    "element": "water",
+                    "rank": "A",
+                    "option": "30",
+                    "category": "mana",
+                    "name": "マナ"
+                },
                 {
                     "element": "thunder",
                     "rank": "A+",
@@ -2990,19 +2997,19 @@
                     "option": "25",
                     "category": "ether",
                     "name": "エーテル"
-                },
-                {
-                    "element": "thunder",
-                    "rank": "A+",
-                    "option": "",
-                    "category": "material",
-                    "name": "ロシェ"
                 }
             ]
         },
         {
             "page": 41,
             "cards": [
+                {
+                    "element": "thunder",
+                    "rank": "A+",
+                    "option": "",
+                    "category": "material",
+                    "name": "ロシェ"
+                },
                 {
                     "element": "water",
                     "rank": "S",
@@ -3065,19 +3072,19 @@
                     "option": "",
                     "category": "spirit",
                     "name": "CODE:ラヒルメ"
-                },
-                {
-                    "element": "fire",
-                    "rank": "S",
-                    "option": "",
-                    "category": "material",
-                    "name": "木"
                 }
             ]
         },
         {
             "page": 42,
             "cards": [
+                {
+                    "element": "fire",
+                    "rank": "S",
+                    "option": "",
+                    "category": "material",
+                    "name": "木"
+                },
                 {
                     "element": "thunder",
                     "rank": "S",
@@ -3140,19 +3147,19 @@
                     "option": "",
                     "category": "material",
                     "name": "フラウ"
-                },
-                {
-                    "element": "water",
-                    "rank": "A+",
-                    "option": "",
-                    "category": "material",
-                    "name": "木"
                 }
             ]
         },
         {
             "page": 43,
             "cards": [
+                {
+                    "element": "water",
+                    "rank": "A+",
+                    "option": "",
+                    "category": "material",
+                    "name": "木"
+                },
                 {
                     "element": "thunder",
                     "rank": "B+",
@@ -3215,19 +3222,19 @@
                     "option": "100",
                     "category": "ether",
                     "name": "エーテル"
-                },
-                {
-                    "element": "water",
-                    "rank": "A",
-                    "option": "30",
-                    "category": "mana",
-                    "name": "マナ"
                 }
             ]
         },
         {
             "page": 44,
             "cards": [
+                {
+                    "element": "water",
+                    "rank": "A",
+                    "option": "30",
+                    "category": "mana",
+                    "name": "マナ"
+                },
                 {
                     "element": "thunder",
                     "rank": "A+",
@@ -3290,19 +3297,19 @@
                     "option": "",
                     "category": "spirit",
                     "name": "思い出の S-DAT"
-                },
-                {
-                    "element": "thunder",
-                    "rank": "A",
-                    "option": "25",
-                    "category": "ether",
-                    "name": "エーテル"
                 }
             ]
         },
         {
             "page": 45,
             "cards": [
+                {
+                    "element": "thunder",
+                    "rank": "A",
+                    "option": "25",
+                    "category": "ether",
+                    "name": "エーテル"
+                },
                 {
                     "element": "water",
                     "rank": "A",
@@ -3365,19 +3372,19 @@
                     "option": "",
                     "category": "material",
                     "name": "木"
-                },
-                {
-                    "element": "fire",
-                    "rank": "S+",
-                    "option": "",
-                    "category": "material",
-                    "name": "木"
                 }
             ]
         },
         {
             "page": 46,
             "cards": [
+                {
+                    "element": "fire",
+                    "rank": "S+",
+                    "option": "",
+                    "category": "material",
+                    "name": "木"
+                },
                 {
                     "element": "thunder",
                     "rank": "A",
@@ -3440,19 +3447,19 @@
                     "option": "",
                     "category": "spirit",
                     "name": "SEELEの少年 カヲル"
-                },
-                {
-                    "element": "thunder",
-                    "rank": "A+",
-                    "option": "",
-                    "category": "material",
-                    "name": "木"
                 }
             ]
         },
         {
             "page": 47,
             "cards": [
+                {
+                    "element": "thunder",
+                    "rank": "A+",
+                    "option": "",
+                    "category": "material",
+                    "name": "木"
+                },
                 {
                     "element": "water",
                     "rank": "A",
@@ -3515,19 +3522,19 @@
                     "option": "50",
                     "category": "ether",
                     "name": "エーテル"
-                },
-                {
-                    "element": "fire",
-                    "rank": "B+",
-                    "option": "",
-                    "category": "spirit",
-                    "name": "カリー料理人 ザラフ"
                 }
             ]
         },
         {
             "page": 48,
             "cards": [
+                {
+                    "element": "fire",
+                    "rank": "B+",
+                    "option": "",
+                    "category": "spirit",
+                    "name": "カリー料理人 ザラフ"
+                },
                 {
                     "element": "fire",
                     "rank": "A",
@@ -3590,19 +3597,19 @@
                     "option": "",
                     "category": "spirit",
                     "name": "ほほえみ少女 クレア"
-                },
-                {
-                    "element": "fire",
-                    "rank": "SS",
-                    "option": "",
-                    "category": "spirit",
-                    "name": "にゃん！ウィズとステキな仲間達"
                 }
             ]
         },
         {
             "page": 49,
             "cards": [
+                {
+                    "element": "fire",
+                    "rank": "SS",
+                    "option": "",
+                    "category": "spirit",
+                    "name": "にゃん！ウィズとステキな仲間達"
+                },
                 {
                     "element": "water",
                     "rank": "A",
@@ -3665,19 +3672,19 @@
                     "option": "",
                     "category": "spirit",
                     "name": "カリー料理人 ザラフ"
-                },
-                {
-                    "element": "fire",
-                    "rank": "A",
-                    "option": "",
-                    "category": "spirit",
-                    "name": "ほほえみ少女 クレア"
                 }
             ]
         },
         {
             "page": 50,
             "cards": [
+                {
+                    "element": "fire",
+                    "rank": "A",
+                    "option": "",
+                    "category": "spirit",
+                    "name": "ほほえみ少女 クレア"
+                },
                 {
                     "element": "fire",
                     "rank": "S+",
@@ -3740,13 +3747,6 @@
                     "option": "",
                     "category": "spirit",
                     "name": "ヤキトリ職人 ヤキト"
-                },
-                {
-                    "element": "thunder",
-                    "rank": "S",
-                    "option": "100",
-                    "category": "ether",
-                    "name": "エーテル"
                 }
             ]
         },
@@ -3755,6 +3755,13 @@
             "cards": [
                 {
                     "element": "thunder",
+                    "rank": "S",
+                    "option": "100",
+                    "category": "ether",
+                    "name": "エーテル"
+                },
+                {
+                    "element": "thunder",
                     "rank": "B",
                     "option": "",
                     "category": "spirit",
@@ -3815,19 +3822,19 @@
                     "option": "",
                     "category": "spirit",
                     "name": "ヤキトリ職人 ヤキト"
-                },
-                {
-                    "element": "thunder",
-                    "rank": "A",
-                    "option": "",
-                    "category": "material",
-                    "name": "木"
                 }
             ]
         },
         {
             "page": 52,
             "cards": [
+                {
+                    "element": "thunder",
+                    "rank": "A",
+                    "option": "",
+                    "category": "material",
+                    "name": "木"
+                },
                 {
                     "element": "water",
                     "rank": "A",
@@ -3890,19 +3897,19 @@
                     "option": "",
                     "category": "spirit",
                     "name": "ユウェル"
-                },
-                {
-                    "element": "fire",
-                    "rank": "A",
-                    "option": "",
-                    "category": "spirit",
-                    "name": "ユッカ"
                 }
             ]
         },
         {
             "page": 53,
             "cards": [
+                {
+                    "element": "fire",
+                    "rank": "A",
+                    "option": "",
+                    "category": "spirit",
+                    "name": "ユッカ"
+                },
                 {
                     "element": "thunder",
                     "rank": "B",
@@ -3965,19 +3972,19 @@
                     "option": "",
                     "category": "spirit",
                     "name": "シンジの友達 トウジ＆ケンスケ"
-                },
-                {
-                    "element": "thunder",
-                    "rank": "A",
-                    "option": "",
-                    "category": "spirit",
-                    "name": "第3新東京市に来た少年 シンジ"
                 }
             ]
         },
         {
             "page": 54,
             "cards": [
+                {
+                    "element": "thunder",
+                    "rank": "A",
+                    "option": "",
+                    "category": "spirit",
+                    "name": "第3新東京市に来た少年 シンジ"
+                },
                 {
                     "element": "thunder",
                     "rank": "B",
@@ -4040,19 +4047,19 @@
                     "option": "",
                     "category": "spirit",
                     "name": "技術開発部所属 マヤ"
-                },
-                {
-                    "element": "thunder",
-                    "rank": "B+",
-                    "option": "",
-                    "category": "spirit",
-                    "name": "NERV副司令官 冬月"
                 }
             ]
         },
         {
             "page": 55,
             "cards": [
+                {
+                    "element": "thunder",
+                    "rank": "B+",
+                    "option": "",
+                    "category": "spirit",
+                    "name": "NERV副司令官 冬月"
+                },
                 {
                     "element": "thunder",
                     "rank": "B",
@@ -4115,19 +4122,19 @@
                     "option": "10",
                     "category": "mana",
                     "name": "マナ"
-                },
-                {
-                    "element": "water",
-                    "rank": "S",
-                    "option": "",
-                    "category": "spirit",
-                    "name": "白魔術見習生 ハルカ"
                 }
             ]
         },
         {
             "page": 56,
             "cards": [
+                {
+                    "element": "water",
+                    "rank": "S",
+                    "option": "",
+                    "category": "spirit",
+                    "name": "白魔術見習生 ハルカ"
+                },
                 {
                     "element": "fire",
                     "rank": "S",
@@ -4190,19 +4197,19 @@
                     "option": "",
                     "category": "spirit",
                     "name": "純潔と慈愛の騎士 クンツァイト"
-                },
-                {
-                    "element": "water",
-                    "rank": "S",
-                    "option": "",
-                    "category": "spirit",
-                    "name": "浄化と癒しの騎士 ゾイサイト"
                 }
             ]
         },
         {
             "page": 57,
             "cards": [
+                {
+                    "element": "water",
+                    "rank": "S",
+                    "option": "",
+                    "category": "spirit",
+                    "name": "浄化と癒しの騎士 ゾイサイト"
+                },
                 {
                     "element": "thunder",
                     "rank": "A+",
@@ -4265,19 +4272,19 @@
                     "option": "100",
                     "category": "ether",
                     "name": "エーテル"
-                },
-                {
-                    "element": "thunder",
-                    "rank": "S",
-                    "option": "100",
-                    "category": "ether",
-                    "name": "エーテル"
                 }
             ]
         },
         {
             "page": 58,
             "cards": [
+                {
+                    "element": "thunder",
+                    "rank": "S",
+                    "option": "100",
+                    "category": "ether",
+                    "name": "エーテル"
+                },
                 {
                     "element": "thunder",
                     "rank": "S",
@@ -4340,19 +4347,19 @@
                     "option": "",
                     "category": "spirit",
                     "name": "玉乗りねずみ＆コロル"
-                },
-                {
-                    "element": "thunder",
-                    "rank": "S",
-                    "option": "100",
-                    "category": "ether",
-                    "name": "エーテル"
                 }
             ]
         },
         {
             "page": 59,
             "cards": [
+                {
+                    "element": "thunder",
+                    "rank": "S",
+                    "option": "100",
+                    "category": "ether",
+                    "name": "エーテル"
+                },
                 {
                     "element": "water",
                     "rank": "A",
@@ -4415,19 +4422,19 @@
                     "option": "100",
                     "category": "ether",
                     "name": "エーテル"
-                },
-                {
-                    "element": "water",
-                    "rank": "A",
-                    "option": "10",
-                    "category": "mana",
-                    "name": "マナ"
                 }
             ]
         },
         {
             "page": 60,
             "cards": [
+                {
+                    "element": "water",
+                    "rank": "A",
+                    "option": "10",
+                    "category": "mana",
+                    "name": "マナ"
+                },
                 {
                     "element": "thunder",
                     "rank": "S",
@@ -4490,19 +4497,19 @@
                     "option": "",
                     "category": "spirit",
                     "name": "バシレイテ"
-                },
-                {
-                    "element": "thunder",
-                    "rank": "S",
-                    "option": "100",
-                    "category": "ether",
-                    "name": "エーテル"
                 }
             ]
         },
         {
             "page": 61,
             "cards": [
+                {
+                    "element": "thunder",
+                    "rank": "S",
+                    "option": "100",
+                    "category": "ether",
+                    "name": "エーテル"
+                },
                 {
                     "element": "thunder",
                     "rank": "S",
@@ -4565,19 +4572,19 @@
                     "option": "100",
                     "category": "ether",
                     "name": "エーテル"
-                },
-                {
-                    "element": "fire",
-                    "rank": "A",
-                    "option": "",
-                    "category": "spirit",
-                    "name": "クロム・マグナ高位学生服"
                 }
             ]
         },
         {
             "page": 62,
             "cards": [
+                {
+                    "element": "fire",
+                    "rank": "A",
+                    "option": "",
+                    "category": "spirit",
+                    "name": "クロム・マグナ高位学生服"
+                },
                 {
                     "element": "thunder",
                     "rank": "A",
@@ -4640,19 +4647,19 @@
                     "option": "",
                     "category": "spirit",
                     "name": "クロム・マグナ生徒 アキラ"
-                },
-                {
-                    "element": "thunder",
-                    "rank": "S",
-                    "option": "100",
-                    "category": "ether",
-                    "name": "エーテル"
                 }
             ]
         },
         {
             "page": 63,
             "cards": [
+                {
+                    "element": "thunder",
+                    "rank": "S",
+                    "option": "100",
+                    "category": "ether",
+                    "name": "エーテル"
+                },
                 {
                     "element": "water",
                     "rank": "S",
@@ -4715,13 +4722,6 @@
                     "option": "",
                     "category": "material",
                     "name": "木"
-                },
-                {
-                    "element": "thunder",
-                    "rank": "B+",
-                    "option": "",
-                    "category": "spirit",
-                    "name": "軽快なファイター フロー"
                 }
             ]
         },
@@ -4729,6 +4729,13 @@
             "page": 64,
             "cards": [
                 {
+                    "element": "thunder",
+                    "rank": "B+",
+                    "option": "",
+                    "category": "spirit",
+                    "name": "軽快なファイター フロー"
+                },
+                {
                     "element": "fire",
                     "rank": "A",
                     "option": "",
@@ -4790,13 +4797,6 @@
                     "option": "",
                     "category": "spirit",
                     "name": "軽快なファイター フロー"
-                },
-                {
-                    "element": "thunder",
-                    "rank": "S",
-                    "option": "100",
-                    "category": "ether",
-                    "name": "エーテル"
                 }
             ]
         },
@@ -4804,6 +4804,13 @@
             "page": 65,
             "cards": [
                 {
+                    "element": "thunder",
+                    "rank": "S",
+                    "option": "100",
+                    "category": "ether",
+                    "name": "エーテル"
+                },
+                {
                     "element": "water",
                     "rank": "S+",
                     "option": "",
@@ -4865,19 +4872,19 @@
                     "option": "100",
                     "category": "ether",
                     "name": "エーテル"
-                },
-                {
-                    "element": "water",
-                    "rank": "B",
-                    "option": "",
-                    "category": "spirit",
-                    "name": "キックボクサー ラアチャイ"
                 }
             ]
         },
         {
             "page": 66,
             "cards": [
+                {
+                    "element": "water",
+                    "rank": "B",
+                    "option": "",
+                    "category": "spirit",
+                    "name": "キックボクサー ラアチャイ"
+                },
                 {
                     "element": "thunder",
                     "rank": "S",
@@ -4936,13 +4943,6 @@
                 },
                 {
                     "element": "thunder",
-                    "rank": "A",
-                    "option": "",
-                    "category": "material",
-                    "name": "木"
-                },
-                {
-                    "element": "water",
                     "rank": "A",
                     "option": "",
                     "category": "material",
@@ -4953,6 +4953,13 @@
         {
             "page": 67,
             "cards": [
+                {
+                    "element": "water",
+                    "rank": "A",
+                    "option": "",
+                    "category": "material",
+                    "name": "木"
+                },
                 {
                     "element": "fire",
                     "rank": "A",
@@ -5015,19 +5022,19 @@
                     "option": "50",
                     "category": "ether",
                     "name": "エーテル"
-                },
-                {
-                    "element": "thunder",
-                    "rank": "A+",
-                    "option": "50",
-                    "category": "ether",
-                    "name": "エーテル"
                 }
             ]
         },
         {
             "page": 68,
             "cards": [
+                {
+                    "element": "thunder",
+                    "rank": "A+",
+                    "option": "50",
+                    "category": "ether",
+                    "name": "エーテル"
+                },
                 {
                     "element": "fire",
                     "rank": "A",
@@ -5090,19 +5097,19 @@
                     "option": "30",
                     "category": "mana",
                     "name": "マナ"
-                },
-                {
-                    "element": "thunder",
-                    "rank": "S",
-                    "option": "100",
-                    "category": "ether",
-                    "name": "エーテル"
                 }
             ]
         },
         {
             "page": 69,
             "cards": [
+                {
+                    "element": "thunder",
+                    "rank": "S",
+                    "option": "100",
+                    "category": "ether",
+                    "name": "エーテル"
+                },
                 {
                     "element": "thunder",
                     "rank": "S",
@@ -5165,19 +5172,19 @@
                     "option": "100",
                     "category": "ether",
                     "name": "エーテル"
-                },
-                {
-                    "element": "thunder",
-                    "rank": "S+",
-                    "option": "",
-                    "category": "material",
-                    "name": "木"
                 }
             ]
         },
         {
             "page": 70,
             "cards": [
+                {
+                    "element": "thunder",
+                    "rank": "S+",
+                    "option": "",
+                    "category": "material",
+                    "name": "木"
+                },
                 {
                     "element": "fire",
                     "rank": "S+",
@@ -5212,13 +5219,6 @@
                     "option": "200",
                     "category": "mana",
                     "name": "マナ"
-                },
-                {
-                    "element": "thunder",
-                    "rank": "S",
-                    "option": "100",
-                    "category": "ether",
-                    "name": "エーテル"
                 },
                 {
                     "element": "thunder",
@@ -5269,6 +5269,13 @@
                 },
                 {
                     "element": "thunder",
+                    "rank": "S",
+                    "option": "100",
+                    "category": "ether",
+                    "name": "エーテル"
+                },
+                {
+                    "element": "thunder",
                     "rank": "S+",
                     "option": "",
                     "category": "material",
@@ -5304,13 +5311,6 @@
                 },
                 {
                     "element": "water",
-                    "rank": "S+",
-                    "option": "",
-                    "category": "material",
-                    "name": "木"
-                },
-                {
-                    "element": "fire",
                     "rank": "S+",
                     "option": "",
                     "category": "material",
@@ -5328,6 +5328,13 @@
         {
             "page": 72,
             "cards": [
+                {
+                    "element": "fire",
+                    "rank": "S+",
+                    "option": "",
+                    "category": "material",
+                    "name": "木"
+                },
                 {
                     "element": "fire",
                     "rank": "S+",
@@ -5390,19 +5397,19 @@
                     "option": "100",
                     "category": "ether",
                     "name": "エーテル"
-                },
-                {
-                    "element": "water",
-                    "rank": "A",
-                    "option": "30",
-                    "category": "mana",
-                    "name": "マナ"
                 }
             ]
         },
         {
             "page": 73,
             "cards": [
+                {
+                    "element": "water",
+                    "rank": "A",
+                    "option": "30",
+                    "category": "mana",
+                    "name": "マナ"
+                },
                 {
                     "element": "thunder",
                     "rank": "S",
@@ -5465,13 +5472,6 @@
                     "option": "",
                     "category": "spirit",
                     "name": "妖しく光る凶岩"
-                },
-                {
-                    "element": "water",
-                    "rank": "A",
-                    "option": "",
-                    "category": "spirit",
-                    "name": "脈打つ岩瘤"
                 }
             ]
         },
@@ -5483,35 +5483,7 @@
                     "rank": "A",
                     "option": "",
                     "category": "spirit",
-                    "name": "岩族の細胞"
-                },
-                {
-                    "element": "water",
-                    "rank": "A",
-                    "option": "",
-                    "category": "spirit",
-                    "name": "妖しく光る凶岩"
-                },
-                {
-                    "element": "water",
-                    "rank": "A",
-                    "option": "",
-                    "category": "spirit",
-                    "name": "妖しく光る凶岩"
-                },
-                {
-                    "element": "water",
-                    "rank": "A",
-                    "option": "",
-                    "category": "spirit",
-                    "name": "妖しく光る凶岩"
-                },
-                {
-                    "element": "water",
-                    "rank": "A",
-                    "option": "",
-                    "category": "spirit",
-                    "name": "岩族の細胞"
+                    "name": "脈打つ岩瘤"
                 },
                 {
                     "element": "water",
@@ -5547,12 +5519,47 @@
                     "option": "",
                     "category": "spirit",
                     "name": "岩族の細胞"
+                },
+                {
+                    "element": "water",
+                    "rank": "A",
+                    "option": "",
+                    "category": "spirit",
+                    "name": "岩族の細胞"
+                },
+                {
+                    "element": "water",
+                    "rank": "A",
+                    "option": "",
+                    "category": "spirit",
+                    "name": "妖しく光る凶岩"
+                },
+                {
+                    "element": "water",
+                    "rank": "A",
+                    "option": "",
+                    "category": "spirit",
+                    "name": "妖しく光る凶岩"
+                },
+                {
+                    "element": "water",
+                    "rank": "A",
+                    "option": "",
+                    "category": "spirit",
+                    "name": "妖しく光る凶岩"
                 }
             ]
         },
         {
             "page": 75,
             "cards": [
+                {
+                    "element": "water",
+                    "rank": "A",
+                    "option": "",
+                    "category": "spirit",
+                    "name": "岩族の細胞"
+                },
                 {
                     "element": "thunder",
                     "rank": "A",
@@ -5615,19 +5622,19 @@
                     "option": "",
                     "category": "spirit",
                     "name": "妖しく光る凶岩"
-                },
-                {
-                    "element": "water",
-                    "rank": "A",
-                    "option": "",
-                    "category": "spirit",
-                    "name": "呼吸する石"
                 }
             ]
         },
         {
             "page": 76,
             "cards": [
+                {
+                    "element": "water",
+                    "rank": "A",
+                    "option": "",
+                    "category": "spirit",
+                    "name": "呼吸する石"
+                },
                 {
                     "element": "thunder",
                     "rank": "A",
@@ -5690,19 +5697,19 @@
                     "option": "",
                     "category": "spirit",
                     "name": "もぎたて採りたて 梨ふたつ"
-                },
-                {
-                    "element": "thunder",
-                    "rank": "A",
-                    "option": "",
-                    "category": "spirit",
-                    "name": "ウルトラジューシー 梨みっつ"
                 }
             ]
         },
         {
             "page": 77,
             "cards": [
+                {
+                    "element": "thunder",
+                    "rank": "A",
+                    "option": "",
+                    "category": "spirit",
+                    "name": "ウルトラジューシー 梨みっつ"
+                },
                 {
                     "element": "thunder",
                     "rank": "A",
@@ -5765,19 +5772,19 @@
                     "option": "",
                     "category": "material",
                     "name": "木"
-                },
-                {
-                    "element": "water",
-                    "rank": "A+",
-                    "option": "",
-                    "category": "material",
-                    "name": "木"
                 }
             ]
         },
         {
             "page": 78,
             "cards": [
+                {
+                    "element": "water",
+                    "rank": "A+",
+                    "option": "",
+                    "category": "material",
+                    "name": "木"
+                },
                 {
                     "element": "water",
                     "rank": "A",
@@ -5840,19 +5847,19 @@
                     "option": "",
                     "category": "spirit",
                     "name": "火竜の尾骨"
-                },
-                {
-                    "element": "fire",
-                    "rank": "A",
-                    "option": "",
-                    "category": "spirit",
-                    "name": "熱滾る竜の尾"
                 }
             ]
         },
         {
             "page": 79,
             "cards": [
+                {
+                    "element": "fire",
+                    "rank": "A",
+                    "option": "",
+                    "category": "spirit",
+                    "name": "熱滾る竜の尾"
+                },
                 {
                     "element": "fire",
                     "rank": "A",
@@ -5915,19 +5922,19 @@
                     "option": "",
                     "category": "material",
                     "name": "タヌキ"
-                },
-                {
-                    "element": "water",
-                    "rank": "A",
-                    "option": "10",
-                    "category": "mana",
-                    "name": "マナ"
                 }
             ]
         },
         {
             "page": 80,
             "cards": [
+                {
+                    "element": "water",
+                    "rank": "A",
+                    "option": "10",
+                    "category": "mana",
+                    "name": "マナ"
+                },
                 {
                     "element": "water",
                     "rank": "A",
@@ -5990,19 +5997,19 @@
                     "option": "100",
                     "category": "ether",
                     "name": "エーテル"
-                },
-                {
-                    "element": "thunder",
-                    "rank": "S",
-                    "option": "100",
-                    "category": "ether",
-                    "name": "エーテル"
                 }
             ]
         },
         {
             "page": 81,
             "cards": [
+                {
+                    "element": "thunder",
+                    "rank": "S",
+                    "option": "100",
+                    "category": "ether",
+                    "name": "エーテル"
+                },
                 {
                     "element": "water",
                     "rank": "S",
@@ -6065,19 +6072,19 @@
                     "option": "50",
                     "category": "ether",
                     "name": "エーテル"
-                },
-                {
-                    "element": "thunder",
-                    "rank": "B+",
-                    "option": "",
-                    "category": "spirit",
-                    "name": "マルス"
                 }
             ]
         },
         {
             "page": 82,
             "cards": [
+                {
+                    "element": "thunder",
+                    "rank": "B+",
+                    "option": "",
+                    "category": "spirit",
+                    "name": "マルス"
+                },
                 {
                     "element": "thunder",
                     "rank": "A+",
@@ -6140,19 +6147,19 @@
                     "option": "100",
                     "category": "ether",
                     "name": "エーテル"
-                },
-                {
-                    "element": "fire",
-                    "rank": "S+",
-                    "option": "",
-                    "category": "material",
-                    "name": "木"
                 }
             ]
         },
         {
             "page": 83,
             "cards": [
+                {
+                    "element": "fire",
+                    "rank": "S+",
+                    "option": "",
+                    "category": "material",
+                    "name": "木"
+                },
                 {
                     "element": "thunder",
                     "rank": "A+",
@@ -6215,13 +6222,6 @@
                     "option": "",
                     "category": "spirit",
                     "name": "魂を狩る少女 サテュルネ"
-                },
-                {
-                    "element": "thunder",
-                    "rank": "A+",
-                    "option": "50",
-                    "category": "ether",
-                    "name": "エーテル"
                 }
             ]
         },
@@ -6237,6 +6237,13 @@
                 },
                 {
                     "element": "thunder",
+                    "rank": "A+",
+                    "option": "50",
+                    "category": "ether",
+                    "name": "エーテル"
+                },
+                {
+                    "element": "thunder",
                     "rank": "B+",
                     "option": "",
                     "category": "spirit",
@@ -6290,13 +6297,6 @@
                     "option": "25",
                     "category": "ether",
                     "name": "エーテル"
-                },
-                {
-                    "element": "water",
-                    "rank": "A",
-                    "option": "30",
-                    "category": "mana",
-                    "name": "マナ"
                 }
             ]
         },
@@ -6304,6 +6304,13 @@
             "page": 85,
             "cards": [
                 {
+                    "element": "water",
+                    "rank": "A",
+                    "option": "30",
+                    "category": "mana",
+                    "name": "マナ"
+                },
+                {
                     "element": "thunder",
                     "rank": "A",
                     "option": "25",
@@ -6361,13 +6368,6 @@
                 },
                 {
                     "element": "water",
-                    "rank": "S+",
-                    "option": "",
-                    "category": "material",
-                    "name": "木"
-                },
-                {
-                    "element": "fire",
                     "rank": "S+",
                     "option": "",
                     "category": "material",
@@ -6632,13 +6632,6 @@
                     "name": "マナ"
                 },
                 {
-                    "element": "fire",
-                    "rank": "S+",
-                    "option": "",
-                    "category": "material",
-                    "name": "木"
-                },
-                {
                     "element": "water",
                     "rank": "A",
                     "option": "10",
@@ -6646,11 +6639,11 @@
                     "name": "マナ"
                 },
                 {
-                    "element": "fire",
-                    "rank": "S",
-                    "option": "",
-                    "category": "material",
-                    "name": "木"
+                    "element": "thunder",
+                    "rank": "A",
+                    "option": "25",
+                    "category": "ether",
+                    "name": "エーテル"
                 },
                 {
                     "element": "thunder",
@@ -6658,6 +6651,13 @@
                     "option": "25",
                     "category": "ether",
                     "name": "エーテル"
+                },
+                {
+                    "element": "water",
+                    "rank": "A",
+                    "option": "10",
+                    "category": "mana",
+                    "name": "マナ"
                 },
                 {
                     "element": "thunder",
@@ -6679,20 +6679,6 @@
             "page": 90,
             "cards": [
                 {
-                    "element": "thunder",
-                    "rank": "A",
-                    "option": "25",
-                    "category": "ether",
-                    "name": "エーテル"
-                },
-                {
-                    "element": "water",
-                    "rank": "A",
-                    "option": "10",
-                    "category": "mana",
-                    "name": "マナ"
-                },
-                {
                     "element": "water",
                     "rank": "A",
                     "option": "10",
@@ -6747,12 +6733,7 @@
                     "option": "10",
                     "category": "mana",
                     "name": "マナ"
-                }
-            ]
-        },
-        {
-            "page": 91,
-            "cards": [
+                },
                 {
                     "element": "fire",
                     "rank": "S",
@@ -6766,7 +6747,12 @@
                     "option": "",
                     "category": "material",
                     "name": "木"
-                },
+                }
+            ]
+        },
+        {
+            "page": 91,
+            "cards": [
                 {
                     "element": "water",
                     "rank": "A",
@@ -6822,12 +6808,7 @@
                     "option": "25",
                     "category": "ether",
                     "name": "エーテル"
-                }
-            ]
-        },
-        {
-            "page": 92,
-            "cards": [
+                },
                 {
                     "element": "water",
                     "rank": "A",
@@ -6841,7 +6822,12 @@
                     "option": "",
                     "category": "material",
                     "name": "木"
-                },
+                }
+            ]
+        },
+        {
+            "page": 92,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "B+",
@@ -6897,12 +6883,7 @@
                     "option": "30",
                     "category": "mana",
                     "name": "マナ"
-                }
-            ]
-        },
-        {
-            "page": 93,
-            "cards": [
+                },
                 {
                     "element": "thunder",
                     "rank": "B+",
@@ -6916,7 +6897,12 @@
                     "option": "",
                     "category": "material",
                     "name": "フラウ"
-                },
+                }
+            ]
+        },
+        {
+            "page": 93,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "B",
@@ -6972,12 +6958,7 @@
                     "option": "10",
                     "category": "mana",
                     "name": "マナ"
-                }
-            ]
-        },
-        {
-            "page": 94,
-            "cards": [
+                },
                 {
                     "element": "fire",
                     "rank": "B+",
@@ -6991,7 +6972,12 @@
                     "option": "25",
                     "category": "ether",
                     "name": "エーテル"
-                },
+                }
+            ]
+        },
+        {
+            "page": 94,
+            "cards": [
                 {
                     "element": "water",
                     "rank": "A",
@@ -7047,12 +7033,7 @@
                     "option": "",
                     "category": "material",
                     "name": "フラウ"
-                }
-            ]
-        },
-        {
-            "page": 95,
-            "cards": [
+                },
                 {
                     "element": "thunder",
                     "rank": "A+",
@@ -7066,7 +7047,12 @@
                     "option": "",
                     "category": "material",
                     "name": "キノコ"
-                },
+                }
+            ]
+        },
+        {
+            "page": 95,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "A+",
@@ -7122,12 +7108,7 @@
                     "option": "",
                     "category": "material",
                     "name": "キノコ"
-                }
-            ]
-        },
-        {
-            "page": 96,
-            "cards": [
+                },
                 {
                     "element": "thunder",
                     "rank": "A",
@@ -7141,7 +7122,12 @@
                     "option": "",
                     "category": "material",
                     "name": "フラウ"
-                },
+                }
+            ]
+        },
+        {
+            "page": 96,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "A",
@@ -7197,12 +7183,7 @@
                     "option": "30",
                     "category": "mana",
                     "name": "マナ"
-                }
-            ]
-        },
-        {
-            "page": 97,
-            "cards": [
+                },
                 {
                     "element": "water",
                     "rank": "A",
@@ -7216,7 +7197,12 @@
                     "option": "100",
                     "category": "ether",
                     "name": "エーテル"
-                },
+                }
+            ]
+        },
+        {
+            "page": 97,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "S",
@@ -7272,12 +7258,7 @@
                     "option": "",
                     "category": "spirit",
                     "name": "真心贈る冬 ロレッタ・ミラージュ"
-                }
-            ]
-        },
-        {
-            "page": 98,
-            "cards": [
+                },
                 {
                     "element": "fire",
                     "rank": "SS",
@@ -7291,7 +7272,12 @@
                     "option": "",
                     "category": "spirit",
                     "name": "世を忍ぶ英雄 バロン・ライオネル"
-                },
+                }
+            ]
+        },
+        {
+            "page": 98,
+            "cards": [
                 {
                     "element": "water",
                     "rank": "S",
@@ -7347,12 +7333,7 @@
                     "option": "30",
                     "category": "mana",
                     "name": "マナ"
-                }
-            ]
-        },
-        {
-            "page": 99,
-            "cards": [
+                },
                 {
                     "element": "thunder",
                     "rank": "S",
@@ -7366,7 +7347,12 @@
                     "option": "",
                     "category": "spirit",
                     "name": "白い猫の妖精 ふにゃっしー！"
-                },
+                }
+            ]
+        },
+        {
+            "page": 99,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "A",
@@ -7422,12 +7408,7 @@
                     "option": "100",
                     "category": "ether",
                     "name": "エーテル"
-                }
-            ]
-        },
-        {
-            "page": 100,
-            "cards": [
+                },
                 {
                     "element": "thunder",
                     "rank": "A+",
@@ -7441,7 +7422,12 @@
                     "option": "",
                     "category": "material",
                     "name": "木"
-                },
+                }
+            ]
+        },
+        {
+            "page": 100,
+            "cards": [
                 {
                     "element": "fire",
                     "rank": "S",
@@ -7497,12 +7483,7 @@
                     "option": "",
                     "category": "material",
                     "name": "キノコ"
-                }
-            ]
-        },
-        {
-            "page": 101,
-            "cards": [
+                },
                 {
                     "element": "thunder",
                     "rank": "S",
@@ -7516,7 +7497,12 @@
                     "option": "25",
                     "category": "ether",
                     "name": "エーテル"
-                },
+                }
+            ]
+        },
+        {
+            "page": 101,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "A+",
@@ -7572,12 +7558,7 @@
                     "option": "25",
                     "category": "ether",
                     "name": "エーテル"
-                }
-            ]
-        },
-        {
-            "page": 102,
-            "cards": [
+                },
                 {
                     "element": "water",
                     "rank": "A+",
@@ -7591,7 +7572,12 @@
                     "option": "25",
                     "category": "ether",
                     "name": "エーテル"
-                },
+                }
+            ]
+        },
+        {
+            "page": 102,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "S",
@@ -7647,12 +7633,7 @@
                     "option": "",
                     "category": "spirit",
                     "name": "反撃の双刃『スナップブレード』"
-                }
-            ]
-        },
-        {
-            "page": 103,
-            "cards": [
+                },
                 {
                     "element": "water",
                     "rank": "S",
@@ -7666,7 +7647,12 @@
                     "option": "100",
                     "category": "ether",
                     "name": "エーテル"
-                },
+                }
+            ]
+        },
+        {
+            "page": 103,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "A",
@@ -7722,12 +7708,7 @@
                     "option": "",
                     "category": "material",
                     "name": "タヌキ"
-                }
-            ]
-        },
-        {
-            "page": 104,
-            "cards": [
+                },
                 {
                     "element": "water",
                     "rank": "B+",
@@ -7741,7 +7722,12 @@
                     "option": "50",
                     "category": "ether",
                     "name": "エーテル"
-                },
+                }
+            ]
+        },
+        {
+            "page": 104,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "S",
@@ -7797,12 +7783,7 @@
                     "option": "",
                     "category": "spirit",
                     "name": "脅威度最高 10メートル級巨人"
-                }
-            ]
-        },
-        {
-            "page": 105,
-            "cards": [
+                },
                 {
                     "element": "thunder",
                     "rank": "A",
@@ -7816,7 +7797,12 @@
                     "option": "",
                     "category": "spirit",
                     "name": "アイスの実"
-                },
+                }
+            ]
+        },
+        {
+            "page": 105,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "A+",
@@ -7872,12 +7858,7 @@
                     "option": "25",
                     "category": "ether",
                     "name": "エーテル"
-                }
-            ]
-        },
-        {
-            "page": 106,
-            "cards": [
+                },
                 {
                     "element": "fire",
                     "rank": "A",
@@ -7891,7 +7872,12 @@
                     "option": "25",
                     "category": "ether",
                     "name": "エーテル"
-                },
+                }
+            ]
+        },
+        {
+            "page": 106,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "S+",
@@ -7947,12 +7933,7 @@
                     "option": "",
                     "category": "spirit",
                     "name": "タヌキじゃないよ☆星たぬき"
-                }
-            ]
-        },
-        {
-            "page": 107,
-            "cards": [
+                },
                 {
                     "element": "thunder",
                     "rank": "A+",
@@ -7966,7 +7947,12 @@
                     "option": "",
                     "category": "material",
                     "name": "木"
-                },
+                }
+            ]
+        },
+        {
+            "page": 107,
+            "cards": [
                 {
                     "element": "fire",
                     "rank": "A",
@@ -8022,12 +8008,7 @@
                     "option": "",
                     "category": "spirit",
                     "name": "リコ"
-                }
-            ]
-        },
-        {
-            "page": 108,
-            "cards": [
+                },
                 {
                     "element": "water",
                     "rank": "A+",
@@ -8041,7 +8022,12 @@
                     "option": "25",
                     "category": "ether",
                     "name": "エーテル"
-                },
+                }
+            ]
+        },
+        {
+            "page": 108,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "A",
@@ -8097,12 +8083,7 @@
                     "option": "25",
                     "category": "ether",
                     "name": "エーテル"
-                }
-            ]
-        },
-        {
-            "page": 109,
-            "cards": [
+                },
                 {
                     "element": "thunder",
                     "rank": "A",
@@ -8116,7 +8097,12 @@
                     "option": "",
                     "category": "material",
                     "name": "木"
-                },
+                }
+            ]
+        },
+        {
+            "page": 109,
+            "cards": [
                 {
                     "element": "water",
                     "rank": "B+",
@@ -8172,12 +8158,7 @@
                     "option": "",
                     "category": "spirit",
                     "name": "腹黒マスコット突撃兵 タママ二等兵"
-                }
-            ]
-        },
-        {
-            "page": 110,
-            "cards": [
+                },
                 {
                     "element": "water",
                     "rank": "A",
@@ -8191,7 +8172,12 @@
                     "option": "",
                     "category": "spirit",
                     "name": "おっとり系人型ロボ なの"
-                },
+                }
+            ]
+        },
+        {
+            "page": 110,
+            "cards": [
                 {
                     "element": "water",
                     "rank": "A",
@@ -8247,12 +8233,7 @@
                     "option": "",
                     "category": "spirit",
                     "name": "ジャガード"
-                }
-            ]
-        },
-        {
-            "page": 111,
-            "cards": [
+                },
                 {
                     "element": "thunder",
                     "rank": "A",
@@ -8266,7 +8247,12 @@
                     "option": "",
                     "category": "material",
                     "name": "タヌキ"
-                },
+                }
+            ]
+        },
+        {
+            "page": 111,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "A+",
@@ -8322,6 +8308,20 @@
                     "option": "",
                     "category": "material",
                     "name": "木"
+                },
+                {
+                    "element": "thunder",
+                    "rank": "A",
+                    "option": "25",
+                    "category": "ether",
+                    "name": "エーテル"
+                },
+                {
+                    "element": "thunder",
+                    "rank": "S",
+                    "option": "",
+                    "category": "material",
+                    "name": "木"
                 }
             ]
         },
@@ -8337,20 +8337,6 @@
                 },
                 {
                     "element": "thunder",
-                    "rank": "S",
-                    "option": "",
-                    "category": "material",
-                    "name": "木"
-                },
-                {
-                    "element": "thunder",
-                    "rank": "A",
-                    "option": "25",
-                    "category": "ether",
-                    "name": "エーテル"
-                },
-                {
-                    "element": "thunder",
                     "rank": "A",
                     "option": "25",
                     "category": "ether",
@@ -8397,12 +8383,7 @@
                     "option": "25",
                     "category": "ether",
                     "name": "エーテル"
-                }
-            ]
-        },
-        {
-            "page": 113,
-            "cards": [
+                },
                 {
                     "element": "water",
                     "rank": "B+",
@@ -8416,7 +8397,12 @@
                     "option": "",
                     "category": "material",
                     "name": "キノコ"
-                },
+                }
+            ]
+        },
+        {
+            "page": 113,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "B+",
@@ -8426,13 +8412,6 @@
                 },
                 {
                     "element": "thunder",
-                    "rank": "B",
-                    "option": "",
-                    "category": "material",
-                    "name": "ロシェ"
-                },
-                {
-                    "element": "thunder",
                     "rank": "A",
                     "option": "25",
                     "category": "ether",
@@ -8472,12 +8451,7 @@
                     "option": "",
                     "category": "material",
                     "name": "木"
-                }
-            ]
-        },
-        {
-            "page": 114,
-            "cards": [
+                },
                 {
                     "element": "fire",
                     "rank": "A",
@@ -8498,7 +8472,12 @@
                     "option": "",
                     "category": "material",
                     "name": "タヌキ"
-                },
+                }
+            ]
+        },
+        {
+            "page": 114,
+            "cards": [
                 {
                     "element": "fire",
                     "rank": "A",
@@ -8547,12 +8526,7 @@
                     "option": "",
                     "category": "material",
                     "name": "木"
-                }
-            ]
-        },
-        {
-            "page": 115,
-            "cards": [
+                },
                 {
                     "element": "water",
                     "rank": "A+",
@@ -8573,7 +8547,12 @@
                     "option": "",
                     "category": "spirit",
                     "name": "魂を狩る少女 サテュルネ"
-                },
+                }
+            ]
+        },
+        {
+            "page": 115,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "A",
@@ -8622,12 +8601,7 @@
                     "option": "",
                     "category": "spirit",
                     "name": "神出鬼没の暗殺兵 ドロロ兵長"
-                }
-            ]
-        },
-        {
-            "page": 116,
-            "cards": [
+                },
                 {
                     "element": "fire",
                     "rank": "A",
@@ -8648,7 +8622,12 @@
                     "option": "",
                     "category": "spirit",
                     "name": "一人で一個小隊 新ケロロ"
-                },
+                }
+            ]
+        },
+        {
+            "page": 116,
+            "cards": [
                 {
                     "element": "fire",
                     "rank": "B+",
@@ -8697,12 +8676,7 @@
                     "option": "25",
                     "category": "ether",
                     "name": "エーテル"
-                }
-            ]
-        },
-        {
-            "page": 117,
-            "cards": [
+                },
                 {
                     "element": "thunder",
                     "rank": "A",
@@ -8723,7 +8697,12 @@
                     "option": "",
                     "category": "spirit",
                     "name": "戦場の赤い悪魔 ギロロ伍長"
-                },
+                }
+            ]
+        },
+        {
+            "page": 117,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "B",
@@ -8772,12 +8751,7 @@
                     "option": "",
                     "category": "spirit",
                     "name": "エヴァ操縦者 シンジ"
-                }
-            ]
-        },
-        {
-            "page": 118,
-            "cards": [
+                },
                 {
                     "element": "thunder",
                     "rank": "A",
@@ -8798,7 +8772,12 @@
                     "option": "",
                     "category": "spirit",
                     "name": "サーヴァント セイバー"
-                },
+                }
+            ]
+        },
+        {
+            "page": 118,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "S",
@@ -8847,12 +8826,7 @@
                     "option": "",
                     "category": "material",
                     "name": "木"
-                }
-            ]
-        },
-        {
-            "page": 119,
-            "cards": [
+                },
                 {
                     "element": "fire",
                     "rank": "B+",
@@ -8873,7 +8847,12 @@
                     "option": "50",
                     "category": "ether",
                     "name": "エーテル"
-                },
+                }
+            ]
+        },
+        {
+            "page": 119,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "A+",
@@ -8922,12 +8901,7 @@
                     "option": "",
                     "category": "material",
                     "name": "木"
-                }
-            ]
-        },
-        {
-            "page": 120,
-            "cards": [
+                },
                 {
                     "element": "thunder",
                     "rank": "A+",
@@ -8948,7 +8922,12 @@
                     "option": "",
                     "category": "material",
                     "name": "木"
-                },
+                }
+            ]
+        },
+        {
+            "page": 120,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "A",
@@ -8990,6 +8969,27 @@
                     "option": "",
                     "category": "spirit",
                     "name": "カボチャ猫 ヘポ"
+                },
+                {
+                    "element": "fire",
+                    "rank": "B",
+                    "option": "",
+                    "category": "spirit",
+                    "name": "カボチャ猫 ヘポ"
+                },
+                {
+                    "element": "fire",
+                    "rank": "S",
+                    "option": "",
+                    "category": "material",
+                    "name": "木"
+                },
+                {
+                    "element": "water",
+                    "rank": "S",
+                    "option": "",
+                    "category": "material",
+                    "name": "木"
                 },
                 {
                     "element": "fire",
@@ -9004,27 +9004,6 @@
             "page": 121,
             "cards": [
                 {
-                    "element": "fire",
-                    "rank": "S",
-                    "option": "",
-                    "category": "material",
-                    "name": "木"
-                },
-                {
-                    "element": "water",
-                    "rank": "S",
-                    "option": "",
-                    "category": "material",
-                    "name": "木"
-                },
-                {
-                    "element": "fire",
-                    "rank": "B",
-                    "option": "",
-                    "category": "spirit",
-                    "name": "カボチャ猫 ヘポ"
-                },
-                {
                     "element": "thunder",
                     "rank": "A+",
                     "option": "",
@@ -9053,13 +9032,6 @@
                     "name": "カボチャ猫 ヘポ"
                 },
                 {
-                    "element": "thunder",
-                    "rank": "A",
-                    "option": "",
-                    "category": "material",
-                    "name": "木"
-                },
-                {
                     "element": "water",
                     "rank": "A",
                     "option": "",
@@ -9068,18 +9040,6 @@
                 },
                 {
                     "element": "fire",
-                    "rank": "A",
-                    "option": "",
-                    "category": "material",
-                    "name": "木"
-                }
-            ]
-        },
-        {
-            "page": 122,
-            "cards": [
-                {
-                    "element": "thunder",
                     "rank": "A",
                     "option": "",
                     "category": "material",
@@ -9112,7 +9072,12 @@
                     "option": "",
                     "category": "material",
                     "name": "キノコ"
-                },
+                }
+            ]
+        },
+        {
+            "page": 122,
+            "cards": [
                 {
                     "element": "fire",
                     "rank": "S",
@@ -9147,12 +9112,7 @@
                     "option": "",
                     "category": "material",
                     "name": "フラウ"
-                }
-            ]
-        },
-        {
-            "page": 123,
-            "cards": [
+                },
                 {
                     "element": "fire",
                     "rank": "A+",
@@ -9187,7 +9147,12 @@
                     "option": "",
                     "category": "material",
                     "name": "タヌキ"
-                },
+                }
+            ]
+        },
+        {
+            "page": 123,
+            "cards": [
                 {
                     "element": "water",
                     "rank": "A+",
@@ -9222,12 +9187,7 @@
                     "option": "",
                     "category": "spirit",
                     "name": "アロイス"
-                }
-            ]
-        },
-        {
-            "page": 124,
-            "cards": [
+                },
                 {
                     "element": "water",
                     "rank": "A+",
@@ -9262,7 +9222,12 @@
                     "option": "",
                     "category": "material",
                     "name": "木"
-                },
+                }
+            ]
+        },
+        {
+            "page": 124,
+            "cards": [
                 {
                     "element": "water",
                     "rank": "A",
@@ -9271,13 +9236,6 @@
                     "name": "木"
                 },
                 {
-                    "element": "fire",
-                    "rank": "A",
-                    "option": "",
-                    "category": "material",
-                    "name": "木"
-                },
-                {
                     "element": "thunder",
                     "rank": "A",
                     "option": "",
@@ -9297,12 +9255,7 @@
                     "option": "",
                     "category": "spirit",
                     "name": "翼竜 リリグ"
-                }
-            ]
-        },
-        {
-            "page": 125,
-            "cards": [
+                },
                 {
                     "element": "thunder",
                     "rank": "A",
@@ -9344,7 +9297,12 @@
                     "option": "",
                     "category": "material",
                     "name": "キノコ"
-                },
+                }
+            ]
+        },
+        {
+            "page": 125,
+            "cards": [
                 {
                     "element": "fire",
                     "rank": "A",
@@ -9372,12 +9330,7 @@
                     "option": "",
                     "category": "material",
                     "name": "木"
-                }
-            ]
-        },
-        {
-            "page": 126,
-            "cards": [
+                },
                 {
                     "element": "water",
                     "rank": "A+",
@@ -9419,16 +9372,14 @@
                     "option": "",
                     "category": "material",
                     "name": "タヌキ"
-                },
+                }
+            ]
+        },
+        {
+            "page": 126,
+            "cards": [
                 {
                     "element": "water",
-                    "rank": "A+",
-                    "option": "",
-                    "category": "material",
-                    "name": "木"
-                },
-                {
-                    "element": "fire",
                     "rank": "A+",
                     "option": "",
                     "category": "material",
@@ -9447,12 +9398,7 @@
                     "option": "",
                     "category": "material",
                     "name": "木"
-                }
-            ]
-        },
-        {
-            "page": 127,
-            "cards": [
+                },
                 {
                     "element": "fire",
                     "rank": "A+",
@@ -9501,33 +9447,33 @@
                     "option": "",
                     "category": "spirit",
                     "name": "陽炎のイサール"
-                },
-                {
-                    "element": "water",
-                    "rank": "B+",
-                    "option": "",
-                    "category": "spirit",
-                    "name": "義賊猫娘 ネウ"
-                },
-                {
-                    "element": "water",
-                    "rank": "B+",
-                    "option": "",
-                    "category": "spirit",
-                    "name": "義賊猫娘 ネウ"
-                },
-                {
-                    "element": "water",
-                    "rank": "B+",
-                    "option": "",
-                    "category": "spirit",
-                    "name": "義賊猫娘 ネウ"
                 }
             ]
         },
         {
-            "page": 128,
+            "page": 127,
             "cards": [
+                {
+                    "element": "water",
+                    "rank": "B+",
+                    "option": "",
+                    "category": "spirit",
+                    "name": "義賊猫娘 ネウ"
+                },
+                {
+                    "element": "water",
+                    "rank": "B+",
+                    "option": "",
+                    "category": "spirit",
+                    "name": "義賊猫娘 ネウ"
+                },
+                {
+                    "element": "water",
+                    "rank": "B+",
+                    "option": "",
+                    "category": "spirit",
+                    "name": "義賊猫娘 ネウ"
+                },
                 {
                     "element": "thunder",
                     "rank": "A",
@@ -9576,7 +9522,12 @@
                     "option": "",
                     "category": "spirit",
                     "name": "運命を導き照らす杖"
-                },
+                }
+            ]
+        },
+        {
+            "page": 128,
+            "cards": [
                 {
                     "element": "water",
                     "rank": "A",
@@ -9597,12 +9548,7 @@
                     "option": "",
                     "category": "spirit",
                     "name": "可愛らしい兎 リタ"
-                }
-            ]
-        },
-        {
-            "page": 129,
-            "cards": [
+                },
                 {
                     "element": "water",
                     "rank": "A+",
@@ -9651,7 +9597,12 @@
                     "option": "",
                     "category": "spirit",
                     "name": "謎に包まれた『地下室の鍵』"
-                },
+                }
+            ]
+        },
+        {
+            "page": 129,
+            "cards": [
                 {
                     "element": "fire",
                     "rank": "S",
@@ -9672,12 +9623,7 @@
                     "option": "",
                     "category": "spirit",
                     "name": "小悪魔 シビィ"
-                }
-            ]
-        },
-        {
-            "page": 130,
-            "cards": [
+                },
                 {
                     "element": "water",
                     "rank": "A+",
@@ -9726,33 +9672,33 @@
                     "option": "",
                     "category": "spirit",
                     "name": "巨人放伐の旗印『自由の翼』"
-                },
-                {
-                    "element": "thunder",
-                    "rank": "A",
-                    "option": "",
-                    "category": "spirit",
-                    "name": "巨人放伐の旗印『自由の翼』"
-                },
-                {
-                    "element": "thunder",
-                    "rank": "A",
-                    "option": "",
-                    "category": "spirit",
-                    "name": "巨人放伐の旗印『自由の翼』"
-                },
-                {
-                    "element": "thunder",
-                    "rank": "A",
-                    "option": "",
-                    "category": "spirit",
-                    "name": "巨人放伐の旗印『自由の翼』"
                 }
             ]
         },
         {
-            "page": 131,
+            "page": 130,
             "cards": [
+                {
+                    "element": "thunder",
+                    "rank": "A",
+                    "option": "",
+                    "category": "spirit",
+                    "name": "巨人放伐の旗印『自由の翼』"
+                },
+                {
+                    "element": "thunder",
+                    "rank": "A",
+                    "option": "",
+                    "category": "spirit",
+                    "name": "巨人放伐の旗印『自由の翼』"
+                },
+                {
+                    "element": "thunder",
+                    "rank": "A",
+                    "option": "",
+                    "category": "spirit",
+                    "name": "巨人放伐の旗印『自由の翼』"
+                },
                 {
                     "element": "thunder",
                     "rank": "A",
@@ -9801,7 +9747,12 @@
                     "option": "",
                     "category": "spirit",
                     "name": "人類唯一の翼『立体機動装置』"
-                },
+                }
+            ]
+        },
+        {
+            "page": 131,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "A",
@@ -9822,6 +9773,55 @@
                     "option": "",
                     "category": "spirit",
                     "name": "酒飲み教師 サロメ"
+                },
+                {
+                    "element": "water",
+                    "rank": "A",
+                    "option": "",
+                    "category": "spirit",
+                    "name": "祭に溶け込む アーシア"
+                },
+                {
+                    "element": "thunder",
+                    "rank": "A",
+                    "option": "",
+                    "category": "spirit",
+                    "name": "酒飲み教師 サロメ"
+                },
+                {
+                    "element": "water",
+                    "rank": "A",
+                    "option": "",
+                    "category": "spirit",
+                    "name": "祭に溶け込む アーシア"
+                },
+                {
+                    "element": "thunder",
+                    "rank": "A",
+                    "option": "",
+                    "category": "spirit",
+                    "name": "酒飲み教師 サロメ"
+                },
+                {
+                    "element": "water",
+                    "rank": "A",
+                    "option": "",
+                    "category": "spirit",
+                    "name": "祭に溶け込む アーシア"
+                },
+                {
+                    "element": "water",
+                    "rank": "A+",
+                    "option": "",
+                    "category": "material",
+                    "name": "木"
+                },
+                {
+                    "element": "water",
+                    "rank": "A",
+                    "option": "",
+                    "category": "spirit",
+                    "name": "祭に溶け込む アーシア"
                 }
             ]
         },
@@ -9830,55 +9830,6 @@
             "cards": [
                 {
                     "element": "water",
-                    "rank": "A",
-                    "option": "",
-                    "category": "spirit",
-                    "name": "祭に溶け込む アーシア"
-                },
-                {
-                    "element": "thunder",
-                    "rank": "A",
-                    "option": "",
-                    "category": "spirit",
-                    "name": "酒飲み教師 サロメ"
-                },
-                {
-                    "element": "water",
-                    "rank": "A",
-                    "option": "",
-                    "category": "spirit",
-                    "name": "祭に溶け込む アーシア"
-                },
-                {
-                    "element": "thunder",
-                    "rank": "A",
-                    "option": "",
-                    "category": "spirit",
-                    "name": "酒飲み教師 サロメ"
-                },
-                {
-                    "element": "water",
-                    "rank": "A",
-                    "option": "",
-                    "category": "spirit",
-                    "name": "祭に溶け込む アーシア"
-                },
-                {
-                    "element": "water",
-                    "rank": "A+",
-                    "option": "",
-                    "category": "material",
-                    "name": "木"
-                },
-                {
-                    "element": "water",
-                    "rank": "A",
-                    "option": "",
-                    "category": "spirit",
-                    "name": "祭に溶け込む アーシア"
-                },
-                {
-                    "element": "water",
                     "rank": "A+",
                     "option": "",
                     "category": "material",
@@ -9897,61 +9848,61 @@
                     "option": "",
                     "category": "spirit",
                     "name": "機械騎士 リヒト"
+                },
+                {
+                    "element": "water",
+                    "rank": "A",
+                    "option": "",
+                    "category": "spirit",
+                    "name": "機械騎士 リヒト"
+                },
+                {
+                    "element": "thunder",
+                    "rank": "A",
+                    "option": "",
+                    "category": "spirit",
+                    "name": "巨飛剣の使い手 リュン"
+                },
+                {
+                    "element": "thunder",
+                    "rank": "A",
+                    "option": "",
+                    "category": "spirit",
+                    "name": "巨飛剣の使い手 リュン"
+                },
+                {
+                    "element": "water",
+                    "rank": "A",
+                    "option": "",
+                    "category": "spirit",
+                    "name": "機械騎士 リヒト"
+                },
+                {
+                    "element": "thunder",
+                    "rank": "A",
+                    "option": "",
+                    "category": "spirit",
+                    "name": "巨飛剣の使い手 リュン"
+                },
+                {
+                    "element": "water",
+                    "rank": "A+",
+                    "option": "",
+                    "category": "material",
+                    "name": "木"
+                },
+                {
+                    "element": "thunder",
+                    "rank": "A",
+                    "option": "",
+                    "category": "spirit",
+                    "name": "巨飛剣の使い手 リュン"
                 }
             ]
         },
         {
             "page": 133,
             "cards": [
-                {
-                    "element": "water",
-                    "rank": "A",
-                    "option": "",
-                    "category": "spirit",
-                    "name": "機械騎士 リヒト"
-                },
-                {
-                    "element": "thunder",
-                    "rank": "A",
-                    "option": "",
-                    "category": "spirit",
-                    "name": "巨飛剣の使い手 リュン"
-                },
-                {
-                    "element": "thunder",
-                    "rank": "A",
-                    "option": "",
-                    "category": "spirit",
-                    "name": "巨飛剣の使い手 リュン"
-                },
-                {
-                    "element": "water",
-                    "rank": "A",
-                    "option": "",
-                    "category": "spirit",
-                    "name": "機械騎士 リヒト"
-                },
-                {
-                    "element": "thunder",
-                    "rank": "A",
-                    "option": "",
-                    "category": "spirit",
-                    "name": "巨飛剣の使い手 リュン"
-                },
-                {
-                    "element": "water",
-                    "rank": "A+",
-                    "option": "",
-                    "category": "material",
-                    "name": "木"
-                },
-                {
-                    "element": "thunder",
-                    "rank": "A",
-                    "option": "",
-                    "category": "spirit",
-                    "name": "巨飛剣の使い手 リュン"
-                },
                 {
                     "element": "fire",
                     "rank": "A",
@@ -9972,12 +9923,7 @@
                     "option": "",
                     "category": "spirit",
                     "name": "レーヴ"
-                }
-            ]
-        },
-        {
-            "page": 134,
-            "cards": [
+                },
                 {
                     "element": "fire",
                     "rank": "S",
@@ -10026,7 +9972,12 @@
                     "option": "",
                     "category": "spirit",
                     "name": "イングウェイ"
-                },
+                }
+            ]
+        },
+        {
+            "page": 134,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "A",
@@ -10047,12 +9998,7 @@
                     "option": "",
                     "category": "spirit",
                     "name": "デネヴ"
-                }
-            ]
-        },
-        {
-            "page": 135,
-            "cards": [
+                },
                 {
                     "element": "thunder",
                     "rank": "A",
@@ -10101,7 +10047,12 @@
                     "option": "",
                     "category": "spirit",
                     "name": "ニワンゴちゃん"
-                },
+                }
+            ]
+        },
+        {
+            "page": 135,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "A",
@@ -10122,12 +10073,7 @@
                     "option": "",
                     "category": "spirit",
                     "name": "黒猫とニコニコテレビちゃん"
-                }
-            ]
-        },
-        {
-            "page": 136,
-            "cards": [
+                },
                 {
                     "element": "fire",
                     "rank": "A",
@@ -10176,7 +10122,12 @@
                     "option": "",
                     "category": "spirit",
                     "name": "ヴァネット"
-                },
+                }
+            ]
+        },
+        {
+            "page": 136,
+            "cards": [
                 {
                     "element": "fire",
                     "rank": "A",
@@ -10197,61 +10148,61 @@
                     "option": "",
                     "category": "spirit",
                     "name": "ヴァネット"
+                },
+                {
+                    "element": "fire",
+                    "rank": "A",
+                    "option": "",
+                    "category": "spirit",
+                    "name": "エシリナ"
+                },
+                {
+                    "element": "fire",
+                    "rank": "A",
+                    "option": "",
+                    "category": "spirit",
+                    "name": "エシリナ"
+                },
+                {
+                    "element": "fire",
+                    "rank": "B+",
+                    "option": "",
+                    "category": "spirit",
+                    "name": "お転婆娘 リンシン"
+                },
+                {
+                    "element": "fire",
+                    "rank": "B+",
+                    "option": "",
+                    "category": "spirit",
+                    "name": "お転婆娘 リンシン"
+                },
+                {
+                    "element": "fire",
+                    "rank": "B+",
+                    "option": "",
+                    "category": "spirit",
+                    "name": "お転婆娘 リンシン"
+                },
+                {
+                    "element": "thunder",
+                    "rank": "A",
+                    "option": "",
+                    "category": "spirit",
+                    "name": "妖精 キアナ"
+                },
+                {
+                    "element": "thunder",
+                    "rank": "A",
+                    "option": "",
+                    "category": "spirit",
+                    "name": "妖精 キアナ"
                 }
             ]
         },
         {
             "page": 137,
             "cards": [
-                {
-                    "element": "fire",
-                    "rank": "A",
-                    "option": "",
-                    "category": "spirit",
-                    "name": "エシリナ"
-                },
-                {
-                    "element": "fire",
-                    "rank": "A",
-                    "option": "",
-                    "category": "spirit",
-                    "name": "エシリナ"
-                },
-                {
-                    "element": "fire",
-                    "rank": "B+",
-                    "option": "",
-                    "category": "spirit",
-                    "name": "お転婆娘 リンシン"
-                },
-                {
-                    "element": "fire",
-                    "rank": "B+",
-                    "option": "",
-                    "category": "spirit",
-                    "name": "お転婆娘 リンシン"
-                },
-                {
-                    "element": "fire",
-                    "rank": "B+",
-                    "option": "",
-                    "category": "spirit",
-                    "name": "お転婆娘 リンシン"
-                },
-                {
-                    "element": "thunder",
-                    "rank": "A",
-                    "option": "",
-                    "category": "spirit",
-                    "name": "妖精 キアナ"
-                },
-                {
-                    "element": "thunder",
-                    "rank": "A",
-                    "option": "",
-                    "category": "spirit",
-                    "name": "妖精 キアナ"
-                },
                 {
                     "element": "thunder",
                     "rank": "A",
@@ -10272,12 +10223,7 @@
                     "option": "",
                     "category": "spirit",
                     "name": "エイミー"
-                }
-            ]
-        },
-        {
-            "page": 138,
-            "cards": [
+                },
                 {
                     "element": "thunder",
                     "rank": "A",
