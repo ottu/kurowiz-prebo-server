@@ -29,6 +29,7 @@ enum Element: string {
 enum Category: string {
     Spirit = "spirit",
     Material = "material",
+    Item = "item",
     Mana = "mana",
     Ether = "ether",
     Mate = "mate",
