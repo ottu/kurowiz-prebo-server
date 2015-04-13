@@ -1,6 +1,6 @@
-- foreach( index, cards; box )
+- foreach( page; box )
     table.table.table-bordered.table-hover.table-condensed
-        h3 page: #{index}
+        h3 page: #{page.index}
         thead
             tr
                 th.w30 名前
@@ -9,7 +9,7 @@
                 th.w15 ランク
                 th.w15 オプション
         tbody
-            - foreach( card; cards )
+            - foreach( card; page )
                 - string color = "";
                 - switch(card.elements[0])
                     - case "fire"    : { color = "danger"; } break;
