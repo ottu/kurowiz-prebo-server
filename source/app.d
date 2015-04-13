@@ -22,20 +22,49 @@ shared static this()
 
 void index(HTTPServerRequest req, HTTPServerResponse res)
 {
-    Box box = Box();
-    box.reload;
-    res.render!("index.dt", box);
+    Box pages = Box();
+    pages.reload;
+    res.render!("index.dt", pages);
 }
 
 void search(HTTPServerRequest req, HTTPServerResponse res)
 {
-    //string[] test = req.queryString.split('&');
-    //logInfo(test.to!string);
-    logInfo(req.query.length.to!string);
     logInfo(req.query.to!string);
+
+    string[] names;
+    string[] elements;
+    string[] categories;
 
     foreach( key, value; req.query )
     {
-        logInfo( key ~ ":" ~ value );
+        switch( key ) {
+            case "name": {
+                if( !value.empty )
+                    names ~= value;
+            } break;
+
+            case "element": {
+                elements ~= value;
+            } break;
+
+            case "category": {
+                categories ~= value;
+            } break;
+
+            default: {
+
+            } break;
+        }
     }
+
+    Box box = Box();
+    box.reload;
+
+    auto pages =
+        Query(box)
+            .search( QueryKey.Name, names )
+            .search( QueryKey.Element, elements )
+            .search( QueryKey.Category, categories );
+
+    res.render!("index.dt", pages);
 }
