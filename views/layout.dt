@@ -8,7 +8,9 @@ html
             th.w30 { width: 30%; }
             th.w20 { width: 20%; }
             th.w15 { width: 15%; }
-            label.btn { width: 25%; }
+            label.btn.w25 { width: 25%; }
+            label.btn.w33 { width: 33.3333%; }
+            label.btn.w50 { width: 50%; }
     body
         block body
         script( src="/js/jquery-1.11.2.min.js", )

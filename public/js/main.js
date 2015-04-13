@@ -19,6 +19,12 @@
         label.toggleClass("btn-default");
         label.toggleClass(cls);
     });
+    $("label[id^=category-button] input").on('click', function(){
+        var label = $(this).parent();
+        label.toggleClass("btn-default");
+        label.toggleClass("btn-primary");
+    });
+
     $("#name-input-groups").on("click", 'button', function(){
         var role_span = $(this).find("span");
         console.log( role_span.hasClass("glyphicon-plus") );

@@ -72,14 +72,35 @@ block body
                     div.form-group
                         label 属性
                         div.btn-group( style="width: 100%", data-toggle="buttons", )
-                            label.btn.btn-danger#element-button-fire
+                            label.w25.btn.btn-danger#element-button-fire
                                 input( type="checkbox", checked="true", value="fire", name="element", ) 火
-                            label.btn.btn-info#element-button-water
+                            label.w25.btn.btn-info#element-button-water
                                 input( type="checkbox", checked="true", value="water", name="element", ) 水
-                            label.btn.btn-warning#element-button-thunder
+                            label.w25.btn.btn-warning#element-button-thunder
                                 input( type="checkbox", checked="true", value="thunder", name="element", ) 雷
-                            label.btn.btn-success#element-button-none
+                            label.w25.btn.btn-success#element-button-none
                                 input( type="checkbox", checked="true", value="none", name="element", ) 無
+                    div.form-group
+                        label カテゴリ
+                        div.btn-group( style="width: 100%", data-toggle="buttons", )
+                            label.w50.btn.btn-primary#category-button
+                                input( type="checkbox", checked="true", value="spirit", name="category", ) 精霊
+                            label.w50.btn.btn-primary#category-button
+                                input( type="checkbox", checked="true", value="material", name="category", ) 素材
+                        div.btn-group( style="width: 100%", data-toggle="buttons", )
+                            label.w33.btn.btn-primary#category-button
+                                input( type="checkbox", checked="true", value="mana", name="category", ) マナ
+                            label.w33.btn.btn-primary#category-button
+                                input( type="checkbox", checked="true", value="ether", name="category", ) エーテル
+                            label.w33.btn.btn-primary#category-button
+                                input( type="checkbox", checked="true", value="item", name="category", ) アイテム
+                        div.btn-group( style="width: 100%", data-toggle="buttons", )
+                            label.w33.btn.btn-primary#category-button
+                                input( type="checkbox", checked="true", value="crystal", name="category", ) クリスタル
+                            label.w33.btn.btn-primary#category-button
+                                input( type="checkbox", checked="true", value="gold", name="category", ) ゴールド
+                            label.w33.btn.btn-primary#category-button
+                                input( type="checkbox", checked="true", value="mate", name="category", ) メイト
                     button.btn.btn-default( type="submit", ) 検索
             div.col-md-9
                 include list
