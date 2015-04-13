@@ -60,26 +60,26 @@ block body
         div.row
             div.col-md-3
                 h3 Filter Settings
-                form
+                form( action="/search", method="GET", )
                     div.form-group
                         label 名前
                         div#name-input-groups
                             div.input-group( btn-role="add", )
                                 span.input-group-btn
-                                    button.btn.btn-default( type="button", name="name", )
+                                    button.btn.btn-default( type="button", )
                                         span.glyphicon.glyphicon-plus
-                                input.form-control( type="text", )
+                                input.form-control( type="text", name="name", )
                     div.form-group
                         label 属性
                         div.btn-group( style="width: 100%", data-toggle="buttons", )
                             label.btn.btn-danger#element-button-fire
-                                input( type="checkbox", checked="true", value="true", name="elem-fire", ) 火
+                                input( type="checkbox", checked="true", value="fire", name="element", ) 火
                             label.btn.btn-info#element-button-water
-                                input( type="checkbox", checked="true", value="true", name="elem-water", ) 水
+                                input( type="checkbox", checked="true", value="water", name="element", ) 水
                             label.btn.btn-warning#element-button-thunder
-                                input( type="checkbox", checked="true", value="true", name="elem-thunder", ) 雷
+                                input( type="checkbox", checked="true", value="thunder", name="element", ) 雷
                             label.btn.btn-success#element-button-none
-                                input( type="checkbox", checked="true", value="true", name="elem-none", ) 無
+                                input( type="checkbox", checked="true", value="none", name="element", ) 無
                     button.btn.btn-default( type="submit", ) 検索
             div.col-md-9
                 include list
