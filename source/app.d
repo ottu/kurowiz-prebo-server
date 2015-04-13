@@ -6,7 +6,8 @@ import prebo;
 shared static this()
 {
     auto router = new URLRouter;
-    router.get("/", &hello);
+    router.get("/", &index);
+    router.get("/search", &search);
     router.get("*", serveStaticFiles("public/"));
 
     auto settings = new HTTPServerSettings;
@@ -19,9 +20,22 @@ shared static this()
     listenHTTP( settings, router );
 }
 
-void hello(HTTPServerRequest req, HTTPServerResponse res)
+void index(HTTPServerRequest req, HTTPServerResponse res)
 {
     Box box = Box();
     box.reload;
     res.render!("index.dt", box);
+}
+
+void search(HTTPServerRequest req, HTTPServerResponse res)
+{
+    //string[] test = req.queryString.split('&');
+    //logInfo(test.to!string);
+    logInfo(req.query.length.to!string);
+    logInfo(req.query.to!string);
+
+    foreach( key, value; req.query )
+    {
+        logInfo( key ~ ":" ~ value );
+    }
 }
