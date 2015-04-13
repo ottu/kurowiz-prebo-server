@@ -66,17 +66,25 @@ void search(string[] args)
             .search( QueryKey.Category, categories )
             .search( QueryKey.Rank, ranks );
 
-    if ( sort_flag )
-        searched = searched.sort;
+    if ( !sort_flag && !aggregate_flag ) {
+        foreach( page; searched )
+            writeln( page );
+        return;
+    }
+
+    string format_str = "";
+    Query.FinishResult[] result = [];
 
     if ( aggregate_flag ) {
-        foreach ( cache; searched.aggregate() ) {
-            writefln( "count: %4d, card: %s", cache[0], cache[1].toString );
-        }
+        format_str = "count: %4d, card: %s";
+        result = searched.aggregate();
     } else {
-        foreach ( card; searched ) {
-            writeln( card );
-        }
+        format_str = "page: %4d, card: %s";
+        result = searched.sort();
+    }
+
+    foreach ( card; result ) {
+        writefln( format_str, card[0], card[1] );
     }
 }
 

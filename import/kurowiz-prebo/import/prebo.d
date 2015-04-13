@@ -104,18 +104,25 @@ struct Card
 
     string toString() const
     {
-        return "( name: %s, element: %s, category: %s, rank: %s, option: %s )"
+        return "Card( name: %s, element: %s, category: %s, rank: %s, option: %s )"
                .format( name, elements, category, rank, option );
     }
 }
 
-struct PagedCard
+struct Page
 {
     immutable uint index;
-    const Card card;
-    alias card this;
+    const(Card)[] cards;
+    alias cards this;
 
-    string toString() { return "page: %4d, card: %s".format( index, card.toString ); }
+    string toString()
+    {
+        string[] result = [ "Page: %4d".format(index) ];
+        foreach( card; cards ) {
+            result ~= "     %s".format(card.toString);
+        }
+        return result.join("\n");
+    }
 }
 
 struct Box
@@ -140,14 +147,14 @@ struct Box
         cards = news ~ cards;
     }
 
-    int opApply( int delegate( ref uint, ref const(Card)[] ) dg ) const
+    int opApply( int delegate( const( Page ) ) dg ) const
     {
         int result = 0;
         auto chunked = cards.chunks(10).array;
 
         uint index = 1;
         foreach( cards; chunked ) {
-            result = dg( index, cards );
+            result = dg( Page( index, cards ) );
             if (result) break;
             index++;
         }
@@ -157,12 +164,12 @@ struct Box
     void save()
     {
         JSONValue[] pages = [];
-        foreach( index, cards; this )
+        foreach( page; this )
         {
-            JSONValue[string] page;
-            page["page"] = index;
-            page["cards"] = cards.map!"a.toJson".array;
-            pages ~= JSONValue( page );
+            JSONValue[string] json;
+            json["page"] = page.index;
+            json["cards"] = page.map!"a.toJson".array;
+            pages ~= JSONValue( json );
         }
 
         auto root = JSONValue( [ "pages": pages ] );
@@ -182,20 +189,18 @@ enum QueryKey
 
 struct Query
 {
-    PagedCard[] cards;
-    alias cards this;
+    Page[] pages;
+    alias pages this;
 
-    this( PagedCard[] cards )
+    this( Page[] pages )
     {
-        this.cards = cards;
+        this.pages = pages;
     }
 
     this( Box box )
     {
-        foreach( index, cards; box ) {
-            foreach( card; cards ) {
-                this.cards ~= PagedCard( index, card );
-            }
+        foreach( page; box ) {
+            this.pages ~= page;
         }
     }
 
@@ -205,68 +210,76 @@ struct Query
             return this;
         }
 
-        PagedCard[] result = [];
-        foreach( card; cards )
+        Page[] result = [];
+        foreach( page; pages )
         {
-            final switch (key)
+            Page new_page = Page( page.index, [] );
+            foreach( card; page )
             {
-                case QueryKey.Name:
+                final switch (key)
                 {
-                    bool found = false;
-                    foreach( name; values ) {
-                        if ( match( card.name, regex(name) ) ) {
-                            found = true;
-                            break;
-                        }
-                    }
-                    if (!found) continue;
-                } break;
-
-                case QueryKey.Element:
-                {
-                    bool found = false;
-                    foreach( element; card.elements )
+                    case QueryKey.Name:
                     {
-                        if (!find(values, element).empty) {
-                            found = true;
-                            break;
+                        bool found = false;
+                        foreach( name; values ) {
+                            if ( match( card.name, regex(name) ) ) {
+                                found = true;
+                                break;
+                            }
                         }
-                    }
-                    if (!found) continue;
-                } break;
+                        if (!found) continue;
+                    } break;
 
-                case QueryKey.Category:
-                {
-                    if (find(values, card.category).empty) {
-                        continue;
-                    }
-                } break;
+                    case QueryKey.Element:
+                    {
+                        bool found = false;
+                        foreach( element; card.elements )
+                        {
+                            if (!find(values, element).empty) {
+                                found = true;
+                                break;
+                            }
+                        }
+                        if (!found) continue;
+                    } break;
 
-                case QueryKey.Rank:
-                {
-                    if (find(values, card.rank).empty) {
-                        continue;
-                    }
+                    case QueryKey.Category:
+                    {
+                        if (find(values, card.category).empty) {
+                            continue;
+                        }
+                    } break;
 
-                } break;
+                    case QueryKey.Rank:
+                    {
+                        if (find(values, card.rank).empty) {
+                            continue;
+                        }
+
+                    } break;
+                }
+
+                new_page ~= card;
             }
-            result ~= card;
+
+            if (new_page.length > 0)
+                result ~= new_page;
         }
         return Query(result);
     }
 
+    alias Tuple!(ulong, const(Card)) FinishResult;
     private enum FinishKey { Sort, Aggregate }
     private auto finish( FinishKey FK )()
     {
-        PagedCard[][string][string][string][string][string] temp;
-        foreach( card; cards ) {
-            temp[card.elements[0]][card.category][card.name][card.rank][card.option] ~= card;
+        FinishResult[][string][string][string][string][string] temp;
+        foreach( page; pages ) {
+            foreach( card; page ) {
+                temp[card.elements[0]][card.category][card.name][card.rank][card.option] ~= FinishResult( page.index, card );
+            }
         }
 
-        static if ( FK == FinishKey.Sort )
-            PagedCard[] result;
-        else static if ( FK == FinishKey.Aggregate )
-            Tuple!( ulong, const(Card) )[] result; // this.aggregate() return type.
+        FinishResult[] result;
 
         foreach( key1; temp.keys ) {
             auto value1 = temp[key1];
@@ -282,7 +295,7 @@ struct Query
                             static if ( FK == FinishKey.Sort )
                                 result ~= value5;
                             else static if ( FK == FinishKey.Aggregate )
-                                result ~= tuple( value5.length, value5[0].card );
+                                result ~= FinishResult( value5.length, value5[0][1] );
                         }
                     }
                 }
@@ -292,9 +305,9 @@ struct Query
         return result;
     }
 
-    Query sort()
+    auto sort()
     {
-        return Query( finish!(FinishKey.Sort)() );
+        return finish!(FinishKey.Sort)();
     }
 
     auto aggregate()
