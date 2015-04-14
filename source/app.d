@@ -22,9 +22,15 @@ shared static this()
 
 void index(HTTPServerRequest req, HTTPServerResponse res)
 {
+
+    string[] names = [];
+    string[] elements = [ "fire", "water", "thunder" ];
+    string[] categories = [ "spirit", "material", "ether", "mana" ];
+    string[] ranks = [ "L", "SS+", "SS", "S+", "S", "A+", "A", "B+", "B", "C+" ];
+
     Box pages = Box();
     pages.reload;
-    res.render!("index.dt", pages);
+    res.render!("index.dt", pages, names, elements, categories, ranks);
 }
 
 void search(HTTPServerRequest req, HTTPServerResponse res)
@@ -34,6 +40,7 @@ void search(HTTPServerRequest req, HTTPServerResponse res)
     string[] names;
     string[] elements;
     string[] categories;
+    string[] ranks;
 
     foreach( key, value; req.query )
     {
@@ -51,8 +58,11 @@ void search(HTTPServerRequest req, HTTPServerResponse res)
                 categories ~= value;
             } break;
 
-            default: {
+            case "rank": {
+                ranks ~= value;
+            } break;
 
+            default: {
             } break;
         }
     }
@@ -64,7 +74,8 @@ void search(HTTPServerRequest req, HTTPServerResponse res)
         Query(box)
             .search( QueryKey.Name, names )
             .search( QueryKey.Element, elements )
-            .search( QueryKey.Category, categories );
+            .search( QueryKey.Category, categories )
+            .search( QueryKey.Rank, ranks );
 
-    res.render!("index.dt", pages);
+    res.render!("index.dt", pages, names, elements, categories, ranks);
 }
