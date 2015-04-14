@@ -72,35 +72,62 @@ block body
                     div.form-group
                         label 属性
                         div.btn-group( style="width: 100%", data-toggle="buttons", )
-                            label.w25.btn.btn-danger#element-button-fire
-                                input( type="checkbox", checked="true", value="fire", name="element", ) 火
-                            label.w25.btn.btn-info#element-button-water
-                                input( type="checkbox", checked="true", value="water", name="element", ) 水
-                            label.w25.btn.btn-warning#element-button-thunder
-                                input( type="checkbox", checked="true", value="thunder", name="element", ) 雷
-                            label.w25.btn.btn-success#element-button-none
-                                input( type="checkbox", checked="true", value="none", name="element", ) 無
+                            label.w25.btn.btn-default#element-button-fire
+                                input( type="checkbox", name="element", value="fire", ) 火
+                            label.w25.btn.btn-default#element-button-water
+                                input( type="checkbox", name="element", value="water", ) 水
+                            label.w25.btn.btn-default#element-button-thunder
+                                input( type="checkbox", name="element", value="thunder", ) 雷
+                            label.w25.btn.btn-default#element-button-none
+                                input( type="checkbox", name="element", value="none", ) 無
                     div.form-group
                         label カテゴリ
                         div.btn-group( style="width: 100%", data-toggle="buttons", )
-                            label.w50.btn.btn-primary#category-button
-                                input( type="checkbox", checked="true", value="spirit", name="category", ) 精霊
-                            label.w50.btn.btn-primary#category-button
-                                input( type="checkbox", checked="true", value="material", name="category", ) 素材
+                            label.w50.btn.btn-default#category-button
+                                input( type="checkbox", name="category", value="spirit", ) 精霊
+                            label.w50.btn.btn-default#category-button
+                                input( type="checkbox", name="category", value="material", ) 素材
                         div.btn-group( style="width: 100%", data-toggle="buttons", )
-                            label.w33.btn.btn-primary#category-button
-                                input( type="checkbox", checked="true", value="mana", name="category", ) マナ
-                            label.w33.btn.btn-primary#category-button
-                                input( type="checkbox", checked="true", value="ether", name="category", ) エーテル
-                            label.w33.btn.btn-primary#category-button
-                                input( type="checkbox", checked="true", value="item", name="category", ) アイテム
+                            label.w33.btn.btn-default#category-button
+                                input( type="checkbox", name="category", value="mana", ) マナ
+                            label.w33.btn.btn-default#category-button
+                                input( type="checkbox", name="category", value="ether", ) エーテル
+                            label.w33.btn.btn-default#category-button
+                                input( type="checkbox", name="category", value="item", ) アイテム
                         div.btn-group( style="width: 100%", data-toggle="buttons", )
-                            label.w33.btn.btn-primary#category-button
-                                input( type="checkbox", checked="true", value="crystal", name="category", ) クリスタル
-                            label.w33.btn.btn-primary#category-button
-                                input( type="checkbox", checked="true", value="gold", name="category", ) ゴールド
-                            label.w33.btn.btn-primary#category-button
-                                input( type="checkbox", checked="true", value="mate", name="category", ) メイト
+                            label.w33.btn.btn-default#category-button
+                                input( type="checkbox", name="category", value="crystal", ) クリスタル
+                            label.w33.btn.btn-default#category-button
+                                input( type="checkbox", name="category", value="gold", ) ゴールド
+                            label.w33.btn.btn-default#category-button
+                                input( type="checkbox", name="category", value="mate", ) メイト
+                    div.form-group
+                        label ランク
+                        div.btn-group( style="width: 100%", data-toggle="buttons", )
+                            label.w50.btn.btn-default#rank-button
+                                input( type="checkbox", name="rank", value="L", ) L
+                            label.w50.btn.btn-default#rank-button
+                                input( type="checkbox", name="rank", value="SS+", ) SS+
+                        div.btn-group( style="width: 100%", data-toggle="buttons", )
+                            label.w20.btn.btn-default#rank-button
+                                input( type="checkbox", name="rank", value="SS", ) SS
+                            label.w20.btn.btn-default#rank-button
+                                input( type="checkbox", name="rank", value="S+", ) S+
+                            label.w20.btn.btn-default#rank-button
+                                input( type="checkbox", name="rank", value="S", ) S
+                            label.w20.btn.btn-default#rank-button
+                                input( type="checkbox", name="rank", value="A+", ) A+
+                            label.w20.btn.btn-default#rank-button
+                                input( type="checkbox", name="rank", value="A", ) A
+                        div.btn-group( style="width: 100%", data-toggle="buttons", )
+                            label.w25.btn.btn-default#rank-button
+                                input( type="checkbox", name="rank", value="B+", ) B+
+                            label.w25.btn.btn-default#rank-button
+                                input( type="checkbox", name="rank", value="B", ) B
+                            label.w25.btn.btn-default#rank-button
+                                input( type="checkbox", name="rank", value="C+", ) C+
+                            label.w25.btn.btn-default#rank-button
+                                input( type="checkbox", name="rank", value="N", ) N
                     button.btn.btn-default( type="submit", ) 検索
             div.col-md-9
                 include list
