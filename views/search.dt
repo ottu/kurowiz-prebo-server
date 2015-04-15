@@ -7,4 +7,4 @@ block body
             div.col-md-3
                 include filter
             div.col-md-9
-                block main
+                include tab

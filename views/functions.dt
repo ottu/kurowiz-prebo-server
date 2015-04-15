@@ -1,0 +1,8 @@
+- string getColor( string element )
+    - string color = "";
+    - switch( element )
+        - case "fire"    : { color = "danger"; } break;
+        - case "water"   : { color = "info"; } break;
+        - case "thunder" : { color = "warning"; } break;
+        - default        : { color = "active"; } break;
+    - return color;

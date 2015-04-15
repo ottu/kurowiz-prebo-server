@@ -10,15 +10,10 @@
                 th.w15 オプション
         tbody
             - foreach( card; page )
-                - string color = "";
-                - switch(card.elements[0])
-                    - case "fire"    : { color = "danger"; } break;
-                    - case "water"   : { color = "info"; } break;
-                    - case "thunder" : { color = "warning"; } break;
-                    - default        : { color = "active"; } break;
+                - string color = getColor( card.elements[0] );
                 tr( class='#{color}')
-                    th #{card.name}
-                    th #{card.elements}
-                    th #{card.category}
-                    th #{card.rank}
-                    th #{card.option}
+                    th= card.name
+                    th= card.elements
+                    th= card.category
+                    th= card.rank
+                    th= card.option
