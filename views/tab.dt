@@ -1,0 +1,31 @@
+ul.nav.nav-tabs
+    li.active
+        a( href="#search", data-toggle="tab", ) Search
+    li
+        a( href="#sort", data-toggle="tab", ) Sort
+    li
+        a( href="#aggregate", data-toggle="tab", ) Aggregate
+div.tab-content
+    div.tab-pane.in.active#search
+        include list
+    div.tab-pane#sort
+        table.table.table-bordered.table-hover.table-condensed
+            thead
+                tr
+                    th.w20 ページ
+                    th.w20 名前
+                    th.w15 属性
+                    th.w15 カテゴリ
+                    th.w15 ランク
+                    th.w15 オプション
+            tbody
+                - foreach( card; sorted )
+                    tr
+                        th #{card[0]}
+                        th #{card[1].name}
+                        th #{card[1].elements}
+                        th #{card[1].category}
+                        th #{card[1].rank}
+                        th #{card[1].option}
+    div.tab-pane#aggregate
+        Aggregate Content

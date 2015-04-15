@@ -72,13 +72,13 @@ block body
                     div.form-group
                         label 属性
                         div.btn-group( style="width: 100%", data-toggle="buttons", )
-                            label.w25.btn.btn-default#element-button-fire
+                            label.w25.btn.btn-danger#element-button
                                 input( type="checkbox", name="element", value="fire", ) 火
-                            label.w25.btn.btn-default#element-button-water
+                            label.w25.btn.btn-info#element-button
                                 input( type="checkbox", name="element", value="water", ) 水
-                            label.w25.btn.btn-default#element-button-thunder
+                            label.w25.btn.btn-warning#element-button
                                 input( type="checkbox", name="element", value="thunder", ) 雷
-                            label.w25.btn.btn-default#element-button-none
+                            label.w25.btn.btn-default#element-button
                                 input( type="checkbox", name="element", value="none", ) 無
                     div.form-group
                         label カテゴリ
@@ -130,4 +130,7 @@ block body
                                 input( type="checkbox", name="rank", value="N", ) N
                     button.btn.btn-default( type="submit", ) 検索
             div.col-md-9
-                include list
+                - if( need == "search" )
+                    include tab
+                - else
+                    include list

@@ -12,7 +12,7 @@ shared static this()
 
     auto settings = new HTTPServerSettings;
     settings.port = 8080;
-    settings.bindAddresses = ["::1", "127.0.0.1"];
+    settings.bindAddresses = ["::1", "0.0.0.0"];
 
     auto logger = cast(shared)( new FileLogger("access.log") );
     registerLogger(logger);
@@ -30,7 +30,11 @@ void index(HTTPServerRequest req, HTTPServerResponse res)
 
     Box pages = Box();
     pages.reload;
-    res.render!("index.dt", pages, names, elements, categories, ranks);
+
+    string need = "list";
+    string[] sorted;
+    string[] aggregated;
+    res.render!("index.dt", need, sorted, aggregated, pages, names, elements, categories, ranks);
 }
 
 void search(HTTPServerRequest req, HTTPServerResponse res)
@@ -77,5 +81,9 @@ void search(HTTPServerRequest req, HTTPServerResponse res)
             .search( QueryKey.Category, categories )
             .search( QueryKey.Rank, ranks );
 
-    res.render!("index.dt", pages, names, elements, categories, ranks);
+    auto sorted = pages.sort();
+    auto aggregated = pages.aggregate();
+
+    string need = "search";
+    res.render!("index.dt", need, pages, sorted, aggregated, names, elements, categories, ranks);
 }
