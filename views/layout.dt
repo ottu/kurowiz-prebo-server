@@ -16,14 +16,14 @@ html
         block body
         script( src="/js/jquery-1.11.2.min.js", )
         script( src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js", )
-        //script( src="/js/main.js", )
-        script.
-            function initialClick( name, values ) {
-                for( var i = 0; i < values.length; i++ ) {
-                    $('input[name="' + name + '"][value="' + values[i] + '"]').trigger('click');
-                }
-            }
+        script( src="/js/main.js", )
+        //script.
+        //    function initialClick( name, values ) {
+        //        for( var i = 0; i < values.length; i++ ) {
+        //            $('input[name="' + name + '"][value="' + values[i] + '"]').trigger('click');
+        //        }
+        //    }
 
-            initialClick( "element", #{elements} );
-            initialClick( "category", #{categories} );
-            initialClick( "rank", #{ranks} );
+        //    initialClick( "element", #{elements} );
+        //    initialClick( "category", #{categories} );
+        //    initialClick( "rank", #{ranks} );
