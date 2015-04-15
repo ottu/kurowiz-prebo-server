@@ -31,10 +31,7 @@ void index(HTTPServerRequest req, HTTPServerResponse res)
     Box pages = Box();
     pages.reload;
 
-    string need = "list";
-    string[] sorted;
-    string[] aggregated;
-    res.render!("index.dt", need, sorted, aggregated, pages, names, elements, categories, ranks);
+    res.render!("default.dt", pages, names, elements, categories, ranks);
 }
 
 void search(HTTPServerRequest req, HTTPServerResponse res)
@@ -84,6 +81,5 @@ void search(HTTPServerRequest req, HTTPServerResponse res)
     auto sorted = pages.sort();
     auto aggregated = pages.aggregate();
 
-    string need = "search";
-    res.render!("index.dt", need, pages, sorted, aggregated, names, elements, categories, ranks);
+    res.render!("tab.dt", pages, sorted, aggregated, names, elements, categories, ranks);
 }

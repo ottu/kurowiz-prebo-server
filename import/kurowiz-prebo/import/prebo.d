@@ -95,7 +95,7 @@ struct Card
 
         return JSONValue( [
             "name": this.name,
-            "element": this.elements.join("/"),
+            "element": this.elements.map!(to!string).join("/"),
             "category": this.category,
             "rank": this.rank,
             "option": this.option
