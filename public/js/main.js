@@ -37,12 +37,22 @@
     $('#use-button').on('click', function(){
         var checked_card = $(document).find(':checked');
         var uuids = [];
-        checked_card.each( function(index, data){
-            console.log(data);
-            if ($(data).hasClass('checkbox_parent')) return;
-            var tr = $(data).parent().parent()
+        checked_card.each( function(){
+            if ($(this).hasClass('checkbox_parent')) return;
+            var tr = $(this).parent().parent();
+            uuids.push(tr.attr('data-uuid'));
         });
 
-        console.log(uuids);
+        var data = { uuids: uuids };
+        $.ajax({
+            type: "DELETE",
+            url: "/delete",
+            data: data,
+            success: function(html){
+                var href = window.location.href.split('/');
+                window.location.href = href[0] + '//' + href[2];
+            }
+        });
+        return false;
     });
 })(jQuery)

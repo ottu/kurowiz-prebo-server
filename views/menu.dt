@@ -69,4 +69,5 @@ form( action="/search", method="GET", )
                 input( type="checkbox", name="rank", value="N", ) N
     button.btn.btn-default( type="submit", ) 検索
 h3 Etc
-    button.btn.btn-default#use-button( type="button", ) チェックしたカードを取り出す
+form
+    button.btn.btn-default#use-button( type="submit", ) チェックしたカードを取り出す
