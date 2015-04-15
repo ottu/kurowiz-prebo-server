@@ -6,8 +6,9 @@ import prebo;
 shared static this()
 {
     auto router = new URLRouter;
-    router.get("/", &index);
-    router.get("/search", &search);
+    router.get("/", &_index);
+    router.get("/search", &_search);
+    router.delete_("/delete", &_delete);
     router.get("*", serveStaticFiles("public/"));
 
     auto settings = new HTTPServerSettings;
@@ -20,7 +21,14 @@ shared static this()
     listenHTTP( settings, router );
 }
 
-void index(HTTPServerRequest req, HTTPServerResponse res)
+Box reload()
+{
+    Box box = Box();
+    box.reload;
+    return box;
+}
+
+void _index(HTTPServerRequest req, HTTPServerResponse res)
 {
 
     string[] names = [];
@@ -28,13 +36,12 @@ void index(HTTPServerRequest req, HTTPServerResponse res)
     string[] categories = [ "spirit", "material", "ether", "mana" ];
     string[] ranks = [ "L", "SS+", "SS", "S+", "S", "A+", "A", "B+", "B", "C+" ];
 
-    Box pages = Box();
-    pages.reload;
+    Box pages = reload();
 
     res.render!("default.dt", pages, names, elements, categories, ranks);
 }
 
-void search(HTTPServerRequest req, HTTPServerResponse res)
+void _search(HTTPServerRequest req, HTTPServerResponse res)
 {
     logInfo(req.query.to!string);
 
@@ -82,4 +89,17 @@ void search(HTTPServerRequest req, HTTPServerResponse res)
     auto aggregated = pages.aggregate();
 
     res.render!("tab.dt", pages, sorted, aggregated, names, elements, categories, ranks);
+}
+
+void _delete(HTTPServerRequest req, HTTPServerResponse res)
+{
+    string[] uuids;
+    foreach( key, value; req.form ) {
+        if (key != "uuids[]") continue;
+        uuids ~= value;
+    }
+    logInfo(uuids.to!string);
+
+    Box pages = reload();
+    res.render!("default.dt", pages);
 }
