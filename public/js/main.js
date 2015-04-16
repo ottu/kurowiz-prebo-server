@@ -27,8 +27,22 @@
     });
 
     $('tbody').on('click', 'tr', function(event){
+        if ($(event.target).hasClass('checkbox_child')) return;
+
         var checkbox = $(this).find(':checkbox'),
             isChecked = checkbox.prop('checked');
         checkbox.prop('checked', !isChecked );
+    });
+
+    $('#use-button').on('click', function(){
+        var checked_card = $(document).find(':checked');
+        var uuids = [];
+        checked_card.each( function(index, data){
+            console.log(data);
+            if ($(data).hasClass('checkbox_parent')) return;
+            var tr = $(data).parent().parent()
+        });
+
+        console.log(uuids);
     });
 })(jQuery)

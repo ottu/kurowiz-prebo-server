@@ -13,7 +13,7 @@
         tbody
             - foreach( card; page )
                 - string color = getColor( card.elements[0] );
-                tr(class='#{color}')
+                tr(class='#{color}', data-uuid='#{card.uuid}', )
                     th
                         input.checkbox_child( data-page='#{page.index}', type="checkbox", )
                     th= card.name

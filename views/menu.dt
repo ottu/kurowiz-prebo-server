@@ -1,4 +1,4 @@
-h3 Filter Settings
+h3 Search Settings
 form( action="/search", method="GET", )
     div.form-group
         label 名前
@@ -68,4 +68,5 @@ form( action="/search", method="GET", )
             label.w25.btn.btn-default#rank-button
                 input( type="checkbox", name="rank", value="N", ) N
     button.btn.btn-default( type="submit", ) 検索
-
+h3 Etc
+    button.btn.btn-default#use-button( type="button", ) チェックしたカードを取り出す
