@@ -19,4 +19,16 @@
             $(this).parent().parent().remove();
         }
     });
+
+    $('#checkbox_parent').on('click', function(){
+        var children = $('#checkbox_child[data-page="'+ $(this).attr('data-page')  +'"]'),
+            isChecked = $(this).prop('checked');
+        $(children).prop('checked', isChecked);
+    });
+
+    $('tbody').on('click', 'tr', function(event){
+        var checkbox = $(this).find(':checkbox'),
+            isChecked = checkbox.prop('checked');
+        checkbox.prop('checked', !isChecked );
+    });
 })(jQuery)
