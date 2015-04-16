@@ -20,8 +20,8 @@
         }
     });
 
-    $('#checkbox_parent').on('click', function(){
-        var children = $('#checkbox_child[data-page="'+ $(this).attr('data-page')  +'"]'),
+    $('.checkbox_parent').on('click', function(){
+        var children = $('.checkbox_child[data-page="'+ $(this).attr('data-page')  +'"]'),
             isChecked = $(this).prop('checked');
         $(children).prop('checked', isChecked);
     });

@@ -16,6 +16,7 @@ block main
                 thead
                     tr
                         th
+                            input.checkbox_parent( data-page="sort", type="checkbox", )
                         th.w10 ページ
                         th.w30 名前
                         th.w20 属性
@@ -27,7 +28,7 @@ block main
                         - string color = getColor( card[1].elements[0] );
                         tr(class='#{color}')
                             th
-                                input( type="checkbox", )
+                                input.checkbox_child( data-page="sort", type="checkbox", )
                             th= card[0]
                             th= card[1].name
                             th= card[1].elements
