@@ -4,7 +4,7 @@
         thead
             tr
                 th
-                    input#checkbox_parent( data-page='#{page.index}', type="checkbox", )
+                    input.checkbox_parent( data-page='#{page.index}', type="checkbox", )
                 th.w30 名前
                 th.w20 属性
                 th.w20 カテゴリ
@@ -15,7 +15,7 @@
                 - string color = getColor( card.elements[0] );
                 tr(class='#{color}')
                     th
-                        input#checkbox_child( data-page='#{page.index}', type="checkbox", )
+                        input.checkbox_child( data-page='#{page.index}', type="checkbox", )
                     th= card.name
                     th= card.elements
                     th= card.category
