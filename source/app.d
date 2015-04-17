@@ -1,6 +1,8 @@
 import vibe.d;
 import vibe.core.log;
 
+import std.uuid;
+
 import prebo;
 
 shared static this()
@@ -93,13 +95,14 @@ void _search(HTTPServerRequest req, HTTPServerResponse res)
 
 void _delete(HTTPServerRequest req, HTTPServerResponse res)
 {
-    string[] uuids;
+    UUID[] uuids;
     foreach( key, value; req.form ) {
         if (key != "uuids[]") continue;
-        uuids ~= value;
+        uuids ~= UUID(value);
     }
-    logInfo(uuids.to!string);
 
     Box pages = reload();
+    pages.deleteUUIDs(uuids);
+    pages.save("./import/kurowiz-prebo/");
     res.render!("default.dt", pages);
 }

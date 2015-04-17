@@ -17,7 +17,7 @@
                     th
                         input.checkbox_child( data-page='#{page.index}', type="checkbox", )
                     th= card.name
-                    th= card.elements
-                    th= card.category
-                    th= card.rank
+                    th= card.elements.join("/")
+                    th= cast(string)card.category
+                    th= cast(string)card.rank
                     th= card.option
