@@ -101,7 +101,7 @@ struct Card
         return JSONValue( [
             "uuid": this.uuid.toString,
             "name": this.name,
-            "element": this.elements.join("/"),
+            "element": this.elements.map!(elem=>cast(string)elem).join("/"),
             "category": this.category,
             "rank": this.rank,
             "option": this.option
@@ -111,7 +111,7 @@ struct Card
     string toString() const
     {
         return "Card( name: %s, element: %s, category: %s, rank: %s, option: %s )"
-               .format( name, elements.join("/"), cast(string)category, cast(string)rank, option );
+               .format( name, elements.map!(elem=>cast(string)elem).join("/"), cast(string)category, cast(string)rank, option );
     }
 }
 
