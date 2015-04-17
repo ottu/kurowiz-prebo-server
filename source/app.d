@@ -97,18 +97,24 @@ void _search(HTTPServerRequest req, HTTPServerResponse res)
 
 void _add(HTTPServerRequest req, HTTPServerResponse res)
 {
-    string[] news_lines = req.form["news"].split();
-    logInfo(news_lines.to!string);
+    logInfo(req.form["news"].to!string);
 
     Card[] news;
     foreach( line; csvReader!(Tuple!(string,string,string,string,string))(req.form["news"]) ) {
 
         if (line == tuple("","","","","")) { continue; }
 
+        if ( line[0].empty || line[1].empty || line[2].empty || line[3].empty ) {
+            logInfo("Broken format!: %s".format(line));
+            return;
+        }
+
         Element[] elements;
         foreach( elem; line[1].split("/") ) {
             elements ~= cast(Element)elem;
         }
+
+        logInfo("Add new Card: %s".format(line));
 
         news ~= Card(
             line[0],
@@ -118,6 +124,8 @@ void _add(HTTPServerRequest req, HTTPServerResponse res)
             line[4]
         );
     }
+
+    if (!news.empty) { return; }
 
     Box pages = reload();
     pages.addNews( news );
