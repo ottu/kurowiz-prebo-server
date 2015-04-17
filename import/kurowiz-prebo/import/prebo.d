@@ -72,7 +72,12 @@ struct Card
 
     this( JSONValue json )
     {
-        this.uuid = randomUUID();
+        if (json["uuid"].str.empty) {
+            this.uuid = randomUUID();
+        } else {
+            this.uuid = UUID(json["uuid"].str);
+        }
+
         this.name = json["name"].str;
 
         Element[] elements = [];
@@ -94,6 +99,7 @@ struct Card
         elements = elements[0..$-1];
 
         return JSONValue( [
+            "uuid": this.uuid.toString,
             "name": this.name,
             "element": this.elements.map!(to!string).join("/"),
             "category": this.category,
