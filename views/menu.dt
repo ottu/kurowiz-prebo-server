@@ -68,6 +68,10 @@ form( action="/search", method="GET", )
             label.w25.btn.btn-default#rank-button
                 input( type="checkbox", name="rank", value="N", ) N
     button.btn.btn-default( type="submit", ) 検索
-h3 Etc
+h3 Delete
 form
     button.btn.btn-default#use-button( type="submit", ) チェックしたカードを取り出す
+h3 Add
+form( action="/add", method="POST", )
+    textarea#news-textarea( name="news", row="10",  )
+    button.btn.btn-default#add-button( type="submit", ) カードを追加する

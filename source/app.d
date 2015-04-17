@@ -2,6 +2,7 @@ import vibe.d;
 import vibe.core.log;
 
 import std.uuid;
+import std.csv;
 
 import prebo;
 
@@ -11,6 +12,7 @@ shared static this()
     router.get("/", &_index);
     router.get("/search", &_search);
     router.delete_("/delete", &_delete);
+    router.post("/add", &_add);
     router.get("*", serveStaticFiles("public/"));
 
     auto settings = new HTTPServerSettings;
@@ -92,6 +94,37 @@ void _search(HTTPServerRequest req, HTTPServerResponse res)
 
     res.render!("tab.dt", pages, sorted, aggregated, names, elements, categories, ranks);
 }
+
+void _add(HTTPServerRequest req, HTTPServerResponse res)
+{
+    string[] news_lines = req.form["news"].split();
+    logInfo(news_lines.to!string);
+
+    Card[] news;
+    foreach( line; csvReader!(Tuple!(string,string,string,string,string))(req.form["news"]) ) {
+
+        if (line == tuple("","","","","")) { continue; }
+
+        Element[] elements;
+        foreach( elem; line[1].split("/") ) {
+            elements ~= cast(Element)elem;
+        }
+
+        news ~= Card(
+            line[0],
+            elements,
+            cast(Category)line[2],
+            cast(Rank)line[3],
+            line[4]
+        );
+    }
+
+    Box pages = reload();
+    pages.addNews( news );
+    pages.save("./import/kurowiz-prebo/");
+    res.render!("default.dt", pages);
+}
+
 
 void _delete(HTTPServerRequest req, HTTPServerResponse res)
 {
