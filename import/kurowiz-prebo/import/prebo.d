@@ -82,7 +82,7 @@ struct Card
 
         Element[] elements = [];
         foreach( elem; json["element"].str.split('/') ) {
-            elements ~= cast(Element)(elem.to!string);
+            elements ~= cast(Element)elem;
         }
         this.elements = elements;
         this.category = cast(Category)(json["category"].str);
@@ -101,7 +101,7 @@ struct Card
         return JSONValue( [
             "uuid": this.uuid.toString,
             "name": this.name,
-            "element": this.elements.map!(to!string).join("/"),
+            "element": this.elements.join("/"),
             "category": this.category,
             "rank": this.rank,
             "option": this.option
@@ -111,7 +111,7 @@ struct Card
     string toString() const
     {
         return "Card( name: %s, element: %s, category: %s, rank: %s, option: %s )"
-               .format( name, elements, category, rank, option );
+               .format( name, elements.join("/"), cast(string)category, cast(string)rank, option );
     }
 }
 
