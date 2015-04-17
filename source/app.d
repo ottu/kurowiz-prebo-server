@@ -125,7 +125,7 @@ void _add(HTTPServerRequest req, HTTPServerResponse res)
         );
     }
 
-    if (!news.empty) { return; }
+    if (news.empty) { return; }
 
     Box pages = reload();
     pages.addNews( news );
