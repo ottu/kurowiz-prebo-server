@@ -167,7 +167,18 @@ struct Box
         return result;
     }
 
-    void save()
+    void deleteUUIDs( UUID[] uuids )
+    {
+        Card[] tmp;
+        foreach( card; cards )
+        {
+            if (find(uuids, card.uuid).empty)
+                tmp ~= card;
+        }
+        cards = tmp;
+    }
+
+    void save( string dir = "./")
     {
         JSONValue[] pages = [];
         foreach( page; this )
@@ -180,11 +191,13 @@ struct Box
 
         auto root = JSONValue( [ "pages": pages ] );
 
-        if ( exists("./backup.json") )
-            std.file.remove("./backup.json");
-        if ( exists("./list.json") )
-            std.file.rename("./list.json", "./backup.json");
-        std.file.write("./list.json", root.toPrettyString);
+        string backup_path = dir ~ "backup.json";
+        string list_path = dir ~ "list.json";
+        if ( exists(backup_path) )
+            std.file.remove(backup_path);
+        if ( exists(list_path) )
+            std.file.rename(list_path, backup_path);
+        std.file.write(list_path, root.toPrettyString);
     }
 }
 
