@@ -5,6 +5,155 @@
             "cards": [
                 {
                     "element": "thunder",
+                    "rank": "B",
+                    "option": "",
+                    "category": "spirit",
+                    "uuid": "d87ab711-4c87-464c-8b71-4012d6773904",
+                    "name": "性悪お菓子人形 ヘクセンくん"
+                },
+                {
+                    "element": "thunder",
+                    "rank": "S",
+                    "option": "",
+                    "category": "spirit",
+                    "uuid": "f6f0244f-f8ef-4730-ab0a-4867a7dfbe43",
+                    "name": "本"
+                },
+                {
+                    "element": "water",
+                    "rank": "S",
+                    "option": "",
+                    "category": "spirit",
+                    "uuid": "a2a3eb63-32e2-493d-9853-e6a882e55e70",
+                    "name": "本"
+                },
+                {
+                    "element": "fire",
+                    "rank": "S",
+                    "option": "",
+                    "category": "spirit",
+                    "uuid": "a91d7b6b-a152-4934-8ec1-21cc4e2c5474",
+                    "name": "本"
+                },
+                {
+                    "element": "thunder",
+                    "rank": "B",
+                    "option": "",
+                    "category": "spirit",
+                    "uuid": "ee27487b-ae9a-44b3-8bd8-f1589263093f",
+                    "name": "性悪お菓子人形 ヘクセンくん"
+                },
+                {
+                    "element": "thunder",
+                    "rank": "S",
+                    "option": "",
+                    "category": "spirit",
+                    "uuid": "2ac4e1dc-8b26-4b77-9a55-1babb5a40544",
+                    "name": "本"
+                },
+                {
+                    "element": "water",
+                    "rank": "S",
+                    "option": "",
+                    "category": "spirit",
+                    "uuid": "5bac7667-a94d-4ffe-af8d-508157ce4741",
+                    "name": "本"
+                },
+                {
+                    "element": "fire",
+                    "rank": "S",
+                    "option": "",
+                    "category": "spirit",
+                    "uuid": "888a6c7f-e5f8-4643-b3a0-76d2b2135bab",
+                    "name": "本"
+                },
+                {
+                    "element": "thunder",
+                    "rank": "S",
+                    "option": "",
+                    "category": "spirit",
+                    "uuid": "1f64bb42-44fb-484f-a272-1b8313091a32",
+                    "name": "本"
+                },
+                {
+                    "element": "water",
+                    "rank": "S",
+                    "option": "",
+                    "category": "spirit",
+                    "uuid": "8dff11cb-1349-4ce4-a5c4-b22a9faaa17a",
+                    "name": "本"
+                }
+            ]
+        },
+        {
+            "page": 2,
+            "cards": [
+                {
+                    "element": "fire",
+                    "rank": "S",
+                    "option": "",
+                    "category": "spirit",
+                    "uuid": "ff28206f-ecff-448e-a3b1-92cd9d153ab7",
+                    "name": "本"
+                },
+                {
+                    "element": "fire\/water",
+                    "rank": "B",
+                    "option": "",
+                    "category": "spirit",
+                    "uuid": "5df5eb20-e3d6-44fd-8e69-55cae44e2284",
+                    "name": "勇者 しょこたん"
+                },
+                {
+                    "element": "thunder",
+                    "rank": "S",
+                    "option": "",
+                    "category": "spirit",
+                    "uuid": "7300e269-0fc5-4ccc-a95b-e05a21d1b3f8",
+                    "name": "本"
+                },
+                {
+                    "element": "water",
+                    "rank": "S",
+                    "option": "",
+                    "category": "spirit",
+                    "uuid": "81fb5006-f521-4879-a246-11efb845c8be",
+                    "name": "本"
+                },
+                {
+                    "element": "fire",
+                    "rank": "S",
+                    "option": "",
+                    "category": "spirit",
+                    "uuid": "09649ddf-2404-4d7a-9e8e-706cb3c14d37",
+                    "name": "本"
+                },
+                {
+                    "element": "water",
+                    "rank": "A",
+                    "option": "200",
+                    "category": "mana",
+                    "uuid": "66207440-0133-4475-aa55-5e4a34664aef",
+                    "name": "マナ・エレメント"
+                },
+                {
+                    "element": "thunder",
+                    "rank": "S",
+                    "option": "100",
+                    "category": "ether",
+                    "uuid": "4c635abf-f18b-4b37-addd-56db49afdbff",
+                    "name": "ハイ・エーテルグラス"
+                },
+                {
+                    "element": "fire",
+                    "rank": "L",
+                    "option": "",
+                    "category": "spirit",
+                    "uuid": "8ab5a4cf-78c8-4858-b1d8-79b7555fe5c3",
+                    "name": "アイテムハンター 交渉人すじこ"
+                },
+                {
+                    "element": "thunder",
                     "rank": "A",
                     "option": "25",
                     "category": "ether",
@@ -18,7 +167,12 @@
                     "category": "spirit",
                     "uuid": "242c3e4e-3611-4b1d-aa3a-975b4737fe37",
                     "name": "封じられし魔神 アスモデウス"
-                },
+                }
+            ]
+        },
+        {
+            "page": 3,
+            "cards": [
                 {
                     "element": "water",
                     "rank": "A",
@@ -82,12 +236,7 @@
                     "category": "mana",
                     "uuid": "51cf0b11-a2fb-4a94-b594-bbc227e1ee1b",
                     "name": "マナ・エレメント"
-                }
-            ]
-        },
-        {
-            "page": 2,
-            "cards": [
+                },
                 {
                     "element": "water",
                     "rank": "A",
@@ -103,7 +252,12 @@
                     "category": "material",
                     "uuid": "e46e93e0-68ff-48e8-b501-96f125653d9d",
                     "name": "タヌキ"
-                },
+                }
+            ]
+        },
+        {
+            "page": 4,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "A+",
@@ -167,12 +321,7 @@
                     "category": "ether",
                     "uuid": "42a6954c-17fe-4375-8867-633e3bf8b65c",
                     "name": "エーテルグラス"
-                }
-            ]
-        },
-        {
-            "page": 3,
-            "cards": [
+                },
                 {
                     "element": "fire",
                     "rank": "A",
@@ -188,7 +337,12 @@
                     "category": "material",
                     "uuid": "135f027f-527d-463e-b9fa-8ede718c076d",
                     "name": "木"
-                },
+                }
+            ]
+        },
+        {
+            "page": 5,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "A",
@@ -252,12 +406,7 @@
                     "category": "material",
                     "uuid": "9f4581e7-ceca-47ab-9dbd-a8ec15bb2a9b",
                     "name": "木"
-                }
-            ]
-        },
-        {
-            "page": 4,
-            "cards": [
+                },
                 {
                     "element": "fire",
                     "rank": "S+",
@@ -273,7 +422,12 @@
                     "category": "material",
                     "uuid": "b6991b51-1ac7-4b30-b573-9a8ca64caef3",
                     "name": "本"
-                },
+                }
+            ]
+        },
+        {
+            "page": 6,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "S",
@@ -337,12 +491,7 @@
                     "category": "ether",
                     "uuid": "41e9cdef-86d4-48b5-bc46-39f958fa7585",
                     "name": "ハイ・エーテルグラス"
-                }
-            ]
-        },
-        {
-            "page": 5,
-            "cards": [
+                },
                 {
                     "element": "thunder",
                     "rank": "S",
@@ -358,7 +507,12 @@
                     "category": "ether",
                     "uuid": "800b7ab3-9383-4d86-a5fe-7d6789e15b35",
                     "name": "ハイ・エーテルグラス"
-                },
+                }
+            ]
+        },
+        {
+            "page": 7,
+            "cards": [
                 {
                     "element": "fire",
                     "rank": "A",
@@ -422,12 +576,7 @@
                     "category": "ether",
                     "uuid": "560e0e67-f958-4726-92ef-69426d429157",
                     "name": "ハイ・エーテルグラス"
-                }
-            ]
-        },
-        {
-            "page": 6,
-            "cards": [
+                },
                 {
                     "element": "thunder",
                     "rank": "S",
@@ -443,7 +592,12 @@
                     "category": "spirit",
                     "uuid": "1c28bb6a-0ff1-4688-b6f0-59764d624af7",
                     "name": "叡智の扉！？"
-                },
+                }
+            ]
+        },
+        {
+            "page": 8,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "S",
@@ -507,12 +661,7 @@
                     "category": "ether",
                     "uuid": "6dfde1e3-fb7e-4846-9825-b54a6471f3e0",
                     "name": "ハイ・エーテルグラス"
-                }
-            ]
-        },
-        {
-            "page": 7,
-            "cards": [
+                },
                 {
                     "element": "thunder",
                     "rank": "B",
@@ -528,7 +677,12 @@
                     "category": "spirit",
                     "uuid": "3ae5273b-8863-4996-8b57-59a23672e7e7",
                     "name": "本"
-                },
+                }
+            ]
+        },
+        {
+            "page": 9,
+            "cards": [
                 {
                     "element": "water",
                     "rank": "SS",
@@ -592,12 +746,7 @@
                     "category": "ether",
                     "uuid": "54c73573-0ba9-43e3-b5a4-3655bbc1c290",
                     "name": "エーテルグラス"
-                }
-            ]
-        },
-        {
-            "page": 8,
-            "cards": [
+                },
                 {
                     "element": "thunder",
                     "rank": "A+",
@@ -613,7 +762,12 @@
                     "category": "spirit",
                     "uuid": "249f1d2c-102d-42ef-a9ba-7c3b43dae664",
                     "name": "猫専用マント"
-                },
+                }
+            ]
+        },
+        {
+            "page": 10,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "S",
@@ -677,12 +831,7 @@
                     "category": "ether",
                     "uuid": "0bbc6ed3-3504-4dc3-af1d-1e0288339b6d",
                     "name": "ハイ・エーテルグラス"
-                }
-            ]
-        },
-        {
-            "page": 9,
-            "cards": [
+                },
                 {
                     "element": "water",
                     "rank": "A",
@@ -698,7 +847,12 @@
                     "category": "spirit",
                     "uuid": "d8cfb208-8c6f-41b7-ac0e-5433290409d5",
                     "name": "2足歩行！ 立ち上がる猫"
-                },
+                }
+            ]
+        },
+        {
+            "page": 11,
+            "cards": [
                 {
                     "element": "fire",
                     "rank": "A+",
@@ -762,12 +916,7 @@
                     "category": "mana",
                     "uuid": "1a31e00a-c1a9-4e4d-96bc-be39425f1df0",
                     "name": "マナ・エレメント"
-                }
-            ]
-        },
-        {
-            "page": 10,
-            "cards": [
+                },
                 {
                     "element": "thunder",
                     "rank": "S",
@@ -783,7 +932,12 @@
                     "category": "spirit",
                     "uuid": "c51e5988-e1a2-4f58-b959-59a998ddd503",
                     "name": "アスモデウス"
-                },
+                }
+            ]
+        },
+        {
+            "page": 12,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "S",
@@ -847,12 +1001,7 @@
                     "category": "spirit",
                     "uuid": "89ca719b-bf47-4114-91cf-eedf85960767",
                     "name": "ルーファス"
-                }
-            ]
-        },
-        {
-            "page": 11,
-            "cards": [
+                },
                 {
                     "element": "fire",
                     "rank": "A",
@@ -868,7 +1017,12 @@
                     "category": "spirit",
                     "uuid": "d696c4e7-17a5-4661-98b0-049796fc6cce",
                     "name": "キティ"
-                },
+                }
+            ]
+        },
+        {
+            "page": 13,
+            "cards": [
                 {
                     "element": "water",
                     "rank": "S",
@@ -932,12 +1086,7 @@
                     "category": "spirit",
                     "uuid": "8641123d-5c69-47aa-86c3-baa6ca53795e",
                     "name": "ミュウ"
-                }
-            ]
-        },
-        {
-            "page": 12,
-            "cards": [
+                },
                 {
                     "element": "thunder",
                     "rank": "S",
@@ -953,7 +1102,12 @@
                     "category": "ether",
                     "uuid": "c04f523e-5a83-449c-bf57-90bae5470709",
                     "name": "ハイ・エーテルグラス"
-                },
+                }
+            ]
+        },
+        {
+            "page": 14,
+            "cards": [
                 {
                     "element": "water",
                     "rank": "A",
@@ -1017,12 +1171,7 @@
                     "category": "material",
                     "uuid": "556b6514-1030-40c8-8ee6-9c1b5c0f7cb5",
                     "name": "木"
-                }
-            ]
-        },
-        {
-            "page": 13,
-            "cards": [
+                },
                 {
                     "element": "water",
                     "rank": "A",
@@ -1038,7 +1187,12 @@
                     "category": "spirit",
                     "uuid": "028a4548-a122-4cc1-a0c1-f22de309cddb",
                     "name": "リムルカ"
-                },
+                }
+            ]
+        },
+        {
+            "page": 15,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "A+",
@@ -1102,12 +1256,7 @@
                     "category": "spirit",
                     "uuid": "d8a08fc9-8e96-4a5f-8f5a-d246916a9352",
                     "name": "リムルカ"
-                }
-            ]
-        },
-        {
-            "page": 14,
-            "cards": [
+                },
                 {
                     "element": "water",
                     "rank": "A",
@@ -1123,7 +1272,12 @@
                     "category": "spirit",
                     "uuid": "bc63f269-cf6c-48a6-b741-d090c65d9dd8",
                     "name": "だるまさんがころんだ！"
-                },
+                }
+            ]
+        },
+        {
+            "page": 16,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "A+",
@@ -1187,12 +1341,7 @@
                     "category": "material",
                     "uuid": "728d9987-7dd0-4291-9631-3ab938a3106b",
                     "name": "木"
-                }
-            ]
-        },
-        {
-            "page": 15,
-            "cards": [
+                },
                 {
                     "element": "fire",
                     "rank": "S",
@@ -1208,7 +1357,12 @@
                     "category": "material",
                     "uuid": "92e8ce1b-5346-44ea-957f-babd867471a4",
                     "name": "木"
-                },
+                }
+            ]
+        },
+        {
+            "page": 17,
+            "cards": [
                 {
                     "element": "water",
                     "rank": "A+",
@@ -1272,12 +1426,7 @@
                     "category": "spirit",
                     "uuid": "b6ff01ed-7291-4244-99c5-7f9819426d6e",
                     "name": "スウィー"
-                }
-            ]
-        },
-        {
-            "page": 16,
-            "cards": [
+                },
                 {
                     "element": "thunder",
                     "rank": "S",
@@ -1293,7 +1442,12 @@
                     "category": "spirit",
                     "uuid": "52cd3fc1-3d70-46b7-8f88-0feac51f978a",
                     "name": "スウィー"
-                },
+                }
+            ]
+        },
+        {
+            "page": 18,
+            "cards": [
                 {
                     "element": "water",
                     "rank": "A",
@@ -1357,12 +1511,7 @@
                     "category": "material",
                     "uuid": "12eb1d20-c22b-4197-b30a-79cba35bb280",
                     "name": "木"
-                }
-            ]
-        },
-        {
-            "page": 17,
-            "cards": [
+                },
                 {
                     "element": "thunder",
                     "rank": "B",
@@ -1378,7 +1527,12 @@
                     "category": "spirit",
                     "uuid": "3dfc294d-953a-4c3e-9054-3d271df9d5c8",
                     "name": "タモン"
-                },
+                }
+            ]
+        },
+        {
+            "page": 19,
+            "cards": [
                 {
                     "element": "water",
                     "rank": "S",
@@ -1442,12 +1596,7 @@
                     "category": "spirit",
                     "uuid": "baccafa3-01d8-4639-bc34-69c1e69794dc",
                     "name": "タモン"
-                }
-            ]
-        },
-        {
-            "page": 18,
-            "cards": [
+                },
                 {
                     "element": "fire",
                     "rank": "S",
@@ -1463,7 +1612,12 @@
                     "category": "ether",
                     "uuid": "ff1d9e2f-418a-4c21-bf68-0eafd11a5071",
                     "name": "ハイ・エーテルグラス"
-                },
+                }
+            ]
+        },
+        {
+            "page": 20,
+            "cards": [
                 {
                     "element": "water",
                     "rank": "A",
@@ -1527,12 +1681,7 @@
                     "category": "ether",
                     "uuid": "ea8dddbc-b961-4234-8fcb-72a9c938a55c",
                     "name": "エーテルグラス"
-                }
-            ]
-        },
-        {
-            "page": 19,
-            "cards": [
+                },
                 {
                     "element": "water",
                     "rank": "A",
@@ -1548,7 +1697,12 @@
                     "category": "ether",
                     "uuid": "bccc0135-475d-4432-930e-20a9bfdff074",
                     "name": "ハイ・エーテルグラス"
-                },
+                }
+            ]
+        },
+        {
+            "page": 21,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "S",
@@ -1612,12 +1766,7 @@
                     "category": "spirit",
                     "uuid": "cbc8c471-0acf-4898-9b40-c54ef14dad22",
                     "name": "ルーファス"
-                }
-            ]
-        },
-        {
-            "page": 20,
-            "cards": [
+                },
                 {
                     "element": "water",
                     "rank": "S",
@@ -1633,7 +1782,12 @@
                     "category": "spirit",
                     "uuid": "381ee5d2-5749-4a3a-8e7d-5e7de449d2fc",
                     "name": "玲華"
-                },
+                }
+            ]
+        },
+        {
+            "page": 22,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "S",
@@ -1697,12 +1851,7 @@
                     "category": "mana",
                     "uuid": "db7a1d99-6e7f-4a31-b12f-a60cfa21b1cf",
                     "name": "マナ・エレメント"
-                }
-            ]
-        },
-        {
-            "page": 21,
-            "cards": [
+                },
                 {
                     "element": "thunder",
                     "rank": "S",
@@ -1718,7 +1867,12 @@
                     "category": "mana",
                     "uuid": "0ef50b72-bb05-4bd0-aa27-137d207025e9",
                     "name": "マナ・エレメント"
-                },
+                }
+            ]
+        },
+        {
+            "page": 23,
+            "cards": [
                 {
                     "element": "water",
                     "rank": "A",
@@ -1782,12 +1936,7 @@
                     "category": "spirit",
                     "uuid": "00c2065d-89ba-4b91-869c-5ba8660b1cf8",
                     "name": "フェルチ"
-                }
-            ]
-        },
-        {
-            "page": 22,
-            "cards": [
+                },
                 {
                     "element": "thunder",
                     "rank": "S",
@@ -1803,7 +1952,12 @@
                     "category": "spirit",
                     "uuid": "fbbbd039-4b39-4bc7-a37f-1bf151897d26",
                     "name": "ファム"
-                },
+                }
+            ]
+        },
+        {
+            "page": 24,
+            "cards": [
                 {
                     "element": "fire",
                     "rank": "B",
@@ -1867,12 +2021,7 @@
                     "category": "material",
                     "uuid": "8439a34b-3df8-4f80-bb86-18e0a65a1e95",
                     "name": "木"
-                }
-            ]
-        },
-        {
-            "page": 23,
-            "cards": [
+                },
                 {
                     "element": "thunder",
                     "rank": "S",
@@ -1888,7 +2037,12 @@
                     "category": "spirit",
                     "uuid": "2a4f548e-08ac-4325-b1fd-02a02d95bec4",
                     "name": "ニャンモナイト！？"
-                },
+                }
+            ]
+        },
+        {
+            "page": 25,
+            "cards": [
                 {
                     "element": "water",
                     "rank": "A",
@@ -1952,12 +2106,7 @@
                     "category": "spirit",
                     "uuid": "ee8ece57-f7ad-40eb-9ef5-5169b8bb91f0",
                     "name": "起きたら黒ウィズやるにゃ〜猫"
-                }
-            ]
-        },
-        {
-            "page": 24,
-            "cards": [
+                },
                 {
                     "element": "thunder",
                     "rank": "A",
@@ -1973,7 +2122,12 @@
                     "category": "spirit",
                     "uuid": "8af78ea4-2dab-44fe-aa12-e4c002de8a53",
                     "name": "フェルチ"
-                },
+                }
+            ]
+        },
+        {
+            "page": 26,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "A",
@@ -2037,12 +2191,7 @@
                     "category": "spirit",
                     "uuid": "c29a290d-231a-4350-af6d-5eed4a7f2f9b",
                     "name": "ディアヴォロス"
-                }
-            ]
-        },
-        {
-            "page": 25,
-            "cards": [
+                },
                 {
                     "element": "water",
                     "rank": "A",
@@ -2058,7 +2207,12 @@
                     "category": "material",
                     "uuid": "a1cb75f4-6e67-4504-97c5-f439035ca687",
                     "name": "木"
-                },
+                }
+            ]
+        },
+        {
+            "page": 27,
+            "cards": [
                 {
                     "element": "water",
                     "rank": "A",
@@ -2122,12 +2276,7 @@
                     "category": "spirit",
                     "uuid": "4a2e2bf3-fce5-4ef5-bf1a-f1dd335f695c",
                     "name": "2足歩行！ 立ち上がる猫"
-                }
-            ]
-        },
-        {
-            "page": 26,
-            "cards": [
+                },
                 {
                     "element": "thunder",
                     "rank": "S",
@@ -2143,7 +2292,12 @@
                     "category": "material",
                     "uuid": "c8dbbae6-5560-4d40-9254-42221c32bc3d",
                     "name": "ロシェ"
-                },
+                }
+            ]
+        },
+        {
+            "page": 28,
+            "cards": [
                 {
                     "element": "fire",
                     "rank": "S",
@@ -2207,12 +2361,7 @@
                     "category": "spirit",
                     "uuid": "549aae84-6449-42de-a482-d71404021ab9",
                     "name": "CM記念猫ウィズ"
-                }
-            ]
-        },
-        {
-            "page": 27,
-            "cards": [
+                },
                 {
                     "element": "thunder",
                     "rank": "S",
@@ -2228,7 +2377,12 @@
                     "category": "spirit",
                     "uuid": "3fe9f45d-b24a-4fc6-98d7-c39d45a3c483",
                     "name": "ブリューダイン"
-                },
+                }
+            ]
+        },
+        {
+            "page": 29,
+            "cards": [
                 {
                     "element": "fire",
                     "rank": "A+",
@@ -2292,12 +2446,7 @@
                     "category": "spirit",
                     "uuid": "c171b1c6-e800-40ac-b9d1-470754baefe7",
                     "name": "いぬクッキー ベジタブル味"
-                }
-            ]
-        },
-        {
-            "page": 28,
-            "cards": [
+                },
                 {
                     "element": "fire",
                     "rank": "A",
@@ -2313,7 +2462,12 @@
                     "category": "spirit",
                     "uuid": "bfc0fd89-ab0a-4c0f-97c3-fb1dfa53057b",
                     "name": "クッキー大好きな仔犬 クロ"
-                },
+                }
+            ]
+        },
+        {
+            "page": 30,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "S",
@@ -2377,12 +2531,7 @@
                     "category": "ether",
                     "uuid": "6e439a40-a038-44a7-b2c2-cdb85597f333",
                     "name": "ハイ・エーテルグラス"
-                }
-            ]
-        },
-        {
-            "page": 29,
-            "cards": [
+                },
                 {
                     "element": "thunder",
                     "rank": "S",
@@ -2398,7 +2547,12 @@
                     "category": "ether",
                     "uuid": "99c59dc4-2e36-4cfe-b3f1-49994650d213",
                     "name": "ミニ・エーテルグラス"
-                },
+                }
+            ]
+        },
+        {
+            "page": 31,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "A",
@@ -2462,12 +2616,7 @@
                     "category": "material",
                     "uuid": "57b19458-9fa4-4392-9d4a-3f5551cd7988",
                     "name": "木"
-                }
-            ]
-        },
-        {
-            "page": 30,
-            "cards": [
+                },
                 {
                     "element": "water",
                     "rank": "A",
@@ -2483,7 +2632,12 @@
                     "category": "spirit",
                     "uuid": "cb5d8664-bf6f-482f-a105-875087aa22ae",
                     "name": "ザラジュラム"
-                },
+                }
+            ]
+        },
+        {
+            "page": 32,
+            "cards": [
                 {
                     "element": "water",
                     "rank": "SS",
@@ -2547,12 +2701,7 @@
                     "category": "mana",
                     "uuid": "ec8b034d-2960-465c-94a0-e53e5b0f93ff",
                     "name": "マナ・エレメント"
-                }
-            ]
-        },
-        {
-            "page": 31,
-            "cards": [
+                },
                 {
                     "element": "water",
                     "rank": "A",
@@ -2568,7 +2717,12 @@
                     "category": "material",
                     "uuid": "0477ae22-f5e4-4c3e-a034-a4419ca37880",
                     "name": "木"
-                },
+                }
+            ]
+        },
+        {
+            "page": 33,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "A+",
@@ -2632,12 +2786,7 @@
                     "category": "spirit",
                     "uuid": "90d523b4-e6e3-4368-b5b5-70f3d2812eda",
                     "name": "灼爪のゼェール"
-                }
-            ]
-        },
-        {
-            "page": 32,
-            "cards": [
+                },
                 {
                     "element": "fire",
                     "rank": "S",
@@ -2653,7 +2802,12 @@
                     "category": "ether",
                     "uuid": "3e6cddd8-60ac-462f-a9aa-e98d1268be51",
                     "name": "エーテルグラス"
-                },
+                }
+            ]
+        },
+        {
+            "page": 34,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "A+",
@@ -2717,12 +2871,7 @@
                     "category": "ether",
                     "uuid": "78b154d6-5d61-4847-92f4-6957609fc13f",
                     "name": "ミニ・エーテルグラス"
-                }
-            ]
-        },
-        {
-            "page": 33,
-            "cards": [
+                },
                 {
                     "element": "thunder",
                     "rank": "A+",
@@ -2738,7 +2887,12 @@
                     "category": "ether",
                     "uuid": "a0b1b39e-29a9-4603-882a-087945f29046",
                     "name": "エーテルグラス"
-                },
+                }
+            ]
+        },
+        {
+            "page": 35,
+            "cards": [
                 {
                     "element": "water",
                     "rank": "S+",
@@ -2802,12 +2956,7 @@
                     "category": "spirit",
                     "uuid": "760b1356-2ad5-4e3d-b325-5c79d6fed35a",
                     "name": "鍋にすっぽり猫"
-                }
-            ]
-        },
-        {
-            "page": 34,
-            "cards": [
+                },
                 {
                     "element": "thunder",
                     "rank": "A+",
@@ -2823,7 +2972,12 @@
                     "category": "ether",
                     "uuid": "dc76c22a-7506-4e9f-924f-bbc237cedb8d",
                     "name": "ミニ・エーテルグラス"
-                },
+                }
+            ]
+        },
+        {
+            "page": 36,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "A",
@@ -2887,12 +3041,7 @@
                     "category": "mana",
                     "uuid": "9456f61d-5612-46f4-93ff-e0095090b3d8",
                     "name": "マナ・エレメント"
-                }
-            ]
-        },
-        {
-            "page": 35,
-            "cards": [
+                },
                 {
                     "element": "fire",
                     "rank": "A+",
@@ -2908,7 +3057,12 @@
                     "category": "ether",
                     "uuid": "5a47d974-8de5-4ffe-a544-cbfebb1a6a09",
                     "name": "ミニ・エーテルグラス"
-                },
+                }
+            ]
+        },
+        {
+            "page": 37,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "A",
@@ -2972,12 +3126,7 @@
                     "category": "ether",
                     "uuid": "89c7e56a-6849-4901-8e0e-0942292f82f2",
                     "name": "エーテルグラス"
-                }
-            ]
-        },
-        {
-            "page": 36,
-            "cards": [
+                },
                 {
                     "element": "water",
                     "rank": "A",
@@ -2993,7 +3142,12 @@
                     "category": "ether",
                     "uuid": "75cbe029-4b3c-43ce-9278-856ea3c54b6f",
                     "name": "エーテルグラス"
-                },
+                }
+            ]
+        },
+        {
+            "page": 38,
+            "cards": [
                 {
                     "element": "water",
                     "rank": "A",
@@ -3057,12 +3211,7 @@
                     "category": "mana",
                     "uuid": "8bb45ae7-4c80-4b70-a709-ac573f378907",
                     "name": "マナ・エレメント"
-                }
-            ]
-        },
-        {
-            "page": 37,
-            "cards": [
+                },
                 {
                     "element": "thunder",
                     "rank": "A",
@@ -3078,7 +3227,12 @@
                     "category": "ether",
                     "uuid": "ec0b5e5a-6fcd-4402-a5da-f5495d050714",
                     "name": "エーテルグラス"
-                },
+                }
+            ]
+        },
+        {
+            "page": 39,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "S+",
@@ -3142,12 +3296,7 @@
                     "category": "ether",
                     "uuid": "6378b76d-2704-4b85-87a3-5bdaec1d5edf",
                     "name": "エーテルグラス"
-                }
-            ]
-        },
-        {
-            "page": 38,
-            "cards": [
+                },
                 {
                     "element": "water",
                     "rank": "A",
@@ -3163,7 +3312,12 @@
                     "category": "ether",
                     "uuid": "92a60d5a-6d9f-4310-b43c-b5213eb93454",
                     "name": "エーテルグラス"
-                },
+                }
+            ]
+        },
+        {
+            "page": 40,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "A+",
@@ -3227,12 +3381,7 @@
                     "category": "mana",
                     "uuid": "084652d8-297b-426e-b073-d1fe807f1178",
                     "name": "マナ・エレメント"
-                }
-            ]
-        },
-        {
-            "page": 39,
-            "cards": [
+                },
                 {
                     "element": "water",
                     "rank": "S",
@@ -3248,7 +3397,12 @@
                     "category": "ether",
                     "uuid": "efc43396-b787-4513-ab56-4d31b04589ed",
                     "name": "ミニ・エーテルグラス"
-                },
+                }
+            ]
+        },
+        {
+            "page": 41,
+            "cards": [
                 {
                     "element": "water",
                     "rank": "A",
@@ -3312,12 +3466,7 @@
                     "category": "material",
                     "uuid": "e2a89d61-60c3-4b80-ae34-bc95f4703f8e",
                     "name": "木"
-                }
-            ]
-        },
-        {
-            "page": 40,
-            "cards": [
+                },
                 {
                     "element": "fire",
                     "rank": "A+",
@@ -3333,7 +3482,12 @@
                     "category": "mana",
                     "uuid": "01405a0d-0c76-4f4f-8a85-5fc4c2fe7d30",
                     "name": "マナ・エレメント"
-                },
+                }
+            ]
+        },
+        {
+            "page": 42,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "S",
@@ -3397,12 +3551,7 @@
                     "category": "spirit",
                     "uuid": "bab2de9a-982a-454e-bd8c-97d36612d62d",
                     "name": "メイヴィス"
-                }
-            ]
-        },
-        {
-            "page": 41,
-            "cards": [
+                },
                 {
                     "element": "thunder",
                     "rank": "A",
@@ -3418,7 +3567,12 @@
                     "category": "mana",
                     "uuid": "f032173f-631d-4e91-8f73-d0c6f9cf3f96",
                     "name": "マナ・エレメント"
-                },
+                }
+            ]
+        },
+        {
+            "page": 43,
+            "cards": [
                 {
                     "element": "water",
                     "rank": "L",
@@ -3482,12 +3636,7 @@
                     "category": "ether",
                     "uuid": "cc8a93c8-6b0e-45fe-aff1-9fd8449f2b73",
                     "name": "ミニ・エーテルグラス"
-                }
-            ]
-        },
-        {
-            "page": 42,
-            "cards": [
+                },
                 {
                     "element": "water",
                     "rank": "A",
@@ -3503,7 +3652,12 @@
                     "category": "ether",
                     "uuid": "796d17cc-0915-4b95-a6aa-6287ff609b8c",
                     "name": "ミニ・エーテルグラス"
-                },
+                }
+            ]
+        },
+        {
+            "page": 44,
+            "cards": [
                 {
                     "element": "water",
                     "rank": "A",
@@ -3567,12 +3721,7 @@
                     "category": "ether",
                     "uuid": "e947ba9b-d09f-4c1f-88ce-0c5c9367315f",
                     "name": "ミニ・エーテルグラス"
-                }
-            ]
-        },
-        {
-            "page": 43,
-            "cards": [
+                },
                 {
                     "element": "thunder",
                     "rank": "S",
@@ -3588,7 +3737,12 @@
                     "category": "mana",
                     "uuid": "dfadae26-1dc6-4aa8-9bee-645d3ee23413",
                     "name": "マナ・エレメント"
-                },
+                }
+            ]
+        },
+        {
+            "page": 45,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "A",
@@ -3652,12 +3806,7 @@
                     "category": "ether",
                     "uuid": "dc4b5495-9d34-4b6e-a17b-ba3a31111897",
                     "name": "ハイ・エーテルグラス"
-                }
-            ]
-        },
-        {
-            "page": 44,
-            "cards": [
+                },
                 {
                     "element": "thunder",
                     "rank": "S",
@@ -3673,7 +3822,12 @@
                     "category": "spirit",
                     "uuid": "6394490a-c326-4a8e-ac3d-3b29dacad69f",
                     "name": "CODE:ラヒルメ"
-                },
+                }
+            ]
+        },
+        {
+            "page": 46,
+            "cards": [
                 {
                     "element": "fire",
                     "rank": "S",
@@ -3737,12 +3891,7 @@
                     "category": "material",
                     "uuid": "cb56cd8a-4c55-41b9-a85a-3445a393563b",
                     "name": "フラウ"
-                }
-            ]
-        },
-        {
-            "page": 45,
-            "cards": [
+                },
                 {
                     "element": "water",
                     "rank": "A+",
@@ -3758,7 +3907,12 @@
                     "category": "spirit",
                     "uuid": "8655f2ba-e9bf-4fec-b841-5edd9acded79",
                     "name": "ルーファス"
-                },
+                }
+            ]
+        },
+        {
+            "page": 47,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "A",
@@ -3822,12 +3976,7 @@
                     "category": "ether",
                     "uuid": "de32411d-15e7-4763-8e70-61304c121702",
                     "name": "ハイ・エーテルグラス"
-                }
-            ]
-        },
-        {
-            "page": 46,
-            "cards": [
+                },
                 {
                     "element": "water",
                     "rank": "A",
@@ -3843,7 +3992,12 @@
                     "category": "ether",
                     "uuid": "0b069987-5c25-4171-99dd-72b8048b6959",
                     "name": "エーテルグラス"
-                },
+                }
+            ]
+        },
+        {
+            "page": 48,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "A+",
@@ -3907,12 +4061,7 @@
                     "category": "item",
                     "uuid": "9d8175b7-a458-4d1c-b5dc-93b2d13dda2c",
                     "name": "思い出の S-DAT"
-                }
-            ]
-        },
-        {
-            "page": 47,
-            "cards": [
+                },
                 {
                     "element": "thunder",
                     "rank": "A",
@@ -3928,7 +4077,12 @@
                     "category": "mana",
                     "uuid": "48ceb46f-d7d1-45e8-8b05-8001787bbf3e",
                     "name": "マナ・エレメント"
-                },
+                }
+            ]
+        },
+        {
+            "page": 49,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "S+",
@@ -3992,12 +4146,7 @@
                     "category": "material",
                     "uuid": "8a2dd561-7fd1-4890-8225-501ecc6bc4db",
                     "name": "木"
-                }
-            ]
-        },
-        {
-            "page": 48,
-            "cards": [
+                },
                 {
                     "element": "thunder",
                     "rank": "A",
@@ -4013,7 +4162,12 @@
                     "category": "mana",
                     "uuid": "f276b330-819c-4e0b-8112-6db0da40bb2a",
                     "name": "マナ・エレメント"
-                },
+                }
+            ]
+        },
+        {
+            "page": 50,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "A",
@@ -4077,12 +4231,7 @@
                     "category": "material",
                     "uuid": "fc0ed46c-04d1-4da7-b1e7-5f144ae1748f",
                     "name": "木"
-                }
-            ]
-        },
-        {
-            "page": 49,
-            "cards": [
+                },
                 {
                     "element": "water",
                     "rank": "A",
@@ -4098,7 +4247,12 @@
                     "category": "material",
                     "uuid": "a1d43453-e5e5-4042-ab36-c9bcab9b5134",
                     "name": "木"
-                },
+                }
+            ]
+        },
+        {
+            "page": 51,
+            "cards": [
                 {
                     "element": "fire",
                     "rank": "A",
@@ -4162,12 +4316,7 @@
                     "category": "material",
                     "uuid": "c9c1f3e4-49a8-45a9-8895-53a540d711d3",
                     "name": "木"
-                }
-            ]
-        },
-        {
-            "page": 50,
-            "cards": [
+                },
                 {
                     "element": "water",
                     "rank": "A",
@@ -4183,7 +4332,12 @@
                     "category": "material",
                     "uuid": "36fded10-7e3f-4d2c-a873-b8685659f8e0",
                     "name": "木"
-                },
+                }
+            ]
+        },
+        {
+            "page": 52,
+            "cards": [
                 {
                     "element": "fire",
                     "rank": "B+",
@@ -4207,14 +4361,6 @@
                     "category": "material",
                     "uuid": "03e0d993-c6b0-4680-84bc-9003e4238770",
                     "name": "木"
-                },
-                {
-                    "element": "fire",
-                    "rank": "A",
-                    "option": "",
-                    "category": "spirit",
-                    "uuid": "e7750bf2-93e5-43cb-8412-ea96db645c13",
-                    "name": "ほほえみ少女 クレア"
                 },
                 {
                     "element": "fire",
@@ -4247,19 +4393,6 @@
                     "category": "material",
                     "uuid": "6ccc4c30-5124-4920-bba5-112b5ad106e7",
                     "name": "木"
-                }
-            ]
-        },
-        {
-            "page": 51,
-            "cards": [
-                {
-                    "element": "fire",
-                    "rank": "A",
-                    "option": "",
-                    "category": "spirit",
-                    "uuid": "d2961058-1c72-488c-bd4a-1e4ce8ac3c62",
-                    "name": "ほほえみ少女 クレア"
                 },
                 {
                     "element": "thunder",
@@ -4284,7 +4417,12 @@
                     "category": "material",
                     "uuid": "0938deff-2dc3-454a-a82a-c928b8ab3f8c",
                     "name": "木"
-                },
+                }
+            ]
+        },
+        {
+            "page": 53,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "A",
@@ -4332,12 +4470,7 @@
                     "category": "ether",
                     "uuid": "cf50e525-cc9f-46a3-982b-b74134853eb0",
                     "name": "ハイ・エーテルグラス"
-                }
-            ]
-        },
-        {
-            "page": 52,
-            "cards": [
+                },
                 {
                     "element": "thunder",
                     "rank": "A+",
@@ -4369,7 +4502,12 @@
                     "category": "spirit",
                     "uuid": "f39099ef-e1c2-4621-81cd-a5a2b3cc61fd",
                     "name": "ヤキトリ職人 ヤキト"
-                },
+                }
+            ]
+        },
+        {
+            "page": 54,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "S",
@@ -4417,12 +4555,7 @@
                     "category": "spirit",
                     "uuid": "6e9b9048-c551-4a64-9488-823f596c17a3",
                     "name": "ヤキトリ職人 ヤキト"
-                }
-            ]
-        },
-        {
-            "page": 53,
-            "cards": [
+                },
                 {
                     "element": "thunder",
                     "rank": "A+",
@@ -4454,7 +4587,12 @@
                     "category": "spirit",
                     "uuid": "adaded98-90fe-4e80-879c-01687df4d335",
                     "name": "ヤキトリ職人 ヤキト"
-                },
+                }
+            ]
+        },
+        {
+            "page": 55,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "A",
@@ -4502,12 +4640,7 @@
                     "category": "ether",
                     "uuid": "4f2917cf-2e17-4e80-aafa-562bc37c9742",
                     "name": "ミニ・エーテルグラス"
-                }
-            ]
-        },
-        {
-            "page": 54,
-            "cards": [
+                },
                 {
                     "element": "water",
                     "rank": "A",
@@ -4539,7 +4672,12 @@
                     "category": "spirit",
                     "uuid": "52701740-44c7-4023-8e47-3efa70a91e99",
                     "name": "ユウェル"
-                },
+                }
+            ]
+        },
+        {
+            "page": 56,
+            "cards": [
                 {
                     "element": "fire",
                     "rank": "A",
@@ -4587,12 +4725,7 @@
                     "category": "spirit",
                     "uuid": "f2064960-8309-4434-b403-8cfe12ad3679",
                     "name": "ラーヴァデイン"
-                }
-            ]
-        },
-        {
-            "page": 55,
-            "cards": [
+                },
                 {
                     "element": "thunder",
                     "rank": "S",
@@ -4624,7 +4757,12 @@
                     "category": "spirit",
                     "uuid": "c8357f1d-7a98-4954-be0d-f8fdb07b6e11",
                     "name": "シンジの友達 トウジ＆ケンスケ"
-                },
+                }
+            ]
+        },
+        {
+            "page": 57,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "A",
@@ -4672,12 +4810,7 @@
                     "category": "spirit",
                     "uuid": "c5b78401-ca4f-4604-8d7d-a108e1cb4f3c",
                     "name": "MAGI運営担当者 リツコ"
-                }
-            ]
-        },
-        {
-            "page": 56,
-            "cards": [
+                },
                 {
                     "element": "water",
                     "rank": "B",
@@ -4709,7 +4842,12 @@
                     "category": "spirit",
                     "uuid": "97744936-b6dc-4099-a7a0-1ce96b86d8bf",
                     "name": "技術開発部所属 マヤ"
-                },
+                }
+            ]
+        },
+        {
+            "page": 58,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "B+",
@@ -4757,12 +4895,7 @@
                     "category": "ether",
                     "uuid": "110b088d-3880-4624-a7fa-f8db10f1533c",
                     "name": "エーテルグラス"
-                }
-            ]
-        },
-        {
-            "page": 57,
-            "cards": [
+                },
                 {
                     "element": "thunder",
                     "rank": "A+",
@@ -4794,7 +4927,12 @@
                     "category": "mana",
                     "uuid": "1eddbb37-a149-4ea5-9ba1-058caf6834a3",
                     "name": "マナ・エレメント"
-                },
+                }
+            ]
+        },
+        {
+            "page": 59,
+            "cards": [
                 {
                     "element": "water",
                     "rank": "S",
@@ -4842,12 +4980,7 @@
                     "category": "mana",
                     "uuid": "42b27f67-906f-475a-aa4e-a775a7a6dcd8",
                     "name": "マナ・エレメント"
-                }
-            ]
-        },
-        {
-            "page": 58,
-            "cards": [
+                },
                 {
                     "element": "thunder",
                     "rank": "S",
@@ -4879,7 +5012,12 @@
                     "category": "spirit",
                     "uuid": "6e520a1b-25d9-46a8-b49f-9e7c88437cdd",
                     "name": "純潔と慈愛の騎士 クンツァイト"
-                },
+                }
+            ]
+        },
+        {
+            "page": 60,
+            "cards": [
                 {
                     "element": "water",
                     "rank": "S",
@@ -4927,12 +5065,7 @@
                     "category": "mana",
                     "uuid": "72fbf89d-3385-4930-ab9e-c83c99596bad",
                     "name": "マナ・エレメント"
-                }
-            ]
-        },
-        {
-            "page": 59,
-            "cards": [
+                },
                 {
                     "element": "thunder",
                     "rank": "S",
@@ -4964,7 +5097,12 @@
                     "category": "ether",
                     "uuid": "18c60e4c-931a-4fd5-b712-dab83ae47aad",
                     "name": "ハイ・エーテルグラス"
-                },
+                }
+            ]
+        },
+        {
+            "page": 61,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "S",
@@ -5012,12 +5150,7 @@
                     "category": "spirit",
                     "uuid": "6a223df0-b12b-4d4c-9a43-9fe3ae021e11",
                     "name": "玉乗りねずみ＆コロル"
-                }
-            ]
-        },
-        {
-            "page": 60,
-            "cards": [
+                },
                 {
                     "element": "fire",
                     "rank": "A",
@@ -5049,7 +5182,12 @@
                     "category": "spirit",
                     "uuid": "a146fdb4-ea0c-4212-a810-ac8b659d2daf",
                     "name": "玉乗りねずみ＆コロル"
-                },
+                }
+            ]
+        },
+        {
+            "page": 62,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "S",
@@ -5097,12 +5235,7 @@
                     "category": "mana",
                     "uuid": "a8dc94a3-fb4b-4da4-b1ac-2dfe6feb9dea",
                     "name": "マナ・エレメント"
-                }
-            ]
-        },
-        {
-            "page": 61,
-            "cards": [
+                },
                 {
                     "element": "thunder",
                     "rank": "A+",
@@ -5134,7 +5267,12 @@
                     "category": "ether",
                     "uuid": "8fd7a361-ab07-48c8-a41e-3f32937e8b25",
                     "name": "ハイ・エーテルグラス"
-                },
+                }
+            ]
+        },
+        {
+            "page": 63,
+            "cards": [
                 {
                     "element": "water",
                     "rank": "A",
@@ -5182,12 +5320,7 @@
                     "category": "material",
                     "uuid": "27590f12-c736-48cc-81ce-ecc7bd830ee6",
                     "name": "木"
-                }
-            ]
-        },
-        {
-            "page": 62,
-            "cards": [
+                },
                 {
                     "element": "thunder",
                     "rank": "S",
@@ -5219,7 +5352,12 @@
                     "category": "spirit",
                     "uuid": "ffdfdc8f-e63e-44e7-b7f0-9314cadadda3",
                     "name": "バシレイテ"
-                },
+                }
+            ]
+        },
+        {
+            "page": 64,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "S",
@@ -5267,12 +5405,7 @@
                     "category": "spirit",
                     "uuid": "66550a96-ab8c-4b26-9719-eb3f63b8fa3f",
                     "name": "灼爪のゼェール"
-                }
-            ]
-        },
-        {
-            "page": 63,
-            "cards": [
+                },
                 {
                     "element": "water",
                     "rank": "A",
@@ -5304,7 +5437,12 @@
                     "category": "ether",
                     "uuid": "499a3cdf-868b-409f-a0c8-45305d3ade9b",
                     "name": "ハイ・エーテルグラス"
-                },
+                }
+            ]
+        },
+        {
+            "page": 65,
+            "cards": [
                 {
                     "element": "fire",
                     "rank": "A",
@@ -5352,12 +5490,7 @@
                     "category": "spirit",
                     "uuid": "063a24d8-fceb-4920-93d5-de8ff03446de",
                     "name": "リチャード"
-                }
-            ]
-        },
-        {
-            "page": 64,
-            "cards": [
+                },
                 {
                     "element": "fire",
                     "rank": "A",
@@ -5389,7 +5522,12 @@
                     "category": "spirit",
                     "uuid": "68bbf2d9-f945-4cb1-8e96-2cb47bb433dd",
                     "name": "クロム・マグナ生徒 アキラ"
-                },
+                }
+            ]
+        },
+        {
+            "page": 66,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "S",
@@ -5437,12 +5575,7 @@
                     "category": "material",
                     "uuid": "cd21b7ad-0272-4baf-90d5-3906dfcbb1eb",
                     "name": "木"
-                }
-            ]
-        },
-        {
-            "page": 65,
-            "cards": [
+                },
                 {
                     "element": "thunder",
                     "rank": "A",
@@ -5474,7 +5607,12 @@
                     "category": "material",
                     "uuid": "e517b44d-b12e-40ce-9bbf-efd8098e9674",
                     "name": "木"
-                },
+                }
+            ]
+        },
+        {
+            "page": 67,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "B+",
@@ -5522,12 +5660,7 @@
                     "category": "material",
                     "uuid": "3380f818-62d8-40b3-ab07-295029778b08",
                     "name": "木"
-                }
-            ]
-        },
-        {
-            "page": 66,
-            "cards": [
+                },
                 {
                     "element": "thunder",
                     "rank": "B+",
@@ -5559,7 +5692,12 @@
                     "category": "spirit",
                     "uuid": "677a68cb-ff20-44ec-b984-d5b07fdaa797",
                     "name": "軽快なファイター フロー"
-                },
+                }
+            ]
+        },
+        {
+            "page": 68,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "S",
@@ -5607,12 +5745,7 @@
                     "category": "material",
                     "uuid": "bfeb11bf-5cde-4473-81dd-d39022239a06",
                     "name": "木"
-                }
-            ]
-        },
-        {
-            "page": 67,
-            "cards": [
+                },
                 {
                     "element": "thunder",
                     "rank": "B+",
@@ -5644,7 +5777,12 @@
                     "category": "ether",
                     "uuid": "f0ac8299-73f5-4beb-aff4-1ae92fbc62f8",
                     "name": "ハイ・エーテルグラス"
-                },
+                }
+            ]
+        },
+        {
+            "page": 69,
+            "cards": [
                 {
                     "element": "water",
                     "rank": "B",
@@ -5692,12 +5830,7 @@
                     "category": "material",
                     "uuid": "ca96e69a-7dea-4fab-9041-98b0ca6c2ab6",
                     "name": "木"
-                }
-            ]
-        },
-        {
-            "page": 68,
-            "cards": [
+                },
                 {
                     "element": "water",
                     "rank": "A+",
@@ -5729,7 +5862,12 @@
                     "category": "material",
                     "uuid": "f8208b50-2459-4d31-a231-ddd95e710d62",
                     "name": "木"
-                },
+                }
+            ]
+        },
+        {
+            "page": 70,
+            "cards": [
                 {
                     "element": "water",
                     "rank": "A",
@@ -5777,12 +5915,7 @@
                     "category": "item",
                     "uuid": "959e00bf-572c-4b87-81c6-66b67ea43db8",
                     "name": "熱滾る竜の尾"
-                }
-            ]
-        },
-        {
-            "page": 69,
-            "cards": [
+                },
                 {
                     "element": "fire",
                     "rank": "A",
@@ -5814,7 +5947,12 @@
                     "category": "ether",
                     "uuid": "3931e298-fe6d-4dfc-931f-79675a6d0d9b",
                     "name": "エーテルグラス"
-                },
+                }
+            ]
+        },
+        {
+            "page": 71,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "A+",
@@ -5862,12 +6000,7 @@
                     "category": "item",
                     "uuid": "71a876b9-8ee9-440b-826e-4ae9d9ec8f2a",
                     "name": "熱滾る竜の尾"
-                }
-            ]
-        },
-        {
-            "page": 70,
-            "cards": [
+                },
                 {
                     "element": "fire",
                     "rank": "A",
@@ -5899,7 +6032,12 @@
                     "category": "mana",
                     "uuid": "aa3116ba-5459-48bb-bda0-c8e8094d84be",
                     "name": "マナ・エレメント"
-                },
+                }
+            ]
+        },
+        {
+            "page": 72,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "S",
@@ -5947,12 +6085,7 @@
                     "category": "mana",
                     "uuid": "c19ce193-5004-468f-8e9e-57b92dfdfedf",
                     "name": "マナ・エレメント"
-                }
-            ]
-        },
-        {
-            "page": 71,
-            "cards": [
+                },
                 {
                     "element": "fire",
                     "rank": "B",
@@ -5984,7 +6117,12 @@
                     "category": "ether",
                     "uuid": "9640db0c-44df-4aec-9bb5-166c478cde3b",
                     "name": "ハイ・エーテルグラス"
-                },
+                }
+            ]
+        },
+        {
+            "page": 73,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "S+",
@@ -6032,12 +6170,7 @@
                     "category": "mana",
                     "uuid": "62ba3743-deb8-46c1-8736-0c9856c44493",
                     "name": "マナ・エレメント"
-                }
-            ]
-        },
-        {
-            "page": 72,
-            "cards": [
+                },
                 {
                     "element": "thunder",
                     "rank": "S",
@@ -6069,7 +6202,12 @@
                     "category": "ether",
                     "uuid": "758172dc-d6db-47f0-85f1-9dca91bcb2b4",
                     "name": "ハイ・エーテルグラス"
-                },
+                }
+            ]
+        },
+        {
+            "page": 74,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "S",
@@ -6117,12 +6255,7 @@
                     "category": "material",
                     "uuid": "ddcb8146-7153-4cff-a41e-8e8f78e72d7a",
                     "name": "木"
-                }
-            ]
-        },
-        {
-            "page": 73,
-            "cards": [
+                },
                 {
                     "element": "water",
                     "rank": "S+",
@@ -6154,7 +6287,12 @@
                     "category": "material",
                     "uuid": "fce65b72-3c32-4afd-bab4-4388f5e284a4",
                     "name": "木"
-                },
+                }
+            ]
+        },
+        {
+            "page": 75,
+            "cards": [
                 {
                     "element": "fire",
                     "rank": "S+",
@@ -6202,12 +6340,7 @@
                     "category": "ether",
                     "uuid": "71233e6f-182a-4138-8297-5be51dc06152",
                     "name": "ハイ・エーテルグラス"
-                }
-            ]
-        },
-        {
-            "page": 74,
-            "cards": [
+                },
                 {
                     "element": "water",
                     "rank": "A",
@@ -6239,7 +6372,12 @@
                     "category": "ether",
                     "uuid": "f6948e36-963e-4dc2-8520-6b1a15fa864e",
                     "name": "ハイ・エーテルグラス"
-                },
+                }
+            ]
+        },
+        {
+            "page": 76,
+            "cards": [
                 {
                     "element": "water",
                     "rank": "S+",
@@ -6287,12 +6425,7 @@
                     "category": "item",
                     "uuid": "4f6e54c2-b6ce-4019-ae58-cd659c08297b",
                     "name": "妖しく光る凶岩"
-                }
-            ]
-        },
-        {
-            "page": 75,
-            "cards": [
+                },
                 {
                     "element": "water",
                     "rank": "A",
@@ -6324,7 +6457,12 @@
                     "category": "item",
                     "uuid": "96028674-31c8-444b-9bcf-24b6bc40528d",
                     "name": "岩族の細胞"
-                },
+                }
+            ]
+        },
+        {
+            "page": 77,
+            "cards": [
                 {
                     "element": "water",
                     "rank": "A",
@@ -6372,12 +6510,7 @@
                     "category": "item",
                     "uuid": "af7ef42b-c0d8-46bd-b425-da8386480806",
                     "name": "妖しく光る凶岩"
-                }
-            ]
-        },
-        {
-            "page": 76,
-            "cards": [
+                },
                 {
                     "element": "water",
                     "rank": "A",
@@ -6409,7 +6542,12 @@
                     "category": "ether",
                     "uuid": "6a7abbb8-2620-44d8-9050-f963dc1fe2bf",
                     "name": "ミニ・エーテルグラス"
-                },
+                }
+            ]
+        },
+        {
+            "page": 78,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "S",
@@ -6457,12 +6595,7 @@
                     "category": "item",
                     "uuid": "6a10b31f-70b6-4f55-8fd1-47c6a3c845c2",
                     "name": "岩族の細胞"
-                }
-            ]
-        },
-        {
-            "page": 77,
-            "cards": [
+                },
                 {
                     "element": "water",
                     "rank": "A",
@@ -6494,7 +6627,12 @@
                     "category": "item",
                     "uuid": "7b7c0e87-8fd2-4681-8f9e-19397ef8c973",
                     "name": "獣の足枷"
-                },
+                }
+            ]
+        },
+        {
+            "page": 79,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "A",
@@ -6542,12 +6680,7 @@
                     "category": "item",
                     "uuid": "8dd27a18-5450-42a0-91ac-24e4a61aa715",
                     "name": "梨汁ブシャー！ 梨よっつ！"
-                }
-            ]
-        },
-        {
-            "page": 78,
-            "cards": [
+                },
                 {
                     "element": "thunder",
                     "rank": "A",
@@ -6579,7 +6712,12 @@
                     "category": "item",
                     "uuid": "fa298ec0-bb9e-4e4c-9cae-7992bac147b7",
                     "name": "甘くて美味しい 梨ひとつ"
-                },
+                }
+            ]
+        },
+        {
+            "page": 80,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "A",
@@ -6627,12 +6765,7 @@
                     "category": "spirit",
                     "uuid": "7e4bd4c9-fbbb-417a-a008-65314b558231",
                     "name": "マサキ"
-                }
-            ]
-        },
-        {
-            "page": 79,
-            "cards": [
+                },
                 {
                     "element": "water",
                     "rank": "A",
@@ -6664,7 +6797,12 @@
                     "category": "mana",
                     "uuid": "f87cf3d2-dfdb-48e7-81a6-d8717e45fd28",
                     "name": "マナ・エレメント"
-                },
+                }
+            ]
+        },
+        {
+            "page": 81,
+            "cards": [
                 {
                     "element": "fire",
                     "rank": "A+",
@@ -6712,12 +6850,7 @@
                     "category": "mana",
                     "uuid": "31fed180-ea6c-44ac-a6c0-7fbf11fd5637",
                     "name": "マナ・エレメント"
-                }
-            ]
-        },
-        {
-            "page": 80,
-            "cards": [
+                },
                 {
                     "element": "thunder",
                     "rank": "S",
@@ -6749,7 +6882,12 @@
                     "category": "item",
                     "uuid": "75b13e4a-bbea-468b-86e4-e0152b44abf3",
                     "name": "熱滾る竜の尾"
-                },
+                }
+            ]
+        },
+        {
+            "page": 82,
+            "cards": [
                 {
                     "element": "fire",
                     "rank": "A",
@@ -6797,12 +6935,7 @@
                     "category": "item",
                     "uuid": "743bf424-70a9-4196-ac39-2d5a21eeac32",
                     "name": "妖しく光る凶岩"
-                }
-            ]
-        },
-        {
-            "page": 81,
-            "cards": [
+                },
                 {
                     "element": "thunder",
                     "rank": "A",
@@ -6834,7 +6967,12 @@
                     "category": "mana",
                     "uuid": "60adb4bb-40ac-48a6-924b-5e812a9069b4",
                     "name": "マナ・エレメント"
-                },
+                }
+            ]
+        },
+        {
+            "page": 83,
+            "cards": [
                 {
                     "element": "fire",
                     "rank": "A+",
@@ -6882,12 +7020,7 @@
                     "category": "material",
                     "uuid": "137dd365-18e1-46ea-a0cd-54938c77dd91",
                     "name": "木"
-                }
-            ]
-        },
-        {
-            "page": 82,
-            "cards": [
+                },
                 {
                     "element": "water",
                     "rank": "A",
@@ -6919,7 +7052,12 @@
                     "category": "spirit",
                     "uuid": "88239982-8307-4b4c-a7a1-37750125daed",
                     "name": "新年を祝う猫ウィズ"
-                },
+                }
+            ]
+        },
+        {
+            "page": 84,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "A",
@@ -6967,12 +7105,7 @@
                     "category": "ether",
                     "uuid": "eee9ce57-ba16-4ac4-b7cc-03afdf1eb43b",
                     "name": "エーテルグラス"
-                }
-            ]
-        },
-        {
-            "page": 83,
-            "cards": [
+                },
                 {
                     "element": "thunder",
                     "rank": "A+",
@@ -7004,7 +7137,12 @@
                     "category": "ether",
                     "uuid": "3cec4019-6e6e-454d-8285-10f2bd8d814a",
                     "name": "エーテルグラス"
-                },
+                }
+            ]
+        },
+        {
+            "page": 85,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "B+",
@@ -7052,12 +7190,7 @@
                     "category": "ether",
                     "uuid": "f2902a29-dc55-4255-ac34-088016cf5a55",
                     "name": "ハイ・エーテルグラス"
-                }
-            ]
-        },
-        {
-            "page": 84,
-            "cards": [
+                },
                 {
                     "element": "thunder",
                     "rank": "S",
@@ -7089,7 +7222,12 @@
                     "category": "spirit",
                     "uuid": "040e2f58-c2ac-4a60-80c0-76f97c86f7cc",
                     "name": "マルス"
-                },
+                }
+            ]
+        },
+        {
+            "page": 86,
+            "cards": [
                 {
                     "element": "water",
                     "rank": "S+",
@@ -7137,12 +7275,7 @@
                     "category": "ether",
                     "uuid": "353e28e0-66bc-41cb-a7b7-cd3ebe700234",
                     "name": "エーテルグラス"
-                }
-            ]
-        },
-        {
-            "page": 85,
-            "cards": [
+                },
                 {
                     "element": "thunder",
                     "rank": "A+",
@@ -7174,7 +7307,12 @@
                     "category": "ether",
                     "uuid": "3821b636-f902-4ebf-8d48-00cf7e98b221",
                     "name": "ミニ・エーテルグラス"
-                },
+                }
+            ]
+        },
+        {
+            "page": 87,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "A+",
@@ -7222,12 +7360,7 @@
                     "category": "ether",
                     "uuid": "04bc5929-10a2-45cb-ae9c-26274184a1be",
                     "name": "ミニ・エーテルグラス"
-                }
-            ]
-        },
-        {
-            "page": 86,
-            "cards": [
+                },
                 {
                     "element": "water",
                     "rank": "A",
@@ -7259,7 +7392,12 @@
                     "category": "ether",
                     "uuid": "042a5cd1-5ca0-430b-bf16-1fa53515ea93",
                     "name": "ミニ・エーテルグラス"
-                },
+                }
+            ]
+        },
+        {
+            "page": 88,
+            "cards": [
                 {
                     "element": "water",
                     "rank": "A",
@@ -7307,12 +7445,7 @@
                     "category": "mana",
                     "uuid": "593abe9d-1fdd-4c4a-be1d-3b355cb20752",
                     "name": "マナ・エレメント"
-                }
-            ]
-        },
-        {
-            "page": 87,
-            "cards": [
+                },
                 {
                     "element": "water",
                     "rank": "A",
@@ -7344,7 +7477,12 @@
                     "category": "material",
                     "uuid": "c86e6d96-3653-4428-92e4-4ba91006cd6b",
                     "name": "木"
-                },
+                }
+            ]
+        },
+        {
+            "page": 89,
+            "cards": [
                 {
                     "element": "water",
                     "rank": "A",
@@ -7392,12 +7530,7 @@
                     "category": "item",
                     "uuid": "68bfa2b4-e9a8-4986-8454-de313589a1e3",
                     "name": "水神龍飾"
-                }
-            ]
-        },
-        {
-            "page": 88,
-            "cards": [
+                },
                 {
                     "element": "water",
                     "rank": "A",
@@ -7429,7 +7562,12 @@
                     "category": "mana",
                     "uuid": "b125749a-febf-4db2-b14e-ed9f3303a4d1",
                     "name": "マナ・エレメント"
-                },
+                }
+            ]
+        },
+        {
+            "page": 90,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "A",
@@ -7477,12 +7615,7 @@
                     "category": "spirit",
                     "uuid": "c8cd527c-b6e6-4a90-8173-5b6826fdcf1b",
                     "name": "ラーヴァデイン"
-                }
-            ]
-        },
-        {
-            "page": 89,
-            "cards": [
+                },
                 {
                     "element": "thunder",
                     "rank": "B",
@@ -7514,7 +7647,12 @@
                     "category": "mana",
                     "uuid": "92a2cb6d-cb98-4a6f-b652-24b381589db0",
                     "name": "マナ・エレメント"
-                },
+                }
+            ]
+        },
+        {
+            "page": 91,
+            "cards": [
                 {
                     "element": "water",
                     "rank": "A",
@@ -7562,12 +7700,7 @@
                     "category": "ether",
                     "uuid": "19e0650c-c85f-476a-b19b-e6203eee3477",
                     "name": "ミニ・エーテルグラス"
-                }
-            ]
-        },
-        {
-            "page": 90,
-            "cards": [
+                },
                 {
                     "element": "water",
                     "rank": "A",
@@ -7599,7 +7732,12 @@
                     "category": "mana",
                     "uuid": "1d09a8e0-555e-4db6-bea5-dfb0908240b8",
                     "name": "マナ・エレメント"
-                },
+                }
+            ]
+        },
+        {
+            "page": 92,
+            "cards": [
                 {
                     "element": "water",
                     "rank": "A",
@@ -7647,12 +7785,7 @@
                     "category": "material",
                     "uuid": "ffe8bc3a-1098-4640-9d48-eece22654b7c",
                     "name": "木"
-                }
-            ]
-        },
-        {
-            "page": 91,
-            "cards": [
+                },
                 {
                     "element": "water",
                     "rank": "A",
@@ -7684,7 +7817,12 @@
                     "category": "mana",
                     "uuid": "a2306d25-40d4-41b2-b695-d1cf0d4a3b06",
                     "name": "マナ・エレメント"
-                },
+                }
+            ]
+        },
+        {
+            "page": 93,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "A",
@@ -7732,12 +7870,7 @@
                     "category": "mana",
                     "uuid": "20d028c5-6acb-4a57-8b5a-d1007d7b85f2",
                     "name": "マナ・エレメント"
-                }
-            ]
-        },
-        {
-            "page": 92,
-            "cards": [
+                },
                 {
                     "element": "thunder",
                     "rank": "A",
@@ -7769,7 +7902,12 @@
                     "category": "material",
                     "uuid": "df9c840f-4e8b-4e01-b72f-01d99bb725b1",
                     "name": "ロシェ"
-                },
+                }
+            ]
+        },
+        {
+            "page": 94,
+            "cards": [
                 {
                     "element": "water",
                     "rank": "A",
@@ -7817,12 +7955,7 @@
                     "category": "material",
                     "uuid": "950ee2d4-7cee-4aae-a53e-dc357e5c0dbc",
                     "name": "木"
-                }
-            ]
-        },
-        {
-            "page": 93,
-            "cards": [
+                },
                 {
                     "element": "water",
                     "rank": "A",
@@ -7854,7 +7987,12 @@
                     "category": "material",
                     "uuid": "68870931-3f56-4f18-bb4b-d71513ba5852",
                     "name": "ロシェ"
-                },
+                }
+            ]
+        },
+        {
+            "page": 95,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "A",
@@ -7902,12 +8040,7 @@
                     "category": "ether",
                     "uuid": "73fbc4db-e6ac-4cea-b1e3-3d2804d3d9c8",
                     "name": "ミニ・エーテルグラス"
-                }
-            ]
-        },
-        {
-            "page": 94,
-            "cards": [
+                },
                 {
                     "element": "water",
                     "rank": "A",
@@ -7939,7 +8072,12 @@
                     "category": "mana",
                     "uuid": "d7f1ec35-21c9-4560-8d69-3ed59a46c04b",
                     "name": "マナ・エレメント"
-                },
+                }
+            ]
+        },
+        {
+            "page": 96,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "A",
@@ -7987,12 +8125,7 @@
                     "category": "material",
                     "uuid": "0d003ea9-d7d5-42c7-aed6-dfabc3707c62",
                     "name": "キノコ"
-                }
-            ]
-        },
-        {
-            "page": 95,
-            "cards": [
+                },
                 {
                     "element": "thunder",
                     "rank": "A+",
@@ -8024,7 +8157,12 @@
                     "category": "ether",
                     "uuid": "0ad49dab-d8e3-4821-a39b-0be1b7e91f38",
                     "name": "ミニ・エーテルグラス"
-                },
+                }
+            ]
+        },
+        {
+            "page": 97,
+            "cards": [
                 {
                     "element": "water",
                     "rank": "A+",
@@ -8072,12 +8210,7 @@
                     "category": "material",
                     "uuid": "40a1bd01-c1cf-4b65-a5ab-46c36d909847",
                     "name": "フラウ"
-                }
-            ]
-        },
-        {
-            "page": 96,
-            "cards": [
+                },
                 {
                     "element": "water",
                     "rank": "SS",
@@ -8109,7 +8242,12 @@
                     "category": "spirit",
                     "uuid": "d2416d04-482c-4234-bcc5-1462ecdb3bed",
                     "name": "若き修道女 ベルナデッタ"
-                },
+                }
+            ]
+        },
+        {
+            "page": 98,
+            "cards": [
                 {
                     "element": "water",
                     "rank": "A",
@@ -8157,12 +8295,7 @@
                     "category": "spirit",
                     "uuid": "aa280262-2a34-4159-b180-f453b189701b",
                     "name": "真心贈る冬 ロレッタ・ミラージュ"
-                }
-            ]
-        },
-        {
-            "page": 97,
-            "cards": [
+                },
                 {
                     "element": "fire",
                     "rank": "SS",
@@ -8194,7 +8327,12 @@
                     "category": "ether",
                     "uuid": "833eb2e1-dd51-4cc1-b2ca-1cfa2c0db819",
                     "name": "エーテルグラス"
-                },
+                }
+            ]
+        },
+        {
+            "page": 99,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "S",
@@ -8242,12 +8380,7 @@
                     "category": "mana",
                     "uuid": "ae9012d1-97ad-4603-8d5a-cf85a388cefe",
                     "name": "マナ・エレメント"
-                }
-            ]
-        },
-        {
-            "page": 98,
-            "cards": [
+                },
                 {
                     "element": "water",
                     "rank": "SS",
@@ -8279,7 +8412,12 @@
                     "category": "mana",
                     "uuid": "5bbcb9fe-f1f4-450e-b138-161053e77487",
                     "name": "マナ・エレメント"
-                },
+                }
+            ]
+        },
+        {
+            "page": 100,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "A+",
@@ -8327,12 +8465,7 @@
                     "category": "material",
                     "uuid": "73d2ded5-d1a7-4930-a5c6-b8ddc31883ab",
                     "name": "キノコ"
-                }
-            ]
-        },
-        {
-            "page": 99,
-            "cards": [
+                },
                 {
                     "element": "water",
                     "rank": "S+",
@@ -8364,7 +8497,12 @@
                     "category": "material",
                     "uuid": "72c57e4b-bf28-4f6a-ad60-5ec2fbbc2426",
                     "name": "キノコ"
-                },
+                }
+            ]
+        },
+        {
+            "page": 101,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "SS",
@@ -8412,12 +8550,7 @@
                     "category": "ether",
                     "uuid": "6b642e7f-ed3e-4979-b082-a7a25ed7084c",
                     "name": "ミニ・エーテルグラス"
-                }
-            ]
-        },
-        {
-            "page": 100,
-            "cards": [
+                },
                 {
                     "element": "thunder",
                     "rank": "A",
@@ -8449,7 +8582,12 @@
                     "category": "material",
                     "uuid": "1c22bb25-961d-4d51-9ce7-6ac1cb90770a",
                     "name": "キノコ"
-                },
+                }
+            ]
+        },
+        {
+            "page": 102,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "A",
@@ -8497,12 +8635,7 @@
                     "category": "spirit",
                     "uuid": "3c1b41ab-e965-4828-8ed8-e59800a59a98",
                     "name": "絶望の象徴 超大型巨人"
-                }
-            ]
-        },
-        {
-            "page": 101,
-            "cards": [
+                },
                 {
                     "element": "thunder",
                     "rank": "A",
@@ -8534,7 +8667,12 @@
                     "category": "spirit",
                     "uuid": "246b635d-3f84-4170-b365-6d942c6624fe",
                     "name": "甘味大王 ジャイアントカプリコ"
-                },
+                }
+            ]
+        },
+        {
+            "page": 103,
+            "cards": [
                 {
                     "element": "fire",
                     "rank": "A+",
@@ -8582,12 +8720,7 @@
                     "category": "material",
                     "uuid": "42d06d37-f790-4305-83a6-feaaf710c942",
                     "name": "タヌキ"
-                }
-            ]
-        },
-        {
-            "page": 102,
-            "cards": [
+                },
                 {
                     "element": "water",
                     "rank": "B+",
@@ -8619,7 +8752,12 @@
                     "category": "item",
                     "uuid": "7ca38f68-768c-4b4a-9847-0b8532c5c481",
                     "name": "巨人放伐の旗印『自由の翼』"
-                },
+                }
+            ]
+        },
+        {
+            "page": 104,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "A",
@@ -8667,12 +8805,7 @@
                     "category": "spirit",
                     "uuid": "f8cf5744-2d6b-44eb-8468-f9712b300369",
                     "name": "怒りに燃える少年 エレン"
-                }
-            ]
-        },
-        {
-            "page": 103,
-            "cards": [
+                },
                 {
                     "element": "water",
                     "rank": "A",
@@ -8704,7 +8837,12 @@
                     "category": "spirit",
                     "uuid": "f847c136-4aa7-4ec0-91e8-91e08c4d76cc",
                     "name": "プリッツ"
-                },
+                }
+            ]
+        },
+        {
+            "page": 105,
+            "cards": [
                 {
                     "element": "fire",
                     "rank": "A",
@@ -8752,12 +8890,7 @@
                     "category": "spirit",
                     "uuid": "fd5e7908-aea9-466e-af28-3003bcda70d7",
                     "name": "蒼き邪悪なる竜"
-                }
-            ]
-        },
-        {
-            "page": 104,
-            "cards": [
+                },
                 {
                     "element": "thunder",
                     "rank": "A",
@@ -8789,7 +8922,12 @@
                     "category": "spirit",
                     "uuid": "ca5f5d2a-3154-4698-90db-8c160f941874",
                     "name": "蒼き邪悪なる竜"
-                },
+                }
+            ]
+        },
+        {
+            "page": 106,
+            "cards": [
                 {
                     "element": "fire",
                     "rank": "A",
@@ -8837,12 +8975,7 @@
                     "category": "material",
                     "uuid": "36c1b2aa-38cc-4d9f-85ab-94b10ba33d92",
                     "name": "木"
-                }
-            ]
-        },
-        {
-            "page": 105,
-            "cards": [
+                },
                 {
                     "element": "fire",
                     "rank": "A",
@@ -8874,7 +9007,12 @@
                     "category": "ether",
                     "uuid": "5a870ab0-b143-44c7-8f6b-53ea73c68e4e",
                     "name": "ミニ・エーテルグラス"
-                },
+                }
+            ]
+        },
+        {
+            "page": 107,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "A",
@@ -8922,12 +9060,7 @@
                     "category": "ether",
                     "uuid": "85833006-23b1-49ce-839f-ee30ea5cf722",
                     "name": "ミニ・エーテルグラス"
-                }
-            ]
-        },
-        {
-            "page": 106,
-            "cards": [
+                },
                 {
                     "element": "thunder",
                     "rank": "A",
@@ -8959,7 +9092,12 @@
                     "category": "material",
                     "uuid": "abd281ab-e5fa-4689-b4ba-c711c5882c50",
                     "name": "木"
-                },
+                }
+            ]
+        },
+        {
+            "page": 108,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "A",
@@ -9007,12 +9145,7 @@
                     "category": "material",
                     "uuid": "712662f6-e69f-439e-b9a2-427473541a7d",
                     "name": "木"
-                }
-            ]
-        },
-        {
-            "page": 107,
-            "cards": [
+                },
                 {
                     "element": "water",
                     "rank": "B+",
@@ -9044,7 +9177,12 @@
                     "category": "spirit",
                     "uuid": "d27fb0a7-70d7-4a18-a9bf-1b1a9540062c",
                     "name": "縫目の屍王 パップラドン・アキム"
-                },
+                }
+            ]
+        },
+        {
+            "page": 109,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "S",
@@ -9092,12 +9230,7 @@
                     "category": "spirit",
                     "uuid": "5026dd7f-acb3-4a7e-bd85-448b8958d06e",
                     "name": "おっとり系人型ロボ なの"
-                }
-            ]
-        },
-        {
-            "page": 108,
-            "cards": [
+                },
                 {
                     "element": "water",
                     "rank": "A",
@@ -9129,7 +9262,12 @@
                     "category": "ether",
                     "uuid": "092d001b-a0f3-4a90-8975-566faf874574",
                     "name": "エーテルグラス"
-                },
+                }
+            ]
+        },
+        {
+            "page": 110,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "A+",
@@ -9177,12 +9315,7 @@
                     "category": "material",
                     "uuid": "51542223-0f5c-4e4c-9a04-4e91bd46e8a3",
                     "name": "タヌキ"
-                }
-            ]
-        },
-        {
-            "page": 109,
-            "cards": [
+                },
                 {
                     "element": "fire",
                     "rank": "A",
@@ -9214,7 +9347,12 @@
                     "category": "material",
                     "uuid": "e748b812-c5e7-43b9-aeb8-b290054133d1",
                     "name": "木"
-                },
+                }
+            ]
+        },
+        {
+            "page": 111,
+            "cards": [
                 {
                     "element": "water",
                     "rank": "S",
@@ -9262,12 +9400,7 @@
                     "category": "material",
                     "uuid": "67a559b6-ab95-4048-859e-7e6ae50cbf07",
                     "name": "木"
-                }
-            ]
-        },
-        {
-            "page": 110,
-            "cards": [
+                },
                 {
                     "element": "thunder",
                     "rank": "A",
@@ -9299,7 +9432,12 @@
                     "category": "ether",
                     "uuid": "c49ceede-5d10-42cd-a6e8-8fe8495790ed",
                     "name": "ミニ・エーテルグラス"
-                },
+                }
+            ]
+        },
+        {
+            "page": 112,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "B+",
@@ -9347,12 +9485,7 @@
                     "category": "material",
                     "uuid": "1fff892e-779a-4320-b5da-ce2509afe465",
                     "name": "木"
-                }
-            ]
-        },
-        {
-            "page": 111,
-            "cards": [
+                },
                 {
                     "element": "fire",
                     "rank": "A+",
@@ -9384,7 +9517,12 @@
                     "category": "material",
                     "uuid": "f7004301-af2a-4d74-ad33-3566f5165f62",
                     "name": "タヌキ"
-                },
+                }
+            ]
+        },
+        {
+            "page": 113,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "A+",
@@ -9432,12 +9570,7 @@
                     "category": "material",
                     "uuid": "a4879ef6-a12c-47bd-8f6c-f82d5c22a35e",
                     "name": "木"
-                }
-            ]
-        },
-        {
-            "page": 112,
-            "cards": [
+                },
                 {
                     "element": "water",
                     "rank": "B",
@@ -9469,7 +9602,12 @@
                     "category": "material",
                     "uuid": "1c1e653f-1efa-4695-92d0-8f724f4ed279",
                     "name": "木"
-                },
+                }
+            ]
+        },
+        {
+            "page": 114,
+            "cards": [
                 {
                     "element": "water",
                     "rank": "A+",
@@ -9517,12 +9655,7 @@
                     "category": "spirit",
                     "uuid": "02c17125-8ac2-488d-95f6-69f773d596b7",
                     "name": "オーダーエイジ"
-                }
-            ]
-        },
-        {
-            "page": 113,
-            "cards": [
+                },
                 {
                     "element": "thunder",
                     "rank": "A",
@@ -9554,7 +9687,12 @@
                     "category": "spirit",
                     "uuid": "27bc042a-b789-45ec-bac3-2bf5818306ce",
                     "name": "一人で一個小隊 新ケロロ"
-                },
+                }
+            ]
+        },
+        {
+            "page": 115,
+            "cards": [
                 {
                     "element": "fire",
                     "rank": "A+",
@@ -9602,12 +9740,7 @@
                     "category": "spirit",
                     "uuid": "8176326d-8da1-436c-80e8-5b8ecb9d729d",
                     "name": "サーヴァント セイバー"
-                }
-            ]
-        },
-        {
-            "page": 114,
-            "cards": [
+                },
                 {
                     "element": "fire",
                     "rank": "B+",
@@ -9639,7 +9772,12 @@
                     "category": "spirit",
                     "uuid": "5d05d90b-a767-4a02-986c-87960b08c802",
                     "name": "おっとり系人型ロボ なの"
-                },
+                }
+            ]
+        },
+        {
+            "page": 116,
+            "cards": [
                 {
                     "element": "water",
                     "rank": "B",
@@ -9687,12 +9825,7 @@
                     "category": "spirit",
                     "uuid": "8d8d8c27-2170-4683-a985-20ee8650d876",
                     "name": "サーヴァント セイバー"
-                }
-            ]
-        },
-        {
-            "page": 115,
-            "cards": [
+                },
                 {
                     "element": "thunder",
                     "rank": "S",
@@ -9724,7 +9857,12 @@
                     "category": "spirit",
                     "uuid": "5908ddd0-52ed-449a-a6e2-89264a21e773",
                     "name": "腹黒マスコット突撃兵 タママ二等兵"
-                },
+                }
+            ]
+        },
+        {
+            "page": 117,
+            "cards": [
                 {
                     "element": "fire",
                     "rank": "A",
@@ -9772,12 +9910,7 @@
                     "category": "ether",
                     "uuid": "04322fad-d912-4b75-9402-bd3e9b147e04",
                     "name": "エーテルグラス"
-                }
-            ]
-        },
-        {
-            "page": 116,
-            "cards": [
+                },
                 {
                     "element": "thunder",
                     "rank": "A",
@@ -9809,7 +9942,12 @@
                     "category": "mana",
                     "uuid": "afb0b10f-ff8c-4f5c-a824-03ca7138c823",
                     "name": "マナ・エレメント"
-                },
+                }
+            ]
+        },
+        {
+            "page": 118,
+            "cards": [
                 {
                     "element": "water",
                     "rank": "S",
@@ -9857,12 +9995,7 @@
                     "category": "material",
                     "uuid": "df631b0d-108e-4ad7-a98b-85c654e12799",
                     "name": "木"
-                }
-            ]
-        },
-        {
-            "page": 117,
-            "cards": [
+                },
                 {
                     "element": "fire",
                     "rank": "B+",
@@ -9894,7 +10027,12 @@
                     "category": "spirit",
                     "uuid": "6f443e52-2ef6-491f-ba3d-e79848a35b7c",
                     "name": "カボチャ猫 ヘポ"
-                },
+                }
+            ]
+        },
+        {
+            "page": 119,
+            "cards": [
                 {
                     "element": "fire",
                     "rank": "S",
@@ -9942,12 +10080,7 @@
                     "category": "spirit",
                     "uuid": "96688935-4148-4d69-8d82-5965e00355f1",
                     "name": "カボチャ猫 ヘポ"
-                }
-            ]
-        },
-        {
-            "page": 118,
-            "cards": [
+                },
                 {
                     "element": "water",
                     "rank": "A",
@@ -9979,7 +10112,12 @@
                     "category": "material",
                     "uuid": "3fe3f93e-6a28-4d97-8688-8f8b2decc12a",
                     "name": "木"
-                },
+                }
+            ]
+        },
+        {
+            "page": 120,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "B",
@@ -10027,12 +10165,7 @@
                     "category": "material",
                     "uuid": "cfc9a6f7-3a81-4b1e-8007-cf76a2796e4a",
                     "name": "フラウ"
-                }
-            ]
-        },
-        {
-            "page": 119,
-            "cards": [
+                },
                 {
                     "element": "fire",
                     "rank": "A+",
@@ -10064,7 +10197,12 @@
                     "category": "material",
                     "uuid": "90990fc5-ac40-4c97-ae80-2f9c9f26417e",
                     "name": "フラウ"
-                },
+                }
+            ]
+        },
+        {
+            "page": 121,
+            "cards": [
                 {
                     "element": "water",
                     "rank": "B+",
@@ -10112,12 +10250,7 @@
                     "category": "spirit",
                     "uuid": "5dea78af-0585-4b20-903c-e3339cea95c2",
                     "name": "アロイス"
-                }
-            ]
-        },
-        {
-            "page": 120,
-            "cards": [
+                },
                 {
                     "element": "water",
                     "rank": "A+",
@@ -10149,7 +10282,12 @@
                     "category": "material",
                     "uuid": "c79cbe01-c5c3-4d3d-bc70-91701b6801f9",
                     "name": "木"
-                },
+                }
+            ]
+        },
+        {
+            "page": 122,
+            "cards": [
                 {
                     "element": "fire",
                     "rank": "A",
@@ -10197,12 +10335,7 @@
                     "category": "material",
                     "uuid": "9f2c0f13-a612-4e02-bbe2-24564968cd64",
                     "name": "タヌキ"
-                }
-            ]
-        },
-        {
-            "page": 121,
-            "cards": [
+                },
                 {
                     "element": "water",
                     "rank": "A",
@@ -10234,7 +10367,12 @@
                     "category": "spirit",
                     "uuid": "dccdf2f1-028e-47fa-9b1e-3d93a0f1eb0e",
                     "name": "インゴルト"
-                },
+                }
+            ]
+        },
+        {
+            "page": 123,
+            "cards": [
                 {
                     "element": "water",
                     "rank": "B+",
@@ -10282,12 +10420,7 @@
                     "category": "material",
                     "uuid": "bb40fdeb-6846-4402-905c-cd0d17cc71b0",
                     "name": "タヌキ"
-                }
-            ]
-        },
-        {
-            "page": 122,
-            "cards": [
+                },
                 {
                     "element": "water",
                     "rank": "A+",
@@ -10319,7 +10452,12 @@
                     "category": "item",
                     "uuid": "43255679-91b2-4fbd-bbe4-f8a5aededa6e",
                     "name": "弧光の斧杖"
-                },
+                }
+            ]
+        },
+        {
+            "page": 124,
+            "cards": [
                 {
                     "element": "water",
                     "rank": "A",
@@ -10367,12 +10505,7 @@
                     "category": "spirit",
                     "uuid": "0ce1f406-769c-4474-9572-77e49841b6a3",
                     "name": "義賊猫娘 ネウ"
-                }
-            ]
-        },
-        {
-            "page": 123,
-            "cards": [
+                },
                 {
                     "element": "water",
                     "rank": "B+",
@@ -10404,7 +10537,12 @@
                     "category": "spirit",
                     "uuid": "0e26a4ac-c617-4220-9ce8-45e4a50d32de",
                     "name": "金色の射手 シュラン"
-                },
+                }
+            ]
+        },
+        {
+            "page": 125,
+            "cards": [
                 {
                     "element": "fire",
                     "rank": "B+",
@@ -10452,12 +10590,7 @@
                     "category": "item",
                     "uuid": "b88f1493-c107-4a7c-a0ff-ea1ef15c99d6",
                     "name": "神々の知識の書"
-                }
-            ]
-        },
-        {
-            "page": 124,
-            "cards": [
+                },
                 {
                     "element": "water",
                     "rank": "A",
@@ -10489,7 +10622,12 @@
                     "category": "spirit",
                     "uuid": "f8eb7258-c3ae-45bf-aef2-0e485a959cf0",
                     "name": "玉乗りねずみ＆コロル"
-                },
+                }
+            ]
+        },
+        {
+            "page": 126,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "A",
@@ -10537,12 +10675,7 @@
                     "category": "spirit",
                     "uuid": "1e41cf8b-70b7-4c6c-bab6-474b8895f80b",
                     "name": "恋する少女 パルフェ"
-                }
-            ]
-        },
-        {
-            "page": 125,
-            "cards": [
+                },
                 {
                     "element": "fire",
                     "rank": "B",
@@ -10574,7 +10707,12 @@
                     "category": "item",
                     "uuid": "bc1fed40-9e5c-454e-abcc-33da8948cb07",
                     "name": "巨人放伐の旗印『自由の翼』"
-                },
+                }
+            ]
+        },
+        {
+            "page": 127,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "A",
@@ -10622,12 +10760,7 @@
                     "category": "item",
                     "uuid": "886ef27a-ae32-48cc-ac44-cccf46d337a3",
                     "name": "巨人放伐の旗印『自由の翼』"
-                }
-            ]
-        },
-        {
-            "page": 126,
-            "cards": [
+                },
                 {
                     "element": "thunder",
                     "rank": "A",
@@ -10659,7 +10792,12 @@
                     "category": "item",
                     "uuid": "934d6ef0-efa4-43ae-9d6b-61cf69239271",
                     "name": "反撃の双刃『スナップブレード』"
-                },
+                }
+            ]
+        },
+        {
+            "page": 128,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "A",
@@ -10707,12 +10845,7 @@
                     "category": "spirit",
                     "uuid": "aff00bc9-7727-4b71-825a-0979cbc23785",
                     "name": "マナに目覚めた猫ウィズ"
-                }
-            ]
-        },
-        {
-            "page": 127,
-            "cards": [
+                },
                 {
                     "element": "thunder",
                     "rank": "A",
@@ -10744,7 +10877,12 @@
                     "category": "spirit",
                     "uuid": "b2c13cf0-ea4b-4807-b1ab-e673892d258c",
                     "name": "祭に溶け込む アーシア"
-                },
+                }
+            ]
+        },
+        {
+            "page": 129,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "A",
@@ -10792,12 +10930,7 @@
                     "category": "spirit",
                     "uuid": "33c64596-7565-414b-81bd-217a3e78a4f4",
                     "name": "機械騎士 リヒト"
-                }
-            ]
-        },
-        {
-            "page": 128,
-            "cards": [
+                },
                 {
                     "element": "water",
                     "rank": "A",
@@ -10829,7 +10962,12 @@
                     "category": "spirit",
                     "uuid": "f96d3442-0ade-4d03-8b25-c77fef9d234f",
                     "name": "巨飛剣の使い手 リュン"
-                },
+                }
+            ]
+        },
+        {
+            "page": 130,
+            "cards": [
                 {
                     "element": "water",
                     "rank": "A",
@@ -10877,12 +11015,7 @@
                     "category": "spirit",
                     "uuid": "320471fd-1004-42b5-b3df-3e46d44cfa6c",
                     "name": "ルー＆クー"
-                }
-            ]
-        },
-        {
-            "page": 129,
-            "cards": [
+                },
                 {
                     "element": "water",
                     "rank": "A",
@@ -10914,7 +11047,12 @@
                     "category": "spirit",
                     "uuid": "858e3237-c5bf-4716-9c37-8c8af9a7b701",
                     "name": "ロレッタ"
-                },
+                }
+            ]
+        },
+        {
+            "page": 131,
+            "cards": [
                 {
                     "element": "thunder",
                     "rank": "B",
@@ -10962,12 +11100,7 @@
                     "category": "spirit",
                     "uuid": "c5fb6fe7-9a93-4e61-8c03-83a68fe47f89",
                     "name": "デネヴ"
-                }
-            ]
-        },
-        {
-            "page": 130,
-            "cards": [
+                },
                 {
                     "element": "thunder",
                     "rank": "A",
@@ -10999,7 +11132,12 @@
                     "category": "spirit",
                     "uuid": "c6c42a3d-4c22-4c35-a46c-bc273f4baa31",
                     "name": "焔のネッキー"
-                },
+                }
+            ]
+        },
+        {
+            "page": 132,
+            "cards": [
                 {
                     "element": "fire",
                     "rank": "A",
@@ -11047,12 +11185,7 @@
                     "category": "spirit",
                     "uuid": "ae001e1b-cf1b-4de1-ad8a-6e5d3f97a5c1",
                     "name": "黒猫とニコニコテレビちゃん"
-                }
-            ]
-        },
-        {
-            "page": 131,
-            "cards": [
+                },
                 {
                     "element": "fire",
                     "rank": "A",
@@ -11084,7 +11217,12 @@
                     "category": "spirit",
                     "uuid": "15bc75e2-8a8e-4114-a956-bce0dbef3bc8",
                     "name": "フェリシア"
-                },
+                }
+            ]
+        },
+        {
+            "page": 133,
+            "cards": [
                 {
                     "element": "fire",
                     "rank": "B",
@@ -11132,12 +11270,7 @@
                     "category": "spirit",
                     "uuid": "1fa45dc9-537e-496c-bd15-ce35977d19c8",
                     "name": "ヴァネット"
-                }
-            ]
-        },
-        {
-            "page": 132,
-            "cards": [
+                },
                 {
                     "element": "fire",
                     "rank": "A",
@@ -11169,7 +11302,12 @@
                     "category": "spirit",
                     "uuid": "6f047a06-e88b-4e3b-b52e-82b1dd6afd13",
                     "name": "お転婆娘 リンシン"
-                },
+                }
+            ]
+        },
+        {
+            "page": 134,
+            "cards": [
                 {
                     "element": "fire",
                     "rank": "B+",
@@ -11217,12 +11355,7 @@
                     "category": "spirit",
                     "uuid": "e9b98f2e-f8a0-4e5f-8d53-e4c23287ce7f",
                     "name": "デネヴ"
-                }
-            ]
-        },
-        {
-            "page": 133,
-            "cards": [
+                },
                 {
                     "element": "fire",
                     "rank": "A",
