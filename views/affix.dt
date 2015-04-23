@@ -1,0 +1,5 @@
+ul.nav.nav-tabs.nav-stacked( data-spy="affix", data-offset-top="30", )
+    - import std.conv;
+    - foreach( page; pages )
+        li
+            a( href="\#page-#{page.index}", ) page: #{page.index}

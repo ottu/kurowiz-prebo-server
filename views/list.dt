@@ -1,6 +1,6 @@
 - foreach( page; pages )
+    h3( id="page-#{page.index}", ) page: #{page.index}
     table.table.table-bordered.table-hover.table-condensed
-        h3 page: #{page.index}
         thead
             tr
                 th
