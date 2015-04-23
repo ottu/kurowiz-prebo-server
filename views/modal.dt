@@ -1,0 +1,93 @@
+div#news-input-group
+div.modal.fade#news-modal
+    div.modal-dialog
+        div.modal-content
+            div.modal-header
+                p 新規カードリストへ追加
+            div.modal-body
+                table.table.table-bordered.table.hover.table-condensed
+                    tbody
+                        tr
+                            th 名前
+                            th
+                                input( type="text", )
+                        tr
+                            th 主属性
+                            th
+                                div.btn-group( data-toggle="buttons", )
+                                    label.btn.btn-danger
+                                        input( type="radio", name="main-element", value="fire", ) 火
+                                    label.btn.btn-info
+                                        input( type="radio", name="main-element", value="water", ) 水
+                                    label.btn.btn-warning
+                                        input( type="radio", name="main-element", value="thunder", ) 雷
+                                    label.btn.btn-default
+                                        input( type="radio", name="main-element", value="none", ) 無
+                        tr
+                            th 副属性
+                            th
+                                div.btn-group( data-toggle="buttons", )
+                                    label.btn.btn-danger
+                                        input( type="radio", name="sub-element", value="fire", ) 火
+                                    label.btn.btn-info
+                                        input( type="radio", name="sub-element", value="water", ) 水
+                                    label.btn.btn-warning
+                                        input( type="radio", name="sub-element", value="thunder", ) 雷
+                                button.btn.btn-default( style="float: right", ) チェックを外す
+                        tr
+                            th カテゴリ
+                            th
+                                div.btn-group( data-toggle="buttons", )
+                                    label.btn.btn-default
+                                        input( type="radio", name="category", value="fire", ) 精霊
+                                    label.btn.btn-default
+                                        input( type="radio", name="category", value="water", ) 素材
+                                    label.btn.btn-default
+                                        input( type="radio", name="category", value="fire", ) マナ
+                                    label.btn.btn-default
+                                        input( type="radio", name="category", value="water", ) エーテル
+                                    br
+                                    label.btn.btn-default
+                                        input( type="radio", name="category", value="fire", ) アイテム
+                                    label.btn.btn-default
+                                        input( type="radio", name="category", value="water", ) クリスタル
+                                    label.btn.btn-default
+                                        input( type="radio", name="category", value="fire", ) ゴールド
+                                    label.btn.btn-default
+                                        input( type="radio", name="category", value="water", ) メイト
+                        tr
+                            th ランク
+                            th
+                                div.btn-group( data-toggle="buttons", )
+                                    label.btn.btn-default
+                                        input( type="radio", name="rank", value="fire", ) L
+                                    label.btn.btn-default
+                                        input( type="radio", name="rank", value="water", ) SS+
+                                    label.btn.btn-default
+                                        input( type="radio", name="rank", value="fire", ) SS
+                                    label.btn.btn-default
+                                        input( type="radio", name="rank", value="water", ) S+
+                                    label.btn.btn-default
+                                        input( type="radio", name="rank", value="water", ) S
+                                    br
+                                    label.btn.btn-default
+                                        input( type="radio", name="rank", value="fire", ) A+
+                                    label.btn.btn-default
+                                        input( type="radio", name="rank", value="water", ) A
+                                    label.btn.btn-default
+                                        input( type="radio", name="rank", value="fire", ) B+
+                                    label.btn.btn-default
+                                        input( type="radio", name="rank", value="water", ) B
+                                    label.btn.btn-default
+                                        input( type="radio", name="rank", value="water", ) C+
+                                    label.btn.btn-default
+                                        input( type="radio", name="rank", value="water", ) C
+                        tr
+                            th オプション
+                            th
+                                input( type="text", )
+            div.modal-footer
+                button.btn.btn-default( data-dismiss="modal", ) Close
+                button.btn.btn-primary#enlist-button( data-dismiss="modal", ) Add
+a.btn.btn-default( href="#news-modal", data-toggle="modal",  ) 新規カードを登録
+button.btn.btn-primary#add-button( type="button", ) プレボに追加する

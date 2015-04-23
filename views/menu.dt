@@ -1,4 +1,4 @@
-h3 Search Settings
+h3 Search
 form( action="/search", method="GET", )
     div.form-group
         label 名前
@@ -67,11 +67,13 @@ form( action="/search", method="GET", )
                 input( type="checkbox", name="rank", value="C+", ) C+
             label.w25.btn.btn-default#rank-button
                 input( type="checkbox", name="rank", value="N", ) N
-    button.btn.btn-default( type="submit", ) 検索
+    button.btn.btn-primary( type="submit", ) 検索
 h3 Delete
 form
-    button.btn.btn-default#use-button( type="submit", ) チェックしたカードを取り出す
+    button.btn.btn-warning#use-button( type="submit", ) チェックしたカードを取り出す
 h3 Add
 form( action="/add", method="POST", )
     textarea#news-textarea( name="news", row="10",  )
-    button.btn.btn-default#add-button( type="submit", ) カードを追加する
+    button.btn.btn-default( type="submit", ) カードを追加する
+h3 Add2
+    include modal
