@@ -1,4 +1,6 @@
 div#news-input-group
+    table.table.table-bordered.table.hover.table-condensed
+        tbody#news-tbody( style="font-size: 12px", )
 div.modal.fade#news-modal
     div.modal-dialog
         div.modal-content
@@ -10,11 +12,11 @@ div.modal.fade#news-modal
                         tr
                             th 名前
                             th
-                                input( type="text", )
+                                input#modal-name-input( type="text", )
                         tr
                             th 主属性
                             th
-                                div.btn-group( data-toggle="buttons", )
+                                div.btn-group#modal-main-element-radio( data-toggle="buttons", )
                                     label.btn.btn-danger
                                         input( type="radio", name="main-element", value="fire", ) 火
                                     label.btn.btn-info
@@ -26,66 +28,66 @@ div.modal.fade#news-modal
                         tr
                             th 副属性
                             th
-                                div.btn-group( data-toggle="buttons", )
+                                div.btn-group#modal-sub-element-radio( data-toggle="buttons", )
                                     label.btn.btn-danger
                                         input( type="radio", name="sub-element", value="fire", ) 火
                                     label.btn.btn-info
                                         input( type="radio", name="sub-element", value="water", ) 水
                                     label.btn.btn-warning
                                         input( type="radio", name="sub-element", value="thunder", ) 雷
-                                button.btn.btn-default( style="float: right", ) チェックを外す
+                                button.btn.btn-default#modal-sub-element-button( style="float: right", ) チェックを外す
                         tr
                             th カテゴリ
                             th
-                                div.btn-group( data-toggle="buttons", )
+                                div.btn-group#modal-category-radio( data-toggle="buttons", )
                                     label.btn.btn-default
-                                        input( type="radio", name="category", value="fire", ) 精霊
+                                        input( type="radio", name="category", value="spirit", ) 精霊
                                     label.btn.btn-default
-                                        input( type="radio", name="category", value="water", ) 素材
+                                        input( type="radio", name="category", value="material", ) 素材
                                     label.btn.btn-default
-                                        input( type="radio", name="category", value="fire", ) マナ
+                                        input( type="radio", name="category", value="mana", ) マナ
                                     label.btn.btn-default
-                                        input( type="radio", name="category", value="water", ) エーテル
+                                        input( type="radio", name="category", value="ether", ) エーテル
                                     br
                                     label.btn.btn-default
-                                        input( type="radio", name="category", value="fire", ) アイテム
+                                        input( type="radio", name="category", value="item", ) アイテム
                                     label.btn.btn-default
-                                        input( type="radio", name="category", value="water", ) クリスタル
+                                        input( type="radio", name="category", value="crystal", ) クリスタル
                                     label.btn.btn-default
-                                        input( type="radio", name="category", value="fire", ) ゴールド
+                                        input( type="radio", name="category", value="gold", ) ゴールド
                                     label.btn.btn-default
-                                        input( type="radio", name="category", value="water", ) メイト
+                                        input( type="radio", name="category", value="mate", ) メイト
                         tr
                             th ランク
                             th
-                                div.btn-group( data-toggle="buttons", )
+                                div.btn-group#modal-rank-radio( data-toggle="buttons", )
                                     label.btn.btn-default
-                                        input( type="radio", name="rank", value="fire", ) L
+                                        input( type="radio", name="rank", value="L", ) L
                                     label.btn.btn-default
-                                        input( type="radio", name="rank", value="water", ) SS+
+                                        input( type="radio", name="rank", value="SS+", ) SS+
                                     label.btn.btn-default
-                                        input( type="radio", name="rank", value="fire", ) SS
+                                        input( type="radio", name="rank", value="SS", ) SS
                                     label.btn.btn-default
-                                        input( type="radio", name="rank", value="water", ) S+
+                                        input( type="radio", name="rank", value="S+", ) S+
                                     label.btn.btn-default
-                                        input( type="radio", name="rank", value="water", ) S
+                                        input( type="radio", name="rank", value="S", ) S
                                     br
                                     label.btn.btn-default
-                                        input( type="radio", name="rank", value="fire", ) A+
+                                        input( type="radio", name="rank", value="A+", ) A+
                                     label.btn.btn-default
-                                        input( type="radio", name="rank", value="water", ) A
+                                        input( type="radio", name="rank", value="A", ) A
                                     label.btn.btn-default
-                                        input( type="radio", name="rank", value="fire", ) B+
+                                        input( type="radio", name="rank", value="B+", ) B+
                                     label.btn.btn-default
-                                        input( type="radio", name="rank", value="water", ) B
+                                        input( type="radio", name="rank", value="B", ) B
                                     label.btn.btn-default
-                                        input( type="radio", name="rank", value="water", ) C+
+                                        input( type="radio", name="rank", value="C+", ) C+
                                     label.btn.btn-default
-                                        input( type="radio", name="rank", value="water", ) C
+                                        input( type="radio", name="rank", value="C", ) C
                         tr
                             th オプション
                             th
-                                input( type="text", )
+                                input#modal-option-input( type="text", )
             div.modal-footer
                 button.btn.btn-default( data-dismiss="modal", ) Close
                 button.btn.btn-primary#enlist-button( data-dismiss="modal", ) Add

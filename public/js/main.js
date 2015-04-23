@@ -58,6 +58,58 @@
 
     $('#enlist-button').on('click', function(){
         console.log('enlist button clicked!');
+
+        var element_dic = {
+            'fire': '火',
+            'water': '水',
+            'thunder': '雷',
+            'none': '無'
+        };
+
+        var category_dic = {
+            'spirit': '精',
+            'material': '素',
+            'ether': 'エ',
+            'mana': 'マ',
+            'item': 'ア',
+            'crystal': 'ク',
+            'gold': 'ゴ',
+            'mate': 'メ'
+        };
+
+        var name = $('#modal-name-input').val();
+        var main = $('#modal-main-element-radio').find('input:checked').val();
+        var sub = $('#modal-sub-element-radio').find('input:checked').val();
+        var category = $('#modal-category-radio').find('input:checked').val();
+        var rank = $('#modal-rank-radio').find('input:checked').val();
+        var option = $('#modal-option-input').val();
+
+        var element = main;
+        var show_element = element_dic[main];
+        if (sub != '') {
+            element += '/' + sub;
+            show_element += '/' +element_dic[sub];
+        }
+        var show_category = category_dic[category];
+
+        var json = {
+            'name': name,
+            'element': element,
+            'category': category,
+            'rank': rank,
+            'option': option
+        }
+
+        var tbody = $('#news-tbody');
+        tbody.append([
+            '<tr>',
+                '<th data-name="' + name + '">' + name + '</th>',
+                '<th class="w15" data-element="' + element + '">' + show_element+ '</th>',
+                '<th class="w10" data-category="' + category + '">' + show_category + '</th>',
+                '<th class="w10" data-rank="' + rank + '">' + rank + '</th>',
+                '<th class="w15" data-option="' + option + '">' + option + '</th>',
+            '</tr>'
+        ].join(''));
     });
 
     $('#add-button').on('click', function(){
