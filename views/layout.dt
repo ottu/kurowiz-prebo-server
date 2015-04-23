@@ -15,6 +15,13 @@ html
             label.btn.w25 { width: 25%; }
             label.btn.w33 { width: 33.3333%; }
             label.btn.w50 { width: 50%; }
+
+            input[type="text"]{
+                width: 100%;
+                -moz-box-sizing: border-box;
+                -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+            }
     body
         block body
         script( src="/js/jquery-1.11.2.min.js", )

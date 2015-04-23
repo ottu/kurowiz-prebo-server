@@ -55,4 +55,13 @@
         });
         return false;
     });
+
+    $('#enlist-button').on('click', function(){
+        console.log('enlist button clicked!');
+    });
+
+    $('#add-button').on('click', function(){
+        console.log('add button clicked!');
+    });
+
 })(jQuery)
