@@ -5,6 +5,6 @@ block body
     div.container
         div.row
             div.col-md-4
-                include menu
+                //include menu
             div.col-md-8
                 block main
