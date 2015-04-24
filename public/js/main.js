@@ -77,16 +77,21 @@
             'mate': 'メ'
         };
 
-        var name = $('#modal-name-input').val();
+        var name = $('#modal-name-input').val().trim();
         var main = $('#modal-main-element-radio').find('input:checked').val();
         var sub = $('#modal-sub-element-radio').find('input:checked').val();
-        var category = $('#modal-category-radio').find('input:checked').val();
-        var rank = $('#modal-rank-radio').find('input:checked').val();
+        var category = $('#modal-category-radio').find('input:checked').val().trim();
+        var rank = $('#modal-rank-radio').find('input:checked').val().trim();
         var option = $('#modal-option-input').val();
+
+        if (name == "") return false;
+        if (main == "") return false;
+        if (category == "") return false;
+        if (rank == "") return false
 
         var element = main;
         var show_element = element_dic[main];
-        if (sub != '') {
+        if (sub != undefined) {
             element += '/' + sub;
             show_element += '/' +element_dic[sub];
         }
@@ -103,6 +108,11 @@
         var tbody = $('#news-tbody');
         tbody.append([
             '<tr>',
+                '<th class="w10">',
+                    '<button class="btn btn-default btn-xs" type="button">',
+                        '<span class="glyphicon glyphicon-minus" />',
+                    '</button>',
+                '</th>',
                 '<th data-name="' + name + '">' + name + '</th>',
                 '<th class="w15" data-element="' + element + '">' + show_element+ '</th>',
                 '<th class="w10" data-category="' + category + '">' + show_category + '</th>',
@@ -112,8 +122,35 @@
         ].join(''));
     });
 
+    $('#modal-sub-element-button').on('click', function(){
+        var radio = $('#modal-sub-element-radio');
+        radio.find('label').removeClass('active');
+        radio.find('input').attr('checked', false);
+    });
+
     $('#add-button').on('click', function(){
         console.log('add button clicked!');
+
+        var news = [];
+        var trs = $('#news-tbody').find('tr');
+        for( var i = 0; i < trs.length; i++ ) {
+            var tr = trs[i];
+            var name = $(tr).children('th[data-name]').attr('data-name');
+            var element = $(tr).children('th[data-element]').attr('data-element');
+            var category = $(tr).children('th[data-category]').attr('data-category');
+            var rank = $(tr).children('th[data-rank]').attr('data-rank');
+            var option = $(tr).children('th[data-option]').attr('data-option');
+
+            var csv =  name + ',' + element + ',' + category + ',' + rank + ',' + option;
+            news.push(csv);
+        }
+
+        var body = news.join('\n');
+        console.log(body);
+    });
+
+    $('#news-tbody').on('click', 'button', function(){
+        $(this).parent().parent().remove();
     });
 
 })(jQuery)

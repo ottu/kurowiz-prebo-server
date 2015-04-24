@@ -1,6 +1,6 @@
 div#news-input-group
     table.table.table-bordered.table.hover.table-condensed
-        tbody#news-tbody( style="font-size: 12px", )
+        tbody#news-tbody( style="font-size: 15px", )
 div.modal.fade#news-modal
     div.modal-dialog
         div.modal-content
@@ -23,8 +23,8 @@ div.modal.fade#news-modal
                                         input( type="radio", name="main-element", value="water", ) 水
                                     label.btn.btn-warning
                                         input( type="radio", name="main-element", value="thunder", ) 雷
-                                    label.btn.btn-default
-                                        input( type="radio", name="main-element", value="none", ) 無
+                                    label.btn.btn-default.active
+                                        input( type="radio", name="main-element", value="none", checked="checked", ) 無
                         tr
                             th 副属性
                             th
@@ -40,8 +40,8 @@ div.modal.fade#news-modal
                             th カテゴリ
                             th
                                 div.btn-group#modal-category-radio( data-toggle="buttons", )
-                                    label.btn.btn-default
-                                        input( type="radio", name="category", value="spirit", ) 精霊
+                                    label.btn.btn-default.active
+                                        input( type="radio", name="category", value="spirit", checked="checked", ) 精霊
                                     label.btn.btn-default
                                         input( type="radio", name="category", value="material", ) 素材
                                     label.btn.btn-default
@@ -74,8 +74,8 @@ div.modal.fade#news-modal
                                     br
                                     label.btn.btn-default
                                         input( type="radio", name="rank", value="A+", ) A+
-                                    label.btn.btn-default
-                                        input( type="radio", name="rank", value="A", ) A
+                                    label.btn.btn-default.active
+                                        input( type="radio", name="rank", value="A", checked="checked", ) A
                                     label.btn.btn-default
                                         input( type="radio", name="rank", value="B+", ) B+
                                     label.btn.btn-default
