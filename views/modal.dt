@@ -48,7 +48,6 @@ div.modal.fade#news-modal
                                         input( type="radio", name="category", value="mana", ) マナ
                                     label.btn.btn-default
                                         input( type="radio", name="category", value="ether", ) エーテル
-                                    br
                                     label.btn.btn-default
                                         input( type="radio", name="category", value="item", ) アイテム
                                     label.btn.btn-default
@@ -71,7 +70,6 @@ div.modal.fade#news-modal
                                         input( type="radio", name="rank", value="S+", ) S+
                                     label.btn.btn-default
                                         input( type="radio", name="rank", value="S", ) S
-                                    br
                                     label.btn.btn-default
                                         input( type="radio", name="rank", value="A+", ) A+
                                     label.btn.btn-default.active
