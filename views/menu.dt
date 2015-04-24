@@ -71,9 +71,9 @@ form( action="/search", method="GET", )
 h3 Delete
 form
     button.btn.btn-warning#use-button( type="submit", ) チェックしたカードを取り出す
-h3 Add
+h3 Add (Modal)
+include modal
+h3 Add (Plane CSV)
 form( action="/add", method="POST", )
     textarea#news-textarea( name="news", row="10",  )
     button.btn.btn-default( type="submit", ) カードを追加する
-h3 Add2
-    include modal

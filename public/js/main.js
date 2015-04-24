@@ -35,7 +35,7 @@
     });
 
     $('#use-button').on('click', function(){
-        var checked_card = $(document).find(':checked');
+        var checked_card = $('#main-list').find(':checked');
         var uuids = [];
         checked_card.each( function(){
             if ($(this).hasClass('checkbox_parent')) return;
@@ -145,8 +145,18 @@
             news.push(csv);
         }
 
-        var body = news.join('\n');
-        console.log(body);
+        var data = news.join('\n');
+        $.ajax({
+            type: "POST",
+            url: "/add",
+            data: { "news": data },
+            success: function(html){
+                var href = window.location.href.split('/');
+                window.location.href = href[0] + '//' + href[2];
+            }
+        });
+        return false;
+
     });
 
     $('#news-tbody').on('click', 'button', function(){
