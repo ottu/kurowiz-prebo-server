@@ -26,7 +26,7 @@ block main
                 tbody
                     - foreach( card; sorted )
                         - string color = getColor( card[1].elements[0] );
-                        tr(class='#{color}')
+                        tr(class='#{color}', data-uuid='#{card[1].uuid}', )
                             th
                                 input.checkbox_child( data-page="sort", type="checkbox", )
                             th= card[0]
