@@ -45,9 +45,11 @@ block main
                         th.w10 カテゴリ
                         th.w10 ランク
                         th オプション
+                        th 計
                 tbody
                     - foreach( card; aggregated )
                         - string color = getColor( card[1].elements[0] );
+                        - uint total = std.conv.to!(uint)(card[0]) * std.conv.to!(uint)(card[1].option);
                         tr(class='#{color}')
                             th= card[0]
                             th= card[1].name
@@ -55,3 +57,4 @@ block main
                             th= card[1].category
                             th= card[1].rank
                             th= card[1].option
+                            th= total
