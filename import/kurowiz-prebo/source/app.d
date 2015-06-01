@@ -6,6 +6,7 @@ import std.array;
 import std.getopt;
 import std.csv;
 import std.file;
+import std.typecons;
 
 import prebo;
 
