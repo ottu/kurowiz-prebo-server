@@ -3,6 +3,38 @@
         {
             "cards": [
                 {
+                    "category": "spirit",
+                    "element": "thunder",
+                    "name": "忌く鳴るなり恨み節 カフク",
+                    "option": "",
+                    "rank": "A",
+                    "uuid": "1c4e84b4-909c-4fb8-b373-9c5c1a53b58c"
+                },
+                {
+                    "category": "material",
+                    "element": "thunder",
+                    "name": "木",
+                    "option": "",
+                    "rank": "A",
+                    "uuid": "bcbed18d-cce8-4d27-947e-4ddde81a953c"
+                },
+                {
+                    "category": "spirit",
+                    "element": "thunder",
+                    "name": "本",
+                    "option": "",
+                    "rank": "SS",
+                    "uuid": "5f532561-a5b9-4579-af19-85e83d1d7eea"
+                },
+                {
+                    "category": "spirit",
+                    "element": "water",
+                    "name": "その力秘めたる闘身 カタバ",
+                    "option": "",
+                    "rank": "S",
+                    "uuid": "80b2b060-b9a8-4d72-bf37-d6c6f83c3e99"
+                },
+                {
                     "category": "mana",
                     "element": "water",
                     "name": "マナ・エレメント",
@@ -49,7 +81,12 @@
                     "option": "",
                     "rank": "SS",
                     "uuid": "1e34d28b-9635-4cd5-8703-66c9481441ca"
-                },
+                }
+            ],
+            "page": 1
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "water",
@@ -81,12 +118,7 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "21c81a2a-d5bd-4049-a0da-a591b154cba8"
-                }
-            ],
-            "page": 1
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "water",
@@ -134,7 +166,12 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "26a71368-ae66-41a5-8757-3026ef3d47d5"
-                },
+                }
+            ],
+            "page": 2
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "fire",
@@ -166,12 +203,7 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "fd4b3401-571c-48b4-8b42-d810660c648c"
-                }
-            ],
-            "page": 2
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "fire",
@@ -197,14 +229,6 @@
                     "uuid": "ac2adf7a-7198-44bf-b72e-da0c139e50bc"
                 },
                 {
-                    "category": "spirit",
-                    "element": "thunder",
-                    "name": "チュンと稲つく農耕神 ウカ",
-                    "option": "",
-                    "rank": "B",
-                    "uuid": "1d952267-bd4c-453b-88b7-b92d745ebeac"
-                },
-                {
                     "category": "item",
                     "element": "thunder",
                     "name": "〈神吉〉絶対成就神籤",
@@ -227,7 +251,12 @@
                     "option": "100",
                     "rank": "S",
                     "uuid": "6f7c0a2c-3154-4217-9316-225b50f4ba20"
-                },
+                }
+            ],
+            "page": 3
+        },
+        {
+            "cards": [
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -251,12 +280,7 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "afc04acc-96a1-4f55-abc0-06d5a3b861d3"
-                }
-            ],
-            "page": 3
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -312,7 +336,12 @@
                     "option": "",
                     "rank": "S",
                     "uuid": "2b9cf939-8d86-4d57-bfb5-4e82c7dbbc2f"
-                },
+                }
+            ],
+            "page": 4
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "fire",
@@ -329,19 +358,6 @@
                     "rank": "S",
                     "uuid": "bd817e82-8570-4ef2-a1c6-1b1f1ad0e2ef"
                 },
-                {
-                    "category": "spirit",
-                    "element": "thunder",
-                    "name": "チュンと稲つく農耕神 ウカ",
-                    "option": "",
-                    "rank": "B",
-                    "uuid": "b3ae516d-8889-4dd2-93c7-6a0e54103f0c"
-                }
-            ],
-            "page": 4
-        },
-        {
-            "cards": [
                 {
                     "category": "spirit",
                     "element": "thunder",
@@ -405,7 +421,12 @@
                     "option": "",
                     "rank": "S",
                     "uuid": "6087b7ff-d085-45e5-b734-b0fc2e1674dd"
-                },
+                }
+            ],
+            "page": 5
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "fire",
@@ -421,12 +442,7 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "d0413b28-b023-448b-b544-a2471199d08a"
-                }
-            ],
-            "page": 5
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "mana",
                     "element": "water",
@@ -490,7 +506,12 @@
                     "option": "",
                     "rank": "S",
                     "uuid": "4420e3b8-707e-4a0c-8690-9363fd9c5fc8"
-                },
+                }
+            ],
+            "page": 6
+        },
+        {
+            "cards": [
                 {
                     "category": "item",
                     "element": "fire",
@@ -506,12 +527,7 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "c455a5d5-0b2f-4c3b-b88c-10e81903506a"
-                }
-            ],
-            "page": 6
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "item",
                     "element": "fire",
@@ -575,7 +591,12 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "8910e805-b231-4f81-ab12-0ab34d25000c"
-                },
+                }
+            ],
+            "page": 7
+        },
+        {
+            "cards": [
                 {
                     "category": "item",
                     "element": "fire",
@@ -591,12 +612,7 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "84a8a1cf-091f-44a1-8aa3-ef6470dbe802"
-                }
-            ],
-            "page": 7
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "item",
                     "element": "water",
@@ -660,7 +676,12 @@
                     "option": "30",
                     "rank": "A",
                     "uuid": "1bb3ca05-1290-4843-8598-52aa05fd83df"
-                },
+                }
+            ],
+            "page": 8
+        },
+        {
+            "cards": [
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -676,12 +697,7 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "6399fb69-ef62-4565-bcc5-6c51914e3ad9"
-                }
-            ],
-            "page": 8
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -745,7 +761,12 @@
                     "option": "",
                     "rank": "S",
                     "uuid": "7a3032d0-64ee-4df3-b581-527b44a0f44b"
-                },
+                }
+            ],
+            "page": 9
+        },
+        {
+            "cards": [
                 {
                     "category": "material",
                     "element": "fire",
@@ -761,12 +782,7 @@
                     "option": "",
                     "rank": "L",
                     "uuid": "a76f5d7d-b2fc-4d37-a254-e1b0125ed0c7"
-                }
-            ],
-            "page": 9
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -830,7 +846,12 @@
                     "option": "100",
                     "rank": "S",
                     "uuid": "8281b40e-2a04-456f-8b45-3e3a5676e395"
-                },
+                }
+            ],
+            "page": 10
+        },
+        {
+            "cards": [
                 {
                     "category": "mana",
                     "element": "water",
@@ -846,12 +867,7 @@
                     "option": "50",
                     "rank": "A+",
                     "uuid": "f0619a01-8c29-4904-8063-3df2e29c62b1"
-                }
-            ],
-            "page": 10
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -915,7 +931,12 @@
                     "option": "",
                     "rank": "SS",
                     "uuid": "9b0c9f94-25c7-4c82-bc47-a44fe26fe6b1"
-                },
+                }
+            ],
+            "page": 11
+        },
+        {
+            "cards": [
                 {
                     "category": "material",
                     "element": "thunder",
@@ -931,12 +952,7 @@
                     "option": "",
                     "rank": "S+",
                     "uuid": "59e8117f-f292-4a3a-9682-ab654dc7bff5"
-                }
-            ],
-            "page": 11
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "material",
                     "element": "fire",
@@ -1000,7 +1016,12 @@
                     "option": "",
                     "rank": "SS",
                     "uuid": "31dd7669-f850-4d7d-b607-6a9c81ea317e"
-                },
+                }
+            ],
+            "page": 12
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "water",
@@ -1016,12 +1037,7 @@
                     "option": "",
                     "rank": "SS",
                     "uuid": "69365f1c-7c98-40e4-89ed-c76d206038a0"
-                }
-            ],
-            "page": 12
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -1085,7 +1101,12 @@
                     "option": "100",
                     "rank": "S",
                     "uuid": "612d2238-17b3-43f8-aa2b-a129ac09a2ae"
-                },
+                }
+            ],
+            "page": 13
+        },
+        {
+            "cards": [
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -1101,12 +1122,7 @@
                     "option": "",
                     "rank": "S",
                     "uuid": "92529e8c-ab31-4a0a-a31a-7fce0346c893"
-                }
-            ],
-            "page": 13
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -1170,7 +1186,12 @@
                     "option": "100",
                     "rank": "S",
                     "uuid": "893aea63-a2d5-49b0-aa4d-5b9ad56b19ab"
-                },
+                }
+            ],
+            "page": 14
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "thunder",
@@ -1186,12 +1207,7 @@
                     "option": "30",
                     "rank": "A",
                     "uuid": "b1bbaeaa-ab78-4d9b-8434-9d5f800ce915"
-                }
-            ],
-            "page": 14
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "thunder",
@@ -1255,7 +1271,12 @@
                     "option": "",
                     "rank": "S",
                     "uuid": "a2626b5e-c64b-42ac-bac7-b299e6349bd3"
-                },
+                }
+            ],
+            "page": 15
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "thunder",
@@ -1271,12 +1292,7 @@
                     "option": "",
                     "rank": "S",
                     "uuid": "bcbe0c53-e92f-46ae-8ebd-b735d86ce978"
-                }
-            ],
-            "page": 15
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "fire",
@@ -1340,7 +1356,12 @@
                     "option": "",
                     "rank": "S",
                     "uuid": "6c4bb8b1-9caa-4d82-8c52-d115c254c4de"
-                },
+                }
+            ],
+            "page": 16
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "thunder",
@@ -1356,12 +1377,7 @@
                     "option": "",
                     "rank": "S",
                     "uuid": "bbe46984-b458-419e-bead-28533fb2e3d1"
-                }
-            ],
-            "page": 16
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "fire",
@@ -1425,7 +1441,12 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "4bfd0464-23b7-40fd-aff7-15dd068c1b57"
-                },
+                }
+            ],
+            "page": 17
+        },
+        {
+            "cards": [
                 {
                     "category": "mana",
                     "element": "water",
@@ -1441,12 +1462,7 @@
                     "option": "",
                     "rank": "S",
                     "uuid": "a4ef826a-3277-4621-bde7-743448ea3c9c"
-                }
-            ],
-            "page": 17
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "water",
@@ -1510,7 +1526,12 @@
                     "option": "10",
                     "rank": "A",
                     "uuid": "8cb4c142-302e-47af-8607-29cf490dddc1"
-                },
+                }
+            ],
+            "page": 18
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "thunder",
@@ -1526,12 +1547,7 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "067a86ba-4d1c-4761-b8a3-976122a8f1bc"
-                }
-            ],
-            "page": 18
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "thunder",
@@ -1595,7 +1611,12 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "cf72b2ef-2a4a-45ea-af22-f064fbcb1b9a"
-                },
+                }
+            ],
+            "page": 19
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "thunder",
@@ -1611,12 +1632,7 @@
                     "option": "",
                     "rank": "S",
                     "uuid": "1b193e53-d43f-4092-b926-d5d646aaa342"
-                }
-            ],
-            "page": 19
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "fire",
@@ -1680,7 +1696,12 @@
                     "option": "",
                     "rank": "S",
                     "uuid": "bff742d4-e269-49f1-a40f-4e2f1c2440de"
-                },
+                }
+            ],
+            "page": 20
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "fire",
@@ -1696,12 +1717,7 @@
                     "option": "25",
                     "rank": "A",
                     "uuid": "88cdf08c-f2af-48ee-8420-4b9a3c5ab40b"
-                }
-            ],
-            "page": 20
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -1765,7 +1781,12 @@
                     "option": "25",
                     "rank": "A",
                     "uuid": "c2696ca8-fd51-4172-9002-8c0aabc89879"
-                },
+                }
+            ],
+            "page": 21
+        },
+        {
+            "cards": [
                 {
                     "category": "mana",
                     "element": "water",
@@ -1781,12 +1802,7 @@
                     "option": "",
                     "rank": "A+",
                     "uuid": "b58c27cf-9dd9-4bf8-9624-054dcb0f880f"
-                }
-            ],
-            "page": 21
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -1814,7 +1830,7 @@
                 {
                     "category": "spirit",
                     "element": "thunder",
-                    "name": "CODE: テネブル 《亡念の匣》",
+                    "name": "CODE:テネブル《亡念の匣》",
                     "option": "",
                     "rank": "S",
                     "uuid": "6ea8a474-8384-41aa-9b91-d49615471494"
@@ -1850,7 +1866,12 @@
                     "option": "",
                     "rank": "S",
                     "uuid": "449bf828-f7b6-47bf-8c4f-81fc0c7bb57a"
-                },
+                }
+            ],
+            "page": 22
+        },
+        {
+            "cards": [
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -1866,12 +1887,7 @@
                     "option": "",
                     "rank": "A+",
                     "uuid": "ed3de578-6386-4349-9643-526613b226ff"
-                }
-            ],
-            "page": 22
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -1935,7 +1951,12 @@
                     "option": "",
                     "rank": "A+",
                     "uuid": "8fa11671-a8c7-4cd7-930e-eda53ebf3679"
-                },
+                }
+            ],
+            "page": 23
+        },
+        {
+            "cards": [
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -1951,12 +1972,7 @@
                     "option": "100",
                     "rank": "S",
                     "uuid": "fadd6fcf-afb1-4d8c-b09e-2d6f2a81228d"
-                }
-            ],
-            "page": 23
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -1968,7 +1984,7 @@
                 {
                     "category": "spirit",
                     "element": "fire",
-                    "name": "CODE: ラヒルメ",
+                    "name": "CODE:ラヒルメ《優しき灯火》",
                     "option": "",
                     "rank": "A",
                     "uuid": "b7c322aa-7d5b-45c6-bb40-5532269bdab5"
@@ -2020,7 +2036,12 @@
                     "option": "25",
                     "rank": "A",
                     "uuid": "6658ea22-4d89-4e6c-a488-caebe4e9b338"
-                },
+                }
+            ],
+            "page": 24
+        },
+        {
+            "cards": [
                 {
                     "category": "mana",
                     "element": "water",
@@ -2036,12 +2057,7 @@
                     "option": "25",
                     "rank": "A",
                     "uuid": "97bf074d-cd62-4c4b-8b09-d9dfcbd191fe"
-                }
-            ],
-            "page": 24
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -2105,7 +2121,12 @@
                     "option": "50",
                     "rank": "A+",
                     "uuid": "74bdd185-e398-40af-bb1d-a12758c97285"
-                },
+                }
+            ],
+            "page": 25
+        },
+        {
+            "cards": [
                 {
                     "category": "material",
                     "element": "thunder",
@@ -2121,12 +2142,7 @@
                     "option": "",
                     "rank": "S+",
                     "uuid": "a60a31ff-acfc-4dae-a3e0-4c299f42bf91"
-                }
-            ],
-            "page": 25
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -2190,7 +2206,12 @@
                     "option": "100",
                     "rank": "S",
                     "uuid": "09214277-5098-44d7-bbad-ea3632061230"
-                },
+                }
+            ],
+            "page": 26
+        },
+        {
+            "cards": [
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -2202,16 +2223,11 @@
                 {
                     "category": "spirit",
                     "element": "water",
-                    "name": "CODE: バシレイデ",
+                    "name": "CODE:バシレイデ《錯誤の偶像》",
                     "option": "",
                     "rank": "A",
                     "uuid": "f66abf43-c105-48fe-b694-4cb021c456b2"
-                }
-            ],
-            "page": 26
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "mana",
                     "element": "water",
@@ -2275,7 +2291,12 @@
                     "option": "20",
                     "rank": "A",
                     "uuid": "a1211f1c-60d0-4dfd-9b06-4ee16bb3937c"
-                },
+                }
+            ],
+            "page": 27
+        },
+        {
+            "cards": [
                 {
                     "category": "mana",
                     "element": "water",
@@ -2291,12 +2312,7 @@
                     "option": "100",
                     "rank": "S",
                     "uuid": "e8f3f560-a2a8-4155-a704-d22ea5edf6d5"
-                }
-            ],
-            "page": 27
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "fire",
@@ -2332,7 +2348,7 @@
                 {
                     "category": "spirit",
                     "element": "fire",
-                    "name": "CODE: ウラガーン",
+                    "name": "CODE:ウラガーン《憎悪の黒業》",
                     "option": "",
                     "rank": "A",
                     "uuid": "ea691e2f-99c7-41bf-87f0-77faffdc9e02"
@@ -2360,7 +2376,12 @@
                     "option": "50",
                     "rank": "A+",
                     "uuid": "1c34d967-65e6-473c-8d12-257ccad31dc4"
-                },
+                }
+            ],
+            "page": 28
+        },
+        {
+            "cards": [
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -2376,12 +2397,7 @@
                     "option": "",
                     "rank": "SS",
                     "uuid": "0831274d-2698-4c40-9280-73dbbd9c5917"
-                }
-            ],
-            "page": 28
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "water",
@@ -2445,7 +2461,12 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "ddda6daf-5b43-40e8-8bd9-941bdf3c7f38"
-                },
+                }
+            ],
+            "page": 29
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "thunder",
@@ -2461,12 +2482,7 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "5166ce80-5292-49de-9e1a-55dc9dfc4a14"
-                }
-            ],
-            "page": 29
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "thunder",
@@ -2530,7 +2546,12 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "7639a422-c51f-4985-a273-0ea7d3abc5fe"
-                },
+                }
+            ],
+            "page": 30
+        },
+        {
+            "cards": [
                 {
                     "category": "item",
                     "element": "water",
@@ -2546,12 +2567,7 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "591be682-91ef-4af0-972a-fda375a190a9"
-                }
-            ],
-            "page": 30
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "item",
                     "element": "water",
@@ -2615,7 +2631,12 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "957a37e2-439e-4742-8d52-4f7a61aeca8d"
-                },
+                }
+            ],
+            "page": 31
+        },
+        {
+            "cards": [
                 {
                     "category": "item",
                     "element": "water",
@@ -2631,12 +2652,7 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "5825442b-5d22-41e3-abbd-9d9ae3b2d25b"
-                }
-            ],
-            "page": 31
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "thunder",
@@ -2700,7 +2716,12 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "a5cd6590-6289-4061-83ce-b98ac6db6fdc"
-                },
+                }
+            ],
+            "page": 32
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "thunder",
@@ -2716,12 +2737,7 @@
                     "option": "",
                     "rank": "S",
                     "uuid": "68a4a33b-0914-4218-9642-43129b556875"
-                }
-            ],
-            "page": 32
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "material",
                     "element": "fire",
@@ -2785,7 +2801,12 @@
                     "option": "",
                     "rank": "B+",
                     "uuid": "6aaa6013-8789-4846-af9c-e5a1db078c0a"
-                },
+                }
+            ],
+            "page": 33
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "thunder",
@@ -2801,12 +2822,7 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "908f649f-ca36-4156-adf3-6c37fe5d5c4e"
-                }
-            ],
-            "page": 33
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "material",
                     "element": "thunder",
@@ -2870,7 +2886,12 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "01f6a4e2-4ba9-4bbb-82b3-d02f99722707"
-                },
+                }
+            ],
+            "page": 34
+        },
+        {
+            "cards": [
                 {
                     "category": "material",
                     "element": "thunder",
@@ -2886,12 +2907,7 @@
                     "option": "",
                     "rank": "SS",
                     "uuid": "d58f4068-8ef6-4f13-aaf0-b0762d1118a1"
-                }
-            ],
-            "page": 34
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "material",
                     "element": "thunder",
@@ -2955,7 +2971,12 @@
                     "option": "",
                     "rank": "B+",
                     "uuid": "4abd8fc0-6900-484e-96a4-80ea923872ea"
-                },
+                }
+            ],
+            "page": 35
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "thunder",
@@ -2971,12 +2992,7 @@
                     "option": "",
                     "rank": "S",
                     "uuid": "5f3bd475-268a-43bc-b472-71261c49542c"
-                }
-            ],
-            "page": 35
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "thunder",
@@ -3040,7 +3056,12 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "3b2ed863-fad7-4d86-be2f-f4fbbaf3f076"
-                },
+                }
+            ],
+            "page": 36
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "thunder",
@@ -3056,12 +3077,7 @@
                     "option": "",
                     "rank": "S",
                     "uuid": "610604ce-605f-4ae5-862c-646645a5d69e"
-                }
-            ],
-            "page": 36
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "thunder",
@@ -3125,7 +3141,12 @@
                     "option": "",
                     "rank": "SS",
                     "uuid": "f3d1bfb4-e4e2-49a0-818e-af4878232cec"
-                },
+                }
+            ],
+            "page": 37
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "fire",
@@ -3141,12 +3162,7 @@
                     "option": "",
                     "rank": "S+",
                     "uuid": "585cb841-63a3-4f28-9c33-6a8c5edaef1d"
-                }
-            ],
-            "page": 37
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "material",
                     "element": "thunder",
@@ -3210,7 +3226,12 @@
                     "option": "",
                     "rank": "S+",
                     "uuid": "40652f43-a996-47b5-b073-dd5d49780b1a"
-                },
+                }
+            ],
+            "page": 38
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "fire",
@@ -3226,12 +3247,7 @@
                     "option": "",
                     "rank": "S",
                     "uuid": "d32ec7d5-94ee-4aba-8a41-5f3beabbb589"
-                }
-            ],
-            "page": 38
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "water",
@@ -3295,7 +3311,12 @@
                     "option": "",
                     "rank": "S",
                     "uuid": "0d5abcd7-d909-42f3-b8ca-3989a73b8e98"
-                },
+                }
+            ],
+            "page": 39
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "fire",
@@ -3311,12 +3332,7 @@
                     "option": "",
                     "rank": "S",
                     "uuid": "f98b600d-ed8d-4b0b-b6b7-4e67dca2c9ed"
-                }
-            ],
-            "page": 39
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "fire",
@@ -3380,7 +3396,12 @@
                     "option": "",
                     "rank": "S",
                     "uuid": "7e54e4f4-6359-41ad-b793-c7abdd9282e3"
-                },
+                }
+            ],
+            "page": 40
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "fire",
@@ -3396,12 +3417,7 @@
                     "option": "25",
                     "rank": "A",
                     "uuid": "3d71b8d6-705a-4c5d-b37b-44418202cd6e"
-                }
-            ],
-            "page": 40
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "fire",
@@ -3465,7 +3481,12 @@
                     "option": "25",
                     "rank": "A",
                     "uuid": "c2523218-e10e-42ef-abdd-9e097ae9ff9c"
-                },
+                }
+            ],
+            "page": 41
+        },
+        {
+            "cards": [
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -3481,16 +3502,11 @@
                     "option": "50",
                     "rank": "A+",
                     "uuid": "42a6954c-17fe-4375-8867-633e3bf8b65c"
-                }
-            ],
-            "page": 41
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "fire",
-                    "name": "CODE: ラヒルメ",
+                    "name": "CODE:ラヒルメ《優しき灯火》",
                     "option": "",
                     "rank": "A",
                     "uuid": "df258d8b-b344-4787-bbfb-2a1569db7860"
@@ -3506,7 +3522,7 @@
                 {
                     "category": "spirit",
                     "element": "thunder",
-                    "name": "CODE: スビェート",
+                    "name": "CODE:スビェート《静寂の雷神》",
                     "option": "",
                     "rank": "A",
                     "uuid": "9eeac1b5-8611-45ca-a0f5-0cd436af5869"
@@ -3550,7 +3566,12 @@
                     "option": "50",
                     "rank": "A+",
                     "uuid": "9651f225-a6aa-4fe9-859a-4d99a4c16a0f"
-                },
+                }
+            ],
+            "page": 42
+        },
+        {
+            "cards": [
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -3566,16 +3587,11 @@
                     "option": "100",
                     "rank": "S",
                     "uuid": "800b7ab3-9383-4d86-a5fe-7d6789e15b35"
-                }
-            ],
-            "page": 42
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "fire",
-                    "name": "CODE: ウラガーン",
+                    "name": "CODE:ウラガーン《憎悪の黒業》",
                     "option": "",
                     "rank": "A",
                     "uuid": "f49be34e-2d40-4162-a77f-3f9da14e8ce3"
@@ -3635,7 +3651,12 @@
                     "option": "",
                     "rank": "S",
                     "uuid": "794ba381-d5bc-4493-b9cb-3b07397ba53d"
-                },
+                }
+            ],
+            "page": 43
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "water",
@@ -3651,12 +3672,7 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "5346ae07-e6d9-48bc-96c5-93f222863100"
-                }
-            ],
-            "page": 43
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "water",
@@ -3720,7 +3736,12 @@
                     "option": "",
                     "rank": "S",
                     "uuid": "dc964a58-b192-4b33-b459-9cc8e1badea6"
-                },
+                }
+            ],
+            "page": 44
+        },
+        {
+            "cards": [
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -3736,12 +3757,7 @@
                     "option": "50",
                     "rank": "A+",
                     "uuid": "8272662c-6d72-4ef2-8889-5e9b7cf58a4c"
-                }
-            ],
-            "page": 44
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "fire",
@@ -3805,7 +3821,12 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "9139243c-18ff-43d3-8750-3a4cc6e1aaa7"
-                },
+                }
+            ],
+            "page": 45
+        },
+        {
+            "cards": [
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -3817,16 +3838,11 @@
                 {
                     "category": "spirit",
                     "element": "water",
-                    "name": "リュコス",
+                    "name": "月に吼える狼 リュコス",
                     "option": "",
                     "rank": "A",
                     "uuid": "449426df-24b9-4f2a-aa99-456196a83103"
-                }
-            ],
-            "page": 45
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "water",
@@ -3854,7 +3870,7 @@
                 {
                     "category": "spirit",
                     "element": "thunder",
-                    "name": "ザラジュラム",
+                    "name": "狡猾なる堕天使 ザラジュラム",
                     "option": "",
                     "rank": "A",
                     "uuid": "90c52a19-214b-4f05-9559-1b16fb4ed5b7"
@@ -3890,7 +3906,12 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "dced4a44-3081-4816-85e4-019fe81d539e"
-                },
+                }
+            ],
+            "page": 46
+        },
+        {
+            "cards": [
                 {
                     "category": "mana",
                     "element": "water",
@@ -3906,12 +3927,7 @@
                     "option": "100",
                     "rank": "S",
                     "uuid": "c66c3d36-2b62-4530-9aa1-a3561e355dbf"
-                }
-            ],
-            "page": 46
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "fire",
@@ -3931,7 +3947,7 @@
                 {
                     "category": "spirit",
                     "element": "water",
-                    "name": "エンラ",
+                    "name": "枷負いし娘 エンラ",
                     "option": "",
                     "rank": "A",
                     "uuid": "5b687475-b068-4723-a89a-3a18c0452dad"
@@ -3971,26 +3987,10 @@
                 {
                     "category": "spirit",
                     "element": "water",
-                    "name": "テティス",
+                    "name": "遠い海のテティス",
                     "option": "",
                     "rank": "B",
                     "uuid": "28305994-d677-439c-8608-c9ee6ec43b15"
-                },
-                {
-                    "category": "spirit",
-                    "element": "thunder",
-                    "name": "ルーファス",
-                    "option": "",
-                    "rank": "B+",
-                    "uuid": "89ca719b-bf47-4114-91cf-eedf85960767"
-                },
-                {
-                    "category": "spirit",
-                    "element": "fire",
-                    "name": "ミカゼ",
-                    "option": "",
-                    "rank": "A",
-                    "uuid": "7dda9887-316f-42fe-935e-dd9205faa302"
                 }
             ],
             "page": 47
@@ -3999,8 +3999,24 @@
             "cards": [
                 {
                     "category": "spirit",
+                    "element": "thunder",
+                    "name": "鉄騎士ルーファス",
+                    "option": "",
+                    "rank": "B+",
+                    "uuid": "89ca719b-bf47-4114-91cf-eedf85960767"
+                },
+                {
+                    "category": "spirit",
                     "element": "fire",
-                    "name": "キティ",
+                    "name": "蝦蟇使いの少女 ミカゼ",
+                    "option": "",
+                    "rank": "A",
+                    "uuid": "7dda9887-316f-42fe-935e-dd9205faa302"
+                },
+                {
+                    "category": "spirit",
+                    "element": "fire",
+                    "name": "女怪盗 キティ",
                     "option": "",
                     "rank": "B",
                     "uuid": "d696c4e7-17a5-4661-98b0-049796fc6cce"
@@ -4048,7 +4064,7 @@
                 {
                     "category": "spirit",
                     "element": "thunder",
-                    "name": "オルネ",
+                    "name": "跳ねっ返りのつむじ風 オルネ",
                     "option": "",
                     "rank": "A",
                     "uuid": "5b7a3f9a-63fa-43e3-9216-52bf01d90fe6"
@@ -4060,11 +4076,16 @@
                     "option": "30",
                     "rank": "A",
                     "uuid": "b3f3277c-b389-486b-8db6-7300b2473e07"
-                },
+                }
+            ],
+            "page": 48
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "fire",
-                    "name": "ミュウ",
+                    "name": "魔法少女 ミュウ",
                     "option": "",
                     "rank": "A",
                     "uuid": "8641123d-5c69-47aa-86c3-baa6ca53795e"
@@ -4076,12 +4097,7 @@
                     "option": "100",
                     "rank": "S",
                     "uuid": "f17bcf69-e3a0-4217-83f3-6f3c5f70eeef"
-                }
-            ],
-            "page": 48
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -4109,7 +4125,7 @@
                 {
                     "category": "spirit",
                     "element": "water",
-                    "name": "ルドルフ",
+                    "name": "兎男 ルドルフ",
                     "option": "",
                     "rank": "A",
                     "uuid": "2d5e6702-e54e-4f1b-80ab-1bfdc10a4f54"
@@ -4125,7 +4141,7 @@
                 {
                     "category": "spirit",
                     "element": "water",
-                    "name": "ルドルフ",
+                    "name": "兎男 ルドルフ",
                     "option": "",
                     "rank": "A",
                     "uuid": "f9411a21-bd01-4e76-a7d8-63015ab23247"
@@ -4145,7 +4161,12 @@
                     "option": "50",
                     "rank": "A+",
                     "uuid": "0ae1f276-ef9a-48b8-9153-9364544fd0e2"
-                },
+                }
+            ],
+            "page": 49
+        },
+        {
+            "cards": [
                 {
                     "category": "material",
                     "element": "fire",
@@ -4161,16 +4182,11 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "fdea5abb-e80c-47b5-838b-206610265974"
-                }
-            ],
-            "page": 49
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "thunder",
-                    "name": "リムルカ",
+                    "name": "森をかける狩人 リムルカ",
                     "option": "",
                     "rank": "B+",
                     "uuid": "028a4548-a122-4cc1-a0c1-f22de309cddb"
@@ -4230,11 +4246,16 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "097830d2-3cff-4bc5-80e4-434f6052167b"
-                },
+                }
+            ],
+            "page": 50
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "thunder",
-                    "name": "リムルカ",
+                    "name": "森をかける狩人 リムルカ",
                     "option": "",
                     "rank": "B+",
                     "uuid": "d8a08fc9-8e96-4a5f-8f5a-d246916a9352"
@@ -4246,12 +4267,7 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "80c33bab-3479-4bda-afff-6408f2f6f5fb"
-                }
-            ],
-            "page": 50
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "thunder",
@@ -4295,7 +4311,7 @@
                 {
                     "category": "spirit",
                     "element": "thunder",
-                    "name": "リムルカ",
+                    "name": "森をかける狩人 リムルカ",
                     "option": "",
                     "rank": "B+",
                     "uuid": "b3769392-da61-4f87-aced-11a2d6a672ff"
@@ -4303,7 +4319,7 @@
                 {
                     "category": "spirit",
                     "element": "water",
-                    "name": "エウレア",
+                    "name": "湖の癒し手 エウレア",
                     "option": "",
                     "rank": "A",
                     "uuid": "14da5a4c-bf9c-40ca-abc9-6984fb1dfec9"
@@ -4315,7 +4331,12 @@
                     "option": "100",
                     "rank": "S",
                     "uuid": "a4efdbcc-f651-43b2-8803-6f7580dc0374"
-                },
+                }
+            ],
+            "page": 51
+        },
+        {
+            "cards": [
                 {
                     "category": "material",
                     "element": "fire",
@@ -4331,12 +4352,7 @@
                     "option": "",
                     "rank": "S",
                     "uuid": "ea8a73af-16fe-4a4c-9b4a-674f5759af92"
-                }
-            ],
-            "page": 51
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "material",
                     "element": "fire",
@@ -4364,7 +4380,7 @@
                 {
                     "category": "spirit",
                     "element": "thunder",
-                    "name": "リムルカ",
+                    "name": "森をかける狩人 リムルカ",
                     "option": "",
                     "rank": "B+",
                     "uuid": "eb38f861-dfce-408a-913e-d6b203de515e"
@@ -4372,7 +4388,7 @@
                 {
                     "category": "spirit",
                     "element": "water",
-                    "name": "エウレア",
+                    "name": "湖の癒し手 エウレア",
                     "option": "",
                     "rank": "A",
                     "uuid": "82440eee-5563-49cb-be2f-d2f62e9c8b31"
@@ -4388,7 +4404,7 @@
                 {
                     "category": "spirit",
                     "element": "water",
-                    "name": "スウィー",
+                    "name": "冬を運ぶ少女 スウィー",
                     "option": "",
                     "rank": "A",
                     "uuid": "8b10a469-aac0-4ecb-88b1-9e6dfa83d261"
@@ -4396,11 +4412,16 @@
                 {
                     "category": "spirit",
                     "element": "water",
-                    "name": "スウィー",
+                    "name": "冬を運ぶ少女 スウィー",
                     "option": "",
                     "rank": "A",
                     "uuid": "b6ff01ed-7291-4244-99c5-7f9819426d6e"
-                },
+                }
+            ],
+            "page": 52
+        },
+        {
+            "cards": [
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -4412,20 +4433,15 @@
                 {
                     "category": "spirit",
                     "element": "water",
-                    "name": "スウィー",
+                    "name": "冬を運ぶ少女 スウィー",
                     "option": "",
                     "rank": "A",
                     "uuid": "52cd3fc1-3d70-46b7-8f88-0feac51f978a"
-                }
-            ],
-            "page": 52
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "water",
-                    "name": "スウィー",
+                    "name": "冬を運ぶ少女 スウィー",
                     "option": "",
                     "rank": "A",
                     "uuid": "b582eaa5-13f1-4721-9302-94be9d1677a8"
@@ -4441,7 +4457,7 @@
                 {
                     "category": "spirit",
                     "element": "thunder",
-                    "name": "クシマ",
+                    "name": "異国の使者 クシマ",
                     "option": "",
                     "rank": "B",
                     "uuid": "a30254d0-e4c4-4545-8387-f61bf5772c0a"
@@ -4457,7 +4473,7 @@
                 {
                     "category": "spirit",
                     "element": "thunder",
-                    "name": "クシマ",
+                    "name": "異国の使者 クシマ",
                     "option": "",
                     "rank": "B",
                     "uuid": "199e4c9b-bf7e-4af2-baf4-5785c79742d8"
@@ -4473,7 +4489,7 @@
                 {
                     "category": "spirit",
                     "element": "thunder",
-                    "name": "クシマ",
+                    "name": "異国の使者 クシマ",
                     "option": "",
                     "rank": "B",
                     "uuid": "8879a7c7-f410-4953-82ef-f107c42caa44"
@@ -4485,11 +4501,16 @@
                     "option": "",
                     "rank": "S",
                     "uuid": "12eb1d20-c22b-4197-b30a-79cba35bb280"
-                },
+                }
+            ],
+            "page": 53
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "thunder",
-                    "name": "クシマ",
+                    "name": "異国の使者 クシマ",
                     "option": "",
                     "rank": "B",
                     "uuid": "334a0512-f34c-4abc-9b23-598a4c58b975"
@@ -4497,16 +4518,11 @@
                 {
                     "category": "spirit",
                     "element": "thunder",
-                    "name": "タモン",
+                    "name": "狂気に満ちた男 タモン",
                     "option": "",
                     "rank": "S",
                     "uuid": "3dfc294d-953a-4c3e-9054-3d271df9d5c8"
-                }
-            ],
-            "page": 53
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "water",
@@ -4518,7 +4534,7 @@
                 {
                     "category": "spirit",
                     "element": "water",
-                    "name": "トキモリ",
+                    "name": "鋼斬糸の使い手 トキモリ",
                     "option": "",
                     "rank": "A",
                     "uuid": "76a734cf-f7b0-457c-a484-572461353480"
@@ -4570,7 +4586,12 @@
                     "option": "100",
                     "rank": "S",
                     "uuid": "ff1d9e2f-418a-4c21-bf68-0eafd11a5071"
-                },
+                }
+            ],
+            "page": 54
+        },
+        {
+            "cards": [
                 {
                     "category": "mana",
                     "element": "water",
@@ -4586,12 +4607,7 @@
                     "option": "100",
                     "rank": "S",
                     "uuid": "1f4878c2-bfdf-42cc-9bb9-4f29daf4d1c8"
-                }
-            ],
-            "page": 54
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -4655,7 +4671,12 @@
                     "option": "100",
                     "rank": "S",
                     "uuid": "bccc0135-475d-4432-930e-20a9bfdff074"
-                },
+                }
+            ],
+            "page": 55
+        },
+        {
+            "cards": [
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -4671,16 +4692,11 @@
                     "option": "100",
                     "rank": "S",
                     "uuid": "1469a0e1-078c-444d-a98d-168084e30b98"
-                }
-            ],
-            "page": 55
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "fire",
-                    "name": "フェイ",
+                    "name": "妖精王子 フェイ",
                     "option": "",
                     "rank": "A",
                     "uuid": "bd1587f0-8884-4cd3-a50d-5eb1dab3a430"
@@ -4688,7 +4704,7 @@
                 {
                     "category": "spirit",
                     "element": "thunder",
-                    "name": "モニカ",
+                    "name": "アコーディオン少女 モニカ",
                     "option": "",
                     "rank": "B",
                     "uuid": "2b394309-f07f-4ae6-ae0c-5ada83084870"
@@ -4696,7 +4712,7 @@
                 {
                     "category": "spirit",
                     "element": "fire",
-                    "name": "ルートヴィッヒ",
+                    "name": "怜悧な副官 ルートヴィッヒ",
                     "option": "",
                     "rank": "S",
                     "uuid": "83892005-232c-40b6-b408-00e95bc2ef65"
@@ -4704,7 +4720,7 @@
                 {
                     "category": "spirit",
                     "element": "fire",
-                    "name": "シャミア",
+                    "name": "鉄爪使い シャミア",
                     "option": "",
                     "rank": "A",
                     "uuid": "d248e6ca-cbd0-4333-a0ff-54684250e73a"
@@ -4712,7 +4728,7 @@
                 {
                     "category": "spirit",
                     "element": "thunder",
-                    "name": "シンシア",
+                    "name": "選ばれし者 シンシア",
                     "option": "",
                     "rank": "B+",
                     "uuid": "9b87ac17-b7a1-46c4-a884-706300811d93"
@@ -4720,7 +4736,7 @@
                 {
                     "category": "spirit",
                     "element": "thunder",
-                    "name": "ルーファス",
+                    "name": "鉄騎士ルーファス",
                     "option": "",
                     "rank": "B+",
                     "uuid": "cbc8c471-0acf-4898-9b40-c54ef14dad22"
@@ -4736,26 +4752,10 @@
                 {
                     "category": "spirit",
                     "element": "thunder",
-                    "name": "玲華",
+                    "name": "王宮料理番 玲華",
                     "option": "",
                     "rank": "A",
                     "uuid": "381ee5d2-5749-4a3a-8e7d-5e7de449d2fc"
-                },
-                {
-                    "category": "spirit",
-                    "element": "thunder",
-                    "name": "ロベルト",
-                    "option": "",
-                    "rank": "S",
-                    "uuid": "d92d4645-2618-4fba-b53b-04d8ef9e8bd3"
-                },
-                {
-                    "category": "spirit",
-                    "element": "thunder",
-                    "name": "レラ",
-                    "option": "",
-                    "rank": "A",
-                    "uuid": "79c76351-17bb-46d4-a934-ab8b86fa44c4"
                 }
             ],
             "page": 56
@@ -4765,7 +4765,23 @@
                 {
                     "category": "spirit",
                     "element": "thunder",
-                    "name": "オデット",
+                    "name": "双剣士 ロベルト",
+                    "option": "",
+                    "rank": "S",
+                    "uuid": "d92d4645-2618-4fba-b53b-04d8ef9e8bd3"
+                },
+                {
+                    "category": "spirit",
+                    "element": "thunder",
+                    "name": "風使い レラ",
+                    "option": "",
+                    "rank": "A",
+                    "uuid": "79c76351-17bb-46d4-a934-ab8b86fa44c4"
+                },
+                {
+                    "category": "spirit",
+                    "element": "thunder",
+                    "name": "見習い魔女娘 オデット",
                     "option": "",
                     "rank": "A",
                     "uuid": "08656b66-0e11-40ab-8702-032f87ff7ce5"
@@ -4773,7 +4789,7 @@
                 {
                     "category": "spirit",
                     "element": "fire",
-                    "name": "トキオ",
+                    "name": "333号ロッドの住人 トキオ＆グレイ",
                     "option": "",
                     "rank": "SS",
                     "uuid": "8503f71e-6c3b-470b-ac1f-e69789b231e3"
@@ -4825,7 +4841,12 @@
                     "option": "30",
                     "rank": "A",
                     "uuid": "03c628e7-6df8-4e17-92ba-cc28cfe09405"
-                },
+                }
+            ],
+            "page": 57
+        },
+        {
+            "cards": [
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -4841,12 +4862,7 @@
                     "option": "50",
                     "rank": "A",
                     "uuid": "a5eb80b4-95af-43d0-97fa-2047a98732ca"
-                }
-            ],
-            "page": 57
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "mana",
                     "element": "water",
@@ -4866,7 +4882,7 @@
                 {
                     "category": "spirit",
                     "element": "fire",
-                    "name": "サジェ",
+                    "name": "遠き世界を見つめる サジェ",
                     "option": "",
                     "rank": "SS",
                     "uuid": "dda28a88-cb17-4a72-a2de-e59618fa9ffa"
@@ -4874,7 +4890,7 @@
                 {
                     "category": "spirit",
                     "element": "thunder",
-                    "name": "リディア",
+                    "name": "魔法使いリディア",
                     "option": "",
                     "rank": "B",
                     "uuid": "d4df5c89-d775-45dd-b1eb-2fd6b799aa3e"
@@ -4882,7 +4898,7 @@
                 {
                     "category": "spirit",
                     "element": "thunder",
-                    "name": "フェルチ",
+                    "name": "調香師 フェルチ",
                     "option": "",
                     "rank": "A",
                     "uuid": "00c2065d-89ba-4b91-869c-5ba8660b1cf8"
@@ -4890,7 +4906,7 @@
                 {
                     "category": "spirit",
                     "element": "thunder",
-                    "name": "オルハ",
+                    "name": "狭間にたゆたう者 オルハ",
                     "option": "",
                     "rank": "S",
                     "uuid": "8eac4647-6736-4435-96f0-3df99646482a"
@@ -4898,7 +4914,7 @@
                 {
                     "category": "spirit",
                     "element": "thunder",
-                    "name": "ファム",
+                    "name": "調香師 ファム",
                     "option": "",
                     "rank": "A",
                     "uuid": "fbbbd039-4b39-4bc7-a37f-1bf151897d26"
@@ -4910,7 +4926,12 @@
                     "option": "",
                     "rank": "B",
                     "uuid": "2ffa671b-e2b4-4c95-9a0e-79120e70808f"
-                },
+                }
+            ],
+            "page": 58
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "fire",
@@ -4926,12 +4947,7 @@
                     "option": "",
                     "rank": "S",
                     "uuid": "0edbbfde-d763-4c6a-8359-c44f1c2b33a3"
-                }
-            ],
-            "page": 58
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "fire",
@@ -4943,7 +4959,7 @@
                 {
                     "category": "spirit",
                     "element": "thunder",
-                    "name": "エーファ",
+                    "name": "修理局の雷使い エーファ",
                     "option": "",
                     "rank": "A",
                     "uuid": "a7a76ed8-b1e0-4fb3-8cf4-e666cfeececc"
@@ -4951,7 +4967,7 @@
                 {
                     "category": "spirit",
                     "element": "thunder",
-                    "name": "シンシア",
+                    "name": "選ばれし者 シンシア",
                     "option": "",
                     "rank": "B+",
                     "uuid": "3002d540-c2da-4d6f-8879-259a5cb0f358"
@@ -4983,7 +4999,7 @@
                 {
                     "category": "spirit",
                     "element": "water",
-                    "name": "トキモリ",
+                    "name": "鋼斬糸の使い手 トキモリ",
                     "option": "",
                     "rank": "A",
                     "uuid": "eed5aed8-7654-440c-a197-1a766f29d733"
@@ -4995,7 +5011,12 @@
                     "option": "100",
                     "rank": "A",
                     "uuid": "aa20acc2-ff18-4c7f-850e-fbb7977092fe"
-                },
+                }
+            ],
+            "page": 59
+        },
+        {
+            "cards": [
                 {
                     "category": "mana",
                     "element": "water",
@@ -5011,12 +5032,7 @@
                     "option": "30",
                     "rank": "A",
                     "uuid": "67603277-ebdb-45bd-abe9-1dd491cc762b"
-                }
-            ],
-            "page": 59
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -5052,7 +5068,7 @@
                 {
                     "category": "spirit",
                     "element": "thunder",
-                    "name": "ラパパ",
+                    "name": "ふうせんウサギ ラパパ",
                     "option": "",
                     "rank": "A",
                     "uuid": "6d45a547-caee-4402-ab24-750738f975c3"
@@ -5060,7 +5076,7 @@
                 {
                     "category": "spirit",
                     "element": "thunder",
-                    "name": "フェルチ",
+                    "name": "調香師 フェルチ",
                     "option": "",
                     "rank": "A",
                     "uuid": "8af78ea4-2dab-44fe-aa12-e4c002de8a53"
@@ -5068,7 +5084,7 @@
                 {
                     "category": "spirit",
                     "element": "thunder",
-                    "name": "アルビオン",
+                    "name": "気高き幻獣 アルビオン",
                     "option": "",
                     "rank": "A",
                     "uuid": "b572ac0e-c208-4781-b7b8-4a80c6b211a6"
@@ -5080,7 +5096,12 @@
                     "option": "30",
                     "rank": "A",
                     "uuid": "f2b72d11-f8a3-477c-a8cc-b02d13cdec11"
-                },
+                }
+            ],
+            "page": 60
+        },
+        {
+            "cards": [
                 {
                     "category": "mana",
                     "element": "water",
@@ -5092,16 +5113,11 @@
                 {
                     "category": "spirit",
                     "element": "water",
-                    "name": "ディアヴォロス",
+                    "name": "大剣魔童 ディアヴォロス",
                     "option": "",
                     "rank": "B+",
                     "uuid": "de8f9251-2a72-4a61-b717-9540647b48d3"
-                }
-            ],
-            "page": 60
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "thunder",
@@ -5113,7 +5129,7 @@
                 {
                     "category": "spirit",
                     "element": "thunder",
-                    "name": "セシーリア",
+                    "name": "寝起きの姫 セシーリア",
                     "option": "",
                     "rank": "A",
                     "uuid": "f14c9087-4660-451e-b6ca-82ef3a4c4689"
@@ -5121,7 +5137,7 @@
                 {
                     "category": "spirit",
                     "element": "fire",
-                    "name": "クルス",
+                    "name": "温厚なる吸血鬼 クルス",
                     "option": "",
                     "rank": "A",
                     "uuid": "86a37631-c1ba-47af-9db8-c12b2cc9f40a"
@@ -5129,7 +5145,7 @@
                 {
                     "category": "spirit",
                     "element": "water",
-                    "name": "ディアヴォロス",
+                    "name": "大剣魔童 ディアヴォロス",
                     "option": "",
                     "rank": "B+",
                     "uuid": "c29a290d-231a-4350-af6d-5eed4a7f2f9b"
@@ -5165,7 +5181,12 @@
                     "option": "",
                     "rank": "S+",
                     "uuid": "ecc703d2-fb66-4308-b62e-54e179c3df23"
-                },
+                }
+            ],
+            "page": 61
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "thunder",
@@ -5181,12 +5202,7 @@
                     "option": "20",
                     "rank": "A",
                     "uuid": "49f41a2f-4523-4654-b225-46bf5dc37779"
-                }
-            ],
-            "page": 61
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -5250,7 +5266,12 @@
                     "option": "50",
                     "rank": "A+",
                     "uuid": "4e9c448e-c08e-411e-b5b5-23fbd83e8f15"
-                },
+                }
+            ],
+            "page": 62
+        },
+        {
+            "cards": [
                 {
                     "category": "material",
                     "element": "water",
@@ -5266,12 +5287,7 @@
                     "option": "",
                     "rank": "S",
                     "uuid": "264935e6-113b-4c05-9612-3a9be7d3dd00"
-                }
-            ],
-            "page": 62
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -5315,7 +5331,7 @@
                 {
                     "category": "spirit",
                     "element": "fire",
-                    "name": "ブリューダイン",
+                    "name": "古代機兵 ブリューダイン",
                     "option": "",
                     "rank": "A",
                     "uuid": "3fe9f45d-b24a-4fc6-98d7-c39d45a3c483"
@@ -5335,7 +5351,12 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "1a54641d-c0a0-4cc5-9769-b216daa48119"
-                },
+                }
+            ],
+            "page": 63
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "fire",
@@ -5351,12 +5372,7 @@
                     "option": "100",
                     "rank": "S",
                     "uuid": "420f845b-d489-4269-9cd0-d035e5cf2672"
-                }
-            ],
-            "page": 63
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "thunder",
@@ -5420,7 +5436,12 @@
                     "option": "100",
                     "rank": "S",
                     "uuid": "0cde8b3a-437d-4ae9-9bf5-dbe2013e060d"
-                },
+                }
+            ],
+            "page": 64
+        },
+        {
+            "cards": [
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -5436,12 +5457,7 @@
                     "option": "100",
                     "rank": "S",
                     "uuid": "3658d5c7-6986-4023-9784-e7708512bc96"
-                }
-            ],
-            "page": 64
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -5505,7 +5521,12 @@
                     "option": "",
                     "rank": "A+",
                     "uuid": "742c9bac-8366-40fa-a999-b2dea6aada52"
-                },
+                }
+            ],
+            "page": 65
+        },
+        {
+            "cards": [
                 {
                     "category": "material",
                     "element": "fire",
@@ -5521,12 +5542,7 @@
                     "option": "",
                     "rank": "S",
                     "uuid": "e9f6afc3-a3f7-42f4-a7a4-db1ba8d2c69a"
-                }
-            ],
-            "page": 65
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -5554,7 +5570,7 @@
                 {
                     "category": "spirit",
                     "element": "thunder",
-                    "name": "ザラジュラム",
+                    "name": "狡猾なる堕天使 ザラジュラム",
                     "option": "",
                     "rank": "A",
                     "uuid": "cb5d8664-bf6f-482f-a105-875087aa22ae"
@@ -5590,7 +5606,12 @@
                     "option": "50",
                     "rank": "A+",
                     "uuid": "76d27cab-81c8-4b99-987e-c9aa7639a063"
-                },
+                }
+            ],
+            "page": 66
+        },
+        {
+            "cards": [
                 {
                     "category": "mana",
                     "element": "water",
@@ -5606,12 +5627,7 @@
                     "option": "50",
                     "rank": "A+",
                     "uuid": "aad73d42-c19a-4021-a805-9bb92cc71a88"
-                }
-            ],
-            "page": 66
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "thunder",
@@ -5631,7 +5647,7 @@
                 {
                     "category": "spirit",
                     "element": "fire",
-                    "name": "アスモデウス",
+                    "name": "封じられし魔神 アスモデウス",
                     "option": "",
                     "rank": "A",
                     "uuid": "468373db-fa08-4048-b118-84c21d834958"
@@ -5675,7 +5691,12 @@
                     "option": "",
                     "rank": "S",
                     "uuid": "edb48a8f-203a-4c68-a511-11353df8dd79"
-                },
+                }
+            ],
+            "page": 67
+        },
+        {
+            "cards": [
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -5691,12 +5712,7 @@
                     "option": "25",
                     "rank": "A",
                     "uuid": "1f8e4a03-dee3-47f3-bd34-0a9d7c0252e2"
-                }
-            ],
-            "page": 67
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -5760,7 +5776,12 @@
                     "option": "",
                     "rank": "S+",
                     "uuid": "7c9469e4-2ff8-4286-ad0e-b22bf49c4e10"
-                },
+                }
+            ],
+            "page": 68
+        },
+        {
+            "cards": [
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -5776,12 +5797,7 @@
                     "option": "10",
                     "rank": "A",
                     "uuid": "2f1e42cb-6d28-48d7-8a43-88ece0d4fb5d"
-                }
-            ],
-            "page": 68
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -5845,7 +5861,12 @@
                     "option": "10",
                     "rank": "A",
                     "uuid": "da416a91-d74d-48e1-9d9c-bda275c31906"
-                },
+                }
+            ],
+            "page": 69
+        },
+        {
+            "cards": [
                 {
                     "category": "material",
                     "element": "fire",
@@ -5861,12 +5882,7 @@
                     "option": "10",
                     "rank": "A",
                     "uuid": "1591e8ca-8b25-4d35-bba2-5e2b80d3b465"
-                }
-            ],
-            "page": 69
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "mana",
                     "element": "water",
@@ -5930,7 +5946,12 @@
                     "option": "10",
                     "rank": "A",
                     "uuid": "578ac749-b7a3-410b-b062-6f8ccece7514"
-                },
+                }
+            ],
+            "page": 70
+        },
+        {
+            "cards": [
                 {
                     "category": "mana",
                     "element": "water",
@@ -5946,12 +5967,7 @@
                     "option": "",
                     "rank": "S",
                     "uuid": "6457e4a8-7a83-4cf4-afd2-30a7f711f84e"
-                }
-            ],
-            "page": 70
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "item",
                     "element": "thunder",
@@ -6015,7 +6031,12 @@
                     "option": "50",
                     "rank": "A+",
                     "uuid": "8d743f02-9c15-4b96-b463-6d3ff6838947"
-                },
+                }
+            ],
+            "page": 71
+        },
+        {
+            "cards": [
                 {
                     "category": "mana",
                     "element": "water",
@@ -6031,12 +6052,7 @@
                     "option": "25",
                     "rank": "A",
                     "uuid": "83c62da3-3996-4d28-9c48-7d4481b4fb0c"
-                }
-            ],
-            "page": 71
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "mana",
                     "element": "water",
@@ -6100,7 +6116,12 @@
                     "option": "",
                     "rank": "S+",
                     "uuid": "2061deba-d312-482b-b418-64392325d4cb"
-                },
+                }
+            ],
+            "page": 72
+        },
+        {
+            "cards": [
                 {
                     "category": "item",
                     "element": "thunder",
@@ -6116,12 +6137,7 @@
                     "option": "10",
                     "rank": "A",
                     "uuid": "ba6abdf2-bc04-4cdf-b78e-ceb6e238e0aa"
-                }
-            ],
-            "page": 72
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "mana",
                     "element": "water",
@@ -6185,7 +6201,12 @@
                     "option": "",
                     "rank": "S",
                     "uuid": "6b799fce-3f10-4361-b0b6-d343499687b2"
-                },
+                }
+            ],
+            "page": 73
+        },
+        {
+            "cards": [
                 {
                     "category": "mana",
                     "element": "water",
@@ -6201,12 +6222,7 @@
                     "option": "25",
                     "rank": "A",
                     "uuid": "41299f9e-5247-4dd3-9589-6edfb16c1254"
-                }
-            ],
-            "page": 73
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -6270,7 +6286,12 @@
                     "option": "10",
                     "rank": "A",
                     "uuid": "19f2b9be-ede3-42cc-9cc2-323a1eebcbcd"
-                },
+                }
+            ],
+            "page": 74
+        },
+        {
+            "cards": [
                 {
                     "category": "material",
                     "element": "fire",
@@ -6286,12 +6307,7 @@
                     "option": "",
                     "rank": "A+",
                     "uuid": "c7b5fdd7-6e09-4962-9a73-ec28988e8429"
-                }
-            ],
-            "page": 74
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "mana",
                     "element": "water",
@@ -6327,7 +6343,7 @@
                 {
                     "category": "spirit",
                     "element": "water",
-                    "name": "バシレイテ",
+                    "name": "CODE:バシレイテ《錯誤の偶像》",
                     "option": "",
                     "rank": "A",
                     "uuid": "dae4691e-7154-459c-a21a-23c48d37b67c"
@@ -6335,7 +6351,7 @@
                 {
                     "category": "spirit",
                     "element": "water",
-                    "name": "ルドヴィカ",
+                    "name": "力戦奮闘 ルドヴィカ",
                     "option": "",
                     "rank": "A",
                     "uuid": "0ad3e1ef-594b-41e2-9d41-27d80dcac63d"
@@ -6355,11 +6371,16 @@
                     "option": "",
                     "rank": "B",
                     "uuid": "88f61af0-2aae-435e-aa4a-aadc7c584ab7"
-                },
+                }
+            ],
+            "page": 75
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "thunder",
-                    "name": "メイヴィス",
+                    "name": "魅了する者 メイヴィス",
                     "option": "",
                     "rank": "A",
                     "uuid": "bab2de9a-982a-454e-bd8c-97d36612d62d"
@@ -6367,16 +6388,11 @@
                 {
                     "category": "spirit",
                     "element": "thunder",
-                    "name": "セニア",
+                    "name": "草花と戯れる乙女 セニア",
                     "option": "",
                     "rank": "A",
                     "uuid": "fbc38737-8d27-4533-9359-6305a5ebb26c"
-                }
-            ],
-            "page": 75
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "mana",
                     "element": "water",
@@ -6440,7 +6456,12 @@
                     "option": "10",
                     "rank": "A",
                     "uuid": "748e05df-1baa-4e4f-948a-b0fba8e7d08b"
-                },
+                }
+            ],
+            "page": 76
+        },
+        {
+            "cards": [
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -6456,12 +6477,7 @@
                     "option": "10",
                     "rank": "A",
                     "uuid": "1ac25a99-b02f-47a4-b88a-499b02b54ebe"
-                }
-            ],
-            "page": 76
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -6525,7 +6541,12 @@
                     "option": "25",
                     "rank": "A",
                     "uuid": "e947ba9b-d09f-4c1f-88ce-0c5c9367315f"
-                },
+                }
+            ],
+            "page": 77
+        },
+        {
+            "cards": [
                 {
                     "category": "material",
                     "element": "thunder",
@@ -6541,12 +6562,7 @@
                     "option": "10",
                     "rank": "A",
                     "uuid": "dfadae26-1dc6-4aa8-9bee-645d3ee23413"
-                }
-            ],
-            "page": 77
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -6610,7 +6626,12 @@
                     "option": "100",
                     "rank": "S",
                     "uuid": "dc4b5495-9d34-4b6e-a17b-ba3a31111897"
-                },
+                }
+            ],
+            "page": 78
+        },
+        {
+            "cards": [
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -6622,16 +6643,11 @@
                 {
                     "category": "spirit",
                     "element": "fire",
-                    "name": "CODE:ラヒルメ",
+                    "name": "CODE:ラヒルメ《優しき灯火》",
                     "option": "",
                     "rank": "A",
                     "uuid": "6394490a-c326-4a8e-ac3d-3b29dacad69f"
-                }
-            ],
-            "page": 78
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "material",
                     "element": "fire",
@@ -6695,22 +6711,6 @@
                     "option": "",
                     "rank": "A+",
                     "uuid": "e828066e-366d-4aaf-b17c-aef8cc078d85"
-                },
-                {
-                    "category": "spirit",
-                    "element": "thunder",
-                    "name": "ルーファス",
-                    "option": "",
-                    "rank": "B+",
-                    "uuid": "8655f2ba-e9bf-4fec-b841-5edd9acded79"
-                },
-                {
-                    "category": "spirit",
-                    "element": "thunder",
-                    "name": "ヴァルザイン",
-                    "option": "",
-                    "rank": "A",
-                    "uuid": "7fd720cb-a617-4130-ba50-e49cc0c2f21b"
                 }
             ],
             "page": 79
@@ -6720,7 +6720,23 @@
                 {
                     "category": "spirit",
                     "element": "thunder",
-                    "name": "シンシア",
+                    "name": "鉄騎士ルーファス",
+                    "option": "",
+                    "rank": "B+",
+                    "uuid": "8655f2ba-e9bf-4fec-b841-5edd9acded79"
+                },
+                {
+                    "category": "spirit",
+                    "element": "thunder",
+                    "name": "機械竜 ヴァルザイン",
+                    "option": "",
+                    "rank": "A",
+                    "uuid": "7fd720cb-a617-4130-ba50-e49cc0c2f21b"
+                },
+                {
+                    "category": "spirit",
+                    "element": "thunder",
+                    "name": "選ばれし者 シンシア",
                     "option": "",
                     "rank": "B+",
                     "uuid": "c6a5e800-8311-41f8-8c2b-51ec37eaf46a"
@@ -6728,7 +6744,7 @@
                 {
                     "category": "spirit",
                     "element": "thunder",
-                    "name": "ルーファス",
+                    "name": "鉄騎士ルーファス",
                     "option": "",
                     "rank": "B+",
                     "uuid": "a510e279-c78b-40a2-a57b-9559d317f23b"
@@ -6736,7 +6752,7 @@
                 {
                     "category": "spirit",
                     "element": "thunder",
-                    "name": "コポポル",
+                    "name": "森の子 コポポル",
                     "option": "",
                     "rank": "A",
                     "uuid": "6fe6d3ed-ee79-4287-9d26-1f442290cfeb"
@@ -6744,7 +6760,7 @@
                 {
                     "category": "spirit",
                     "element": "thunder",
-                    "name": "シンシア",
+                    "name": "選ばれし者 シンシア",
                     "option": "",
                     "rank": "B+",
                     "uuid": "f06713f0-9fca-4f8d-8514-2a0ba0a491c8"
@@ -6780,7 +6796,12 @@
                     "option": "30",
                     "rank": "A",
                     "uuid": "24d2352b-6162-4de5-b527-689aca446717"
-                },
+                }
+            ],
+            "page": 80
+        },
+        {
+            "cards": [
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -6796,12 +6817,7 @@
                     "option": "50",
                     "rank": "A+",
                     "uuid": "10638c98-16bc-494b-9b4f-b8ec5860c5a5"
-                }
-            ],
-            "page": 80
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "item",
                     "element": "thunder",
@@ -6837,7 +6853,7 @@
                 {
                     "category": "spirit",
                     "element": "thunder",
-                    "name": "サピィ",
+                    "name": "生き字引き サピィ",
                     "option": "",
                     "rank": "A",
                     "uuid": "ebae6c6e-5209-489f-8787-7ddf3ad030d8"
@@ -6865,7 +6881,12 @@
                     "option": "25",
                     "rank": "A",
                     "uuid": "78818771-2652-4e9d-8ee7-a152241c4515"
-                },
+                }
+            ],
+            "page": 81
+        },
+        {
+            "cards": [
                 {
                     "category": "mana",
                     "element": "water",
@@ -6881,12 +6902,7 @@
                     "option": "",
                     "rank": "S+",
                     "uuid": "d74882c6-412f-4682-9c77-e0bf1fb4dc78"
-                }
-            ],
-            "page": 81
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "material",
                     "element": "fire",
@@ -6950,7 +6966,12 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "a5957821-e315-44a2-9b21-9d1fd4b912c1"
-                },
+                }
+            ],
+            "page": 82
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "water",
@@ -6966,12 +6987,7 @@
                     "option": "",
                     "rank": "S+",
                     "uuid": "15243bd4-3410-4e8c-8db3-ab780adec391"
-                }
-            ],
-            "page": 82
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "water",
@@ -7035,7 +7051,12 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "9e925f4b-24a1-46b7-b41a-d29eb1dfb587"
-                },
+                }
+            ],
+            "page": 83
+        },
+        {
+            "cards": [
                 {
                     "category": "material",
                     "element": "water",
@@ -7051,12 +7072,7 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "5c70ee79-51f5-418e-87e2-ba04b7a3167b"
-                }
-            ],
-            "page": 83
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -7120,7 +7136,12 @@
                     "option": "",
                     "rank": "B+",
                     "uuid": "a1a4a4c8-4ea4-471a-9544-fe27a7ca52ed"
-                },
+                }
+            ],
+            "page": 84
+        },
+        {
+            "cards": [
                 {
                     "category": "material",
                     "element": "fire",
@@ -7136,12 +7157,7 @@
                     "option": "",
                     "rank": "SS",
                     "uuid": "7f2d5c0c-768e-4e5d-aec2-0927b2fffe01"
-                }
-            ],
-            "page": 84
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "mana",
                     "element": "water",
@@ -7205,7 +7221,12 @@
                     "option": "",
                     "rank": "S+",
                     "uuid": "05328736-d8ba-4d13-b3c6-1d786c0245f6"
-                },
+                }
+            ],
+            "page": 85
+        },
+        {
+            "cards": [
                 {
                     "category": "material",
                     "element": "water",
@@ -7221,12 +7242,7 @@
                     "option": "100",
                     "rank": "S",
                     "uuid": "cf50e525-cc9f-46a3-982b-b74134853eb0"
-                }
-            ],
-            "page": 85
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -7290,7 +7306,12 @@
                     "option": "",
                     "rank": "S",
                     "uuid": "364bdde2-4f08-41a6-9b6c-1bc61024551f"
-                },
+                }
+            ],
+            "page": 86
+        },
+        {
+            "cards": [
                 {
                     "category": "material",
                     "element": "water",
@@ -7306,12 +7327,7 @@
                     "option": "",
                     "rank": "B",
                     "uuid": "6e9b9048-c551-4a64-9488-823f596c17a3"
-                }
-            ],
-            "page": 86
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "material",
                     "element": "thunder",
@@ -7375,7 +7391,12 @@
                     "option": "50",
                     "rank": "A+",
                     "uuid": "2441b644-232e-4b6f-a0e5-319678753897"
-                },
+                }
+            ],
+            "page": 87
+        },
+        {
+            "cards": [
                 {
                     "category": "mana",
                     "element": "water",
@@ -7391,12 +7412,7 @@
                     "option": "25",
                     "rank": "A",
                     "uuid": "4f2917cf-2e17-4e80-aafa-562bc37c9742"
-                }
-            ],
-            "page": 87
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "mana",
                     "element": "water",
@@ -7424,7 +7440,7 @@
                 {
                     "category": "spirit",
                     "element": "water",
-                    "name": "ユウェル",
+                    "name": "禁域の来訪者 ユウェル",
                     "option": "",
                     "rank": "A",
                     "uuid": "52701740-44c7-4023-8e47-3efa70a91e99"
@@ -7432,7 +7448,7 @@
                 {
                     "category": "spirit",
                     "element": "fire",
-                    "name": "ユッカ",
+                    "name": "時計整備士 ユッカ",
                     "option": "",
                     "rank": "A",
                     "uuid": "fd0babb8-8dea-4dbd-8b0d-34c582a12a18"
@@ -7456,11 +7472,16 @@
                 {
                     "category": "spirit",
                     "element": "fire",
-                    "name": "ルートヴィッヒ",
+                    "name": "怜悧な副官 ルートヴィッヒ",
                     "option": "",
                     "rank": "S",
                     "uuid": "9e178b5d-f00f-4aca-b0c4-7ab17eb47442"
-                },
+                }
+            ],
+            "page": 88
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "fire",
@@ -7472,16 +7493,11 @@
                 {
                     "category": "spirit",
                     "element": "fire",
-                    "name": "ラーヴァデイン",
+                    "name": "鉄巨人 ラーヴァデイン",
                     "option": "",
                     "rank": "B+",
                     "uuid": "f2064960-8309-4434-b403-8cfe12ad3679"
-                }
-            ],
-            "page": 88
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "thunder",
@@ -7525,7 +7541,7 @@
                 {
                     "category": "spirit",
                     "element": "thunder",
-                    "name": "モニカ",
+                    "name": "アコーディオン少女 モニカ",
                     "option": "",
                     "rank": "B",
                     "uuid": "968695d5-a546-4d01-a806-b83d1e86c5e5"
@@ -7545,7 +7561,12 @@
                     "option": "",
                     "rank": "B",
                     "uuid": "eed0ba3a-44fe-4d43-a912-b255819a985f"
-                },
+                }
+            ],
+            "page": 89
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "fire",
@@ -7561,12 +7582,7 @@
                     "option": "",
                     "rank": "B+",
                     "uuid": "c5b78401-ca4f-4604-8d7d-a108e1cb4f3c"
-                }
-            ],
-            "page": 89
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "water",
@@ -7630,7 +7646,12 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "ec380660-91e1-45d7-84c7-a92f65d09bfa"
-                },
+                }
+            ],
+            "page": 90
+        },
+        {
+            "cards": [
                 {
                     "category": "mana",
                     "element": "water",
@@ -7646,12 +7667,7 @@
                     "option": "50",
                     "rank": "A+",
                     "uuid": "110b088d-3880-4624-a7fa-f8db10f1533c"
-                }
-            ],
-            "page": 90
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -7715,7 +7731,12 @@
                     "option": "100",
                     "rank": "S",
                     "uuid": "8528f645-484c-4db5-ad98-0b223b8a35c4"
-                },
+                }
+            ],
+            "page": 91
+        },
+        {
+            "cards": [
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -7731,12 +7752,7 @@
                     "option": "30",
                     "rank": "A",
                     "uuid": "42b27f67-906f-475a-aa4e-a775a7a6dcd8"
-                }
-            ],
-            "page": 91
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -7800,7 +7816,12 @@
                     "option": "100",
                     "rank": "S",
                     "uuid": "22583504-1872-4938-890f-b9c3463d9c54"
-                },
+                }
+            ],
+            "page": 92
+        },
+        {
+            "cards": [
                 {
                     "category": "mana",
                     "element": "water",
@@ -7816,12 +7837,7 @@
                     "option": "200",
                     "rank": "A",
                     "uuid": "72fbf89d-3385-4930-ab9e-c83c99596bad"
-                }
-            ],
-            "page": 92
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -7885,11 +7901,16 @@
                     "option": "",
                     "rank": "A+",
                     "uuid": "4e3caae9-3b0a-42d3-b1d6-9863be69190d"
-                },
+                }
+            ],
+            "page": 93
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "water",
-                    "name": "ディアヴォロス",
+                    "name": "大剣魔童 ディアヴォロス",
                     "option": "",
                     "rank": "B+",
                     "uuid": "a4b48e0d-077a-4bf0-a41c-76ee42ea9068"
@@ -7901,16 +7922,11 @@
                     "option": "",
                     "rank": "B",
                     "uuid": "6a223df0-b12b-4d4c-9a43-9fe3ae021e11"
-                }
-            ],
-            "page": 93
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "fire",
-                    "name": "ミカゼ",
+                    "name": "蝦蟇使いの少女 ミカゼ",
                     "option": "",
                     "rank": "A",
                     "uuid": "8c4f0c44-fed6-4dc1-8442-d24502fac8f0"
@@ -7970,7 +7986,12 @@
                     "option": "50",
                     "rank": "A+",
                     "uuid": "71f05edf-f8bc-45e9-8245-c1c5e3b0c720"
-                },
+                }
+            ],
+            "page": 94
+        },
+        {
+            "cards": [
                 {
                     "category": "mana",
                     "element": "water",
@@ -7986,12 +8007,7 @@
                     "option": "30",
                     "rank": "A",
                     "uuid": "a8dc94a3-fb4b-4da4-b1ac-2dfe6feb9dea"
-                }
-            ],
-            "page": 94
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -8055,11 +8071,16 @@
                     "option": "100",
                     "rank": "S",
                     "uuid": "63d927f2-8481-4fa3-82fd-a51e28ed6f33"
-                },
+                }
+            ],
+            "page": 95
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "fire",
-                    "name": "CODE:ラヒルメ",
+                    "name": "CODE:ラヒルメ《優しき灯火》",
                     "option": "",
                     "rank": "A",
                     "uuid": "263af4d6-3882-4fe9-9337-6756864b2b23"
@@ -8071,12 +8092,7 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "27590f12-c736-48cc-81ce-ecc7bd830ee6"
-                }
-            ],
-            "page": 95
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -8104,7 +8120,7 @@
                 {
                     "category": "spirit",
                     "element": "water",
-                    "name": "バシレイテ",
+                    "name": "CODE:バシレイテ《錯誤の偶像》",
                     "option": "",
                     "rank": "A",
                     "uuid": "ffdfdc8f-e63e-44e7-b7f0-9314cadadda3"
@@ -8136,11 +8152,16 @@
                 {
                     "category": "spirit",
                     "element": "fire",
-                    "name": "CODE:ウラガーン",
+                    "name": "CODE:ウラガーン《憎悪の黒業》",
                     "option": "",
                     "rank": "A",
                     "uuid": "94a790a8-8650-4b8a-9bf5-c1d7985ea41b"
-                },
+                }
+            ],
+            "page": 96
+        },
+        {
+            "cards": [
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -8156,12 +8177,7 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "66550a96-ab8c-4b26-9719-eb3f63b8fa3f"
-                }
-            ],
-            "page": 96
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "material",
                     "element": "water",
@@ -8205,7 +8221,7 @@
                 {
                     "category": "spirit",
                     "element": "thunder",
-                    "name": "トモエ",
+                    "name": "若女将 トモエ",
                     "option": "",
                     "rank": "A",
                     "uuid": "7eaf38df-f94a-40d6-a313-ea5ac179e85b"
@@ -8221,11 +8237,16 @@
                 {
                     "category": "spirit",
                     "element": "fire",
-                    "name": "ツキカゲ",
+                    "name": "狼人 ツキカゲ",
                     "option": "",
                     "rank": "A",
                     "uuid": "51c13238-e38b-42c6-ba52-fee7304a4123"
-                },
+                }
+            ],
+            "page": 97
+        },
+        {
+            "cards": [
                 {
                     "category": "item",
                     "element": "fire",
@@ -8237,16 +8258,11 @@
                 {
                     "category": "spirit",
                     "element": "water",
-                    "name": "リチャード",
+                    "name": "砂浜の王子 リチャード",
                     "option": "",
                     "rank": "A",
                     "uuid": "063a24d8-fceb-4920-93d5-de8ff03446de"
-                }
-            ],
-            "page": 97
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "fire",
@@ -8310,7 +8326,12 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "92bb7615-adfe-43ee-a696-fe08bef8a4db"
-                },
+                }
+            ],
+            "page": 98
+        },
+        {
+            "cards": [
                 {
                     "category": "material",
                     "element": "fire",
@@ -8326,12 +8347,7 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "cd21b7ad-0272-4baf-90d5-3906dfcbb1eb"
-                }
-            ],
-            "page": 98
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "material",
                     "element": "thunder",
@@ -8395,7 +8411,12 @@
                     "option": "50",
                     "rank": "A+",
                     "uuid": "a8361f70-f762-4cf8-9036-511654db2fa5"
-                },
+                }
+            ],
+            "page": 99
+        },
+        {
+            "cards": [
                 {
                     "category": "material",
                     "element": "fire",
@@ -8411,12 +8432,7 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "3380f818-62d8-40b3-ab07-295029778b08"
-                }
-            ],
-            "page": 99
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "thunder",
@@ -8480,7 +8496,12 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "334c906a-e36f-4263-b7ad-2191df90dfc1"
-                },
+                }
+            ],
+            "page": 100
+        },
+        {
+            "cards": [
                 {
                     "category": "material",
                     "element": "water",
@@ -8496,12 +8517,7 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "bfeb11bf-5cde-4473-81dd-d39022239a06"
-                }
-            ],
-            "page": 100
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "thunder",
@@ -8565,7 +8581,12 @@
                     "option": "",
                     "rank": "B",
                     "uuid": "90ff5ed6-95a1-4dce-96ea-2ec6c4cc2c7b"
-                },
+                }
+            ],
+            "page": 101
+        },
+        {
+            "cards": [
                 {
                     "category": "material",
                     "element": "thunder",
@@ -8581,12 +8602,7 @@
                     "option": "",
                     "rank": "A+",
                     "uuid": "948da214-37ca-47c5-b9a2-50d43f21879d"
-                }
-            ],
-            "page": 101
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "material",
                     "element": "fire",
@@ -8650,7 +8666,12 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "0f4c0e11-6174-46b1-83a6-5f336ed6ea9a"
-                },
+                }
+            ],
+            "page": 102
+        },
+        {
+            "cards": [
                 {
                     "category": "item",
                     "element": "fire",
@@ -8666,12 +8687,7 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "e24b8d5c-62fc-413c-bec7-f61814adfd5d"
-                }
-            ],
-            "page": 102
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "item",
                     "element": "fire",
@@ -8735,7 +8751,12 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "d245afb8-8f7d-4b64-8a2c-b1b6857edc59"
-                },
+                }
+            ],
+            "page": 103
+        },
+        {
+            "cards": [
                 {
                     "category": "item",
                     "element": "fire",
@@ -8751,12 +8772,7 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "c758acc8-57e1-4576-97ff-99c7b2524335"
-                }
-            ],
-            "page": 103
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -8820,7 +8836,12 @@
                     "option": "50",
                     "rank": "A+",
                     "uuid": "de905e44-1677-4743-a542-1a6fbc23ddc2"
-                },
+                }
+            ],
+            "page": 104
+        },
+        {
+            "cards": [
                 {
                     "category": "mana",
                     "element": "water",
@@ -8836,12 +8857,7 @@
                     "option": "",
                     "rank": "B",
                     "uuid": "0ee06239-9e1c-42dd-a183-bd93d30760aa"
-                }
-            ],
-            "page": 104
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "mana",
                     "element": "water",
@@ -8905,7 +8921,12 @@
                     "option": "100",
                     "rank": "S",
                     "uuid": "1420a0f1-967e-4352-b814-16bb51d5d966"
-                },
+                }
+            ],
+            "page": 105
+        },
+        {
+            "cards": [
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -8921,12 +8942,7 @@
                     "option": "100",
                     "rank": "S",
                     "uuid": "05f031fa-bd58-4535-bd32-06a9c471b4b4"
-                }
-            ],
-            "page": 105
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -8990,7 +9006,12 @@
                     "option": "30",
                     "rank": "A",
                     "uuid": "fcfb4ff6-947b-4f48-8b35-f5366280b2b0"
-                },
+                }
+            ],
+            "page": 106
+        },
+        {
+            "cards": [
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -9006,12 +9027,7 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "73ada537-a2bf-44f5-bbb2-b5c1c18dad16"
-                }
-            ],
-            "page": 106
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -9075,7 +9091,12 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "4ebc9eb5-29ba-4974-ba8a-14e634f27a5e"
-                },
+                }
+            ],
+            "page": 107
+        },
+        {
+            "cards": [
                 {
                     "category": "material",
                     "element": "thunder",
@@ -9091,12 +9112,7 @@
                     "option": "100",
                     "rank": "S",
                     "uuid": "8eea2d8d-04ac-43a5-9011-6ddc80c9ea0f"
-                }
-            ],
-            "page": 107
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "item",
                     "element": "water",
@@ -9160,7 +9176,12 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "20805b17-c62a-4f2b-89d6-209993f30af6"
-                },
+                }
+            ],
+            "page": 108
+        },
+        {
+            "cards": [
                 {
                     "category": "item",
                     "element": "water",
@@ -9176,12 +9197,7 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "9aee1537-6559-4e98-8e3e-db69de1b69d7"
-                }
-            ],
-            "page": 108
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "item",
                     "element": "water",
@@ -9245,7 +9261,12 @@
                     "option": "",
                     "rank": "A+",
                     "uuid": "4e57d6b3-220c-4b85-b3b4-fd98736fb2a6"
-                },
+                }
+            ],
+            "page": 109
+        },
+        {
+            "cards": [
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -9261,12 +9282,7 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "cd040a3a-5287-47ae-b26c-63c4566f6eb6"
-                }
-            ],
-            "page": 109
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "item",
                     "element": "water",
@@ -9330,7 +9346,12 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "15c74189-aaee-45a6-b589-b255ca048425"
-                },
+                }
+            ],
+            "page": 110
+        },
+        {
+            "cards": [
                 {
                     "category": "item",
                     "element": "fire",
@@ -9346,12 +9367,7 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "b5af1475-255f-4e8d-aa42-5aa165b38751"
-                }
-            ],
-            "page": 110
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "item",
                     "element": "thunder",
@@ -9415,7 +9431,12 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "fb81ed06-f98a-49da-bedf-be6fda8d3d77"
-                },
+                }
+            ],
+            "page": 111
+        },
+        {
+            "cards": [
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -9431,16 +9452,11 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "c7958422-2259-417d-b4c6-1caaa1b50db7"
-                }
-            ],
-            "page": 111
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "fire",
-                    "name": "マサキ",
+                    "name": "異界から迷い込んだ少年 マサキ",
                     "option": "",
                     "rank": "A",
                     "uuid": "7e4bd4c9-fbbb-417a-a008-65314b558231"
@@ -9500,7 +9516,12 @@
                     "option": "10",
                     "rank": "A",
                     "uuid": "fdabd0b2-0e1c-45a6-aaec-686da5624194"
-                },
+                }
+            ],
+            "page": 112
+        },
+        {
+            "cards": [
                 {
                     "category": "material",
                     "element": "water",
@@ -9516,12 +9537,7 @@
                     "option": "10",
                     "rank": "A",
                     "uuid": "f304a0fb-4f98-47ff-b6d5-ad53bdb38506"
-                }
-            ],
-            "page": 112
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "mana",
                     "element": "water",
@@ -9585,7 +9601,12 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "dc127d8f-e70e-4450-b837-6be2969335fa"
-                },
+                }
+            ],
+            "page": 113
+        },
+        {
+            "cards": [
                 {
                     "category": "item",
                     "element": "water",
@@ -9601,12 +9622,7 @@
                     "option": "",
                     "rank": "S",
                     "uuid": "11851afd-49f9-41ae-88e8-d89cb6b75ec0"
-                }
-            ],
-            "page": 113
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "item",
                     "element": "water",
@@ -9670,7 +9686,12 @@
                     "option": "25",
                     "rank": "A",
                     "uuid": "7f5b3867-5d78-4550-af1e-af78fb1db6ec"
-                },
+                }
+            ],
+            "page": 114
+        },
+        {
+            "cards": [
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -9686,12 +9707,7 @@
                     "option": "10",
                     "rank": "A",
                     "uuid": "ebe7fed5-0926-414b-9393-b8162ded3e1a"
-                }
-            ],
-            "page": 114
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "mana",
                     "element": "water",
@@ -9755,7 +9771,12 @@
                     "option": "30",
                     "rank": "A",
                     "uuid": "5b4c02e1-2d6d-4f6f-a25a-1056c06238c8"
-                },
+                }
+            ],
+            "page": 115
+        },
+        {
+            "cards": [
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -9771,12 +9792,7 @@
                     "option": "50",
                     "rank": "A+",
                     "uuid": "cfef6a98-48b9-4d47-b9b1-ecb62f2681cc"
-                }
-            ],
-            "page": 115
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -9788,7 +9804,7 @@
                 {
                     "category": "spirit",
                     "element": "thunder",
-                    "name": "マルス",
+                    "name": "雷炎の槍使い マルス",
                     "option": "",
                     "rank": "B+",
                     "uuid": "cfd4eb6d-f995-49dc-b556-7d24446b4333"
@@ -9804,7 +9820,7 @@
                 {
                     "category": "spirit",
                     "element": "thunder",
-                    "name": "マルス",
+                    "name": "雷炎の槍使い マルス",
                     "option": "",
                     "rank": "B+",
                     "uuid": "2a2de0b8-744c-4c35-8763-8e09336b4fa1"
@@ -9828,7 +9844,7 @@
                 {
                     "category": "spirit",
                     "element": "thunder",
-                    "name": "マルス",
+                    "name": "雷炎の槍使い マルス",
                     "option": "",
                     "rank": "B+",
                     "uuid": "040e2f58-c2ac-4a60-80c0-76f97c86f7cc"
@@ -9840,7 +9856,12 @@
                     "option": "",
                     "rank": "S+",
                     "uuid": "0abebf5f-ea32-4042-8035-42cd827ce0c0"
-                },
+                }
+            ],
+            "page": 116
+        },
+        {
+            "cards": [
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -9856,12 +9877,7 @@
                     "option": "",
                     "rank": "B",
                     "uuid": "816d2b61-e392-482f-89d3-4c6115ffde9b"
-                }
-            ],
-            "page": 116
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -9897,7 +9913,7 @@
                 {
                     "category": "spirit",
                     "element": "thunder",
-                    "name": "マルス",
+                    "name": "雷炎の槍使い マルス",
                     "option": "",
                     "rank": "B+",
                     "uuid": "0808f383-cd06-411c-ba36-7fc6f09e9f69"
@@ -9925,7 +9941,12 @@
                     "option": "",
                     "rank": "A+",
                     "uuid": "5e517e48-91dd-434f-8c4e-1b400af2bd91"
-                },
+                }
+            ],
+            "page": 117
+        },
+        {
+            "cards": [
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -9941,12 +9962,7 @@
                     "option": "25",
                     "rank": "A",
                     "uuid": "2f4bf3ab-e20c-4d7c-b8bd-1d5aea0fb7e2"
-                }
-            ],
-            "page": 117
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -10010,7 +10026,12 @@
                     "option": "10",
                     "rank": "A",
                     "uuid": "09240ec4-57de-46a6-881c-930d5972f4e5"
-                },
+                }
+            ],
+            "page": 118
+        },
+        {
+            "cards": [
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -10026,12 +10047,7 @@
                     "option": "",
                     "rank": "S+",
                     "uuid": "56376223-fd54-4eeb-b6e2-4f65af9d4f9f"
-                }
-            ],
-            "page": 118
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -10095,7 +10111,12 @@
                     "option": "10",
                     "rank": "A",
                     "uuid": "968d3430-a066-4878-9521-14c280c08bf1"
-                },
+                }
+            ],
+            "page": 119
+        },
+        {
+            "cards": [
                 {
                     "category": "material",
                     "element": "water",
@@ -10111,12 +10132,7 @@
                     "option": "",
                     "rank": "B+",
                     "uuid": "1683a0f4-bc22-4203-85cb-e069fda81820"
-                }
-            ],
-            "page": 119
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -10180,7 +10196,12 @@
                     "option": "25",
                     "rank": "A",
                     "uuid": "a3487d37-1fd9-4a64-b558-5e73f1671366"
-                },
+                }
+            ],
+            "page": 120
+        },
+        {
+            "cards": [
                 {
                     "category": "mana",
                     "element": "water",
@@ -10196,12 +10217,7 @@
                     "option": "25",
                     "rank": "A",
                     "uuid": "47d26a13-dc23-4a45-98c4-eb045dd199c9"
-                }
-            ],
-            "page": 120
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "mana",
                     "element": "water",
@@ -10213,7 +10229,7 @@
                 {
                     "category": "spirit",
                     "element": "thunder",
-                    "name": "セシーリア",
+                    "name": "寝起きの姫 セシーリア",
                     "option": "",
                     "rank": "A",
                     "uuid": "e98e57c3-14f6-47d1-886e-cf56f329fbdd"
@@ -10221,7 +10237,7 @@
                 {
                     "category": "spirit",
                     "element": "fire",
-                    "name": "ラーヴァデイン",
+                    "name": "鉄巨人 ラーヴァデイン",
                     "option": "",
                     "rank": "B+",
                     "uuid": "c8cd527c-b6e6-4a90-8173-5b6826fdcf1b"
@@ -10237,7 +10253,7 @@
                 {
                     "category": "spirit",
                     "element": "thunder",
-                    "name": "セシーリア",
+                    "name": "寝起きの姫 セシーリア",
                     "option": "",
                     "rank": "A",
                     "uuid": "9d580cef-e9bc-4cdb-b68c-efc7a99e48e3"
@@ -10265,7 +10281,12 @@
                     "option": "10",
                     "rank": "A",
                     "uuid": "a90cb420-f280-4e5a-bb30-face9ede8442"
-                },
+                }
+            ],
+            "page": 121
+        },
+        {
+            "cards": [
                 {
                     "category": "material",
                     "element": "water",
@@ -10281,12 +10302,7 @@
                     "option": "10",
                     "rank": "A",
                     "uuid": "4f9bf57f-f7f9-4821-8f4b-2f685506ecca"
-                }
-            ],
-            "page": 121
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "mana",
                     "element": "water",
@@ -10350,7 +10366,12 @@
                     "option": "10",
                     "rank": "A",
                     "uuid": "03a8e421-a2df-403b-bf18-1b99335025c8"
-                },
+                }
+            ],
+            "page": 122
+        },
+        {
+            "cards": [
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -10366,12 +10387,7 @@
                     "option": "10",
                     "rank": "A",
                     "uuid": "c51ee728-6dff-4187-b0d7-abbd5e3932b4"
-                }
-            ],
-            "page": 122
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "mana",
                     "element": "water",
@@ -10435,7 +10451,12 @@
                     "option": "25",
                     "rank": "A",
                     "uuid": "665b1e6e-c63d-41c3-b4e2-0bfd93859571"
-                },
+                }
+            ],
+            "page": 123
+        },
+        {
+            "cards": [
                 {
                     "category": "mana",
                     "element": "water",
@@ -10451,12 +10472,7 @@
                     "option": "25",
                     "rank": "A",
                     "uuid": "0a00307f-8df6-4433-89e0-56266ef72970"
-                }
-            ],
-            "page": 123
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "mana",
                     "element": "water",
@@ -10520,7 +10536,12 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "8edb12e5-b87f-4328-8b96-84c57ed7dc79"
-                },
+                }
+            ],
+            "page": 124
+        },
+        {
+            "cards": [
                 {
                     "category": "material",
                     "element": "water",
@@ -10536,12 +10557,7 @@
                     "option": "",
                     "rank": "A+",
                     "uuid": "45ebbf1b-f8b3-432b-9b07-4f6f1fc61d53"
-                }
-            ],
-            "page": 124
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "material",
                     "element": "water",
@@ -10605,7 +10621,12 @@
                     "option": "25",
                     "rank": "A",
                     "uuid": "3e9e73a7-1014-4924-8c1b-4573a1ce1187"
-                },
+                }
+            ],
+            "page": 125
+        },
+        {
+            "cards": [
                 {
                     "category": "mana",
                     "element": "water",
@@ -10621,12 +10642,7 @@
                     "option": "25",
                     "rank": "A",
                     "uuid": "c87cd1a6-b600-4c5f-b52a-d76b3945f8cd"
-                }
-            ],
-            "page": 125
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "mana",
                     "element": "water",
@@ -10690,7 +10706,12 @@
                     "option": "25",
                     "rank": "A",
                     "uuid": "330e4008-b41b-4ec6-b790-d4ca8d512b3c"
-                },
+                }
+            ],
+            "page": 126
+        },
+        {
+            "cards": [
                 {
                     "category": "mana",
                     "element": "water",
@@ -10706,12 +10727,7 @@
                     "option": "20",
                     "rank": "A",
                     "uuid": "aa91ab41-1392-4928-b4c2-a564b3e01784"
-                }
-            ],
-            "page": 126
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "material",
                     "element": "thunder",
@@ -10775,7 +10791,12 @@
                     "option": "25",
                     "rank": "A",
                     "uuid": "b3b86008-c420-4bf0-b172-e999671bc595"
-                },
+                }
+            ],
+            "page": 127
+        },
+        {
+            "cards": [
                 {
                     "category": "material",
                     "element": "water",
@@ -10791,12 +10812,7 @@
                     "option": "25",
                     "rank": "A",
                     "uuid": "a187957e-f50f-4938-acd0-1acd5fba68ac"
-                }
-            ],
-            "page": 127
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "mana",
                     "element": "water",
@@ -10860,7 +10876,12 @@
                     "option": "25",
                     "rank": "A",
                     "uuid": "2e87ade7-158f-40a2-b395-bb32acdc9a1f"
-                },
+                }
+            ],
+            "page": 128
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "thunder",
@@ -10876,12 +10897,7 @@
                     "option": "",
                     "rank": "SS",
                     "uuid": "bce4dcaf-7103-4fe6-a9d2-a2b60c3accc3"
-                }
-            ],
-            "page": 128
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "water",
@@ -10945,7 +10961,12 @@
                     "option": "",
                     "rank": "S",
                     "uuid": "99c1f396-e8d5-499d-b32f-214ee06246fc"
-                },
+                }
+            ],
+            "page": 129
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "water",
@@ -10961,12 +10982,7 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "344a1432-9164-4b40-bd5c-b0d78631c2cf"
-                }
-            ],
-            "page": 129
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "item",
                     "element": "thunder",
@@ -11030,7 +11046,12 @@
                     "option": "",
                     "rank": "A+",
                     "uuid": "643f0fd9-8224-413d-8ff7-e480cc0e9aa8"
-                },
+                }
+            ],
+            "page": 130
+        },
+        {
+            "cards": [
                 {
                     "category": "material",
                     "element": "water",
@@ -11046,12 +11067,7 @@
                     "option": "",
                     "rank": "SS",
                     "uuid": "d5b29c7e-e109-45c9-99d6-04c7a7ac7529"
-                }
-            ],
-            "page": 130
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -11115,7 +11131,12 @@
                     "option": "",
                     "rank": "A+",
                     "uuid": "1c22bb25-961d-4d51-9ce7-6ac1cb90770a"
-                },
+                }
+            ],
+            "page": 131
+        },
+        {
+            "cards": [
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -11131,12 +11152,7 @@
                     "option": "",
                     "rank": "A+",
                     "uuid": "ea65dfad-3414-4003-8487-ff71807bdf9f"
-                }
-            ],
-            "page": 131
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -11200,7 +11216,12 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "246b635d-3f84-4170-b365-6d942c6624fe"
-                },
+                }
+            ],
+            "page": 132
+        },
+        {
+            "cards": [
                 {
                     "category": "material",
                     "element": "fire",
@@ -11216,12 +11237,7 @@
                     "option": "50",
                     "rank": "A+",
                     "uuid": "50c6c96e-47ba-4f63-8173-796d38442677"
-                }
-            ],
-            "page": 132
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -11285,7 +11301,12 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "7ca38f68-768c-4b4a-9847-0b8532c5c481"
-                },
+                }
+            ],
+            "page": 133
+        },
+        {
+            "cards": [
                 {
                     "category": "item",
                     "element": "thunder",
@@ -11301,12 +11322,7 @@
                     "option": "",
                     "rank": "S",
                     "uuid": "98fad2fc-d370-4642-984e-fb3e0aaef712"
-                }
-            ],
-            "page": 133
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "item",
                     "element": "thunder",
@@ -11342,7 +11358,7 @@
                 {
                     "category": "spirit",
                     "element": "water",
-                    "name": "アイスの実",
+                    "name": "女の子の正義 アイスの実",
                     "option": "",
                     "rank": "A",
                     "uuid": "80342b68-716c-45c7-86d0-6e48aea0a910"
@@ -11358,7 +11374,7 @@
                 {
                     "category": "spirit",
                     "element": "fire",
-                    "name": "ビスコ",
+                    "name": "子供達の味方 ビスコ",
                     "option": "",
                     "rank": "B+",
                     "uuid": "4b4d5fd0-ff44-4b1c-8e65-852d44d3d1bb"
@@ -11366,11 +11382,16 @@
                 {
                     "category": "spirit",
                     "element": "thunder",
-                    "name": "プリッツ",
+                    "name": "愛を狩るハンター プリッツ",
                     "option": "",
                     "rank": "B",
                     "uuid": "f847c136-4aa7-4ec0-91e8-91e08c4d76cc"
-                },
+                }
+            ],
+            "page": 134
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "fire",
@@ -11386,12 +11407,7 @@
                     "option": "50",
                     "rank": "A+",
                     "uuid": "9fa6d39d-3f76-4ae3-94d4-06d258e81227"
-                }
-            ],
-            "page": 134
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -11455,7 +11471,12 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "ca5f5d2a-3154-4698-90db-8c160f941874"
-                },
+                }
+            ],
+            "page": 135
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "fire",
@@ -11471,12 +11492,7 @@
                     "option": "",
                     "rank": "S",
                     "uuid": "daccfd6c-9f6e-4bdf-b3f6-d155a5f46c12"
-                }
-            ],
-            "page": 135
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "fire",
@@ -11540,22 +11556,6 @@
                     "option": "25",
                     "rank": "A",
                     "uuid": "ed2c7f13-c900-486a-8b3c-04d14281e0c3"
-                },
-                {
-                    "category": "spirit",
-                    "element": "water",
-                    "name": "コロン",
-                    "option": "",
-                    "rank": "B",
-                    "uuid": "fd3cfafa-f904-4ed2-8560-0b94a8be32f3"
-                },
-                {
-                    "category": "spirit",
-                    "element": "thunder",
-                    "name": "グリ",
-                    "option": "",
-                    "rank": "A",
-                    "uuid": "7b891ccf-23a7-4c88-9739-81f8b912af3a"
                 }
             ],
             "page": 136
@@ -11564,8 +11564,24 @@
             "cards": [
                 {
                     "category": "spirit",
+                    "element": "water",
+                    "name": "森に住む甘い精霊 コロン",
+                    "option": "",
+                    "rank": "B",
+                    "uuid": "fd3cfafa-f904-4ed2-8560-0b94a8be32f3"
+                },
+                {
+                    "category": "spirit",
+                    "element": "thunder",
+                    "name": "お菓子の国の魔法使い グリ",
+                    "option": "",
+                    "rank": "A",
+                    "uuid": "7b891ccf-23a7-4c88-9739-81f8b912af3a"
+                },
+                {
+                    "category": "spirit",
                     "element": "fire",
-                    "name": "リコ",
+                    "name": "お菓子の国の魔法使い リコ",
                     "option": "",
                     "rank": "A",
                     "uuid": "cc4db334-337d-4e11-a4b4-9c0de8f91721"
@@ -11625,7 +11641,12 @@
                     "option": "25",
                     "rank": "A",
                     "uuid": "15a83561-a254-4447-8f56-27bb3e0140f6"
-                },
+                }
+            ],
+            "page": 137
+        },
+        {
+            "cards": [
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -11641,12 +11662,7 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "85f7fba1-a1a2-4ad1-80b1-adf94b3bdfca"
-                }
-            ],
-            "page": 137
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -11674,7 +11690,7 @@
                 {
                     "category": "spirit",
                     "element": "water",
-                    "name": "ディアヴォロス",
+                    "name": "大剣魔童 ディアヴォロス",
                     "option": "",
                     "rank": "B+",
                     "uuid": "295bc6db-550d-446a-85d0-e256f9151fd5"
@@ -11682,7 +11698,7 @@
                 {
                     "category": "spirit",
                     "element": "fire",
-                    "name": "ラーヴァデイン",
+                    "name": "鉄巨人 ラーヴァデイン",
                     "option": "",
                     "rank": "B+",
                     "uuid": "52e88098-9fae-449c-937e-e9345e6d4ca1"
@@ -11690,7 +11706,7 @@
                 {
                     "category": "spirit",
                     "element": "water",
-                    "name": "ナーガ",
+                    "name": "雨の女神 ナーガ",
                     "option": "",
                     "rank": "B",
                     "uuid": "c818f5fb-5604-49b0-8851-8019f5ebe70e"
@@ -11710,7 +11726,12 @@
                     "option": "",
                     "rank": "S",
                     "uuid": "be2a53af-f503-4fe0-a798-2b10ca0cb6eb"
-                },
+                }
+            ],
+            "page": 138
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "water",
@@ -11726,12 +11747,7 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "2389b359-1175-4160-b420-301ff88ca69a"
-                }
-            ],
-            "page": 138
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "water",
@@ -11795,11 +11811,16 @@
                     "option": "50",
                     "rank": "A+",
                     "uuid": "5acd0e28-f6da-4209-8f84-ec4403513741"
-                },
+                }
+            ],
+            "page": 139
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "fire",
-                    "name": "ジャガード",
+                    "name": "森の守り神 ジャガード",
                     "option": "",
                     "rank": "B+",
                     "uuid": "1da28f1e-7914-45bd-96af-0b2558482052"
@@ -11811,16 +11832,11 @@
                     "option": "50",
                     "rank": "A+",
                     "uuid": "a69ddf58-8bcc-4ee1-836c-10a9cc5a0b5c"
-                }
-            ],
-            "page": 139
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "fire",
-                    "name": "ジャガード",
+                    "name": "森の守り神 ジャガード",
                     "option": "",
                     "rank": "B+",
                     "uuid": "23740a1a-0e47-48e1-825a-e0854113982a"
@@ -11880,7 +11896,12 @@
                     "option": "",
                     "rank": "S",
                     "uuid": "1c332dc6-31bd-44a3-96fb-d9fb8141870a"
-                },
+                }
+            ],
+            "page": 140
+        },
+        {
+            "cards": [
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -11896,12 +11917,7 @@
                     "option": "25",
                     "rank": "A",
                     "uuid": "97de654a-09fc-485f-ba31-3e849dbeda89"
-                }
-            ],
-            "page": 140
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -11965,7 +11981,12 @@
                     "option": "",
                     "rank": "B+",
                     "uuid": "cadf0630-f54a-495b-b6c2-54a2bdf6cf68"
-                },
+                }
+            ],
+            "page": 141
+        },
+        {
+            "cards": [
                 {
                     "category": "material",
                     "element": "thunder",
@@ -11981,12 +12002,7 @@
                     "option": "25",
                     "rank": "A",
                     "uuid": "6355f1c3-e305-48d0-8b13-8fbb6f5e286a"
-                }
-            ],
-            "page": 141
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "material",
                     "element": "thunder",
@@ -12050,7 +12066,12 @@
                     "option": "50",
                     "rank": "A+",
                     "uuid": "287e96cb-b1a0-4a36-bba4-dec84c149ce7"
-                },
+                }
+            ],
+            "page": 142
+        },
+        {
+            "cards": [
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -12066,12 +12087,7 @@
                     "option": "25",
                     "rank": "A",
                     "uuid": "9a388f67-75d1-4123-a837-a3985e826d2e"
-                }
-            ],
-            "page": 142
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "water",
@@ -12135,7 +12151,12 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "ef57c23f-c859-49f2-8b4c-9131b21ca207"
-                },
+                }
+            ],
+            "page": 143
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "fire",
@@ -12151,12 +12172,7 @@
                     "option": "",
                     "rank": "B+",
                     "uuid": "9d2b9db3-288c-4725-8d04-036c6bae233a"
-                }
-            ],
-            "page": 143
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "fire",
@@ -12220,7 +12236,12 @@
                     "option": "25",
                     "rank": "A",
                     "uuid": "2da8129b-9dfd-448a-887c-4a0b0e2935e4"
-                },
+                }
+            ],
+            "page": 144
+        },
+        {
+            "cards": [
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -12236,12 +12257,7 @@
                     "option": "25",
                     "rank": "A",
                     "uuid": "aedd5139-0d60-44f7-ade1-33d0889e16db"
-                }
-            ],
-            "page": 144
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "thunder",
@@ -12305,7 +12321,12 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "ca975035-5aab-44ab-8394-42f98ac08cd0"
-                },
+                }
+            ],
+            "page": 145
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "thunder",
@@ -12321,12 +12342,7 @@
                     "option": "",
                     "rank": "S",
                     "uuid": "5c0e2020-d998-4dca-9cdc-6d903e2e63bf"
-                }
-            ],
-            "page": 145
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -12390,7 +12406,12 @@
                     "option": "",
                     "rank": "B",
                     "uuid": "64af19c6-4e26-4fd6-9044-c2167e212b29"
-                },
+                }
+            ],
+            "page": 146
+        },
+        {
+            "cards": [
                 {
                     "category": "material",
                     "element": "water",
@@ -12402,16 +12423,11 @@
                 {
                     "category": "spirit",
                     "element": "fire",
-                    "name": "ファタ",
+                    "name": "夕日の魔法使い ファタ",
                     "option": "",
                     "rank": "B+",
                     "uuid": "820ac80a-fd83-467a-afb4-97f6c22e83a4"
-                }
-            ],
-            "page": 146
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -12475,7 +12491,12 @@
                     "option": "",
                     "rank": "A+",
                     "uuid": "b489c18d-b643-4f8b-8fc4-a6cbb7c42969"
-                },
+                }
+            ],
+            "page": 147
+        },
+        {
+            "cards": [
                 {
                     "category": "material",
                     "element": "water",
@@ -12487,16 +12508,11 @@
                 {
                     "category": "spirit",
                     "element": "fire",
-                    "name": "マレーナ",
+                    "name": "ゴシック・ウェイトレス マレーナ",
                     "option": "",
                     "rank": "B+",
                     "uuid": "400a6a6d-3ac3-48d0-b8fe-854b5764a815"
-                }
-            ],
-            "page": 147
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "material",
                     "element": "fire",
@@ -12508,7 +12524,7 @@
                 {
                     "category": "spirit",
                     "element": "fire",
-                    "name": "マレーナ",
+                    "name": "ゴシック・ウェイトレス マレーナ",
                     "option": "",
                     "rank": "B+",
                     "uuid": "f9e7d9b9-d20e-412e-a3cd-04e111d6431a"
@@ -12516,7 +12532,7 @@
                 {
                     "category": "spirit",
                     "element": "fire",
-                    "name": "マレーナ",
+                    "name": "ゴシック・ウェイトレス マレーナ",
                     "option": "",
                     "rank": "B+",
                     "uuid": "44b6d205-3f2e-4bc3-8d4e-da839faa68e5"
@@ -12560,7 +12576,12 @@
                     "option": "",
                     "rank": "B",
                     "uuid": "72087cd0-332f-4fa5-8329-900791a3f1bb"
-                },
+                }
+            ],
+            "page": 148
+        },
+        {
+            "cards": [
                 {
                     "category": "material",
                     "element": "water",
@@ -12576,12 +12597,7 @@
                     "option": "",
                     "rank": "A+",
                     "uuid": "ec44646c-0742-425e-93a8-2d32c9155d8c"
-                }
-            ],
-            "page": 148
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "fire",
@@ -12645,7 +12661,12 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "a693a240-4377-443a-9a59-981fb993f23d"
-                },
+                }
+            ],
+            "page": 149
+        },
+        {
+            "cards": [
                 {
                     "category": "material",
                     "element": "water",
@@ -12661,12 +12682,7 @@
                     "option": "",
                     "rank": "A+",
                     "uuid": "9d939fcf-b0ad-42a4-a4d4-92154d38220f"
-                }
-            ],
-            "page": 149
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "material",
                     "element": "thunder",
@@ -12730,22 +12746,6 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "9a6b957a-169d-4ef7-877e-1fd7d12a81ec"
-                },
-                {
-                    "category": "spirit",
-                    "element": "fire",
-                    "name": "ラーヴァデイン",
-                    "option": "",
-                    "rank": "B+",
-                    "uuid": "8f1248b7-744e-482a-86c9-b1e98c225e77"
-                },
-                {
-                    "category": "spirit",
-                    "element": "thunder",
-                    "name": "モニカ",
-                    "option": "",
-                    "rank": "B",
-                    "uuid": "1c75554d-4337-4d9e-a3ad-f8679c9d2fab"
                 }
             ],
             "page": 150
@@ -12754,8 +12754,24 @@
             "cards": [
                 {
                     "category": "spirit",
+                    "element": "fire",
+                    "name": "鉄巨人 ラーヴァデイン",
+                    "option": "",
+                    "rank": "B+",
+                    "uuid": "8f1248b7-744e-482a-86c9-b1e98c225e77"
+                },
+                {
+                    "category": "spirit",
                     "element": "thunder",
-                    "name": "アロイス",
+                    "name": "アコーディオン少女 モニカ",
+                    "option": "",
+                    "rank": "B",
+                    "uuid": "1c75554d-4337-4d9e-a3ad-f8679c9d2fab"
+                },
+                {
+                    "category": "spirit",
+                    "element": "thunder",
+                    "name": "聖職の徒 アロイス",
                     "option": "",
                     "rank": "A",
                     "uuid": "5dea78af-0585-4b20-903c-e3339cea95c2"
@@ -12815,7 +12831,12 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "f84a2d50-e6f2-42b8-9ae3-30d6167ea8cb"
-                },
+                }
+            ],
+            "page": 151
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "thunder",
@@ -12831,12 +12852,7 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "1b4ce201-be7c-403d-84e7-81b032cb739a"
-                }
-            ],
-            "page": 151
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "material",
                     "element": "fire",
@@ -12872,7 +12888,7 @@
                 {
                     "category": "spirit",
                     "element": "fire",
-                    "name": "インゴルト",
+                    "name": "黄金の夢 インゴルト",
                     "option": "",
                     "rank": "A",
                     "uuid": "dccdf2f1-028e-47fa-9b1e-3d93a0f1eb0e"
@@ -12900,7 +12916,12 @@
                     "option": "",
                     "rank": "A+",
                     "uuid": "71406b48-f4ee-4b20-a38a-df7310c99cb8"
-                },
+                }
+            ],
+            "page": 152
+        },
+        {
+            "cards": [
                 {
                     "category": "material",
                     "element": "fire",
@@ -12916,12 +12937,7 @@
                     "option": "",
                     "rank": "A+",
                     "uuid": "a84a271b-b38d-4c63-b1cc-374f06020e8d"
-                }
-            ],
-            "page": 152
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "material",
                     "element": "water",
@@ -12985,7 +13001,12 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "ae1ccea3-5899-463d-9fe5-02fb9b6262f1"
-                },
+                }
+            ],
+            "page": 153
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "fire",
@@ -13001,12 +13022,7 @@
                     "option": "",
                     "rank": "B+",
                     "uuid": "cf8ebb70-bcc9-43a4-beda-d033e6478d5d"
-                }
-            ],
-            "page": 153
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "water",
@@ -13070,7 +13086,12 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "81c54c5c-d314-4793-8f71-9a5e98dd4468"
-                },
+                }
+            ],
+            "page": 154
+        },
+        {
+            "cards": [
                 {
                     "category": "item",
                     "element": "water",
@@ -13086,12 +13107,7 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "6e71d4d9-0a02-42a0-8c05-e808054eebcf"
-                }
-            ],
-            "page": 154
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "item",
                     "element": "water",
@@ -13119,7 +13135,7 @@
                 {
                     "category": "spirit",
                     "element": "fire",
-                    "name": "キティ",
+                    "name": "女怪盗 キティ",
                     "option": "",
                     "rank": "B",
                     "uuid": "45e78a9c-fe07-42ac-a610-659555dcc2a7"
@@ -13155,7 +13171,12 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "d57b38aa-40e4-4751-876c-872d738f84bc"
-                },
+                }
+            ],
+            "page": 155
+        },
+        {
+            "cards": [
                 {
                     "category": "item",
                     "element": "thunder",
@@ -13171,12 +13192,7 @@
                     "option": "",
                     "rank": "S",
                     "uuid": "b8e8b9bf-d142-4068-af64-522fd228ab13"
-                }
-            ],
-            "page": 155
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "water",
@@ -13240,7 +13256,12 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "ee8a8fb7-2156-45cb-96a1-32afb9db65f1"
-                },
+                }
+            ],
+            "page": 156
+        },
+        {
+            "cards": [
                 {
                     "category": "item",
                     "element": "thunder",
@@ -13256,12 +13277,7 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "ca47eaf3-c801-4a5d-a73c-9829e55768f6"
-                }
-            ],
-            "page": 156
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "item",
                     "element": "thunder",
@@ -13325,7 +13341,12 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "0c7759a4-6b0e-46bb-abfc-b6632be463f8"
-                },
+                }
+            ],
+            "page": 157
+        },
+        {
+            "cards": [
                 {
                     "category": "item",
                     "element": "thunder",
@@ -13341,12 +13362,7 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "9669d334-2d0c-4ac8-a045-17b62ace538e"
-                }
-            ],
-            "page": 157
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "fire",
@@ -13410,7 +13426,12 @@
                     "option": "",
                     "rank": "A+",
                     "uuid": "a44c776e-00ba-40bb-b580-9e5a71f6332d"
-                },
+                }
+            ],
+            "page": 158
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "water",
@@ -13426,12 +13447,7 @@
                     "option": "",
                     "rank": "A+",
                     "uuid": "4465aa29-3a2d-4f79-b0db-5b9cb65a3f71"
-                }
-            ],
-            "page": 158
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "water",
@@ -13495,7 +13511,12 @@
                     "option": "",
                     "rank": "A+",
                     "uuid": "019cf2fe-d2d9-4f01-b854-82674e549aa8"
-                },
+                }
+            ],
+            "page": 159
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "thunder",
@@ -13511,16 +13532,11 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "7c6b4c64-6a00-455c-b2e4-d305314ccee2"
-                }
-            ],
-            "page": 159
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "fire",
-                    "name": "ルー＆クー",
+                    "name": "きらめきのふたつ星 ルー＆クー",
                     "option": "",
                     "rank": "A",
                     "uuid": "320471fd-1004-42b5-b3df-3e46d44cfa6c"
@@ -13528,7 +13544,7 @@
                 {
                     "category": "spirit",
                     "element": "water",
-                    "name": "レーヴ",
+                    "name": "鮮血の貴公子 レーヴ",
                     "option": "",
                     "rank": "A",
                     "uuid": "9ee44984-e6a5-47fd-a729-0118333a44ce"
@@ -13536,7 +13552,7 @@
                 {
                     "category": "spirit",
                     "element": "fire",
-                    "name": "ミカエラ",
+                    "name": "天界の戦天使 ミカエラ",
                     "option": "",
                     "rank": "S",
                     "uuid": "57dd08eb-fd34-4e20-9c90-c2497b7e7b3a"
@@ -13544,7 +13560,7 @@
                 {
                     "category": "spirit",
                     "element": "water",
-                    "name": "ルシェ",
+                    "name": "理知の魔道士 ルシェ",
                     "option": "",
                     "rank": "B",
                     "uuid": "34d17d50-e798-4148-8c68-6f51ea6a4459"
@@ -13552,7 +13568,7 @@
                 {
                     "category": "spirit",
                     "element": "water",
-                    "name": "ロレッタ",
+                    "name": "黒姫 ロレッタ",
                     "option": "",
                     "rank": "B",
                     "uuid": "858e3237-c5bf-4716-9c37-8c8af9a7b701"
@@ -13568,7 +13584,7 @@
                 {
                     "category": "spirit",
                     "element": "fire",
-                    "name": "アレク",
+                    "name": "のどかなる日々 アレク",
                     "option": "",
                     "rank": "A",
                     "uuid": "9b70879b-c39e-4fbf-badf-867e356a3114"
@@ -13576,26 +13592,10 @@
                 {
                     "category": "spirit",
                     "element": "water",
-                    "name": "マルティナ",
+                    "name": "ピンクの魔球 マルティナ",
                     "option": "",
                     "rank": "A",
                     "uuid": "77aa5f5b-f81d-41d7-b1b1-cf26af7b4149"
-                },
-                {
-                    "category": "spirit",
-                    "element": "fire",
-                    "name": "イングウェイ",
-                    "option": "",
-                    "rank": "A",
-                    "uuid": "f30f27eb-8965-4508-9b93-2d74ea85cad1"
-                },
-                {
-                    "category": "spirit",
-                    "element": "thunder",
-                    "name": "ウィルフレッド",
-                    "option": "",
-                    "rank": "A",
-                    "uuid": "8fda28f4-5a50-4102-93ca-8e351ed9f435"
                 }
             ],
             "page": 160
@@ -13604,8 +13604,24 @@
             "cards": [
                 {
                     "category": "spirit",
+                    "element": "fire",
+                    "name": "魔法走者 イングウェイ",
+                    "option": "",
+                    "rank": "A",
+                    "uuid": "f30f27eb-8965-4508-9b93-2d74ea85cad1"
+                },
+                {
+                    "category": "spirit",
                     "element": "thunder",
-                    "name": "デネヴ",
+                    "name": "重魔力打法 ウィルフレッド",
+                    "option": "",
+                    "rank": "A",
+                    "uuid": "8fda28f4-5a50-4102-93ca-8e351ed9f435"
+                },
+                {
+                    "category": "spirit",
+                    "element": "thunder",
+                    "name": "星竜 デネヴ",
                     "option": "",
                     "rank": "A",
                     "uuid": "c5fb6fe7-9a93-4e61-8c03-83a68fe47f89"
@@ -13665,7 +13681,12 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "c436d8bf-bccd-4940-83e4-a105ce00ec99"
-                },
+                }
+            ],
+            "page": 161
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "thunder",
@@ -13681,12 +13702,7 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "ae001e1b-cf1b-4de1-ad8a-6e5d3f97a5c1"
-                }
-            ],
-            "page": 161
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "fire",
@@ -13706,7 +13722,7 @@
                 {
                     "category": "spirit",
                     "element": "thunder",
-                    "name": "チャパル",
+                    "name": "達人 チャパル",
                     "option": "",
                     "rank": "A",
                     "uuid": "f5984c2d-1ebe-4d86-b73e-38ba65d41441"
@@ -13714,7 +13730,7 @@
                 {
                     "category": "spirit",
                     "element": "thunder",
-                    "name": "フェリシア",
+                    "name": "神兵 フェリシア",
                     "option": "",
                     "rank": "B+",
                     "uuid": "15bc75e2-8a8e-4114-a956-bce0dbef3bc8"
@@ -13722,7 +13738,7 @@
                 {
                     "category": "spirit",
                     "element": "fire",
-                    "name": "キティ",
+                    "name": "女怪盗 キティ",
                     "option": "",
                     "rank": "B",
                     "uuid": "c6de4beb-9012-49a9-8f1b-0ee944a9021d"
@@ -13730,7 +13746,7 @@
                 {
                     "category": "spirit",
                     "element": "thunder",
-                    "name": "ヴァネット",
+                    "name": "雷使い ヴァネット",
                     "option": "",
                     "rank": "A",
                     "uuid": "8a66e37f-1340-4e06-9ac3-8e7c405574bb"
@@ -13738,7 +13754,7 @@
                 {
                     "category": "spirit",
                     "element": "thunder",
-                    "name": "ヴァネット",
+                    "name": "雷使い ヴァネット",
                     "option": "",
                     "rank": "A",
                     "uuid": "7e378731-32c1-43ca-ae12-73b21a384296"
@@ -13746,26 +13762,10 @@
                 {
                     "category": "spirit",
                     "element": "fire",
-                    "name": "エシリナ",
+                    "name": "見習い少女 エシリナ",
                     "option": "",
                     "rank": "A",
                     "uuid": "57702d55-22f0-4ea3-873c-0deddff1f3a5"
-                },
-                {
-                    "category": "spirit",
-                    "element": "fire",
-                    "name": "エシリナ",
-                    "option": "",
-                    "rank": "A",
-                    "uuid": "3325c7a2-6ce5-481f-bb3c-5e6a1d4398f9"
-                },
-                {
-                    "category": "spirit",
-                    "element": "thunder",
-                    "name": "ヴァネット",
-                    "option": "",
-                    "rank": "A",
-                    "uuid": "1fa45dc9-537e-496c-bd15-ce35977d19c8"
                 }
             ],
             "page": 162
@@ -13775,7 +13775,23 @@
                 {
                     "category": "spirit",
                     "element": "fire",
-                    "name": "エシリナ",
+                    "name": "見習い少女 エシリナ",
+                    "option": "",
+                    "rank": "A",
+                    "uuid": "3325c7a2-6ce5-481f-bb3c-5e6a1d4398f9"
+                },
+                {
+                    "category": "spirit",
+                    "element": "thunder",
+                    "name": "雷使い ヴァネット",
+                    "option": "",
+                    "rank": "A",
+                    "uuid": "1fa45dc9-537e-496c-bd15-ce35977d19c8"
+                },
+                {
+                    "category": "spirit",
+                    "element": "fire",
+                    "name": "見習い少女 エシリナ",
                     "option": "",
                     "rank": "A",
                     "uuid": "196657da-907f-43ed-a0c8-bac931f054a2"
@@ -13783,7 +13799,7 @@
                 {
                     "category": "spirit",
                     "element": "fire",
-                    "name": "エシリナ",
+                    "name": "見習い少女 エシリナ",
                     "option": "",
                     "rank": "A",
                     "uuid": "d79e9bd6-3ce2-4c62-9e9a-048401b56ac5"
@@ -13835,7 +13851,12 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "edd2acf7-4e6d-4694-b278-6c2cf06e44d1"
-                },
+                }
+            ],
+            "page": 163
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "thunder",
@@ -13847,20 +13868,15 @@
                 {
                     "category": "spirit",
                     "element": "thunder",
-                    "name": "デネヴ",
+                    "name": "星竜 デネヴ",
                     "option": "",
                     "rank": "A",
                     "uuid": "e9b98f2e-f8a0-4e5f-8d53-e4c23287ce7f"
-                }
-            ],
-            "page": 163
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "fire",
-                    "name": "ブリッツェン",
+                    "name": "運搬見習い ブリッツェン",
                     "option": "",
                     "rank": "A",
                     "uuid": "238de321-9f8b-439f-9a2f-3f48d42e5ec7"
@@ -13868,7 +13884,7 @@
                 {
                     "category": "spirit",
                     "element": "fire",
-                    "name": "ブリッツェン",
+                    "name": "運搬見習い ブリッツェン",
                     "option": "",
                     "rank": "A",
                     "uuid": "e8345efa-ed82-4c62-aa14-a9c06015a2b6"
