@@ -3,6 +3,46 @@
         {
             "cards": [
                 {
+                    "category": "material",
+                    "element": "thunder",
+                    "name": "木",
+                    "option": "",
+                    "rank": "S+",
+                    "uuid": "112d6748-20c0-4c78-aa65-5768c05965c5"
+                },
+                {
+                    "category": "spirit",
+                    "element": "thunder",
+                    "name": "叡智を掴め！ 伝説の猫ウィズ",
+                    "option": "",
+                    "rank": "L",
+                    "uuid": "a396820f-0881-47d9-8868-e083847e53a3"
+                },
+                {
+                    "category": "spirit",
+                    "element": "water",
+                    "name": "叡智を掴め！ 伝説の猫ウィズ",
+                    "option": "",
+                    "rank": "L",
+                    "uuid": "6dca836b-5ac0-47c2-a0e3-cfd2164b85f8"
+                },
+                {
+                    "category": "material",
+                    "element": "water",
+                    "name": "木",
+                    "option": "",
+                    "rank": "A+",
+                    "uuid": "1dbd542e-edb3-44be-91b8-46847002c85d"
+                },
+                {
+                    "category": "spirit",
+                    "element": "water",
+                    "name": "本",
+                    "option": "",
+                    "rank": "SS",
+                    "uuid": "28b108ca-2b68-4efa-96c1-f9ceee09ea79"
+                },
+                {
                     "category": "spirit",
                     "element": "thunder",
                     "name": "無表情な慟哭者 ヒミカ",
@@ -41,7 +81,12 @@
                     "option": "",
                     "rank": "L",
                     "uuid": "2dd16c0f-278a-4f9e-9177-0f9f26a719fd"
-                },
+                }
+            ],
+            "page": 1
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "fire",
@@ -81,12 +126,7 @@
                     "option": "",
                     "rank": "SS",
                     "uuid": "4e58cd49-2159-491e-bdcb-e030205a1ebe"
-                }
-            ],
-            "page": 1
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "material",
                     "element": "fire",
@@ -126,7 +166,12 @@
                     "option": "",
                     "rank": "S",
                     "uuid": "c22dc664-3f8e-4199-9bf8-96e626bfe0bf"
-                },
+                }
+            ],
+            "page": 2
+        },
+        {
+            "cards": [
                 {
                     "category": "material",
                     "element": "water",
@@ -166,12 +211,7 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "c7721247-fdc9-4a9a-869d-554b9845fe29"
-                }
-            ],
-            "page": 2
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "item",
                     "element": "thunder",
@@ -211,7 +251,12 @@
                     "option": "",
                     "rank": "S+",
                     "uuid": "9c15dd40-9439-432a-bc82-7222565c3e4a"
-                },
+                }
+            ],
+            "page": 3
+        },
+        {
+            "cards": [
                 {
                     "category": "material",
                     "element": "water",
@@ -251,12 +296,7 @@
                     "option": "",
                     "rank": "SS",
                     "uuid": "151ef16a-657a-4804-915b-ddd634420ad1"
-                }
-            ],
-            "page": 3
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "thunder",
@@ -296,7 +336,12 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "bc72ecea-7066-4fac-bb33-01725d538162"
-                },
+                }
+            ],
+            "page": 4
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "water",
@@ -336,12 +381,7 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "beaa30e1-6d28-4d7a-8804-01b4ddb71c84"
-                }
-            ],
-            "page": 4
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "fire",
@@ -381,7 +421,12 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "d9bf187a-382d-42b0-a867-754974003eb2"
-                },
+                }
+            ],
+            "page": 5
+        },
+        {
+            "cards": [
                 {
                     "category": "item",
                     "element": "thunder",
@@ -421,12 +466,7 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "f3f95268-a62a-46c5-afeb-9cfac471671e"
-                }
-            ],
-            "page": 5
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "fire",
@@ -466,7 +506,12 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "ddc25ab8-e5fc-4938-96a7-ff557f27590b"
-                },
+                }
+            ],
+            "page": 6
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "fire",
@@ -506,12 +551,7 @@
                     "option": "100",
                     "rank": "S",
                     "uuid": "5177c4b6-8403-4d4f-8881-9fed00476d69"
-                }
-            ],
-            "page": 6
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -551,7 +591,12 @@
                     "option": "100",
                     "rank": "S",
                     "uuid": "aa4868d5-20ac-4a88-89ef-72eef8f38bca"
-                },
+                }
+            ],
+            "page": 7
+        },
+        {
+            "cards": [
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -591,12 +636,7 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "dd7ecb60-bddd-498d-85cf-f46fb4d4ef59"
-                }
-            ],
-            "page": 7
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "water",
@@ -636,7 +676,12 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "49c70e92-849f-49ac-ada1-4e4800acc86e"
-                },
+                }
+            ],
+            "page": 8
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "thunder",
@@ -676,12 +721,7 @@
                     "option": "30",
                     "rank": "A",
                     "uuid": "c5fd5de0-695a-4d47-8031-56f62d464a43"
-                }
-            ],
-            "page": 8
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "thunder",
@@ -721,7 +761,12 @@
                     "option": "100",
                     "rank": "S",
                     "uuid": "93fe78ec-dd46-4a89-8378-58b035d0c413"
-                },
+                }
+            ],
+            "page": 9
+        },
+        {
+            "cards": [
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -761,12 +806,7 @@
                     "option": "100",
                     "rank": "S",
                     "uuid": "6edb92e5-e630-4eb3-b569-4eb00ca493f0"
-                }
-            ],
-            "page": 9
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -806,7 +846,12 @@
                     "option": "50",
                     "rank": "A+",
                     "uuid": "937183c2-0c73-4093-a6c4-8f6544fba596"
-                },
+                }
+            ],
+            "page": 10
+        },
+        {
+            "cards": [
                 {
                     "category": "aman",
                     "element": "water",
@@ -846,12 +891,7 @@
                     "option": "",
                     "rank": "S",
                     "uuid": "acff2888-869a-4f73-8daf-d4b6b06f64c7"
-                }
-            ],
-            "page": 10
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "water",
@@ -891,7 +931,12 @@
                     "option": "",
                     "rank": "S",
                     "uuid": "1e5ac320-3e07-4889-9e3f-544081f0c64c"
-                },
+                }
+            ],
+            "page": 11
+        },
+        {
+            "cards": [
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -931,12 +976,7 @@
                     "option": "",
                     "rank": "S",
                     "uuid": "eb9ae662-7f8f-4d6c-b569-3becc2740d61"
-                }
-            ],
-            "page": 11
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "water",
@@ -976,7 +1016,12 @@
                     "option": "100",
                     "rank": "S",
                     "uuid": "3a01adef-3191-4673-8dd4-686ab29efa92"
-                },
+                }
+            ],
+            "page": 12
+        },
+        {
+            "cards": [
                 {
                     "category": "aman",
                     "element": "water",
@@ -1016,12 +1061,7 @@
                     "option": "20",
                     "rank": "A",
                     "uuid": "387687a8-bf63-4cd4-ba22-82709814ab45"
-                }
-            ],
-            "page": 12
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "item",
                     "element": "fire",
@@ -1061,7 +1101,12 @@
                     "option": "10",
                     "rank": "A",
                     "uuid": "8f18adaa-9f92-4314-98f7-a2fff4ad8dd0"
-                },
+                }
+            ],
+            "page": 13
+        },
+        {
+            "cards": [
                 {
                     "category": "item",
                     "element": "fire",
@@ -1101,12 +1146,7 @@
                     "option": "",
                     "rank": "SS",
                     "uuid": "da424058-0929-479e-b973-3f7ea521169b"
-                }
-            ],
-            "page": 13
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "thunder",
@@ -1146,7 +1186,12 @@
                     "option": "",
                     "rank": "S",
                     "uuid": "7e97b4f1-87b0-463f-94e8-50a9f03260ee"
-                },
+                }
+            ],
+            "page": 14
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "water",
@@ -1186,12 +1231,7 @@
                     "option": "",
                     "rank": "S",
                     "uuid": "9f6b51dd-d35a-4d29-a056-11021f4ec6e3"
-                }
-            ],
-            "page": 14
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "fire",
@@ -1231,7 +1271,12 @@
                     "option": "",
                     "rank": "S",
                     "uuid": "7c6da472-574d-48b5-96c7-59a71351aea0"
-                },
+                }
+            ],
+            "page": 15
+        },
+        {
+            "cards": [
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -1271,12 +1316,7 @@
                     "option": "",
                     "rank": "SS",
                     "uuid": "caefcc90-142e-4f33-9d4c-b49641d92e8e"
-                }
-            ],
-            "page": 15
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "water",
@@ -1316,7 +1356,12 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "ba01e8f5-36ff-40d8-84fe-b84beb9006f7"
-                },
+                }
+            ],
+            "page": 16
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "water",
@@ -1335,14 +1380,6 @@
                 },
                 {
                     "category": "spirit",
-                    "element": "water",
-                    "name": "花に囲まれた姫 フレイ",
-                    "option": "",
-                    "rank": "A",
-                    "uuid": "347798f9-72e9-4655-947a-bba8b90f3aae"
-                },
-                {
-                    "category": "spirit",
                     "element": "thunder",
                     "name": "剣士 ツバキ",
                     "option": "",
@@ -1356,27 +1393,6 @@
                     "option": "",
                     "rank": "SS",
                     "uuid": "ebbe817a-016a-4c54-bff7-64c84d788148"
-                }
-            ],
-            "page": 16
-        },
-        {
-            "cards": [
-                {
-                    "category": "spirit",
-                    "element": "fire",
-                    "name": "突撃錫杖娘 ミオ",
-                    "option": "",
-                    "rank": "A",
-                    "uuid": "e171d6f0-9d66-4bea-977b-0f74f55a9e97"
-                },
-                {
-                    "category": "spirit",
-                    "element": "thunder",
-                    "name": "地下施設保守業務担当 アサギ",
-                    "option": "",
-                    "rank": "SS",
-                    "uuid": "a796da5f-990f-4b12-a090-2f81174af80e"
                 },
                 {
                     "category": "spirit",
@@ -1425,7 +1441,12 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "594d3e29-f228-46b3-af3e-dc70a8c90aeb"
-                },
+                }
+            ],
+            "page": 17
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "fire",
@@ -1441,12 +1462,7 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "fa8e9429-88a1-4389-bf02-a725344b5138"
-                }
-            ],
-            "page": 17
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "fire",
@@ -1510,7 +1526,12 @@
                     "option": "",
                     "rank": "S",
                     "uuid": "efb27705-8ba9-47a8-8a7c-899c31cfeeca"
-                },
+                }
+            ],
+            "page": 18
+        },
+        {
+            "cards": [
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -1526,12 +1547,7 @@
                     "option": "",
                     "rank": "S+",
                     "uuid": "0a27b847-ea7d-4454-a09e-92765d084e29"
-                }
-            ],
-            "page": 18
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "material",
                     "element": "water",
@@ -1595,7 +1611,12 @@
                     "option": "",
                     "rank": "S",
                     "uuid": "42b07009-b1bf-4737-bbd4-732051437e72"
-                },
+                }
+            ],
+            "page": 19
+        },
+        {
+            "cards": [
                 {
                     "category": "material",
                     "element": "fire",
@@ -1611,12 +1632,7 @@
                     "option": "",
                     "rank": "SS",
                     "uuid": "767847ce-ec3d-41b5-9852-0c3beb7c6dc4"
-                }
-            ],
-            "page": 19
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "water",
@@ -1680,7 +1696,12 @@
                     "option": "",
                     "rank": "SS",
                     "uuid": "0c47a917-de2a-4a46-b13b-663fac10d400"
-                },
+                }
+            ],
+            "page": 20
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "water",
@@ -1696,12 +1717,7 @@
                     "option": "",
                     "rank": "SS",
                     "uuid": "654d69f3-bea3-4ad5-a687-52678b6e7337"
-                }
-            ],
-            "page": 20
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -1765,7 +1781,12 @@
                     "option": "100",
                     "rank": "S",
                     "uuid": "0ada5afc-74ad-4b89-adb1-e7e56f9ca8e9"
-                },
+                }
+            ],
+            "page": 21
+        },
+        {
+            "cards": [
                 {
                     "category": "material",
                     "element": "water",
@@ -1781,12 +1802,7 @@
                     "option": "",
                     "rank": "S+",
                     "uuid": "fc74f42c-636c-485c-a924-b742eb3f15c2"
-                }
-            ],
-            "page": 21
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "fire",
@@ -1794,91 +1810,6 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "5f32fb0d-14f5-4c74-91b8-84c3a80d9735"
-                },
-                {
-                    "category": "item",
-                    "element": "thunder",
-                    "name": "風船少女の夢色ステッキ",
-                    "option": "",
-                    "rank": "A",
-                    "uuid": "2691d7b8-67f2-4610-864e-09e5022c8e2c"
-                },
-                {
-                    "category": "item",
-                    "element": "thunder",
-                    "name": "風船少女の夢色ステッキ",
-                    "option": "",
-                    "rank": "A",
-                    "uuid": "b188cab9-d220-4304-8db5-e49bc879df85"
-                },
-                {
-                    "category": "item",
-                    "element": "thunder",
-                    "name": "風船少女の夢色ステッキ",
-                    "option": "",
-                    "rank": "A",
-                    "uuid": "04155b11-a416-47da-82d7-9a0799097431"
-                },
-                {
-                    "category": "item",
-                    "element": "thunder",
-                    "name": "風船少女の夢色ステッキ",
-                    "option": "",
-                    "rank": "A",
-                    "uuid": "367185b4-c8b3-4224-af32-ac23d053b9bd"
-                },
-                {
-                    "category": "item",
-                    "element": "thunder",
-                    "name": "風船少女の夢色ステッキ",
-                    "option": "",
-                    "rank": "A",
-                    "uuid": "0a6dd129-728b-458e-926c-3a653d58e897"
-                },
-                {
-                    "category": "item",
-                    "element": "thunder",
-                    "name": "風船少女の夢色ステッキ",
-                    "option": "",
-                    "rank": "A",
-                    "uuid": "ae45709e-8ca3-4b5e-8e58-014dbe0c870b"
-                },
-                {
-                    "category": "item",
-                    "element": "thunder",
-                    "name": "風船少女の夢色ステッキ",
-                    "option": "",
-                    "rank": "A",
-                    "uuid": "1f2dc9b3-7c15-4741-abba-cac9a99a0b25"
-                },
-                {
-                    "category": "item",
-                    "element": "thunder",
-                    "name": "風船少女の夢色ステッキ",
-                    "option": "",
-                    "rank": "A",
-                    "uuid": "271367f4-1f03-4edc-a59b-b32b6252dc33"
-                },
-                {
-                    "category": "item",
-                    "element": "thunder",
-                    "name": "風船少女の夢色ステッキ",
-                    "option": "",
-                    "rank": "A",
-                    "uuid": "051e1536-d441-427f-a9ba-3e138aeee82d"
-                }
-            ],
-            "page": 22
-        },
-        {
-            "cards": [
-                {
-                    "category": "item",
-                    "element": "thunder",
-                    "name": "風船少女の夢色ステッキ",
-                    "option": "",
-                    "rank": "A",
-                    "uuid": "935e96a4-c6ce-4c16-ab2f-14ca819ca04d"
                 },
                 {
                     "category": "ether",
@@ -1935,7 +1866,12 @@
                     "option": "",
                     "rank": "S+",
                     "uuid": "8740d498-cbf2-4aa5-9ebd-922d27ee9ea1"
-                },
+                }
+            ],
+            "page": 22
+        },
+        {
+            "cards": [
                 {
                     "category": "material",
                     "element": "thunder",
@@ -1951,12 +1887,7 @@
                     "option": "",
                     "rank": "SS",
                     "uuid": "b0b9d87a-b832-4ce9-9d94-56e2976e0cbe"
-                }
-            ],
-            "page": 23
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "fire",
@@ -2020,7 +1951,12 @@
                     "option": "",
                     "rank": "S",
                     "uuid": "f7084d95-335a-457f-85c9-98dd95b022cc"
-                },
+                }
+            ],
+            "page": 23
+        },
+        {
+            "cards": [
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -2036,12 +1972,7 @@
                     "option": "",
                     "rank": "S",
                     "uuid": "5369f6ec-3d63-4431-bff8-f071f95c3e71"
-                }
-            ],
-            "page": 24
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -2105,7 +2036,12 @@
                     "option": "",
                     "rank": "S+",
                     "uuid": "769eed31-c181-4bbe-8836-b473659c5ebe"
-                },
+                }
+            ],
+            "page": 24
+        },
+        {
+            "cards": [
                 {
                     "category": "material",
                     "element": "water",
@@ -2121,12 +2057,7 @@
                     "option": "",
                     "rank": "S+",
                     "uuid": "e846b46b-e03f-44cb-b6b1-f95eda7a3ded"
-                }
-            ],
-            "page": 25
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -2190,7 +2121,12 @@
                     "option": "",
                     "rank": "SS",
                     "uuid": "18a517c2-2bd3-40fe-b226-f29b462f8767"
-                },
+                }
+            ],
+            "page": 25
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "water",
@@ -2206,12 +2142,7 @@
                     "option": "",
                     "rank": "SS",
                     "uuid": "bdd7fd61-2f44-45d1-83aa-63b46a22ffe0"
-                }
-            ],
-            "page": 26
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -2275,7 +2206,12 @@
                     "option": "",
                     "rank": "S",
                     "uuid": "f19af778-d7f1-4354-9072-41c1f02b82ed"
-                },
+                }
+            ],
+            "page": 26
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "thunder",
@@ -2291,12 +2227,7 @@
                     "option": "",
                     "rank": "B",
                     "uuid": "29af06fa-b7dc-4f05-8bb4-40fc7dc1dbea"
-                }
-            ],
-            "page": 27
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -2360,7 +2291,12 @@
                     "option": "",
                     "rank": "B",
                     "uuid": "48bac72f-8ce1-423d-8202-2fc70a466dde"
-                },
+                }
+            ],
+            "page": 27
+        },
+        {
+            "cards": [
                 {
                     "category": "material",
                     "element": "fire",
@@ -2376,12 +2312,7 @@
                     "option": "",
                     "rank": "S",
                     "uuid": "d1aa794a-e0b6-4aeb-b6c9-d0791ea313ed"
-                }
-            ],
-            "page": 28
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "material",
                     "element": "thunder",
@@ -2445,7 +2376,12 @@
                     "option": "",
                     "rank": "S",
                     "uuid": "65f5e51f-dc94-42c2-b6b7-8f94d639a906"
-                },
+                }
+            ],
+            "page": 28
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "fire",
@@ -2461,12 +2397,7 @@
                     "option": "",
                     "rank": "S",
                     "uuid": "ca902cf6-56ba-47bb-a8f4-4807fc9360e1"
-                }
-            ],
-            "page": 29
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "thunder",
@@ -2530,7 +2461,12 @@
                     "option": "",
                     "rank": "SS",
                     "uuid": "150e94af-ffa3-43d2-8a1b-e3803edd7f1d"
-                },
+                }
+            ],
+            "page": 29
+        },
+        {
+            "cards": [
                 {
                     "category": "material",
                     "element": "fire",
@@ -2546,12 +2482,7 @@
                     "option": "",
                     "rank": "SS",
                     "uuid": "0faec4a2-9fdf-4aa0-8598-75cdc468c77c"
-                }
-            ],
-            "page": 30
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "fire",
@@ -2585,14 +2516,6 @@
                     "uuid": "aee9c2e3-aa41-4420-968d-950e7a55a0ea"
                 },
                 {
-                    "category": "material",
-                    "element": "thunder",
-                    "name": "カメオン",
-                    "option": "",
-                    "rank": "SS",
-                    "uuid": "6f5f217c-4e4d-4208-b428-19a8302aa8f4"
-                },
-                {
                     "category": "spirit",
                     "element": "thunder",
                     "name": "極悪非道？の大悪魔 魔狭人",
@@ -2623,7 +2546,12 @@
                     "option": "",
                     "rank": "S",
                     "uuid": "a4709c76-8571-43f7-9dab-6439ab1fef0b"
-                },
+                }
+            ],
+            "page": 30
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "thunder",
@@ -2631,12 +2559,7 @@
                     "option": "",
                     "rank": "S",
                     "uuid": "ace83abc-665f-478d-9f65-e503f7a99394"
-                }
-            ],
-            "page": 31
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "water",
@@ -2708,7 +2631,12 @@
                     "option": "",
                     "rank": "S",
                     "uuid": "de2fe123-c90b-443f-96c4-2a4d0577c85a"
-                },
+                }
+            ],
+            "page": 31
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "water",
@@ -2716,12 +2644,7 @@
                     "option": "",
                     "rank": "S",
                     "uuid": "03ed11dc-0af8-4dca-b28e-8fa5396df70e"
-                }
-            ],
-            "page": 32
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "thunder",
@@ -2793,17 +2716,9 @@
                     "option": "50",
                     "rank": "A+",
                     "uuid": "6f79112c-00ad-4ffa-9c51-4a628865334b"
-                },
-                {
-                    "category": "material",
-                    "element": "thunder",
-                    "name": "木",
-                    "option": "",
-                    "rank": "A",
-                    "uuid": "81b5f11b-bbd6-40c3-ab51-07bd514e75d7"
                 }
             ],
-            "page": 33
+            "page": 32
         },
         {
             "cards": [
@@ -2812,8 +2727,8 @@
                     "element": "thunder",
                     "name": "木",
                     "option": "",
-                    "rank": "S+",
-                    "uuid": "52fa3dae-5cfe-41ca-a98d-cc0ff25fcbef"
+                    "rank": "A",
+                    "uuid": "81b5f11b-bbd6-40c3-ab51-07bd514e75d7"
                 },
                 {
                     "category": "mana",
@@ -2888,7 +2803,7 @@
                     "uuid": "64b957bb-678c-4a90-baf7-c516d88c00ac"
                 }
             ],
-            "page": 34
+            "page": 33
         },
         {
             "cards": [
@@ -2973,7 +2888,7 @@
                     "uuid": "0a4165cf-e1ef-4d11-8908-7b2abc6c7a7f"
                 }
             ],
-            "page": 35
+            "page": 34
         },
         {
             "cards": [
@@ -3058,7 +2973,7 @@
                     "uuid": "f43e66d6-1096-4d78-a9cb-db6f44a9f578"
                 }
             ],
-            "page": 36
+            "page": 35
         },
         {
             "cards": [
@@ -3143,7 +3058,7 @@
                     "uuid": "72ddcec4-6f11-44fa-92c0-e1d7efbbf6dc"
                 }
             ],
-            "page": 37
+            "page": 36
         },
         {
             "cards": [
@@ -3228,7 +3143,7 @@
                     "uuid": "2d633c1e-324d-4095-aec8-89a7ec0a3cc7"
                 }
             ],
-            "page": 38
+            "page": 37
         },
         {
             "cards": [
@@ -3313,7 +3228,7 @@
                     "uuid": "138b3f14-82cb-49db-8eb7-90d1daf2b454"
                 }
             ],
-            "page": 39
+            "page": 38
         },
         {
             "cards": [
@@ -3398,7 +3313,7 @@
                     "uuid": "f1887b12-0449-4b0c-b393-6f8a70e10693"
                 }
             ],
-            "page": 40
+            "page": 39
         },
         {
             "cards": [
@@ -3483,7 +3398,7 @@
                     "uuid": "3cc16a9f-3319-4627-a543-70f15812cba5"
                 }
             ],
-            "page": 41
+            "page": 40
         },
         {
             "cards": [
@@ -3568,7 +3483,7 @@
                     "uuid": "f414e4a2-8606-45f4-b3c2-13d2ffb039ef"
                 }
             ],
-            "page": 42
+            "page": 41
         },
         {
             "cards": [
@@ -3653,7 +3568,7 @@
                     "uuid": "77b2a478-9bfe-45b4-af56-aac101bac18e"
                 }
             ],
-            "page": 43
+            "page": 42
         },
         {
             "cards": [
@@ -3738,7 +3653,7 @@
                     "uuid": "bba754ce-3fb7-48c4-9523-780650e200f1"
                 }
             ],
-            "page": 44
+            "page": 43
         },
         {
             "cards": [
@@ -3823,7 +3738,7 @@
                     "uuid": "84a9f2a9-2929-4450-b927-de62584340f3"
                 }
             ],
-            "page": 45
+            "page": 44
         },
         {
             "cards": [
@@ -3908,7 +3823,7 @@
                     "uuid": "244d6940-7c89-444a-9573-beb40b1b4e5d"
                 }
             ],
-            "page": 46
+            "page": 45
         },
         {
             "cards": [
@@ -3993,7 +3908,7 @@
                     "uuid": "9d9708d3-dce8-4cf0-a67a-2311fe6ac038"
                 }
             ],
-            "page": 47
+            "page": 46
         },
         {
             "cards": [
@@ -4078,7 +3993,7 @@
                     "uuid": "7be4b7e7-2af2-42bb-a275-4b1820fa1e5d"
                 }
             ],
-            "page": 48
+            "page": 47
         },
         {
             "cards": [
@@ -4163,7 +4078,7 @@
                     "uuid": "32002f3d-d1a7-4f46-83f3-5c6cdcb2d5d6"
                 }
             ],
-            "page": 49
+            "page": 48
         },
         {
             "cards": [
@@ -4248,7 +4163,7 @@
                     "uuid": "4f38aca0-d8be-4375-a873-96ae9031b1c2"
                 }
             ],
-            "page": 50
+            "page": 49
         },
         {
             "cards": [
@@ -4333,7 +4248,7 @@
                     "uuid": "28bda823-8b5c-431f-9d6c-e143af08502c"
                 }
             ],
-            "page": 51
+            "page": 50
         },
         {
             "cards": [
@@ -4418,7 +4333,7 @@
                     "uuid": "7e6b50e1-aced-4a12-b7d5-8f0591082c54"
                 }
             ],
-            "page": 52
+            "page": 51
         },
         {
             "cards": [
@@ -4503,7 +4418,7 @@
                     "uuid": "2bc02be3-6abe-4c18-92f8-948652fe46fd"
                 }
             ],
-            "page": 53
+            "page": 52
         },
         {
             "cards": [
@@ -4530,14 +4445,6 @@
                     "option": "100",
                     "rank": "S",
                     "uuid": "a19972a5-ae6d-4751-8b81-5f24e444fbbf"
-                },
-                {
-                    "category": "material",
-                    "element": "thunder",
-                    "name": "カメオン",
-                    "option": "",
-                    "rank": "SS",
-                    "uuid": "589bf2b6-c380-49b6-9722-63bb155f7d97"
                 },
                 {
                     "category": "material",
@@ -4586,12 +4493,7 @@
                     "option": "",
                     "rank": "S",
                     "uuid": "d7e5af43-b201-4203-9898-8244b572754f"
-                }
-            ],
-            "page": 54
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "material",
                     "element": "fire",
@@ -4599,7 +4501,12 @@
                     "option": "",
                     "rank": "SS",
                     "uuid": "938d0e6f-6ef8-4190-9870-3f10d3ef1a37"
-                },
+                }
+            ],
+            "page": 53
+        },
+        {
+            "cards": [
                 {
                     "category": "item",
                     "element": "thunder",
@@ -4623,14 +4530,6 @@
                     "option": "",
                     "rank": "A+",
                     "uuid": "1308767a-af61-41d7-af4e-8382d637682f"
-                },
-                {
-                    "category": "material",
-                    "element": "thunder",
-                    "name": "カメオン",
-                    "option": "",
-                    "rank": "SS",
-                    "uuid": "83cb979b-4219-49f5-9633-23952941a6a4"
                 },
                 {
                     "category": "material",
@@ -4671,12 +4570,7 @@
                     "option": "100",
                     "rank": "S",
                     "uuid": "54081b0e-3a6c-4c9c-9772-5de8c8a277b7"
-                }
-            ],
-            "page": 55
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "material",
                     "element": "water",
@@ -4692,7 +4586,12 @@
                     "option": "",
                     "rank": "S+",
                     "uuid": "86f5013c-f3e9-43d3-a69d-f6917d565dcf"
-                },
+                }
+            ],
+            "page": 54
+        },
+        {
+            "cards": [
                 {
                     "category": "material",
                     "element": "thunder",
@@ -4756,12 +4655,7 @@
                     "option": "1000",
                     "rank": "SS",
                     "uuid": "94e32e85-ae71-4524-9301-f2464f160da9"
-                }
-            ],
-            "page": 56
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -4777,7 +4671,12 @@
                     "option": "100",
                     "rank": "S",
                     "uuid": "c3655e02-1aa7-4eee-a68e-2da2c49b7461"
-                },
+                }
+            ],
+            "page": 55
+        },
+        {
+            "cards": [
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -4841,12 +4740,7 @@
                     "option": "100",
                     "rank": "S",
                     "uuid": "9db98309-13b6-49e2-a785-7e724a3b909f"
-                }
-            ],
-            "page": 57
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "water",
@@ -4862,7 +4756,12 @@
                     "option": "",
                     "rank": "S",
                     "uuid": "34905747-c5d4-4f39-bc1b-7705a99870f6"
-                },
+                }
+            ],
+            "page": 56
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "fire",
@@ -4926,12 +4825,7 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "ac2adf7a-7198-44bf-b72e-da0c139e50bc"
-                }
-            ],
-            "page": 58
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "mana",
                     "element": "water",
@@ -4947,7 +4841,12 @@
                     "option": "100",
                     "rank": "S",
                     "uuid": "6f7c0a2c-3154-4217-9316-225b50f4ba20"
-                },
+                }
+            ],
+            "page": 57
+        },
+        {
+            "cards": [
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -5011,12 +4910,7 @@
                     "option": "",
                     "rank": "S",
                     "uuid": "47e50b3b-8dc4-4af2-88a0-f05f66cceb28"
-                }
-            ],
-            "page": 59
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "thunder",
@@ -5032,7 +4926,12 @@
                     "option": "",
                     "rank": "S",
                     "uuid": "babf0497-b445-4c6d-bbe6-8fa650580c9d"
-                },
+                }
+            ],
+            "page": 58
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "thunder",
@@ -5096,12 +4995,7 @@
                     "option": "",
                     "rank": "S",
                     "uuid": "76f9efbb-efab-4dbb-96df-7aa4d40ab3d7"
-                }
-            ],
-            "page": 60
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "water",
@@ -5117,7 +5011,12 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "1c91e441-44a2-4f1c-8fa2-e90aa81e1b0f"
-                },
+                }
+            ],
+            "page": 59
+        },
+        {
+            "cards": [
                 {
                     "category": "item",
                     "element": "fire",
@@ -5181,12 +5080,7 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "7e14360d-aec6-4898-bdf1-0b594e265612"
-                }
-            ],
-            "page": 61
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "item",
                     "element": "fire",
@@ -5202,7 +5096,12 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "23dfab87-d67c-490b-a15a-5bee39f8f9bc"
-                },
+                }
+            ],
+            "page": 60
+        },
+        {
+            "cards": [
                 {
                     "category": "item",
                     "element": "water",
@@ -5266,12 +5165,7 @@
                     "option": "30",
                     "rank": "A",
                     "uuid": "1bb3ca05-1290-4843-8598-52aa05fd83df"
-                }
-            ],
-            "page": 62
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -5287,7 +5181,12 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "6399fb69-ef62-4565-bcc5-6c51914e3ad9"
-                },
+                }
+            ],
+            "page": 61
+        },
+        {
+            "cards": [
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -5351,12 +5250,7 @@
                     "option": "",
                     "rank": "S",
                     "uuid": "7a3032d0-64ee-4df3-b581-527b44a0f44b"
-                }
-            ],
-            "page": 63
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "material",
                     "element": "fire",
@@ -5372,7 +5266,12 @@
                     "option": "100",
                     "rank": "S",
                     "uuid": "6250e9b6-ab01-44b3-8d81-181230a1b7b7"
-                },
+                }
+            ],
+            "page": 62
+        },
+        {
+            "cards": [
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -5436,12 +5335,7 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "69438331-dc97-455d-9109-a541709cb3e5"
-                }
-            ],
-            "page": 64
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "fire",
@@ -5457,7 +5351,12 @@
                     "option": "",
                     "rank": "SS",
                     "uuid": "9b0c9f94-25c7-4c82-bc47-a44fe26fe6b1"
-                },
+                }
+            ],
+            "page": 63
+        },
+        {
+            "cards": [
                 {
                     "category": "material",
                     "element": "thunder",
@@ -5521,12 +5420,7 @@
                     "option": "",
                     "rank": "S",
                     "uuid": "d13cf01a-bac6-4f5e-a0b4-c8e1b9e2d364"
-                }
-            ],
-            "page": 65
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "water",
@@ -5542,7 +5436,12 @@
                     "option": "100",
                     "rank": "A",
                     "uuid": "fe20ec56-4377-40c4-9646-80a3b579a601"
-                },
+                }
+            ],
+            "page": 64
+        },
+        {
+            "cards": [
                 {
                     "category": "mana",
                     "element": "water",
@@ -5606,12 +5505,7 @@
                     "option": "100",
                     "rank": "S",
                     "uuid": "ffd15b3d-4011-4a03-9a41-a98b583e009b"
-                }
-            ],
-            "page": 66
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "mana",
                     "element": "water",
@@ -5627,7 +5521,12 @@
                     "option": "30",
                     "rank": "A",
                     "uuid": "a3cfe47e-2d1d-4808-ad3b-c1fb11f537e4"
-                },
+                }
+            ],
+            "page": 65
+        },
+        {
+            "cards": [
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -5691,12 +5590,7 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "10d7b1e8-0a43-42d7-a5fe-36de8b232f89"
-                }
-            ],
-            "page": 67
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "water",
@@ -5712,7 +5606,12 @@
                     "option": "50",
                     "rank": "A+",
                     "uuid": "f445e108-027c-4ad7-8936-0faf133a15bb"
-                },
+                }
+            ],
+            "page": 66
+        },
+        {
+            "cards": [
                 {
                     "category": "mana",
                     "element": "water",
@@ -5776,12 +5675,7 @@
                     "option": "",
                     "rank": "S",
                     "uuid": "4de52e4c-2af4-47d4-abf7-d79c5f5a75d3"
-                }
-            ],
-            "page": 68
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "water",
@@ -5797,7 +5691,12 @@
                     "option": "",
                     "rank": "S",
                     "uuid": "19d8e5e1-ad49-4ed4-b695-9acc4570e3ad"
-                },
+                }
+            ],
+            "page": 67
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "water",
@@ -5861,12 +5760,7 @@
                     "option": "20",
                     "rank": "A",
                     "uuid": "91bfda13-68ac-4d01-a64f-2c495dc0690e"
-                }
-            ],
-            "page": 69
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "thunder",
@@ -5882,7 +5776,12 @@
                     "option": "",
                     "rank": "S",
                     "uuid": "7fd4cf94-f1ec-4844-8aec-5409428710c9"
-                },
+                }
+            ],
+            "page": 68
+        },
+        {
+            "cards": [
                 {
                     "category": "item",
                     "element": "thunder",
@@ -5946,12 +5845,7 @@
                     "option": "",
                     "rank": "S",
                     "uuid": "bb1c2410-82f2-4712-97d0-77ccc43fc6e1"
-                }
-            ],
-            "page": 70
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "item",
                     "element": "thunder",
@@ -5967,7 +5861,12 @@
                     "option": "",
                     "rank": "S",
                     "uuid": "9cf35913-8df0-4100-9615-4dd32bba861f"
-                },
+                }
+            ],
+            "page": 69
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "thunder",
@@ -6031,12 +5930,7 @@
                     "option": "",
                     "rank": "S",
                     "uuid": "2ee5360b-9f03-43da-819e-0922fe543263"
-                }
-            ],
-            "page": 71
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -6052,7 +5946,12 @@
                     "option": "100",
                     "rank": "S",
                     "uuid": "5c4e504a-c0af-46dc-8f4b-2c63c99162ac"
-                },
+                }
+            ],
+            "page": 70
+        },
+        {
+            "cards": [
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -6116,12 +6015,7 @@
                     "option": "20",
                     "rank": "A",
                     "uuid": "b475ac58-2e18-4e45-b6a8-bfa64aeea209"
-                }
-            ],
-            "page": 72
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "material",
                     "element": "water",
@@ -6137,7 +6031,12 @@
                     "option": "100",
                     "rank": "S",
                     "uuid": "edbcdedd-1af1-4c0b-93fa-2dc924ed1d87"
-                },
+                }
+            ],
+            "page": 71
+        },
+        {
+            "cards": [
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -6201,12 +6100,7 @@
                     "option": "",
                     "rank": "A+",
                     "uuid": "ed3de578-6386-4349-9643-526613b226ff"
-                }
-            ],
-            "page": 73
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -6222,7 +6116,12 @@
                     "option": "30",
                     "rank": "A",
                     "uuid": "ca734674-b99c-4f24-a863-0c137d1743de"
-                },
+                }
+            ],
+            "page": 72
+        },
+        {
+            "cards": [
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -6286,12 +6185,7 @@
                     "option": "100",
                     "rank": "S",
                     "uuid": "fadd6fcf-afb1-4d8c-b09e-2d6f2a81228d"
-                }
-            ],
-            "page": 74
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -6307,7 +6201,12 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "b7c322aa-7d5b-45c6-bb40-5532269bdab5"
-                },
+                }
+            ],
+            "page": 73
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "thunder",
@@ -6371,12 +6270,7 @@
                     "option": "25",
                     "rank": "A",
                     "uuid": "db4a3b4c-6065-44d8-ab76-a1c87c415101"
-                }
-            ],
-            "page": 75
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "mana",
                     "element": "water",
@@ -6392,7 +6286,12 @@
                     "option": "10",
                     "rank": "A",
                     "uuid": "e39e6885-038e-4157-9eec-068ffe324a69"
-                },
+                }
+            ],
+            "page": 74
+        },
+        {
+            "cards": [
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -6456,12 +6355,7 @@
                     "option": "20",
                     "rank": "A",
                     "uuid": "770beca4-1cca-48b3-af12-34b37d325ff3"
-                }
-            ],
-            "page": 76
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "mana",
                     "element": "water",
@@ -6477,7 +6371,12 @@
                     "option": "100",
                     "rank": "S",
                     "uuid": "e55d59f6-4a6c-4c77-a211-b63880bd2335"
-                },
+                }
+            ],
+            "page": 75
+        },
+        {
+            "cards": [
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -6541,12 +6440,7 @@
                     "option": "50",
                     "rank": "A+",
                     "uuid": "0b9e89e2-661b-4249-976f-79fa88c1e783"
-                }
-            ],
-            "page": 77
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "mana",
                     "element": "water",
@@ -6562,7 +6456,12 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "8ecad41a-4f3d-4e30-be5b-5e76435c15b2"
-                },
+                }
+            ],
+            "page": 76
+        },
+        {
+            "cards": [
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -6626,12 +6525,7 @@
                     "option": "100",
                     "rank": "S",
                     "uuid": "1b883ceb-094a-4243-91a3-7ba0ee17d399"
-                }
-            ],
-            "page": 78
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "fire",
@@ -6647,7 +6541,12 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "fef25b40-9cf6-4443-ba93-22c9a9191d9f"
-                },
+                }
+            ],
+            "page": 77
+        },
+        {
+            "cards": [
                 {
                     "category": "mana",
                     "element": "water",
@@ -6711,12 +6610,7 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "a53083e5-c59c-4922-bf2d-b0f9b4aa9a58"
-                }
-            ],
-            "page": 79
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "thunder",
@@ -6732,7 +6626,12 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "ddda6daf-5b43-40e8-8bd9-941bdf3c7f38"
-                },
+                }
+            ],
+            "page": 78
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "thunder",
@@ -6796,12 +6695,7 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "167fde62-c69e-4035-b368-4cd90101acbc"
-                }
-            ],
-            "page": 80
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "item",
                     "element": "water",
@@ -6817,7 +6711,12 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "7639a422-c51f-4985-a273-0ea7d3abc5fe"
-                },
+                }
+            ],
+            "page": 79
+        },
+        {
+            "cards": [
                 {
                     "category": "item",
                     "element": "water",
@@ -6881,12 +6780,7 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "a6ae8b86-2706-4aa6-889a-d4d1b5e451a2"
-                }
-            ],
-            "page": 81
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "item",
                     "element": "thunder",
@@ -6902,7 +6796,12 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "957a37e2-439e-4742-8d52-4f7a61aeca8d"
-                },
+                }
+            ],
+            "page": 80
+        },
+        {
+            "cards": [
                 {
                     "category": "item",
                     "element": "water",
@@ -6966,12 +6865,7 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "34ea06c0-6ed5-402a-9c5d-9df7851bf690"
-                }
-            ],
-            "page": 82
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "thunder",
@@ -6987,7 +6881,12 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "34f1e066-6af8-49d2-83da-23f698b8d66a"
-                },
+                }
+            ],
+            "page": 81
+        },
+        {
+            "cards": [
                 {
                     "category": "material",
                     "element": "water",
@@ -7051,12 +6950,7 @@
                     "option": "",
                     "rank": "B+",
                     "uuid": "6aaa6013-8789-4846-af9c-e5a1db078c0a"
-                }
-            ],
-            "page": 83
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "thunder",
@@ -7072,7 +6966,12 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "908f649f-ca36-4156-adf3-6c37fe5d5c4e"
-                },
+                }
+            ],
+            "page": 82
+        },
+        {
+            "cards": [
                 {
                     "category": "material",
                     "element": "thunder",
@@ -7136,12 +7035,7 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "01f6a4e2-4ba9-4bbb-82b3-d02f99722707"
-                }
-            ],
-            "page": 84
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "material",
                     "element": "fire",
@@ -7157,7 +7051,12 @@
                     "option": "",
                     "rank": "A+",
                     "uuid": "ba388569-12a7-4648-88ce-cb91fa2dd58d"
-                },
+                }
+            ],
+            "page": 83
+        },
+        {
+            "cards": [
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -7221,12 +7120,7 @@
                     "option": "",
                     "rank": "A+",
                     "uuid": "37c4db5e-9cce-4c6d-8730-48807e681ec5"
-                }
-            ],
-            "page": 85
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "material",
                     "element": "thunder",
@@ -7242,7 +7136,12 @@
                     "option": "",
                     "rank": "B+",
                     "uuid": "20908f51-575a-4db5-b88c-df8bc0f353d5"
-                },
+                }
+            ],
+            "page": 84
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "thunder",
@@ -7292,26 +7191,13 @@
                     "uuid": "ec783bb1-dc68-45c7-bb8b-f715f4d26601"
                 },
                 {
-                    "category": "material",
-                    "element": "thunder",
-                    "name": "カメオン",
-                    "option": "",
-                    "rank": "S+",
-                    "uuid": "5ed5952b-2db2-4269-98c6-b4b9669308c6"
-                },
-                {
                     "category": "spirit",
                     "element": "fire",
                     "name": "彩なす前奏曲 コトリ",
                     "option": "",
                     "rank": "A",
                     "uuid": "260c02ed-8328-4749-bf91-5b92562f1737"
-                }
-            ],
-            "page": 86
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "water",
@@ -7335,7 +7221,12 @@
                     "option": "",
                     "rank": "B",
                     "uuid": "8faaf35b-7844-4c21-a606-d1c1eac59532"
-                },
+                }
+            ],
+            "page": 85
+        },
+        {
+            "cards": [
                 {
                     "category": "material",
                     "element": "fire",
@@ -7391,12 +7282,7 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "e16e000e-21a1-444d-80fa-4038286d8dd1"
-                }
-            ],
-            "page": 87
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "water",
@@ -7420,7 +7306,12 @@
                     "option": "50",
                     "rank": "A+",
                     "uuid": "0144f87e-0dcf-4cc0-ac4c-22de0391f129"
-                },
+                }
+            ],
+            "page": 86
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "fire",
@@ -7476,12 +7367,7 @@
                     "option": "",
                     "rank": "A+",
                     "uuid": "e46e93e0-68ff-48e8-b501-96f125653d9d"
-                }
-            ],
-            "page": 88
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -7505,7 +7391,12 @@
                     "option": "25",
                     "rank": "A",
                     "uuid": "c2523218-e10e-42ef-abdd-9e097ae9ff9c"
-                },
+                }
+            ],
+            "page": 87
+        },
+        {
+            "cards": [
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -7548,25 +7439,12 @@
                 },
                 {
                     "category": "material",
-                    "element": "thunder",
-                    "name": "カメオン",
-                    "option": "",
-                    "rank": "S+",
-                    "uuid": "39f52d6c-f851-4278-afdd-37fce83645b2"
-                },
-                {
-                    "category": "material",
                     "element": "water",
                     "name": "木",
                     "option": "",
                     "rank": "A",
                     "uuid": "5ff42db2-e522-4b3b-8fb4-12afb1efcdb0"
-                }
-            ],
-            "page": 89
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -7598,7 +7476,12 @@
                     "option": "100",
                     "rank": "S",
                     "uuid": "800b7ab3-9383-4d86-a5fe-7d6789e15b35"
-                },
+                }
+            ],
+            "page": 88
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "fire",
@@ -7646,12 +7529,7 @@
                     "option": "100",
                     "rank": "S",
                     "uuid": "239321b5-c451-4fe6-9851-4eae3ed14534"
-                }
-            ],
-            "page": 90
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "thunder",
@@ -7683,7 +7561,12 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "5346ae07-e6d9-48bc-96c5-93f222863100"
-                },
+                }
+            ],
+            "page": 89
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "water",
@@ -7731,12 +7614,7 @@
                     "option": "100",
                     "rank": "S",
                     "uuid": "3362b765-5085-4f11-b364-990005345e44"
-                }
-            ],
-            "page": 91
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -7768,7 +7646,12 @@
                     "option": "50",
                     "rank": "A+",
                     "uuid": "8272662c-6d72-4ef2-8889-5e9b7cf58a4c"
-                },
+                }
+            ],
+            "page": 90
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "fire",
@@ -7816,12 +7699,7 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "4803d70d-49c0-4c1b-818a-539a2e1fe6d5"
-                }
-            ],
-            "page": 92
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "thunder",
@@ -7853,7 +7731,12 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "449426df-24b9-4f2a-aa99-456196a83103"
-                },
+                }
+            ],
+            "page": 91
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "water",
@@ -7901,12 +7784,7 @@
                     "option": "",
                     "rank": "A+",
                     "uuid": "4498a06b-b986-4928-bbf8-85c25fd0280b"
-                }
-            ],
-            "page": 93
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "fire",
@@ -7938,7 +7816,12 @@
                     "option": "100",
                     "rank": "S",
                     "uuid": "c66c3d36-2b62-4530-9aa1-a3561e355dbf"
-                },
+                }
+            ],
+            "page": 92
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "fire",
@@ -7986,12 +7869,7 @@
                     "option": "100",
                     "rank": "S",
                     "uuid": "e14ace5f-5cce-4182-a403-184886fcc159"
-                }
-            ],
-            "page": 94
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "water",
@@ -8023,7 +7901,12 @@
                     "option": "",
                     "rank": "B",
                     "uuid": "d696c4e7-17a5-4661-98b0-049796fc6cce"
-                },
+                }
+            ],
+            "page": 93
+        },
+        {
+            "cards": [
                 {
                     "category": "item",
                     "element": "water",
@@ -8071,12 +7954,7 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "5b7a3f9a-63fa-43e3-9216-52bf01d90fe6"
-                }
-            ],
-            "page": 95
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "mana",
                     "element": "water",
@@ -8108,7 +7986,12 @@
                     "option": "100",
                     "rank": "S",
                     "uuid": "c04f523e-5a83-449c-bf57-90bae5470709"
-                },
+                }
+            ],
+            "page": 94
+        },
+        {
+            "cards": [
                 {
                     "category": "mana",
                     "element": "water",
@@ -8156,12 +8039,7 @@
                     "option": "",
                     "rank": "A+",
                     "uuid": "e9b64ec1-4419-4cce-8735-3a01b5cdef65"
-                }
-            ],
-            "page": 96
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -8193,7 +8071,12 @@
                     "option": "",
                     "rank": "B+",
                     "uuid": "028a4548-a122-4cc1-a0c1-f22de309cddb"
-                },
+                }
+            ],
+            "page": 95
+        },
+        {
+            "cards": [
                 {
                     "category": "material",
                     "element": "thunder",
@@ -8241,12 +8124,7 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "cb870017-3bd4-45a7-8236-9ef30e5e5fe0"
-                }
-            ],
-            "page": 97
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "material",
                     "element": "thunder",
@@ -8278,7 +8156,12 @@
                     "option": "",
                     "rank": "S",
                     "uuid": "bc63f269-cf6c-48a6-b741-d090c65d9dd8"
-                },
+                }
+            ],
+            "page": 96
+        },
+        {
+            "cards": [
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -8326,12 +8209,7 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "14da5a4c-bf9c-40ca-abc9-6984fb1dfec9"
-                }
-            ],
-            "page": 98
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -8363,7 +8241,12 @@
                     "option": "",
                     "rank": "A+",
                     "uuid": "92e8ce1b-5346-44ea-957f-babd867471a4"
-                },
+                }
+            ],
+            "page": 97
+        },
+        {
+            "cards": [
                 {
                     "category": "material",
                     "element": "water",
@@ -8411,12 +8294,7 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "8b10a469-aac0-4ecb-88b1-9e6dfa83d261"
-                }
-            ],
-            "page": 99
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "water",
@@ -8448,7 +8326,12 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "b582eaa5-13f1-4721-9302-94be9d1677a8"
-                },
+                }
+            ],
+            "page": 98
+        },
+        {
+            "cards": [
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -8496,12 +8379,7 @@
                     "option": "",
                     "rank": "B",
                     "uuid": "8879a7c7-f410-4953-82ef-f107c42caa44"
-                }
-            ],
-            "page": 100
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "material",
                     "element": "fire",
@@ -8533,7 +8411,12 @@
                     "option": "100",
                     "rank": "S",
                     "uuid": "fc5882dd-b5ba-44d9-8726-477a2c9c2f38"
-                },
+                }
+            ],
+            "page": 99
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "thunder",
@@ -8581,12 +8464,7 @@
                     "option": "30",
                     "rank": "A",
                     "uuid": "842b0053-4a5d-4999-801a-5d8bb4b3c018"
-                }
-            ],
-            "page": 101
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "mana",
                     "element": "water",
@@ -8618,7 +8496,12 @@
                     "option": "50",
                     "rank": "A+",
                     "uuid": "ea8dddbc-b961-4234-8fcb-72a9c938a55c"
-                },
+                }
+            ],
+            "page": 100
+        },
+        {
+            "cards": [
                 {
                     "category": "mana",
                     "element": "water",
@@ -8666,12 +8549,7 @@
                     "option": "",
                     "rank": "B+",
                     "uuid": "9b87ac17-b7a1-46c4-a884-706300811d93"
-                }
-            ],
-            "page": 102
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "thunder",
@@ -8703,7 +8581,12 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "79c76351-17bb-46d4-a934-ab8b86fa44c4"
-                },
+                }
+            ],
+            "page": 101
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "thunder",
@@ -8751,12 +8634,7 @@
                     "option": "30",
                     "rank": "A",
                     "uuid": "03c628e7-6df8-4e17-92ba-cc28cfe09405"
-                }
-            ],
-            "page": 103
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "mana",
                     "element": "water",
@@ -8788,7 +8666,12 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "00c2065d-89ba-4b91-869c-5ba8660b1cf8"
-                },
+                }
+            ],
+            "page": 102
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "thunder",
@@ -8836,12 +8719,7 @@
                     "option": "",
                     "rank": "S",
                     "uuid": "0db0bfb0-953c-4ed9-bf58-770838debc28"
-                }
-            ],
-            "page": 104
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "thunder",
@@ -8873,7 +8751,12 @@
                     "option": "",
                     "rank": "S",
                     "uuid": "2352b059-67d5-4c1b-b6ae-91fa622b5d18"
-                },
+                }
+            ],
+            "page": 103
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "fire",
@@ -8921,12 +8804,7 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "6d45a547-caee-4402-ab24-750738f975c3"
-                }
-            ],
-            "page": 105
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "thunder",
@@ -8958,7 +8836,12 @@
                     "option": "30",
                     "rank": "A",
                     "uuid": "cbcfd00c-8fab-445e-9991-1415313f427f"
-                },
+                }
+            ],
+            "page": 104
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "water",
@@ -9006,12 +8889,7 @@
                     "option": "20",
                     "rank": "A",
                     "uuid": "09bebb6b-6c7b-4a84-b29e-e635ae89fc2a"
-                }
-            ],
-            "page": 106
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "mana",
                     "element": "water",
@@ -9043,7 +8921,12 @@
                     "option": "",
                     "rank": "S",
                     "uuid": "dcfba053-7b6c-41cd-b2ac-a134bf3f0766"
-                },
+                }
+            ],
+            "page": 105
+        },
+        {
+            "cards": [
                 {
                     "category": "material",
                     "element": "fire",
@@ -9091,12 +8974,7 @@
                     "option": "50",
                     "rank": "A+",
                     "uuid": "4e9c448e-c08e-411e-b5b5-23fbd83e8f15"
-                }
-            ],
-            "page": 107
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "material",
                     "element": "water",
@@ -9128,7 +9006,12 @@
                     "option": "",
                     "rank": "S",
                     "uuid": "07ae1af8-574a-4baa-83cd-ffd00f64800d"
-                },
+                }
+            ],
+            "page": 106
+        },
+        {
+            "cards": [
                 {
                     "category": "material",
                     "element": "thunder",
@@ -9176,12 +9059,7 @@
                     "option": "25",
                     "rank": "A",
                     "uuid": "99c59dc4-2e36-4cfe-b3f1-49994650d213"
-                }
-            ],
-            "page": 108
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -9213,7 +9091,12 @@
                     "option": "",
                     "rank": "S",
                     "uuid": "e9f6afc3-a3f7-42f4-a7a4-db1ba8d2c69a"
-                },
+                }
+            ],
+            "page": 107
+        },
+        {
+            "cards": [
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -9261,12 +9144,7 @@
                     "option": "30",
                     "rank": "A",
                     "uuid": "20192bd7-71d1-44c9-894e-7c2ae646269e"
-                }
-            ],
-            "page": 109
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -9298,7 +9176,12 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "468373db-fa08-4048-b118-84c21d834958"
-                },
+                }
+            ],
+            "page": 108
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "fire",
@@ -9346,12 +9229,7 @@
                     "option": "50",
                     "rank": "A+",
                     "uuid": "f64a153d-21a3-44c9-ab68-9f90176d3453"
-                }
-            ],
-            "page": 110
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -9383,7 +9261,12 @@
                     "option": "25",
                     "rank": "A",
                     "uuid": "78b154d6-5d61-4847-92f4-6957609fc13f"
-                },
+                }
+            ],
+            "page": 109
+        },
+        {
+            "cards": [
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -9431,12 +9314,7 @@
                     "option": "25",
                     "rank": "A",
                     "uuid": "dfbe544b-b4f6-4d54-b49d-7ee8ee4a8b4f"
-                }
-            ],
-            "page": 111
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -9468,7 +9346,12 @@
                     "option": "25",
                     "rank": "A",
                     "uuid": "dc76c22a-7506-4e9f-924f-bbc237cedb8d"
-                },
+                }
+            ],
+            "page": 110
+        },
+        {
+            "cards": [
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -9516,12 +9399,7 @@
                     "option": "10",
                     "rank": "A",
                     "uuid": "a33e4009-28a2-4252-9baa-faacb456f42a"
-                }
-            ],
-            "page": 112
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "mana",
                     "element": "water",
@@ -9553,7 +9431,12 @@
                     "option": "25",
                     "rank": "A",
                     "uuid": "d05885da-a59f-4f51-92f4-a3a27bf1b6c0"
-                },
+                }
+            ],
+            "page": 111
+        },
+        {
+            "cards": [
                 {
                     "category": "mana",
                     "element": "water",
@@ -9601,12 +9484,7 @@
                     "option": "30",
                     "rank": "A",
                     "uuid": "41c265ba-4900-4bfa-90cd-e145277c3ad5"
-                }
-            ],
-            "page": 113
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -9638,7 +9516,12 @@
                     "option": "50",
                     "rank": "A+",
                     "uuid": "8d743f02-9c15-4b96-b463-6d3ff6838947"
-                },
+                }
+            ],
+            "page": 112
+        },
+        {
+            "cards": [
                 {
                     "category": "mana",
                     "element": "water",
@@ -9686,12 +9569,7 @@
                     "option": "25",
                     "rank": "A",
                     "uuid": "618d7701-272f-496f-89a8-6b55d16b5e88"
-                }
-            ],
-            "page": 114
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -9723,7 +9601,12 @@
                     "option": "10",
                     "rank": "A",
                     "uuid": "ba6abdf2-bc04-4cdf-b78e-ceb6e238e0aa"
-                },
+                }
+            ],
+            "page": 113
+        },
+        {
+            "cards": [
                 {
                     "category": "mana",
                     "element": "water",
@@ -9771,12 +9654,7 @@
                     "option": "",
                     "rank": "S",
                     "uuid": "9f760ee7-35c6-48b1-81e7-97fdd165f6f0"
-                }
-            ],
-            "page": 115
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "mana",
                     "element": "water",
@@ -9808,7 +9686,12 @@
                     "option": "25",
                     "rank": "A",
                     "uuid": "41299f9e-5247-4dd3-9589-6edfb16c1254"
-                },
+                }
+            ],
+            "page": 114
+        },
+        {
+            "cards": [
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -9856,12 +9739,7 @@
                     "option": "10",
                     "rank": "A",
                     "uuid": "19f2b9be-ede3-42cc-9cc2-323a1eebcbcd"
-                }
-            ],
-            "page": 116
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "material",
                     "element": "fire",
@@ -9893,7 +9771,12 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "0ad3e1ef-594b-41e2-9d41-27d80dcac63d"
-                },
+                }
+            ],
+            "page": 115
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "fire",
@@ -9941,12 +9824,7 @@
                     "option": "",
                     "rank": "L",
                     "uuid": "7bb21f4a-5656-4d6b-a5be-57c34a68f139"
-                }
-            ],
-            "page": 117
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -9978,7 +9856,12 @@
                     "option": "10",
                     "rank": "A",
                     "uuid": "748e05df-1baa-4e4f-948a-b0fba8e7d08b"
-                },
+                }
+            ],
+            "page": 116
+        },
+        {
+            "cards": [
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -10026,12 +9909,7 @@
                     "option": "50",
                     "rank": "A+",
                     "uuid": "3020e593-dce2-452c-9c25-a0b309d9c858"
-                }
-            ],
-            "page": 118
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "mana",
                     "element": "water",
@@ -10063,7 +9941,12 @@
                     "option": "25",
                     "rank": "A",
                     "uuid": "e947ba9b-d09f-4c1f-88ce-0c5c9367315f"
-                },
+                }
+            ],
+            "page": 117
+        },
+        {
+            "cards": [
                 {
                     "category": "material",
                     "element": "thunder",
@@ -10111,12 +9994,7 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "376ba049-fae9-4674-92e6-63d48ea084bb"
-                }
-            ],
-            "page": 119
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "fire",
@@ -10148,7 +10026,12 @@
                     "option": "25",
                     "rank": "A",
                     "uuid": "b4db3691-7547-42f5-8775-b1d4881e3a79"
-                },
+                }
+            ],
+            "page": 118
+        },
+        {
+            "cards": [
                 {
                     "category": "material",
                     "element": "thunder",
@@ -10196,12 +10079,7 @@
                     "option": "",
                     "rank": "B+",
                     "uuid": "f06713f0-9fca-4f8d-8514-2a0ba0a491c8"
-                }
-            ],
-            "page": 120
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "material",
                     "element": "thunder",
@@ -10233,7 +10111,12 @@
                     "option": "50",
                     "rank": "A+",
                     "uuid": "10638c98-16bc-494b-9b4f-b8ec5860c5a5"
-                },
+                }
+            ],
+            "page": 119
+        },
+        {
+            "cards": [
                 {
                     "category": "item",
                     "element": "thunder",
@@ -10281,12 +10164,7 @@
                     "option": "10",
                     "rank": "A",
                     "uuid": "99246a81-229d-4160-ba45-73e4ed2e7dc3"
-                }
-            ],
-            "page": 121
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "item",
                     "element": "thunder",
@@ -10318,7 +10196,12 @@
                     "option": "25",
                     "rank": "A",
                     "uuid": "059b9140-8fba-4152-98b1-52f27446be2b"
-                },
+                }
+            ],
+            "page": 120
+        },
+        {
+            "cards": [
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -10366,12 +10249,7 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "097a1a76-32a6-4395-9d15-dd596a682ae1"
-                }
-            ],
-            "page": 122
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "material",
                     "element": "water",
@@ -10403,7 +10281,12 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "123a7b13-e784-4df7-a139-03d6c509f1d8"
-                },
+                }
+            ],
+            "page": 121
+        },
+        {
+            "cards": [
                 {
                     "category": "material",
                     "element": "fire",
@@ -10451,12 +10334,7 @@
                     "option": "",
                     "rank": "B+",
                     "uuid": "62454ca8-4f49-4757-ab70-f2b7a4337be5"
-                }
-            ],
-            "page": 123
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "material",
                     "element": "fire",
@@ -10488,7 +10366,12 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "b9a13de6-aa63-46ab-95f8-c17f2961900c"
-                },
+                }
+            ],
+            "page": 122
+        },
+        {
+            "cards": [
                 {
                     "category": "material",
                     "element": "thunder",
@@ -10536,12 +10419,7 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "a61ba91c-b30c-458f-a3bb-f364aa6d209e"
-                }
-            ],
-            "page": 124
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "material",
                     "element": "water",
@@ -10573,7 +10451,12 @@
                     "option": "50",
                     "rank": "A+",
                     "uuid": "5502283c-4698-4e8b-9260-931226672568"
-                },
+                }
+            ],
+            "page": 123
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "fire",
@@ -10621,12 +10504,7 @@
                     "option": "",
                     "rank": "B",
                     "uuid": "6e9b9048-c551-4a64-9488-823f596c17a3"
-                }
-            ],
-            "page": 125
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "material",
                     "element": "thunder",
@@ -10658,7 +10536,12 @@
                     "option": "",
                     "rank": "B",
                     "uuid": "adaded98-90fe-4e80-879c-01687df4d335"
-                },
+                }
+            ],
+            "page": 124
+        },
+        {
+            "cards": [
                 {
                     "category": "material",
                     "element": "thunder",
@@ -10706,12 +10589,7 @@
                     "option": "25",
                     "rank": "A",
                     "uuid": "4f2917cf-2e17-4e80-aafa-562bc37c9742"
-                }
-            ],
-            "page": 126
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "mana",
                     "element": "water",
@@ -10743,7 +10621,12 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "52701740-44c7-4023-8e47-3efa70a91e99"
-                },
+                }
+            ],
+            "page": 125
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "fire",
@@ -10791,12 +10674,7 @@
                     "option": "",
                     "rank": "B+",
                     "uuid": "f2064960-8309-4434-b403-8cfe12ad3679"
-                }
-            ],
-            "page": 127
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "thunder",
@@ -10828,7 +10706,12 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "c8357f1d-7a98-4954-be0d-f8fdb07b6e11"
-                },
+                }
+            ],
+            "page": 126
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "thunder",
@@ -10876,12 +10759,7 @@
                     "option": "",
                     "rank": "B+",
                     "uuid": "c5b78401-ca4f-4604-8d7d-a108e1cb4f3c"
-                }
-            ],
-            "page": 128
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "water",
@@ -10913,7 +10791,12 @@
                     "option": "",
                     "rank": "B",
                     "uuid": "97744936-b6dc-4099-a7a0-1ce96b86d8bf"
-                },
+                }
+            ],
+            "page": 127
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "thunder",
@@ -10961,12 +10844,7 @@
                     "option": "50",
                     "rank": "A+",
                     "uuid": "110b088d-3880-4624-a7fa-f8db10f1533c"
-                }
-            ],
-            "page": 129
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -10998,7 +10876,12 @@
                     "option": "10",
                     "rank": "A",
                     "uuid": "1eddbb37-a149-4ea5-9ba1-058caf6834a3"
-                },
+                }
+            ],
+            "page": 128
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "water",
@@ -11046,12 +10929,7 @@
                     "option": "",
                     "rank": "S",
                     "uuid": "6e520a1b-25d9-46a8-b49f-9e7c88437cdd"
-                }
-            ],
-            "page": 130
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "water",
@@ -11083,7 +10961,12 @@
                     "option": "200",
                     "rank": "A",
                     "uuid": "a184b8b2-6386-4fef-95d1-a440b03a2b2a"
-                },
+                }
+            ],
+            "page": 129
+        },
+        {
+            "cards": [
                 {
                     "category": "mana",
                     "element": "water",
@@ -11131,12 +11014,7 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "8c4f0c44-fed6-4dc1-8442-d24502fac8f0"
-                }
-            ],
-            "page": 131
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "fire",
@@ -11168,7 +11046,12 @@
                     "option": "20",
                     "rank": "A",
                     "uuid": "40c2a454-e7a8-4599-b1cd-8c2cef476fa1"
-                },
+                }
+            ],
+            "page": 130
+        },
+        {
+            "cards": [
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -11216,12 +11099,7 @@
                     "option": "20",
                     "rank": "A",
                     "uuid": "f31adde8-1b1a-44a0-ad96-f9a8283b28d1"
-                }
-            ],
-            "page": 132
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "mana",
                     "element": "water",
@@ -11253,7 +11131,12 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "ffdfdc8f-e63e-44e7-b7f0-9314cadadda3"
-                },
+                }
+            ],
+            "page": 131
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "fire",
@@ -11301,12 +11184,7 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "7eaf38df-f94a-40d6-a313-ea5ac179e85b"
-                }
-            ],
-            "page": 133
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "item",
                     "element": "fire",
@@ -11338,7 +11216,12 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "063a24d8-fceb-4920-93d5-de8ff03446de"
-                },
+                }
+            ],
+            "page": 132
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "fire",
@@ -11386,12 +11269,7 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "92bb7615-adfe-43ee-a696-fe08bef8a4db"
-                }
-            ],
-            "page": 134
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "material",
                     "element": "fire",
@@ -11423,7 +11301,12 @@
                     "option": "50",
                     "rank": "A+",
                     "uuid": "26747862-1310-4a71-a5f8-5bc71cb3fd79"
-                },
+                }
+            ],
+            "page": 133
+        },
+        {
+            "cards": [
                 {
                     "category": "material",
                     "element": "fire",
@@ -11471,12 +11354,7 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "f2fc704c-f260-4d4b-acc0-3aff835436ae"
-                }
-            ],
-            "page": 135
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "material",
                     "element": "thunder",
@@ -11508,7 +11386,12 @@
                     "option": "",
                     "rank": "B+",
                     "uuid": "677a68cb-ff20-44ec-b984-d5b07fdaa797"
-                },
+                }
+            ],
+            "page": 134
+        },
+        {
+            "cards": [
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -11556,12 +11439,7 @@
                     "option": "",
                     "rank": "B",
                     "uuid": "71c9b9bc-92ad-4400-9770-85fa7fef2312"
-                }
-            ],
-            "page": 136
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "water",
@@ -11593,7 +11471,12 @@
                     "option": "",
                     "rank": "A+",
                     "uuid": "948da214-37ca-47c5-b9a2-50d43f21879d"
-                },
+                }
+            ],
+            "page": 135
+        },
+        {
+            "cards": [
                 {
                     "category": "material",
                     "element": "fire",
@@ -11641,12 +11524,7 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "959e00bf-572c-4b87-81c6-66b67ea43db8"
-                }
-            ],
-            "page": 137
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "item",
                     "element": "fire",
@@ -11678,7 +11556,12 @@
                     "option": "50",
                     "rank": "A+",
                     "uuid": "3931e298-fe6d-4dfc-931f-79675a6d0d9b"
-                },
+                }
+            ],
+            "page": 136
+        },
+        {
+            "cards": [
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -11726,12 +11609,7 @@
                     "option": "20",
                     "rank": "A",
                     "uuid": "22d1ffb4-e2dc-4076-b699-ee45d9959482"
-                }
-            ],
-            "page": 138
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -11763,7 +11641,12 @@
                     "option": "200",
                     "rank": "A",
                     "uuid": "2d75497b-ff3b-4b12-93c5-1e84c25048fe"
-                },
+                }
+            ],
+            "page": 137
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "thunder",
@@ -11811,12 +11694,7 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "4f6e54c2-b6ce-4019-ae58-cd659c08297b"
-                }
-            ],
-            "page": 139
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "item",
                     "element": "water",
@@ -11848,7 +11726,12 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "96028674-31c8-444b-9bcf-24b6bc40528d"
-                },
+                }
+            ],
+            "page": 138
+        },
+        {
+            "cards": [
                 {
                     "category": "item",
                     "element": "water",
@@ -11896,12 +11779,7 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "af7ef42b-c0d8-46bd-b425-da8386480806"
-                }
-            ],
-            "page": 140
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "item",
                     "element": "water",
@@ -11933,7 +11811,12 @@
                     "option": "25",
                     "rank": "A",
                     "uuid": "6a7abbb8-2620-44d8-9050-f963dc1fe2bf"
-                },
+                }
+            ],
+            "page": 139
+        },
+        {
+            "cards": [
                 {
                     "category": "material",
                     "element": "water",
@@ -11981,12 +11864,7 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "56ecff9a-2cd4-48f8-9218-a3b4a248b21c"
-                }
-            ],
-            "page": 141
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "item",
                     "element": "thunder",
@@ -12018,7 +11896,12 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "15c74189-aaee-45a6-b589-b255ca048425"
-                },
+                }
+            ],
+            "page": 140
+        },
+        {
+            "cards": [
                 {
                     "category": "item",
                     "element": "fire",
@@ -12066,12 +11949,7 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "fa298ec0-bb9e-4e4c-9cae-7992bac147b7"
-                }
-            ],
-            "page": 142
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "item",
                     "element": "thunder",
@@ -12103,7 +11981,12 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "c7958422-2259-417d-b4c6-1caaa1b50db7"
-                },
+                }
+            ],
+            "page": 141
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "fire",
@@ -12151,12 +12034,7 @@
                     "option": "10",
                     "rank": "A",
                     "uuid": "fdabd0b2-0e1c-45a6-aaec-686da5624194"
-                }
-            ],
-            "page": 143
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "material",
                     "element": "water",
@@ -12188,7 +12066,12 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "5247381e-dc81-4ba0-a9b9-4cf768cfc661"
-                },
+                }
+            ],
+            "page": 142
+        },
+        {
+            "cards": [
                 {
                     "category": "item",
                     "element": "fire",
@@ -12236,12 +12119,7 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "743bf424-70a9-4196-ac39-2d5a21eeac32"
-                }
-            ],
-            "page": 144
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -12273,7 +12151,12 @@
                     "option": "",
                     "rank": "A+",
                     "uuid": "d2f6f646-f0aa-4c0b-9e11-6904eff53f35"
-                },
+                }
+            ],
+            "page": 143
+        },
+        {
+            "cards": [
                 {
                     "category": "mana",
                     "element": "water",
@@ -12321,12 +12204,7 @@
                     "option": "20",
                     "rank": "A",
                     "uuid": "1c14d323-7a9a-4c22-bb65-949372cd2ce6"
-                }
-            ],
-            "page": 145
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -12358,7 +12236,12 @@
                     "option": "",
                     "rank": "B+",
                     "uuid": "cfd4eb6d-f995-49dc-b556-7d24446b4333"
-                },
+                }
+            ],
+            "page": 144
+        },
+        {
+            "cards": [
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -12406,12 +12289,7 @@
                     "option": "",
                     "rank": "B",
                     "uuid": "816d2b61-e392-482f-89d3-4c6115ffde9b"
-                }
-            ],
-            "page": 146
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -12443,7 +12321,12 @@
                     "option": "50",
                     "rank": "A+",
                     "uuid": "4cfce1dd-1d23-4c40-9b3b-ea5399b2064e"
-                },
+                }
+            ],
+            "page": 145
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "thunder",
@@ -12491,12 +12374,7 @@
                     "option": "25",
                     "rank": "A",
                     "uuid": "9c9d1815-16ab-4405-82bc-60dc010cc2d0"
-                }
-            ],
-            "page": 147
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -12528,7 +12406,12 @@
                     "option": "10",
                     "rank": "A",
                     "uuid": "d4f817cf-4657-4a4f-acee-623643097cdc"
-                },
+                }
+            ],
+            "page": 146
+        },
+        {
+            "cards": [
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -12576,12 +12459,7 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "9d42bf28-78ab-4219-9dd2-9feed2ae0f11"
-                }
-            ],
-            "page": 148
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "material",
                     "element": "thunder",
@@ -12613,7 +12491,12 @@
                     "option": "10",
                     "rank": "A",
                     "uuid": "968d3430-a066-4878-9521-14c280c08bf1"
-                },
+                }
+            ],
+            "page": 147
+        },
+        {
+            "cards": [
                 {
                     "category": "material",
                     "element": "water",
@@ -12661,12 +12544,7 @@
                     "option": "25",
                     "rank": "A",
                     "uuid": "07acc162-7d53-4a2c-9b08-8eab2f28b52b"
-                }
-            ],
-            "page": 149
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -12698,7 +12576,12 @@
                     "option": "10",
                     "rank": "A",
                     "uuid": "124e41cf-2c59-4ba4-b9ed-6842bb09b601"
-                },
+                }
+            ],
+            "page": 148
+        },
+        {
+            "cards": [
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -12746,12 +12629,7 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "9d580cef-e9bc-4cdb-b68c-efc7a99e48e3"
-                }
-            ],
-            "page": 150
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -12783,7 +12661,12 @@
                     "option": "10",
                     "rank": "A",
                     "uuid": "d797d41a-4fff-4aae-af86-912b20965d54"
-                },
+                }
+            ],
+            "page": 149
+        },
+        {
+            "cards": [
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -12831,12 +12714,7 @@
                     "option": "",
                     "rank": "S",
                     "uuid": "00e1fc06-57be-4994-a20b-c7cd4f9d025e"
-                }
-            ],
-            "page": 151
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "material",
                     "element": "fire",
@@ -12868,7 +12746,12 @@
                     "option": "25",
                     "rank": "A",
                     "uuid": "0a00307f-8df6-4433-89e0-56266ef72970"
-                },
+                }
+            ],
+            "page": 150
+        },
+        {
+            "cards": [
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -12916,12 +12799,7 @@
                     "option": "",
                     "rank": "B+",
                     "uuid": "240fcb4f-1242-4e07-8d6c-e308194320d2"
-                }
-            ],
-            "page": 152
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "material",
                     "element": "fire",
@@ -12953,7 +12831,12 @@
                     "option": "",
                     "rank": "B",
                     "uuid": "68870931-3f56-4f18-bb4b-d71513ba5852"
-                },
+                }
+            ],
+            "page": 151
+        },
+        {
+            "cards": [
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -13001,12 +12884,7 @@
                     "option": "25",
                     "rank": "A",
                     "uuid": "f33a27d0-086c-434a-a1ea-e6153b6655da"
-                }
-            ],
-            "page": 153
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -13038,7 +12916,12 @@
                     "option": "",
                     "rank": "S",
                     "uuid": "00e62b13-1c61-429d-8ba5-8a771bde10ef"
-                },
+                }
+            ],
+            "page": 152
+        },
+        {
+            "cards": [
                 {
                     "category": "material",
                     "element": "fire",
@@ -13086,12 +12969,7 @@
                     "option": "25",
                     "rank": "A",
                     "uuid": "b3b86008-c420-4bf0-b172-e999671bc595"
-                }
-            ],
-            "page": 154
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "material",
                     "element": "water",
@@ -13123,7 +13001,12 @@
                     "option": "",
                     "rank": "SS",
                     "uuid": "825cf428-6a6e-4982-bb00-0db9b3a1d2da"
-                },
+                }
+            ],
+            "page": 153
+        },
+        {
+            "cards": [
                 {
                     "category": "mana",
                     "element": "water",
@@ -13171,12 +13054,7 @@
                     "option": "",
                     "rank": "SS",
                     "uuid": "bce4dcaf-7103-4fe6-a9d2-a2b60c3accc3"
-                }
-            ],
-            "page": 155
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "water",
@@ -13208,7 +13086,12 @@
                     "option": "50",
                     "rank": "A+",
                     "uuid": "833eb2e1-dd51-4cc1-b2ca-1cfa2c0db819"
-                },
+                }
+            ],
+            "page": 154
+        },
+        {
+            "cards": [
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -13256,12 +13139,7 @@
                     "option": "50",
                     "rank": "A+",
                     "uuid": "baa02391-3a42-4ffa-b446-9a356e00149f"
-                }
-            ],
-            "page": 156
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -13293,7 +13171,12 @@
                     "option": "50",
                     "rank": "A+",
                     "uuid": "0c1e6761-3e95-4b87-8d60-1dddf42201d9"
-                },
+                }
+            ],
+            "page": 155
+        },
+        {
+            "cards": [
                 {
                     "category": "material",
                     "element": "fire",
@@ -13341,12 +13224,7 @@
                     "option": "25",
                     "rank": "A",
                     "uuid": "f8596890-17b9-474a-8380-0f733ee942c9"
-                }
-            ],
-            "page": 157
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -13378,7 +13256,12 @@
                     "option": "25",
                     "rank": "A",
                     "uuid": "18feac16-8e0d-4674-9fa3-ed23261a8df7"
-                },
+                }
+            ],
+            "page": 156
+        },
+        {
+            "cards": [
                 {
                     "category": "material",
                     "element": "water",
@@ -13426,12 +13309,7 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "f0d168bf-890b-445c-b968-7f54fa8afce8"
-                }
-            ],
-            "page": 158
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "fire",
@@ -13463,7 +13341,12 @@
                     "option": "",
                     "rank": "S",
                     "uuid": "f567da45-86ce-4417-99ca-b3d153c6b9b2"
-                },
+                }
+            ],
+            "page": 157
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "thunder",
@@ -13511,12 +13394,7 @@
                     "option": "25",
                     "rank": "A",
                     "uuid": "ca9085f0-6699-4f11-a28a-5e304f8ded3a"
-                }
-            ],
-            "page": 159
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "material",
                     "element": "water",
@@ -13548,7 +13426,12 @@
                     "option": "50",
                     "rank": "A+",
                     "uuid": "ece877f4-2c63-492d-b0e6-1afbe3f8087c"
-                },
+                }
+            ],
+            "page": 158
+        },
+        {
+            "cards": [
                 {
                     "category": "item",
                     "element": "thunder",
@@ -13596,12 +13479,7 @@
                     "option": "",
                     "rank": "S",
                     "uuid": "4439500f-fbbd-402f-82f1-77aff59f8367"
-                }
-            ],
-            "page": 160
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "thunder",
@@ -13633,7 +13511,12 @@
                     "option": "",
                     "rank": "B+",
                     "uuid": "4b4d5fd0-ff44-4b1c-8e65-852d44d3d1bb"
-                },
+                }
+            ],
+            "page": 159
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "thunder",
@@ -13681,12 +13564,7 @@
                     "option": "25",
                     "rank": "A",
                     "uuid": "72a1b0bf-e1c5-407a-aba8-fab4d66aeacd"
-                }
-            ],
-            "page": 161
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "fire",
@@ -13718,7 +13596,12 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "ca5f5d2a-3154-4698-90db-8c160f941874"
-                },
+                }
+            ],
+            "page": 160
+        },
+        {
+            "cards": [
                 {
                     "category": "material",
                     "element": "fire",
@@ -13766,12 +13649,7 @@
                     "option": "25",
                     "rank": "A",
                     "uuid": "ed2c7f13-c900-486a-8b3c-04d14281e0c3"
-                }
-            ],
-            "page": 162
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "water",
@@ -13803,7 +13681,12 @@
                     "option": "",
                     "rank": "A+",
                     "uuid": "236523aa-b034-4119-9c39-cb26310353ac"
-                },
+                }
+            ],
+            "page": 161
+        },
+        {
+            "cards": [
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -13851,12 +13734,7 @@
                     "option": "25",
                     "rank": "A",
                     "uuid": "15a83561-a254-4447-8f56-27bb3e0140f6"
-                }
-            ],
-            "page": 163
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -13888,7 +13766,12 @@
                     "option": "25",
                     "rank": "A",
                     "uuid": "a7827399-9625-423d-b276-a9a18e04be1c"
-                },
+                }
+            ],
+            "page": 162
+        },
+        {
+            "cards": [
                 {
                     "category": "material",
                     "element": "water",
@@ -13936,12 +13819,7 @@
                     "option": "",
                     "rank": "S",
                     "uuid": "be2a53af-f503-4fe0-a798-2b10ca0cb6eb"
-                }
-            ],
-            "page": 164
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "water",
@@ -13973,7 +13851,12 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "eb485d75-4c58-4750-808c-ee633aee7d6d"
-                },
+                }
+            ],
+            "page": 163
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "fire",
@@ -14021,12 +13904,7 @@
                     "option": "50",
                     "rank": "A+",
                     "uuid": "5acd0e28-f6da-4209-8f84-ec4403513741"
-                }
-            ],
-            "page": 165
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "fire",
@@ -14058,7 +13936,12 @@
                     "option": "25",
                     "rank": "A",
                     "uuid": "a8adcd2f-296d-4488-a76d-e454dd9a6760"
-                },
+                }
+            ],
+            "page": 164
+        },
+        {
+            "cards": [
                 {
                     "category": "material",
                     "element": "fire",
@@ -14106,12 +13989,7 @@
                     "option": "",
                     "rank": "S",
                     "uuid": "1c332dc6-31bd-44a3-96fb-d9fb8141870a"
-                }
-            ],
-            "page": 166
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -14143,7 +14021,12 @@
                     "option": "25",
                     "rank": "A",
                     "uuid": "3c614e18-081d-40c1-8c14-2541a806c007"
-                },
+                }
+            ],
+            "page": 165
+        },
+        {
+            "cards": [
                 {
                     "category": "material",
                     "element": "fire",
@@ -14191,12 +14074,7 @@
                     "option": "",
                     "rank": "B+",
                     "uuid": "cadf0630-f54a-495b-b6c2-54a2bdf6cf68"
-                }
-            ],
-            "page": 167
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "material",
                     "element": "thunder",
@@ -14228,7 +14106,12 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "1fff892e-779a-4320-b5da-ce2509afe465"
-                },
+                }
+            ],
+            "page": 166
+        },
+        {
+            "cards": [
                 {
                     "category": "material",
                     "element": "fire",
@@ -14276,12 +14159,7 @@
                     "option": "50",
                     "rank": "A+",
                     "uuid": "62cd1c0e-bde0-4314-8887-fee7000256fa"
-                }
-            ],
-            "page": 168
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -14313,7 +14191,12 @@
                     "option": "",
                     "rank": "A+",
                     "uuid": "a4879ef6-a12c-47bd-8f6c-f82d5c22a35e"
-                },
+                }
+            ],
+            "page": 167
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "water",
@@ -14361,12 +14244,7 @@
                     "option": "",
                     "rank": "B+",
                     "uuid": "7962d443-b12d-42bc-bb9d-cb05681221ee"
-                }
-            ],
-            "page": 169
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "water",
@@ -14398,7 +14276,12 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "088376d8-f4f3-4a1a-9008-d594b730cec8"
-                },
+                }
+            ],
+            "page": 168
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "fire",
@@ -14446,12 +14329,7 @@
                     "option": "25",
                     "rank": "A",
                     "uuid": "c2a01c94-5941-4bd4-b122-ae7c1c9af21d"
-                }
-            ],
-            "page": 170
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "ether",
                     "element": "thunder",
@@ -14483,7 +14361,12 @@
                     "option": "",
                     "rank": "B+",
                     "uuid": "2113a63e-975c-487b-a721-e6632116e74c"
-                },
+                }
+            ],
+            "page": 169
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "thunder",
@@ -14531,12 +14414,7 @@
                     "option": "",
                     "rank": "S",
                     "uuid": "67689e21-4f4f-427a-b9a6-fffbabb66efd"
-                }
-            ],
-            "page": 171
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "thunder",
@@ -14568,7 +14446,12 @@
                     "option": "",
                     "rank": "S",
                     "uuid": "7d63507a-eaee-4a2d-9927-263e62226627"
-                },
+                }
+            ],
+            "page": 170
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "thunder",
@@ -14616,12 +14499,7 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "c9030859-e262-4e44-8653-cf9410f8f90b"
-                }
-            ],
-            "page": 172
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "fire",
@@ -14653,7 +14531,12 @@
                     "option": "25",
                     "rank": "A",
                     "uuid": "e0e7ab5b-2688-46e8-be33-3522da0c7807"
-                },
+                }
+            ],
+            "page": 171
+        },
+        {
+            "cards": [
                 {
                     "category": "material",
                     "element": "fire",
@@ -14701,12 +14584,7 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "f2664d39-7444-47c2-90d4-c84f01b98591"
-                }
-            ],
-            "page": 173
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "fire",
@@ -14738,7 +14616,12 @@
                     "option": "",
                     "rank": "B+",
                     "uuid": "44b6d205-3f2e-4bc3-8d4e-da839faa68e5"
-                },
+                }
+            ],
+            "page": 172
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "fire",
@@ -14786,12 +14669,7 @@
                     "option": "",
                     "rank": "A+",
                     "uuid": "ec44646c-0742-425e-93a8-2d32c9155d8c"
-                }
-            ],
-            "page": 174
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "fire",
@@ -14823,7 +14701,12 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "b462d0dc-1552-48fd-aee1-764f45a09e19"
-                },
+                }
+            ],
+            "page": 173
+        },
+        {
+            "cards": [
                 {
                     "category": "material",
                     "element": "fire",
@@ -14871,12 +14754,7 @@
                     "option": "",
                     "rank": "A+",
                     "uuid": "9d939fcf-b0ad-42a4-a4d4-92154d38220f"
-                }
-            ],
-            "page": 175
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "material",
                     "element": "thunder",
@@ -14908,7 +14786,12 @@
                     "option": "",
                     "rank": "S",
                     "uuid": "454f3720-b1f8-438c-b368-fc5f895a2c58"
-                },
+                }
+            ],
+            "page": 174
+        },
+        {
+            "cards": [
                 {
                     "category": "material",
                     "element": "thunder",
@@ -14956,12 +14839,7 @@
                     "option": "",
                     "rank": "B",
                     "uuid": "1c75554d-4337-4d9e-a3ad-f8679c9d2fab"
-                }
-            ],
-            "page": 176
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "thunder",
@@ -14993,7 +14871,12 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "7c352720-089f-42f3-a564-a27a6c31d9c3"
-                },
+                }
+            ],
+            "page": 175
+        },
+        {
+            "cards": [
                 {
                     "category": "material",
                     "element": "water",
@@ -15001,14 +14884,6 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "c79cbe01-c5c3-4d3d-bc70-91701b6801f9"
-                },
-                {
-                    "category": "material",
-                    "element": "fire",
-                    "name": "木",
-                    "option": "",
-                    "rank": "A",
-                    "uuid": "b06f6bd8-91d9-4b41-b685-5cac9ae3916b"
                 },
                 {
                     "category": "spirit",
@@ -15041,12 +14916,7 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "1b4ce201-be7c-403d-84e7-81b032cb739a"
-                }
-            ],
-            "page": 177
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "material",
                     "element": "fire",
@@ -15054,14 +14924,6 @@
                     "option": "",
                     "rank": "C+",
                     "uuid": "9f2c0f13-a612-4e02-bbe2-24564968cd64"
-                },
-                {
-                    "category": "material",
-                    "element": "water",
-                    "name": "木",
-                    "option": "",
-                    "rank": "A",
-                    "uuid": "cb86874c-4a1a-4479-a3f4-6d49278d8c14"
                 },
                 {
                     "category": "material",
@@ -15094,7 +14956,12 @@
                     "option": "",
                     "rank": "B+",
                     "uuid": "29d0ecdf-cb6a-4fdf-880a-4ab65a63100a"
-                },
+                }
+            ],
+            "page": 176
+        },
+        {
+            "cards": [
                 {
                     "category": "material",
                     "element": "water",
@@ -15126,12 +14993,7 @@
                     "option": "",
                     "rank": "B+",
                     "uuid": "bb40fdeb-6846-4402-905c-cd0d17cc71b0"
-                }
-            ],
-            "page": 178
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "material",
                     "element": "water",
@@ -15179,7 +15041,12 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "652178bb-0ae5-4b8e-8f98-5ab65f41c66d"
-                },
+                }
+            ],
+            "page": 177
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "thunder",
@@ -15211,12 +15078,7 @@
                     "option": "",
                     "rank": "B+",
                     "uuid": "0ce1f406-769c-4474-9572-77e49841b6a3"
-                }
-            ],
-            "page": 179
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "water",
@@ -15264,7 +15126,12 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "19dea245-ee73-4a0c-b75e-93e3f551c4df"
-                },
+                }
+            ],
+            "page": 178
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "fire",
@@ -15296,12 +15163,7 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "b88f1493-c107-4a7c-a0ff-ea1ef15c99d6"
-                }
-            ],
-            "page": 180
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "water",
@@ -15349,7 +15211,12 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "19b82d33-66b2-4d41-92a9-bd6ab49a42c1"
-                },
+                }
+            ],
+            "page": 179
+        },
+        {
+            "cards": [
                 {
                     "category": "item",
                     "element": "thunder",
@@ -15381,12 +15248,7 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "1e41cf8b-70b7-4c6c-bab6-474b8895f80b"
-                }
-            ],
-            "page": 181
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "fire",
@@ -15434,7 +15296,12 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "2c7352cd-d36e-4752-8674-edeaf6cf1137"
-                },
+                }
+            ],
+            "page": 180
+        },
+        {
+            "cards": [
                 {
                     "category": "item",
                     "element": "thunder",
@@ -15466,12 +15333,7 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "886ef27a-ae32-48cc-ac44-cccf46d337a3"
-                }
-            ],
-            "page": 182
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "item",
                     "element": "thunder",
@@ -15519,7 +15381,12 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "d138ef97-b477-4b5e-abb1-b245139e42b1"
-                },
+                }
+            ],
+            "page": 181
+        },
+        {
+            "cards": [
                 {
                     "category": "item",
                     "element": "thunder",
@@ -15551,12 +15418,7 @@
                     "option": "",
                     "rank": "S",
                     "uuid": "aff00bc9-7727-4b71-825a-0979cbc23785"
-                }
-            ],
-            "page": 183
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "thunder",
@@ -15604,7 +15466,12 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "482fec49-3a45-4dc3-a615-1adc8b03baf2"
-                },
+                }
+            ],
+            "page": 182
+        },
+        {
+            "cards": [
                 {
                     "category": "material",
                     "element": "water",
@@ -15636,12 +15503,7 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "33c64596-7565-414b-81bd-217a3e78a4f4"
-                }
-            ],
-            "page": 184
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "water",
@@ -15689,7 +15551,12 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "256feee4-82f6-4caa-b513-3e9821be108e"
-                },
+                }
+            ],
+            "page": 183
+        },
+        {
+            "cards": [
                 {
                     "category": "material",
                     "element": "water",
@@ -15721,12 +15588,7 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "320471fd-1004-42b5-b3df-3e46d44cfa6c"
-                }
-            ],
-            "page": 185
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "water",
@@ -15774,7 +15636,12 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "9b70879b-c39e-4fbf-badf-867e356a3114"
-                },
+                }
+            ],
+            "page": 184
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "water",
@@ -15806,12 +15673,7 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "c5fb6fe7-9a93-4e61-8c03-83a68fe47f89"
-                }
-            ],
-            "page": 186
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "thunder",
@@ -15859,7 +15721,12 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "c436d8bf-bccd-4940-83e4-a105ce00ec99"
-                },
+                }
+            ],
+            "page": 185
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "thunder",
@@ -15891,12 +15758,7 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "46556b03-d3fc-4064-9560-4679c38f5e86"
-                }
-            ],
-            "page": 187
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "thunder",
@@ -15944,7 +15806,12 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "57702d55-22f0-4ea3-873c-0deddff1f3a5"
-                },
+                }
+            ],
+            "page": 186
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "fire",
@@ -15976,12 +15843,7 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "d79e9bd6-3ce2-4c62-9e9a-048401b56ac5"
-                }
-            ],
-            "page": 188
-        },
-        {
-            "cards": [
+                },
                 {
                     "category": "spirit",
                     "element": "fire",
@@ -16029,7 +15891,12 @@
                     "option": "",
                     "rank": "A",
                     "uuid": "edd2acf7-4e6d-4694-b278-6c2cf06e44d1"
-                },
+                }
+            ],
+            "page": 187
+        },
+        {
+            "cards": [
                 {
                     "category": "spirit",
                     "element": "thunder",
@@ -16063,7 +15930,7 @@
                     "uuid": "e8345efa-ed82-4c62-aa14-a9c06015a2b6"
                 }
             ],
-            "page": 189
+            "page": 188
         }
     ]
 }
