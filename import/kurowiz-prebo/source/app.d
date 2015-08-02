@@ -39,6 +39,14 @@ void generate()
     box.save;
 }
 
+void primary()
+{
+    Box box = Box();
+    box.reload;
+    box.regenerateUUIDs();
+    box.save;
+}
+
 void search(string[] args)
 {
     arraySep = ",";
@@ -104,6 +112,10 @@ void main( string[] args )
 
         case Command.Search: {
             search(args);
+        } break;
+
+        case Command.Primary: {
+            primary();
         } break;
 
         default: {

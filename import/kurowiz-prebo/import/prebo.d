@@ -16,7 +16,8 @@ import std.uuid;
 
 enum Command: string {
     Generate = "generate",
-    Search = "search"
+    Search = "search",
+    Primary = "primary"
 }
 
 enum Element: string {
@@ -174,6 +175,17 @@ struct Box
         {
             if (find(uuids, card.uuid).empty)
                 tmp ~= card;
+        }
+        cards = tmp;
+    }
+
+    void regenerateUUIDs()
+    {
+        Card[] tmp;
+        foreach( card; cards )
+        {
+            card.uuid = randomUUID();
+            tmp ~= card;
         }
         cards = tmp;
     }
