@@ -5,25 +5,10 @@ html
     head
         link( rel="stylesheet", href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css", )
         link( rel="stylesheet", href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css", )
+        link( rel="stylesheet", href="/css/main.css", )
         script( src="/js/jquery-1.11.2.min.js", )
         script( src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js", )
         script( src="/js/main.js", )
-        style( type="text/css", ).
-            th.w30 { width: 30%; }
-            th.w20 { width: 20%; }
-            th.w15 { width: 15%; }
-            th.w10 { width: 10%; }
-            label.btn.w20 { width: 20%; }
-            label.btn.w25 { width: 25%; }
-            label.btn.w33 { width: 33.3333%; }
-            label.btn.w50 { width: 50%; }
-
-            input[type="text"]{
-                width: 100%;
-                -moz-box-sizing: border-box;
-                -webkit-box-sizing: border-box;
-                box-sizing: border-box;
-            }
         title Example page
     body
         block body
