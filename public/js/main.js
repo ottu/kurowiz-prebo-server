@@ -6,7 +6,6 @@
 $(document).ready(function(){
     $("#name-input-groups").on("click", 'button', function(){
         var role_span = $(this).find("span");
-        console.log( role_span.hasClass("glyphicon-plus") );
         if (role_span.hasClass("glyphicon-plus")) {
             $("#name-input-groups").append( [
                 '<div class="input-group" btn-role="add">',
@@ -138,17 +137,17 @@ $(document).ready(function(){
 
         var news = [];
         var trs = $('#news-tbody').find('tr');
-        for( var i = 0; i < trs.length; i++ ) {
-            var tr = trs[i];
-            var name = $(tr).children('th[data-name]').attr('data-name');
-            var element = $(tr).children('th[data-element]').attr('data-element');
-            var category = $(tr).children('th[data-category]').attr('data-category');
-            var rank = $(tr).children('th[data-rank]').attr('data-rank');
-            var option = $(tr).children('th[data-option]').attr('data-option');
+        $.each(trs, function(i, tr) {
+            var tr = $(tr);
+            var name = tr.children('th[data-name]').attr('data-name');
+            var element = tr.children('th[data-element]').attr('data-element');
+            var category = tr.children('th[data-category]').attr('data-category');
+            var rank = tr.children('th[data-rank]').attr('data-rank');
+            var option = tr.children('th[data-option]').attr('data-option');
 
             var csv =  name + ',' + element + ',' + category + ',' + rank + ',' + option;
             news.push(csv);
-        }
+        })
 
         var data = news.join('\n');
         $.ajax({
