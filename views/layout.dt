@@ -5,7 +5,9 @@ html
     head
         link( rel="stylesheet", href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css", )
         link( rel="stylesheet", href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css", )
-        title Example page
+        script( src="/js/jquery-1.11.2.min.js", )
+        script( src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js", )
+        script( src="/js/main.js", )
         style( type="text/css", ).
             th.w30 { width: 30%; }
             th.w20 { width: 20%; }
@@ -22,11 +24,9 @@ html
                 -webkit-box-sizing: border-box;
                 box-sizing: border-box;
             }
+        title Example page
     body
         block body
-        script( src="/js/jquery-1.11.2.min.js", )
-        script( src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js", )
-        script( src="/js/main.js", )
         //script.
         //    function initialClick( name, values ) {
         //        for( var i = 0; i < values.length; i++ ) {

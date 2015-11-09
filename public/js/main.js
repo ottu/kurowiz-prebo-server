@@ -1,4 +1,9 @@
 ;(function(){
+    // global init
+})(jQuery)
+
+
+$(document).ready(function(){
     $("#name-input-groups").on("click", 'button', function(){
         var role_span = $(this).find("span");
         console.log( role_span.hasClass("glyphicon-plus") );
@@ -163,4 +168,5 @@
         $(this).parent().parent().remove();
     });
 
-})(jQuery)
+
+})
