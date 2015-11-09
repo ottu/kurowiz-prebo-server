@@ -15,10 +15,10 @@
                 - import std.algorithm;
                 - string color = getColor( card.elements[0] );
                 tr(class='#{color}', data-uuid='#{card.uuid}', )
-                    th
+                    td
                         input.checkbox_child( data-page='#{page.index}', type="checkbox", )
-                    th= card.name
-                    th= card.elements.map!(elem=>cast(string)elem).join("/")
-                    th= cast(string)card.category
-                    th= cast(string)card.rank
-                    th= card.option
+                    td= card.name
+                    td= card.elements.map!(elem=>cast(string)elem).join("/")
+                    td= cast(string)card.category
+                    td= cast(string)card.rank
+                    td= card.option
